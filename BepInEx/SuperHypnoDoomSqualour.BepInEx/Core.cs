@@ -28,12 +28,11 @@ namespace SuperDoomSqualour.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<SuperDoomSqualour>();
             ClassInjector.RegisterTypeInIl2Cpp<SuperHypnoDoomCattailLour>();
             ClassInjector.RegisterTypeInIl2Cpp<SuperHypnoDoomCattailLour_fly>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "superdoomsqualour");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "superdoomsqualour" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<Squalour, SuperDoomSqualour>(164, ab.GetAsset<GameObject>("SuperDoomSqualourPrefab"),
                 ab.GetAsset<GameObject>("SuperDoomSqualourPreview"), [(928, 248)], 3, 0, 3600, 300, 60f, 800);
             CustomCore.AddFusion(928, 164, 8);

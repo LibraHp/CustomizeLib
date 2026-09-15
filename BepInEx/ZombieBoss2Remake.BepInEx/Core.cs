@@ -20,7 +20,7 @@ namespace ZombieBoss2Remake.BepInEx
             ClassInjector.RegisterTypeInIl2Cpp<BlackHole>();
             ClassInjector.RegisterTypeInIl2Cpp<Rv>();
             ClassInjector.RegisterTypeInIl2Cpp<FakeTrophyAnim>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "zombieboss2remake");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "zombieboss2remake" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomZombie<ZombieBoss2, ZombieBoss2Remake>((ZombieType)46,
                 ab.GetAsset<GameObject>("ZombieBoss2"), 0, 50, 45000, 0, 0);
             Snow2 = ab.GetAsset<GameObject>("Snow2");

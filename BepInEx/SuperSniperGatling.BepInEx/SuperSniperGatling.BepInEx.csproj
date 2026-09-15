@@ -8,10 +8,14 @@
 
   <ItemGroup>
     <None Remove="supersnipergatling" />
+
+    <None Remove="supersnipergatling.android" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="supersnipergatling" />
+
+    <EmbeddedResource Include="supersnipergatling.android" />
   </ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

@@ -1,0 +1,82 @@
+ManifestFileVersion: 0
+CRC: 1775206429
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 67c40110d0dac873bae16c6941599c89
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 67c40110d0dac873bae16c6941599c89
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/plants/scaredyzombiebox/ScaredyZombieBox_1.asset
+- Assets/plants/scaredyzombiebox/ScaredyZombieBox_10.asset
+- Assets/plants/scaredyzombiebox/scared.anim
+- Assets/plants/scaredyzombiebox/ScaredyZombieBox_9.asset
+- Assets/plants/scaredyzombiebox/0A93408417E9689FB73EA7A61B0DF708.png
+- Assets/plants/scaredyzombiebox/ScaredyShroom_head.asset
+- Assets/plants/scaredyzombiebox/ScaredyShroom.png
+- Assets/plants/scaredyzombiebox/ScaredyZombieBox_5.asset
+- Assets/plants/scaredyzombiebox/shoot.anim
+- Assets/plants/scaredyzombiebox/ScaredyZombieBox_3.asset
+- Assets/plants/scaredyzombiebox/shadow29.asset
+- Assets/plants/scaredyzombiebox/shadow29.png
+- Assets/plants/scaredyzombiebox/ScaredyZombieBox_2.asset
+- Assets/plants/scaredyzombiebox/ScaredyShroom_eyebrow1.asset
+- Assets/plants/scaredyzombiebox/ScaredyShroom_eye1.asset
+- Assets/plants/scaredyzombiebox/ScaredyZombieBox_6.asset
+- Assets/plants/scaredyzombiebox/ScaredyZombieBox_4.asset
+- Assets/plants/scaredyzombiebox/ScaredyZombieBox_8.asset
+- Assets/plants/scaredyzombiebox/ScaredyZombieBoxPrefab.prefab
+- Assets/plants/scaredyzombiebox/ScaredyShroom_eyebrow2.asset
+- Assets/plants/scaredyzombiebox/ScaredyZombieBoxPreview.prefab
+- Assets/plants/scaredyzombiebox/ScaredyZombieBox.png
+- Assets/plants/scaredyzombiebox/ScaredyShroom_eye_big1.asset
+- Assets/plants/scaredyzombiebox/ScaredyShroom_head2.asset
+- Assets/plants/scaredyzombiebox/scaredidle.anim
+- Assets/plants/scaredyzombiebox/ScaredyShroom_eye2.asset
+- Assets/Material/Sprite-Lit-Default_3.mat
+- Assets/plants/scaredyzombiebox/ScaredyShroom_mouth.asset
+- Assets/plants/scaredyzombiebox/ScaredyShroom_lips.asset
+- Assets/plants/scaredyzombiebox/ScaredyZombieBox_7.asset
+- Assets/plants/scaredyzombiebox/ScaredyShroom.controller
+- Assets/plants/scaredyzombiebox/0A93408417E9689FB73EA7A61B0DF708.asset
+- Assets/plants/scaredyzombiebox/ScaredyZombieBox_0.asset
+- Assets/plants/scaredyzombiebox/ScaredyShroom_eye_big2.asset
+- Assets/Shader/Universal Render Pipeline_2D_Sprite-Lit-Default_3.shader
+- Assets/plants/scaredyzombiebox/ScaredyShroom_head_inner.asset
+- Assets/plants/scaredyzombiebox/ScaredyShroom_sweat2.asset
+- Assets/plants/scaredyzombiebox/ScaredyShroom_stem.asset
+- Assets/plants/scaredyzombiebox/scaredgrow.anim
+- Assets/plants/scaredyzombiebox/ScaredyShroom_sweat1.asset
+- Assets/plants/scaredyzombiebox/idle.anim
+Dependencies: []

@@ -53,10 +53,9 @@ namespace UltimateWinterMelonCannon.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<UltimateWinterMelonCannon>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatewintermeloncannon");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatewintermeloncannon" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<MelonCannon, UltimateWinterMelonCannon>(168, ab.GetAsset<GameObject>("UltimateWinterMelonCannonPrefab"),
                 ab.GetAsset<GameObject>("UltimateWinterMelonCannonPreview"), [(915, 32)], 24, 24, 450, 1000, 60f, 1200);
             CustomCore.RegisterCustomBullet<Bullet_melonCannon>((BulletType)UltimateWinterMelonCannon.BulletId, ab.GetAsset<GameObject>("ProjectileCannon_UltimateWinterMelon"));

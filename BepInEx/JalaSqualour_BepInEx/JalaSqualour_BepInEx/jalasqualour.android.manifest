@@ -1,0 +1,61 @@
+ManifestFileVersion: 0
+CRC: 4041032135
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6f297021ed5c6e4c2f480b036762eab2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6f297021ed5c6e4c2f480b036762eab2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/plantskins/jalasqualour/JalaSqualourPrefab.prefab
+- Assets/resources/plantskins/jalasqualour/JalaSqualour.png
+- Assets/resources/plantskins/icesqualour/lookleft_skin.anim
+- Assets/resources/plantskins/jalasqualour/lookright_skin.anim
+- Assets/resources/plantskins/jalasqualour/JalaSqualour.controller
+- Assets/resources/plantskins/icesqualour/lookright_skin.anim
+- Assets/resources/plantskins/jalasqualour/jumppop.anim
+- Assets/resources/plantskins/jalasqualour/JalaSqualourSkin.asset
+- Assets/resources/plantskins/jalasqualour/JalaSqualourSkin.png
+- Assets/resources/plantskins/jalasqualour/JalaSqualourSkinPreview.prefab
+- Assets/resources/plantskins/jalasqualour/lookleft.anim
+- Assets/resources/plantskins/jalasqualour/jump.anim
+- Assets/resources/plantskins/jalasqualour/JalaSqualour.asset
+- Assets/resources/plantskins/jalasqualour/lookright.anim
+- Assets/resources/plantskins/jalasqualour/JalaSqualourSkinPrefab.prefab
+- Assets/resources/plantskins/jalasqualour/lookleft_skin.anim
+- Assets/resources/plantskins/jalasqualour/JalaSqualourPreview.prefab
+- Assets/resources/plantskins/jalasqualour/JalaSqualourSkin.controller
+- Assets/resources/plantskins/jalasqualour/idle.anim
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

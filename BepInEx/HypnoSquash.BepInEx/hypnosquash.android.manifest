@@ -1,0 +1,67 @@
+ManifestFileVersion: 0
+CRC: 280172952
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 460befbeb2e96c26e4d8bb309e289330
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: acd857964d0c8f20443702af63c8bcb5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 460befbeb2e96c26e4d8bb309e289330
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/plants/hypnosquash/shadow3.asset
+- Assets/resources/modzombie/squalourzombie/Squash.prefab
+- Assets/plants/hypnosquash/idle.anim
+- Assets/plants/hypnosquash/HypnoSquash_stem.asset
+- Assets/plants/hypnosquash/Squash.controller
+- Assets/plants/hypnosquash/Squash_body.asset
+- Assets/plants/hypnosquash/Squash.png
+- Assets/plants/hypnosquash/Squash Skeleton.asset
+- Assets/plants/hypnosquash/shadow3.png
+- Assets/plants/hypnosquash/Squash_eyebrows.asset
+- Assets/plants/hypnosquash/Squash_stem.asset
+- Assets/plants/hypnosquash/HypnoSquashPreview.prefab
+- Assets/resources/modzombie/squalourzombie/Squash.controller
+- Assets/plants/hypnosquash/Squash.asset
+- Assets/plants/hypnosquash/Squash_0.png
+- Assets/plants/hypnosquash/Squash_0.asset
+- Assets/plants/hypnosquash/HypnoSquashPrefab.prefab
+- Assets/plants/hypnosquash/HypnoSquash_eyes.asset
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/squalourzombie
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/superdoomsqualour
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomsqualour
+- "E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/\u51D1\u4F01\u9E45"

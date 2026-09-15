@@ -1,0 +1,66 @@
+ManifestFileVersion: 0
+CRC: 2973965308
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 44f5c65f16c00d3f0c19c1c86cbec8c4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 44f5c65f16c00d3f0c19c1c86cbec8c4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/plantskins/puffsniperpea/idle.anim
+- Assets/resources/plantskins/puffsniperpea/PuffSniperPeaPreview.asset
+- Assets/resources/plantskins/puffsniperpea/PuffSniperPea.controller
+- Assets/resources/plantskins/puffsniperpea/gun_upper.asset
+- Assets/resources/plantskins/puffsniperpea/gun_lower.asset
+- Assets/resources/plantskins/puffsniperpea/PuffSniperPeaPreview.prefab
+- Assets/resources/plantskins/puffsniperpea/body.asset
+- Assets/resources/plantskins/puffsniperpea/PuffSniperPeaPreview.png
+- Assets/resources/plantskins/puffsniperpea/eyebrow.asset
+- Assets/plants/ultimatesunhypno/mouth.asset
+- Assets/resources/plantskins/puffsniperpea/bangdai.asset
+- Assets/resources/plantskins/puffsniperpea/mouth_overlay.asset
+- Assets/resources/plantskins/puffsniperpea/PuffSniperPeaPrefab.prefab
+- Assets/resources/plantskins/puffsniperpea/helmet.asset
+- Assets/resources/plantskins/puffsniperpea/blink1.asset
+- Assets/resources/plantskins/puffsniperpea/PuffSniperPea.png
+- Assets/resources/plantskins/puffsniperpea/mouth.asset
+- Assets/resources/plantskins/puffsniperpea/blink2.asset
+- Assets/resources/plantskins/puffsniperpea/glasses.asset
+- Assets/resources/plantskins/puffsniperpea/shoot.anim
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/electricpea
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/solareclipsecabbage
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/supersnipergatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/threepuffsuperhypnogatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

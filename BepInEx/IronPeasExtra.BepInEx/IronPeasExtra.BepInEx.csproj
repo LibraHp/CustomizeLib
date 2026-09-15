@@ -135,5 +135,7 @@
 </Target>
   <ItemGroup>
     <EmbeddedResource Include="ironpeas" />
+
+    <EmbeddedResource Include="ironpeas.android" />
   </ItemGroup>
 </Project>

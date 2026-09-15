@@ -18,8 +18,7 @@ namespace FreezingCherry.BepInEx
         public override void OnStart()
         {
             Tools.InitMod();
-            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "freezingcherry");
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "freezingcherry" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             {
                 CustomCore.RegisterCustomPlant<IceCherry, FreezingCherry>(FreezingCherry.PlantID, ab.GetAsset<GameObject>("FreezingCherryPrefab"),
                     ab.GetAsset<GameObject>("FreezingCherryPreview"), new List<(int, int)>

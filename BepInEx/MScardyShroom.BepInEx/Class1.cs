@@ -13,11 +13,9 @@ namespace MScardyShroom.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<MScardyShroom>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "mscaredyshroom");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "mscaredyshroom" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<ScaredyShroom, MScardyShroom>(MScardyShroom.PlantID, ab.GetAsset<GameObject>("MScaredyShroomPrefab"),
                 ab.GetAsset<GameObject>("MScaredyShroomPreview"), [], 1f, 0f, 300, 300, 15f, 250);
             CustomCore.AddPlantAlmanacStrings(MScardyShroom.PlantID, $"猫娘胆小菇({MScardyShroom.PlantID})",

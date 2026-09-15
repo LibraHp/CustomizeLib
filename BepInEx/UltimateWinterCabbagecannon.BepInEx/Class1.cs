@@ -14,11 +14,10 @@ namespace UltimateWinterCabbagecannon.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<UltimateWinterCabbagecannon>();
             ClassInjector.RegisterTypeInIl2Cpp<SubCabbage>();
-            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "ultimatewintercabbagecannon");
+            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "ultimatewintercabbagecannon" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomBullet<Bullet_cabbage>(UltimateWinterCabbagecannon.BulletID, ab.GetAsset<GameObject>("Bullet_iceDoomCabbage"));
             CustomCore.RegisterCustomPlant<CabbageCannon, UltimateWinterCabbagecannon>((int)UltimateWinterCabbagecannon.PlantID, ab.GetAsset<GameObject>("UltimateWinterCabbagecannonPrefab"),
                 ab.GetAsset<GameObject>("UltimateWinterCabbagecannonPreview"), new List<(int, int)>

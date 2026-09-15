@@ -14,11 +14,10 @@ namespace JalaSqualourBepInEx
     {
         public override void Load()
         {
-            System.Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<JalaSqualour>();
 
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "jalasqualour");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "jalasqualour" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<Squalour, JalaSqualour>(
                 JalaSqualour.PlantID,
                 ab.GetAsset<GameObject>("JalaSqualourPrefab"),

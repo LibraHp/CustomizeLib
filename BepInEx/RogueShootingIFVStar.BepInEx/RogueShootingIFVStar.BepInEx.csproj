@@ -8,10 +8,14 @@
 
   <ItemGroup>
     <None Remove="ifvstar" />
+
+    <None Remove="ifvstar.android" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="ifvstar" />
+
+    <EmbeddedResource Include="ifvstar.android" />
   </ItemGroup>
 
 </Project>

@@ -9,6 +9,8 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="scaredyzombiebox" />
+
+    <EmbeddedResource Include="scaredyzombiebox.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

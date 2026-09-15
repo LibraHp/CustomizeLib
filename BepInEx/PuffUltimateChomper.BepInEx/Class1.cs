@@ -12,10 +12,9 @@ namespace PuffUltimateChomper.BepInEx
     {
         public override void OnStart()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Tools.GetAssembly(), null);
             ClassInjector.RegisterTypeInIl2Cpp<PuffUltimateChomper>();
-            AssetBundle ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "puffultimatechomper");
+            AssetBundle ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "puffultimatechomper" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<UltimateChomper, PuffUltimateChomper>(PuffUltimateChomper.PlantID, ab.GetAsset<GameObject>("PuffUltimateChomperPrefab"),
                 ab.GetAsset<GameObject>("PuffUltimateChomperPreview"), new List<(int, int)>
                 {

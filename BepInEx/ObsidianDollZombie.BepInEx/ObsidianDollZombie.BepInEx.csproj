@@ -9,6 +9,8 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="obsidiandollzombie" />
+
+    <EmbeddedResource Include="obsidiandollzombie.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

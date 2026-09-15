@@ -1,0 +1,136 @@
+ManifestFileVersion: 0
+CRC: 1043086233
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5e9e936310534fb21ef33f5abc5a1cb8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ecbf41a0f317fdb5fd39c45eeb6fb6d0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5e9e936310534fb21ef33f5abc5a1cb8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/Target_0.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  12.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_10.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/idle.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomBomb.controller
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  34.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/Target.png
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_2.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_15.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_0.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  21.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  33.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  15.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomBomb.prefab
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_5.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomSniperPea.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomSniperPea_0.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  13.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_1.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoom_Accurate_Heart.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_14.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/idle_bomb.anim
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  24.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_8.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomSniperPeaPreview.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomSniperPea.controller
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  28.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_17.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  14.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  17.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  11.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/shoot.anim
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_16.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u51B0\u6BC1\u72D9
+  1.prefab"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  23.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u51B0\u6BC1\u72D9
+  1 Skeleton.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoom_Accurate_Heart.png
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  19.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  20.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/Target_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomSniperPea
+  Skeleton.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  22.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomSniperPeaPreview.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomSniperPeaPreviewSkin.prefab
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  3.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  2.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_12.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  25.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_6.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  10.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomSniperPea_0.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomSniperPeaPrefab.prefab
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u56FE\u5C42
+  16.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_11.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomSniperPeaSkinPreview.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_3.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomSniperPeaPrefabSkin.prefab
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_13.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomSniperPeaSkinPreview.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomSniperPea.prefab
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_9.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u51B0\u6BC1\u72D9
+  1.png"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/IceDoomSniperPeaPreview.png
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_4.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/\u4ECE\u9009\u533A_7.asset"
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

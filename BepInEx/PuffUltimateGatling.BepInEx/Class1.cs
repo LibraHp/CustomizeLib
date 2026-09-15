@@ -15,12 +15,10 @@ namespace PuffUltimateGatling.BepInEx
     {
         public override void OnStart()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<PuffUltimateGatling>();
             ClassInjector.RegisterTypeInIl2Cpp<Bullet_puffSuperCherry>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "puffultimategatling");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "puffultimategatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<UltimateGatling, PuffUltimateGatling>((int)PuffUltimateGatling.PlantID, ab.GetAsset<GameObject>("PuffUltimateGatlingPrefab"),
                 ab.GetAsset<GameObject>("PuffUltimateGatlingPreview"), new List<(int, int)>
                 {

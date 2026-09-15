@@ -8,9 +8,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="solarhypno" />
+
+    <None Remove="solarhypno.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="solarhypno" />
+
+    <EmbeddedResource Include="solarhypno.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

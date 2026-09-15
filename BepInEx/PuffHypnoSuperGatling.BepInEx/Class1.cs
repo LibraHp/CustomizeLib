@@ -13,7 +13,7 @@ namespace PuffHypnoSuperGatling.BepInEx
     {
         public override void OnStart()
         {
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "puffhypnosupergatling");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "puffhypnosupergatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomParticle((ParticleType)Bullet_puffHypnoPea.ParticleID, ab.GetAsset<GameObject>("PuffHypnoPeaSplat"));
             CustomCore.RegisterCustomBullet<Bullet_puffPea, Bullet_puffHypnoPea>((BulletType)Bullet_puffHypnoPea.BulletID, ab.GetAsset<GameObject>("Bullet_puffHypnoPea"));
             CustomCore.RegisterCustomBullet<Bullet_firePea, Bullet_puffHypnoPea_fire>((BulletType)Bullet_puffHypnoPea_fire.BulletID, ab.GetAsset<GameObject>("Bullet_puffHypnoPea_fire"));

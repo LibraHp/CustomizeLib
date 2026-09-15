@@ -7,9 +7,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="ultimatewintermelon" />
+
+    <None Remove="ultimatewintermelon.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ultimatewintermelon" />
+
+    <EmbeddedResource Include="ultimatewintermelon.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

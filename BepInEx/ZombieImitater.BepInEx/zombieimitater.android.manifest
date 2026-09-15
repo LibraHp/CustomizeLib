@@ -1,0 +1,84 @@
+ManifestFileVersion: 0
+CRC: 2600454459
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 75ade62d7dac96700bb60e7454864d53
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 56b08183ba9d540002f470049fec67c0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 75ade62d7dac96700bb60e7454864d53
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C_1.asset
+- Assets/resources/mod/goldimitater/explode2.anim
+- Assets/resources/mod/zombieimitater/idle.anim
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E_14.asset
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E.png
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E_3.asset
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C_2.asset
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E_6.asset
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E_1.asset
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C.png
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E_11.asset
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C_4.asset
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E_9.asset
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C_6.asset
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C_10.asset
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C_13.asset
+- Assets/resources/mod/zombieimitater/ZombieImitater.controller
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E_0.asset
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E_13.asset
+- Assets/resources/mod/zombieimitater/ZombieimitaterPreviewRed.prefab
+- Assets/resources/mod/zombieimitater/explode.anim
+- Assets/resources/mod/zombieimitater/idle2.anim
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C_8.asset
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E_2.asset
+- Assets/resources/mod/zombieimitater/explode2.anim
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C_9.asset
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C_15.asset
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C_11.asset
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C_5.asset
+- Assets/resources/mod/zombieimitater/ZombieimitaterPrefab.prefab
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C_0.asset
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E_12.asset
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C_12.asset
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C_3.asset
+- Assets/resources/mod/zombieimitater/ZombieImitater2.controller
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E_10.asset
+- Assets/resources/mod/zombieimitater/ZombieimitaterPrefabRed.prefab
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E_15.asset
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E_4.asset
+- Assets/resources/mod/zombieimitater/0DD9B902F5C228814E3A4C702561886C_14.asset
+- Assets/resources/mod/zombieimitater/ZombieimitaterPreview.prefab
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E_8.asset
+- Assets/resources/mod/zombieimitater/625B9D33D2D32015B16CB76AD513DD2E_5.asset
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/goldimitater
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

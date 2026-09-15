@@ -15,8 +15,7 @@ namespace PuffSuperSnowGatlingBepInEx
         {
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<PuffSuperGatling>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "puffsupersnowgatling");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "puffsupersnowgatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SuperGatling, PuffSuperGatling>(
                 PuffSuperGatling.PlantID,
                 ab.GetAsset<GameObject>("PuffSuperSnowGatlingPrefab"),

@@ -55,11 +55,10 @@ namespace ElectricPeaReborn.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<ElectricPea>();
             ClassInjector.RegisterTypeInIl2Cpp<Bullet_electricPea>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "electricpea");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "electricpea" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomBullet<Bullet, Bullet_electricPea>((BulletType)903, ab.GetAsset<GameObject>("ProjectileElectricPea"));
             CustomCore.RegisterCustomPlant<Shooter, ElectricPea>(960, ab.GetAsset<GameObject>("ElectricPeaPrefab"),
                 ab.GetAsset<GameObject>("ElectricPeaPreview"), [(1005, 1103), (1103, 1005)], 3, 0, 20, 300, 7.5f, 300);

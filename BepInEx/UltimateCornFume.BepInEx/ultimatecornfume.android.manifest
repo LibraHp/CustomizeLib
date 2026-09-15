@@ -1,0 +1,79 @@
+ManifestFileVersion: 0
+CRC: 405166886
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2db43c561da7c573f14343df59adf5be
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ecbf41a0f317fdb5fd39c45eeb6fb6d0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2db43c561da7c573f14343df59adf5be
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/resources/mod/ultimatecornfume/\u4ECE\u9009\u533A.asset"
+- Assets/resources/mod/ultimatecornfume/Cornpult_husktip2.asset
+- Assets/resources/mod/ultimatecornfume/CornFume_0.png
+- Assets/Sprite/1.asset
+- Assets/resources/mod/ultimatecornfume/Cornpult_husk2.asset
+- Assets/resources/mod/ultimatecornfume/UltimateCornFumePrefab.prefab
+- Assets/resources/mod/ultimatecornfume/CornFume.png
+- Assets/resources/mod/ultimatecornfume/Cornpult_eyebrow_0.asset
+- Assets/Texture2D/plantshadow_4.png
+- Assets/resources/mod/ultimatecornfume/UltimateCornFumePreview.prefab
+- "Assets/resources/mod/ultimatecornfume/\u56FE\u5C4232.asset"
+- Assets/resources/mod/ultimatecornfume/Cornpult_husk4.asset
+- Assets/resources/mod/ultimatecornfume/1773581637629(1)(1).png
+- Assets/Texture2D/SquashCorn.png
+- "Assets/resources/mod/ultimatecornfume/\u56FE\u5C4231.asset"
+- Assets/resources/mod/ultimatecornfume/1773581637629(1)(1).prefab
+- "Assets/resources/mod/ultimatecornfume/\u56FE\u5C428.asset"
+- "Assets/resources/mod/ultimatecornfume/\u56FE\u5C4210.asset"
+- Assets/resources/mod/ultimatecornfume/shoot.anim
+- Assets/Sprite/plantshadow_4.asset
+- Assets/resources/mod/ultimatecornfume/idle.anim
+- Assets/resources/mod/ultimatecornfume/Bullet_superCornSquash.prefab
+- Assets/resources/mod/ultimatecornfume/1773581637629(1)(1) Skeleton.asset
+- Assets/resources/mod/ultimatecornfume/Cornpult_eyebrow.asset
+- "Assets/resources/mod/ultimatecornfume/\u56FE\u5C428_0.asset"
+- Assets/resources/mod/ultimatecornfume/UltimateCornFume.controller
+- Assets/resources/mod/ultimatecornfume/CornFume_0.asset
+- "Assets/resources/mod/ultimatecornfume/\u56FE\u5C429.asset"
+- "Assets/resources/mod/ultimatecornfume/\u56FE\u5C427.asset"
+- "Assets/resources/mod/ultimatecornfume/\u56FE\u5C423.asset"
+- "Assets/resources/mod/ultimatecornfume/\u56FE\u5C4230.asset"
+- "Assets/resources/mod/ultimatecornfume/\u56FE\u5C4222.asset"
+- "Assets/resources/mod/ultimatecornfume/\u56FE\u5C4225.asset"
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

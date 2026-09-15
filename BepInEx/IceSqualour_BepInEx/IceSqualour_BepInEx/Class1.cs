@@ -17,8 +17,7 @@ namespace IceSqualourBepInEx
             ClassInjector.RegisterTypeInIl2Cpp<IceSqualour>();
 
 
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icesqualour");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icesqualour" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<Squalour, IceSqualour>(
                 IceSqualour.PlantID,
                 ab.GetAsset<GameObject>("IceSqualourPrefab"),

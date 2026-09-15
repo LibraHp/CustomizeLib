@@ -30,12 +30,10 @@ namespace SolarSpruce
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<Bullet_shulkSolarSpruce>();
             ClassInjector.RegisterTypeInIl2Cpp<SolarSpruce>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatesolarspruce");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatesolarspruce" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomBullet<Bullet_shulkLeaf_ultimate, Bullet_shulkSolarSpruce>((BulletType)Bullet_shulkSolarSpruce.BulletID, ab.GetAsset<GameObject>("SolarSpruceBulletPrefab"));
             CustomCore.RegisterCustomPlant<UltimateSpruce, SolarSpruce>(SolarSpruce.PlantID, ab.GetAsset<GameObject>("SolarSprucePrefab"),
                 ab.GetAsset<GameObject>("SolarSprucePreview"), new List<(int, int)>

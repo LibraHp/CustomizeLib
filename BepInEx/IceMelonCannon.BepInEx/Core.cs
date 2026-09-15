@@ -44,7 +44,7 @@ namespace IceMelonCannon.BepInEx
     {
         public override void Load()
         {
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icemeloncannon");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icemeloncannon" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<IceMelonCannon>();
             CustomCore.RegisterCustomPlant<MelonCannon, IceMelonCannon>(303, ab.GetAsset<GameObject>("IceMelonCannonPrefab"),

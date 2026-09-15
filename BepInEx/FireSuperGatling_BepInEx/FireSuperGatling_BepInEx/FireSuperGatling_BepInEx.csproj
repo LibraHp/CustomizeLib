@@ -8,13 +8,25 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="firesupergatling" />
+
+    <None Remove="firesupergatling.android" />
     <None Remove="skin1" />
+
+    <None Remove="skin1.android" />
     <None Remove="skin2" />
+
+    <None Remove="skin2.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="firesupergatling" />
+
+    <EmbeddedResource Include="firesupergatling.android" />
     <EmbeddedResource Include="skin1" />
+
+    <EmbeddedResource Include="skin1.android" />
     <EmbeddedResource Include="skin2" />
+
+    <EmbeddedResource Include="skin2.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

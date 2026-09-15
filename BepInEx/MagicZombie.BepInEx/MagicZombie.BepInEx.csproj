@@ -8,9 +8,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="magiczombie" />
+
+    <None Remove="magiczombie.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="magiczombie" />
+
+    <EmbeddedResource Include="magiczombie.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

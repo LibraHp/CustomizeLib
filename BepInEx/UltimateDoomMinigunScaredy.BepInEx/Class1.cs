@@ -15,8 +15,7 @@ namespace UltimateDoomMinigunScaredy.BepInEx
         {
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<UltimateDoomMinigunScaredy>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatedoomminigunscaredy");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatedoomminigunscaredy" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<GatlingDoomScaredy, UltimateDoomMinigunScaredy>((int)UltimateDoomMinigunScaredy.PlantID, ab.GetAsset<GameObject>("UltimateDoomMinigunScaredyPrefab"),
                 ab.GetAsset<GameObject>("UltimateDoomMinigunScaredyPreview"), [], 0.5f, 0f, 300, 300, 90f, 1000);
             CustomCore.AddPlantAlmanacStrings((int)UltimateDoomMinigunScaredy.PlantID, $"究极速射毁灭机枪胆小菇({(int)UltimateDoomMinigunScaredy.PlantID})",

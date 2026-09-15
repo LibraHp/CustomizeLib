@@ -14,10 +14,14 @@
 
   <ItemGroup>
     <None Remove="primitiveshooter" />
+
+    <None Remove="primitiveshooter.android" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="primitiveshooter" />
+
+    <EmbeddedResource Include="primitiveshooter.android" />
   </ItemGroup>
 
   <ItemGroup>

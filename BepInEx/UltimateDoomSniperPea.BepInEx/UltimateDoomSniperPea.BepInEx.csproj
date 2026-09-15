@@ -8,9 +8,13 @@
 	</PropertyGroup>
 	<ItemGroup>
 	  <None Remove="ultimatedoomsniperpea" />
+
+	  <None Remove="ultimatedoomsniperpea.android" />
 	</ItemGroup>
 	<ItemGroup>
 	  <EmbeddedResource Include="ultimatedoomsniperpea" />
+
+	  <EmbeddedResource Include="ultimatedoomsniperpea.android" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

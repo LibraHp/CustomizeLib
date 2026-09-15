@@ -8,9 +8,13 @@
 	</PropertyGroup>
 	<ItemGroup>
 	  <None Remove="potaoexplode" />
+
+	  <None Remove="potaoexplode.android" />
 	</ItemGroup>
 	<ItemGroup>
 	  <EmbeddedResource Include="potaoexplode" />
+
+	  <EmbeddedResource Include="potaoexplode.android" />
 	</ItemGroup>
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
   <Exec Command="COPY &quot;$(TargetPath)&quot; &quot;$(BepResPath)&quot;" />

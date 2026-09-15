@@ -26,8 +26,7 @@ namespace SolarEclipseCabbage.BepInEx
             ClassInjector.RegisterTypeInIl2Cpp<SolarEclipseBomb>();
             ClassInjector.RegisterTypeInIl2Cpp<SolarEclipseDoom>();
             ClassInjector.RegisterTypeInIl2Cpp<SolarEclipseStar>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "solareclipsecabbage");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "solareclipsecabbage" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SolarCabbage, SolarEclipseCabbage>((int)SolarEclipseCabbage.PlantID, ab.GetAsset<GameObject>("SolarEclipseCabbagePrefab").SetSaveMaterial(),
                 ab.GetAsset<GameObject>("SolarEclipseCabbagePreview").SetSaveMaterial(), [], 2f, 0f, 300, 300, 90f, 850);
             CustomCore.RegisterCustomPlantSkin<SolarCabbage, SolarEclipseCabbage>((int)SolarEclipseCabbage.PlantID, ab.GetAsset<GameObject>("SolarEclipseCabbagePrefabSkin").SetSaveMaterial(),

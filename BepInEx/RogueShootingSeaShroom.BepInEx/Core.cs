@@ -10,7 +10,6 @@ namespace RogueShootingSeaShroom.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
 
             ShootingSeaShroom.SeaShroomCore.OnLoad();

@@ -15,7 +15,7 @@ namespace UltimateCornFume.BepInEx
     {
         public override void OnStart()
         {
-            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "ultimatecornfume");
+            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "ultimatecornfume" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<CornFume, UltimateCornFume>(UltimateCornFume.PlantID, ab.GetAsset<GameObject>("UltimateCornFumePrefab"),
                 ab.GetAsset<GameObject>("UltimateCornFumePreview"), new List<(int, int)>
                 {

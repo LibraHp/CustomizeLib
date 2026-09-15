@@ -1,0 +1,104 @@
+ManifestFileVersion: 0
+CRC: 802551543
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 75495838a3f785c80712950d238ac03c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 75495838a3f785c80712950d238ac03c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/modzombie/kingpenguin/month1.asset
+- Assets/resources/modzombie/kingpenguin/footout2_0.asset
+- Assets/resources/modzombie/kingpenguin/handin2.asset
+- Assets/resources/modzombie/kingpenguin/coat2.asset
+- Assets/Material/Brightness_0.mat
+- Assets/resources/modzombie/kingpenguin/glasses2.asset
+- Assets/resources/modzombie/kingpenguin/GYRSPenguinPreview_0.asset
+- Assets/resources/modzombie/kingpenguin/die.anim
+- Assets/resources/modzombie/kingpenguin/die.asset
+- Assets/resources/modzombie/kingpenguin/body1_0.asset
+- Assets/resources/modzombie/kingpenguin/head2.asset
+- Assets/resources/modzombie/kingpenguin/handout2.asset
+- Assets/resources/modzombie/kingpenguin/special1.asset
+- Assets/resources/modzombie/kingpenguin/eyebrow2.asset
+- Assets/resources/modzombie/kingpenguin/KingPenguinZombiePreview.prefab
+- Assets/resources/modzombie/kingpenguin/footout2_1.asset
+- Assets/resources/modzombie/kingpenguin/footout1_0.asset
+- Assets/Sprite/plantshadow_14.asset
+- Assets/resources/modzombie/kingpenguin/body2.asset
+- Assets/Sprite/PeaShooter_3.asset
+- Assets/resources/modzombie/kingpenguin/idle.anim
+- Assets/resources/modzombie/kingpenguin/KingPenguinZombie.prefab
+- Assets/resources/modzombie/kingpenguin/eyebrow1.asset
+- Assets/resources/modzombie/kingpenguin/footin1_0.asset
+- Assets/resources/modzombie/kingpenguin/monthdown1.asset
+- Assets/resources/modzombie/kingpenguin/glasses1.asset
+- Assets/resources/modzombie/kingpenguin/footin2.asset
+- Assets/resources/modzombie/kingpenguin/month2.asset
+- Assets/resources/modzombie/kingpenguin/hat2.asset
+- Assets/resources/modzombie/kingpenguin/handin2_0.asset
+- Assets/resources/modzombie/kingpenguin/die_0.asset
+- Assets/resources/modzombie/kingpenguin/hat1.asset
+- Assets/resources/modzombie/kingpenguin/head1_0.asset
+- Assets/Texture2D/plantshadow_14.png
+- Assets/resources/modzombie/kingpenguin/handout1.asset
+- Assets/resources/modzombie/kingpenguin/handout1_0.asset
+- Assets/resources/modzombie/kingpenguin/monthup2.asset
+- Assets/resources/modzombie/kingpenguin/handin1.asset
+- Assets/resources/modzombie/kingpenguin/footout2.asset
+- Assets/resources/modzombie/kingpenguin/handout2_0.asset
+- Assets/resources/modzombie/kingpenguin/skating.anim
+- Assets/resources/modzombie/kingpenguin/jump.anim
+- Assets/resources/modzombie/kingpenguin/head2_0.asset
+- Assets/resources/modzombie/kingpenguin/GYRSPenguinPreview_1.asset
+- Assets/Shader/Shader Graphs_Brightness_0.shader
+- Assets/resources/modzombie/kingpenguin/monthup1.asset
+- Assets/resources/modzombie/kingpenguin/KingPenguinZombie.controller
+- Assets/resources/modzombie/kingpenguin/footout1.asset
+- Assets/resources/modzombie/kingpenguin/GYRSPenguinPreview.png
+- Assets/resources/modzombie/kingpenguin/body1.asset
+- Assets/resources/modzombie/kingpenguin/coat1.asset
+- Assets/resources/modzombie/kingpenguin/monthdown2.asset
+- Assets/resources/modzombie/kingpenguin/head1.asset
+- Assets/resources/modzombie/kingpenguin/hat1_0.asset
+- Assets/resources/modzombie/kingpenguin/GYRSPenguin.png
+- Assets/resources/modzombie/kingpenguin/special2.asset
+- Assets/resources/modzombie/kingpenguin/body2_0.asset
+- Assets/resources/modzombie/kingpenguin/handin1_0.asset
+- Assets/resources/modzombie/kingpenguin/walk.anim
+- Assets/Texture2D/PeaShooter_3.png
+- Assets/resources/modzombie/kingpenguin/footin1.asset
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/freezingcherry
+- "E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/\u51D1\u4F01\u9E45"

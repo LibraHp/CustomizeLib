@@ -8,10 +8,14 @@
 
   <ItemGroup>
     <None Remove="mower" />
+
+    <None Remove="mower.android" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="mower" />
+
+    <EmbeddedResource Include="mower.android" />
   </ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

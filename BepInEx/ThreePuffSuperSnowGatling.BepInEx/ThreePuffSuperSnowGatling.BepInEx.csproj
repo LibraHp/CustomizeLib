@@ -7,9 +7,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="threepuffsupersnowgatling" />
+
+    <None Remove="threepuffsupersnowgatling.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="threepuffsupersnowgatling" />
+
+    <EmbeddedResource Include="threepuffsupersnowgatling.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

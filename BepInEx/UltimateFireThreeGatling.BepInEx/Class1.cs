@@ -16,14 +16,13 @@ namespace UltimateFireThreeGatling.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<UltimateFireThreeGatling>();
             ClassInjector.RegisterTypeInIl2Cpp<AshThreeGatling>();
             ClassInjector.RegisterTypeInIl2Cpp<UltimateFireThreeGatling_sp>();
 
             #region 浴火三大哥
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatefiresupergatling");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatefiresupergatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SuperThreeGatling, UltimateFireThreeGatling>(UltimateFireThreeGatling.PlantID,
                 ab.GetAsset<GameObject>("UltimateFireThreeGatlingPrefab"),
                 ab.GetAsset<GameObject>("UltimateFireThreeGatlingPreview"), new List<(int, int)>
@@ -45,7 +44,7 @@ namespace UltimateFireThreeGatling.BepInEx
             #endregion
 
             #region sp浴火三大哥
-            var ab_sp = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatefiresupergatling_sp");
+            var ab_sp = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatefiresupergatling_sp" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SuperThreeGatling, UltimateFireThreeGatling_sp>(UltimateFireThreeGatling_sp.PlantID,
                 ab_sp.GetAsset<GameObject>("UltimateFireThreeGatling_spPrefab"),
                 ab_sp.GetAsset<GameObject>("UltimateFireThreeGatling_spPreview"), new List<(PlantType, PlantType)>
@@ -70,7 +69,7 @@ namespace UltimateFireThreeGatling.BepInEx
             #endregion
 
             #region 灰三大哥
-            var ab_ash = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ashthreegaling");
+            var ab_ash = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ashthreegaling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<Plant, AshThreeGatling>(AshThreeGatling.PlantID,
                 ab_ash.GetAsset<GameObject>("AshThreeGatlingPrefab"),
                 ab_ash.GetAsset<GameObject>("AshThreeGatlingPreview"), new List<(int, int)>

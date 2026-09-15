@@ -1,0 +1,131 @@
+ManifestFileVersion: 0
+CRC: 2137830459
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3039581c3612dc5f5497a32f71032f58
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 503102290cd9edc89f956362f58ae174
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3039581c3612dc5f5497a32f71032f58
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/plants/ultimatesunhypno/UltimateHypno.asset
+- Assets/plants/ultimatesunhypno/UltimateHypno Skeleton.asset
+- Assets/plants/ultimatesunhypno/UltimateHypno.prefab
+- Assets/plants/peashooter/electricpea/idle.anim
+- Assets/plants/ultimatesunhypno/UltimateHypno_0.png
+- Assets/plants/peashooter/electricpea/stem3.asset
+- Assets/plants/peashooter/electricpea/PeaShooter_frontleaf_lefttip.asset
+- Assets/plants/ultimatesunhypno/shoot ec2.asset
+- Assets/plants/ultimatesunhypno/magnet2.anim
+- Assets/plants/ultimatesunhypno/body2_right.asset
+- Assets/plants/peashooter/electricpea/eletric2.asset
+- Assets/plants/peashooter/electricpea/PeaShooter_frontleaf_righttip.asset
+- Assets/plants/peashooter/electricpea/shoot.anim
+- Assets/plants/peashooter/electricpea/ElectricPeaPrefab.prefab
+- Assets/plants/ultimatesunhypno/ScaredyShroom_eye_big2.asset
+- Assets/plants/peashooter/electricpea/eletric_glow.asset
+- Assets/plants/ultimatesunhypno/shoot3.anim
+- Assets/plants/ultimatesunhypno/body.asset
+- Assets/plants/peashooter/electricpea/PeaShooter_backleaf.asset
+- Assets/plants/peashooter/electricpea/ElectricPea.asset
+- Assets/plants/ultimatesunhypno/UltimateHypnoPreview.prefab
+- Assets/plants/peashooter/electricpea/stem1.asset
+- Assets/plants/peashooter/electricpea/lightning_fade.png
+- Assets/plants/peashooter/electricpea/eye2.asset
+- Assets/resources/mod/electricsupergatling/ElectricPea.prefab
+- Assets/plants/peashooter/electricpea/ElectricPeaPreview.prefab
+- Assets/plants/peashooter/electricpea/LightningAnimated04.mat
+- Assets/plants/peashooter/electricpea/stem2.asset
+- Assets/plants/peashooter/electricpea/PeaShooter_frontleaf.asset
+- Assets/plants/peashooter/electricpea/lightning_sphere.png
+- Assets/plants/ultimatesunhypno/UltimateHypno.png
+- Assets/plants/peashooter/electricpea/eletric4.asset
+- "Assets/plants/ultimatesunhypno/UltimateHypno - \u526F\u672C.png"
+- Assets/plants/ultimatesunhypno/UltimateHypno.controller
+- Assets/plants/peashooter/electricpea/PeaShooter_sprout.asset
+- Assets/plants/peashooter/electricpea/ElectricPea_0.asset
+- Assets/plants/peashooter/electricpea/eletric5.asset
+- Assets/plants/ultimatesunhypno/body ec2.asset
+- Assets/plants/peashooter/electricpea/ElectricPea.controller
+- Assets/plants/ultimatesunhypno/magnet.anim
+- Assets/plants/ultimatesunhypno/body ec1.asset
+- Assets/plants/ultimatesunhypno/penzui.asset
+- Assets/plants/ultimatesunhypno/magnet_left.asset
+- Assets/plants/ultimatesunhypno/magnet_right.asset
+- Assets/plants/peashooter/electricpea/ElectricPea.png
+- Assets/plants/ultimatesunhypno/Magnetshroom_idle_electric1.asset
+- Assets/plants/peashooter/electricpea/ElectricPea_0.png
+- Assets/plants/peashooter/electricpea/LightningArcs02.mat
+- Assets/plants/ultimatesunhypno/UltimateHypnoPrefab.prefab
+- Assets/plants/ultimatesunhypno/shoot.anim
+- Assets/plants/ultimatesunhypno/Magnetshroom_shock2.asset
+- Assets/plants/peashooter/electricpea/PeaShooter_backleaf_righttip.asset
+- Assets/plants/ultimatesunhypno/Magnetshroom_shock3.asset
+- Assets/plants/ultimatesunhypno/idle.anim
+- Assets/plants/ultimatesunhypno/head.asset
+- Assets/plants/ultimatesunhypno/ScaredyShroom_eye_big1.asset
+- Assets/plants/ultimatesunhypno/shoot ec1.asset
+- Assets/plants/peashooter/electricpea/eye.asset
+- Assets/plants/ultimatesunhypno/Magnetshroom_idle_electric2.asset
+- "Assets/plants/ultimatesunhypno/UltimateHypno - \u526F\u672C.asset"
+- Assets/plants/peashooter/electricpea/eletric3.asset
+- Assets/plants/peashooter/electricpea/ProjectileElectricPea.prefab
+- Assets/plants/peashooter/electricpea/stem4.asset
+- Assets/plants/ultimatesunhypno/UltimateHypno_0.asset
+- Assets/plants/peashooter/electricpea/PeaShooter_backleaf_lefttip.asset
+- Assets/plants/ultimatesunhypno/body2_left.asset
+- Assets/plants/peashooter/electricpea/arcs02.png
+- Assets/plants/ultimatesunhypno/shoot2.anim
+- Assets/plants/peashooter/electricpea/eletric1.asset
+- Assets/plants/ultimatesunhypno/Magnetshroom_idle_electric3.asset
+- Assets/plants/ultimatesunhypno/body ec3.asset
+- Assets/plants/ultimatesunhypno/Magnetshroom_shock1.asset
+- Assets/plants/peashooter/electricpea/eye1.asset
+- Assets/plants/peashooter/electricpea/stem5.asset
+- Assets/plants/peashooter/electricpea/LightningSphere.mat
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/electricsupergatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/icedoomscaredyshroom
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/icesniper
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/puffsniperpea
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomsniperpea
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatehypnomagnet
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

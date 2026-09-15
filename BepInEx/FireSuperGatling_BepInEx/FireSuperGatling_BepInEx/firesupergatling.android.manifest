@@ -1,0 +1,93 @@
+ManifestFileVersion: 0
+CRC: 110170793
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cbaf8f8ef9c29fa34761533feeb54f0e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: acd857964d0c8f20443702af63c8bcb5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: cbaf8f8ef9c29fa34761533feeb54f0e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/plantskins/firesupergatling/paokou3_mid.asset
+- Assets/resources/plantskins/firesupergatling/GatlingPea_blink1.asset
+- Assets/resources/plantskins/firesupergatling/hairleaf4_1.asset
+- Assets/resources/plantskins/firesupergatling/PeaShooter_backleaf.asset
+- Assets/resources/plantskins/firesupergatling/PeaShooter_frontleaf_lefttip.asset
+- Assets/resources/plantskins/firesupergatling/hairleaf3_2.asset
+- Assets/resources/plantskins/firesupergatling/PeaShooter_stalk_top.asset
+- Assets/resources/plantskins/firesupergatling/paokou2.asset
+- Assets/resources/plantskins/firesupergatling/GatlingPea_head.asset
+- Assets/resources/plantskins/firesupergatling/shoot.anim
+- Assets/resources/plantskins/firesupergatling/supershoot.anim
+- Assets/resources/plantskins/firesupergatling/paokou6.asset
+- Assets/resources/plantskins/firesupergatling/hair.asset
+- Assets/resources/plantskins/firesupergatling/GatlingPea_blink2.asset
+- Assets/resources/plantskins/firesupergatling/hairleaf4_2.asset
+- Assets/resources/plantskins/firesupergatling/hairleaf2_2.asset
+- Assets/resources/plantskins/firesupergatling/paokou4.asset
+- Assets/resources/plantskins/firesupergatling/hairtop_2.asset
+- Assets/resources/plantskins/firesupergatling/FireSuperGatling.png
+- Assets/resources/plantskins/firesupergatling/hair_0.asset
+- Assets/resources/plantskins/firesupergatling/FireSuperGatling.asset
+- Assets/resources/plantskins/firesupergatling/FireSuperGatlingPreview.asset
+- Assets/resources/plantskins/firesupergatling/paokou7.asset
+- Assets/resources/plantskins/firesupergatling/PeaShooter_eyebrow.asset
+- Assets/resources/plantskins/firesupergatling/hairleaf1_1.asset
+- Assets/resources/plantskins/firesupergatling/paokou5.asset
+- Assets/resources/plantskins/firesupergatling/FireSuperGatlingPreview.prefab
+- Assets/resources/plantskins/firesupergatling/love.asset
+- Assets/resources/plantskins/firesupergatling/hairleaf2_1.asset
+- Assets/resources/plantskins/firesupergatling/SuperGatling Skeleton.asset
+- Assets/resources/plantskins/firesupergatling/PeaShooter_stalk_bottom.asset
+- Assets/resources/plantskins/firesupergatling/PeaShooter_frontleaf.asset
+- Assets/resources/plantskins/firesupergatling/GatlingPea_mouth_overlay.asset
+- Assets/resources/plantskins/firesupergatling/hairleaf3_1.asset
+- Assets/resources/plantskins/firesupergatling/paokou1.asset
+- Assets/resources/plantskins/firesupergatling/PeaShooter_backleaf_lefttip.asset
+- Assets/resources/plantskins/firesupergatling/PeaShooter_backleaf_righttip.asset
+- Assets/resources/plantskins/firesupergatling/FireSuperGatlingPreview.png
+- Assets/resources/plantskins/firesupergatling/hair2.asset
+- Assets/resources/plantskins/firesupergatling/PeaShooter_frontleaf_righttip.asset
+- Assets/resources/plantskins/firesupergatling/SuperSnowGatling.controller
+- Assets/resources/plantskins/firesupergatling/hairleaf1_2.asset
+- Assets/resources/plantskins/firesupergatling/FireSuperGatlingPrefab.prefab
+- Assets/resources/plantskins/firesupergatling/idle.anim
+- Assets/resources/plantskins/firesupergatling/GatlingPea_mouth.asset
+- Assets/resources/plantskins/firesupergatling/hairtop_1.asset
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/puffhypnosupergatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

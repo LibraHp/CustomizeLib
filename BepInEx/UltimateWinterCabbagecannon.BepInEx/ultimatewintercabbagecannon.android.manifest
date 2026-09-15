@@ -1,0 +1,162 @@
+ManifestFileVersion: 0
+CRC: 3391094424
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8a91fa4a32d0e48c805ec65739730d76
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ca9aaba8fed70f13f242019b8fba0dca
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8a91fa4a32d0e48c805ec65739730d76
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/resources/mod/ultimatehellthreepeater/bullet/\u4ECE\u9009\u533A_4.asset"
+- Assets/Texture2D/PeaShooter.png
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u7A76\u6781\u51B7\u5BC2\u8FEB\u51FB\u70AE.png"
+- Assets/Sprite/PeaShooter.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/skin/\u4ECE\u9009\u533A.asset"
+- "Assets/resources/\u7279\u6548/ifvstar/BombCloudSmall.prefab"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C4219.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/B5C3E6BD03CB3D2E7AF988E5181722AB.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/shoot.anim
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/boom/ExplosionCloud.asset
+- "Assets/resources/mod/ultimatehellthreepeater/bullet/\u4ECE\u9009\u533A_9.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/Bullet_subIceDoomCabbage.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/UltimateWinterCabbagecannonSkinPreview.prefab
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C4221.asset"
+- "Assets/resources/mod/ultimatehellthreepeater/bullet/\u4ECE\u9009\u533A_2.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C4225_0.asset"
+- "Assets/resources/\u7279\u6548/ifvstar/ExplosionCloud.asset"
+- Assets/resources/mod/garlicsupergatling/boom/ExplosionPowie.asset
+- "Assets/resources/mod/ultimatehellthreepeater/bullet/\u4ECE\u9009\u533A_8.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C42123.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C42127.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C4212.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/skin/\u56FE\u5C4227.asset"
+- Assets/resources/mod/ultimateportalspring/bomb/ExplosionCloud.asset
+- Assets/resources/mod/ultimateportalspring/bomb/ExplosionPowie.png
+- Assets/resources/mod/garlicsupergatling/boom/BombCloudSmall.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/idle.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/A9EFBB5F31309A1251216D2BC6427A74.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C4227.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/Bullet_iceDoomCabbage.prefab
+- Assets/Sprite/PeaShooter_2.asset
+- Assets/resources/mod/freezingcherry/bombsmall/ExplosionPowie.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/skin/\u4ECE\u9009\u533A_1.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/UltimateWinterCabbagecannonPrefab.prefab
+- Assets/resources/mod/freezingcherry/bombsmall/ExplosionCloud.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/boom/ExplosionPowie.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/UltimateWinterCabbagecannon.controller
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C4222.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u5B50\u5F39.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/skin/\u7A76\u6781\u51B7\u5BC2\u8FEB\u51FB\u70AE(1).png"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/ExplosionPowie.png
+- "Assets/resources/\u7279\u6548/ifvstar/ExplosionPowie.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u4ECE\u9009\u533A.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/boom/ExplosionCloud.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/boom/ExplosionPowie.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/8CBEEBDA2A6E8C2EA9124CF4969B1BED.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/42E815D8F6884ADB787D1AB8E92D6091.asset
+- "Assets/resources/\u7279\u6548/ifvstar/ExplosionCloud.png"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C423.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/ExplosionPowie.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/skin/\u7A76\u6781\u51B7\u5BC2\u8FEB\u51FB\u70AE(1)
+  Skeleton.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u4ECE\u9009\u533A_0.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/skin/\u7A76\u6781\u51B7\u5BC2\u8FEB\u51FB\u70AE(1).prefab"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/UltimateWinterCabbagecannonPreview.prefab
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C4224.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C4210.asset"
+- "Assets/resources/mod/ultimatehellthreepeater/bullet/\u4ECE\u9009\u533A_13.asset"
+- Assets/resources/mod/garlicsupergatling/boom/ExplosionPowie.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/ExplosionCloud.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/42E815D8F6884ADB787D1AB8E92D6091.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/A9EFBB5F31309A1251216D2BC6427A74.png
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/boom/ExplosionCloud.png
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u4ECE\u9009\u533A_3.asset"
+- Assets/resources/mod/freezingcherry/bombsmall/ExplosionCloud.png
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/skin/\u4ECE\u9009\u533A_0.asset"
+- "Assets/resources/\u7279\u6548/ifvstar/ExplosionPowie.png"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/idle_sub.anim
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/skin/\u4ECE\u9009\u533A_2.asset"
+- "Assets/resources/mod/ultimatehellthreepeater/bullet/\u4ECE\u9009\u533A_0.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C4218.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C4220.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C424.asset"
+- Assets/plants/icedoomcherryjalapeno/ExplosionPowie.asset
+- "Assets/resources/mod/ultimatehellthreepeater/bullet/\u4ECE\u9009\u533A.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C4225.asset"
+- Assets/resources/mod/ultimateportalspring/bomb/ExplosionCloud.png
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C4223.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/boom/ExplosionCloud.asset
+- "Assets/resources/mod/ultimatehellthreepeater/bullet/\u5B50\u5F39.png"
+- Assets/resources/mod/freezingcherry/bombsmall/ExplosionPowie.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/super_sub.anim
+- Assets/Texture2D/PeaShooter_2.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/8CBEEBDA2A6E8C2EA9124CF4969B1BED.asset
+- Assets/resources/mod/garlicsupergatling/boom/ExplosionCloud.png
+- "Assets/resources/mod/ultimatehellthreepeater/bullet/\u4ECE\u9009\u533A_12.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/ExplosionCloud.png
+- "Assets/resources/mod/ultimatehellthreepeater/bullet/\u4ECE\u9009\u533A_14.asset"
+- "Assets/resources/mod/ultimatehellthreepeater/bullet/\u5B50\u5F39.prefab"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u4ECE\u9009\u533A_1.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C4228.asset"
+- Assets/resources/mod/ultimateportalspring/bomb/ExplosionPowie.asset
+- Assets/plants/icedoomcherryjalapeno/ExplosionPowie.png
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u4ECE\u9009\u533A_2.asset"
+- Assets/resources/mod/freezingcherry/BombCloudSmall.prefab
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/boom/ExplosionPowie.png
+- Assets/resources/mod/garlicsupergatling/boom/ExplosionCloud.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u7A76\u6781\u51B7\u5BC2\u8FEB\u51FB\u70AE
+  Skeleton.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C4211.asset"
+- "Assets/resources/mod/ultimatehellthreepeater/bullet/\u4ECE\u9009\u533A_7.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/boom/ExplosionPowie.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/B5C3E6BD03CB3D2E7AF988E5181722AB.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/IceDoomCabbageBomb.prefab
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C429.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u7A76\u6781\u51B7\u5BC2\u8FEB\u51FB\u70AE.prefab"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/UltimateWinterCabbagecannonSkinPrefab.prefab
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/\u56FE\u5C427.asset"
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/garlicsupergatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/kingpenguin
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/solareclipsecabbage
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatehellthreepeater
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

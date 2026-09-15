@@ -57,7 +57,6 @@ namespace UltimatePortalSnowGatling.BepInEx
 
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
         }
 
@@ -136,9 +135,10 @@ namespace UltimatePortalSnowGatling.BepInEx
             var assembly = Assembly.GetExecutingAssembly();
             try
             {
+                string resourceName = Application.platform == RuntimePlatform.Android ? name + ".android" : name;
                 using Stream stream =
-                    assembly.GetManifestResourceStream(assembly.FullName!.Split(",")[0] + "." + name) ??
-                    assembly.GetManifestResourceStream(name)!;
+                    assembly.GetManifestResourceStream(assembly.FullName!.Split(",")[0] + "." + resourceName) ??
+                    assembly.GetManifestResourceStream(resourceName)!;
                 using MemoryStream stream1 = new();
                 stream.CopyTo(stream1);
                 var ab = AssetBundle.LoadFromMemory(stream1.ToArray());

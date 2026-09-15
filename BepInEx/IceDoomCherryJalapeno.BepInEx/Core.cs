@@ -48,8 +48,7 @@ namespace IceDoomCherryJalapeno.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icedoomcherryjalapeno");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icedoomcherryjalapeno" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<IceDoomCherryJalapeno>();
             CustomCore.RegisterCustomPlant<CherryJalapeno, IceDoomCherryJalapeno>(177, ab.GetAsset<GameObject>("IceDoomCherryJalapenoPrefab"),

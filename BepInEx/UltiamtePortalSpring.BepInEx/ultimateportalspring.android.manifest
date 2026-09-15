@@ -1,0 +1,129 @@
+ManifestFileVersion: 0
+CRC: 4146427552
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e9b569c2dd962c42d71483ca3dcf0301
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7403e8bc1091d4cb05053b511a03a07a
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e9b569c2dd962c42d71483ca3dcf0301
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/resources/mod/ultimateportalspring/sprites/\u56FE\u5C42 36_0.asset"
+- Assets/resources/mod/ultimateportalspring/plant/shoot.anim
+- Assets/resources/mod/ultimateportalspring/portal/idle_blackhole.anim
+- "Assets/resources/mod/ultimateportalspring/sprites/\u672A\u547D\u540D\u4F5C\u54C1.png"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u56FE\u5C42 36_1.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u56FE\u5C42 36.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_12.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u56FE\u5C42 77_0.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_7.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u4ECE\u9009\u533A.asset"
+- Assets/resources/mod/ultimateportalspring/portal/larger.anim
+- Assets/resources/mod/ultimateportalspring/sprites/sprite.png
+- Assets/resources/mod/ultimateportalspring/BlackHole_portal.prefab
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_10.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u4ECE\u9009\u533A_6.asset"
+- Assets/resources/mod/ultimateportalspring/sprites/UltimatePortalSpringPreview.asset
+- Assets/resources/mod/ultimateportalspring/sprites/PortalBullet.png
+- Assets/resources/mod/ultimateportalspring/sprites/Particle.asset
+- Assets/resources/mod/ultimateportalspring/sprites/sprite.asset
+- "Assets/resources/mod/ultimateportalspring/sprites/\u4ECE\u9009\u533A_7.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
+- Assets/resources/mod/ultimateportalspring/sprites/SunEmmit.mat
+- Assets/resources/mod/ultimateportalspring/Bullet_portalSpringMelon.prefab
+- Assets/resources/mod/ultimateportalspring/PortalBombCloud.prefab
+- Assets/resources/mod/ultimateportalspring/portal/die.anim
+- "Assets/resources/mod/ultimateportalspring/sprites/\u56FE\u5C42 77.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u672A\u547D\u540D\u4F5C\u54C1
+  Skeleton.asset"
+- Assets/resources/mod/ultimateportalspring/UltimatePortalSpringPreview.prefab
+- "Assets/resources/mod/ultimateportalspring/sprites/\u4ECE\u9009\u533A_2.asset"
+- Assets/resources/mod/ultimateportalspring/portal/BlackHole_portal.controller
+- Assets/resources/mod/ultimateportalspring/plant/idle.anim
+- "Assets/resources/mod/ultimateportalspring/sprites/\u4ECE\u9009\u533A_8.asset"
+- Assets/resources/mod/ultimateportalspring/sprites/Particle.png
+- Assets/resources/mod/ultimateportalspring/plant/UltimateSpring1.controller
+- "Assets/resources/mod/ultimateportalspring/sprites/\u4ECE\u9009\u533A_1.asset"
+- Assets/resources/mod/ultimateportalspring/sprites/PortalBullet.asset
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u56FE\u5C42 67.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_11.asset"
+- Assets/resources/mod/ultimateportalspring/UltimatePortalSpringPrefab.prefab
+- Assets/resources/mod/ultimateportalspring/target_portal.prefab
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_4.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u7A76\u6781\u8D85\u65F6\u7A7A\u5F39\u5F39\u83C7.prefab"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u7A76\u6781\u8D85\u65F6\u7A7A\u5F39\u5F39\u83C7.png"
+- Assets/resources/mod/ultimateportalspring/UltimatePortalSpringSkinPreview.prefab
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_9.asset"
+- "Assets/plants/superhypnodoomcattaillour/\u672A\u547D\u540D\u4F5C\u54C1.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u4ECE\u9009\u533A_5.asset"
+- Assets/resources/mod/ultimateportalspring/Doom_portal.prefab
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_15.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
+- Assets/resources/mod/ultimateportalspring/plant/wait - Copy.anim
+- "Assets/resources/mod/ultimateportalspring/sprites/\u672A\u547D\u540D\u4F5C\u54C1.prefab"
+- Assets/resources/mod/ultimateportalspring/plant/idle2.anim
+- Assets/resources/mod/ultimateportalspring/UltimatePortalSpringSkinPrefab.prefab
+- Assets/resources/mod/ultimateportalspring/plant/UltimateSpring.controller
+- Assets/resources/mod/ultimateportalspring/sprites/UltimatePortalSpringPreview.png
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_5.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_13.asset"
+- Assets/resources/mod/ultimateportalspring/plant/shoot2.anim
+- "Assets/resources/mod/ultimateportalspring/sprites/\u4ECE\u9009\u533A_0.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_6.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u4ECE\u9009\u533A_3.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u7A76\u6781\u8D85\u65F6\u7A7A\u5F39\u5F39\u83C7
+  Skeleton.asset"
+- "Assets/plants/superhypnodoomcattaillour/\u672A\u547D\u540D\u4F5C\u54C1.png"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u4ECE\u9009\u533A_4.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_14.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u56FE\u5C42 12.asset"
+- "Assets/resources/mod/ultimateportalspring/sprites/\u5DF2\u63D2\u5165\u56FE\u50CF_8.asset"
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/solarhypno
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomminigun
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomsniperpea
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatewintercabbagecannon

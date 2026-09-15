@@ -17,12 +17,11 @@ namespace GarlicSuperGatling.BepInEx
         public static int ParticleID = 500;
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<Bullet_garlicPea_super>();
             ClassInjector.RegisterTypeInIl2Cpp<Bullet_garlicPea_fire_super>();
             ClassInjector.RegisterTypeInIl2Cpp<GarlicSuperGatling>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "garlicsupergatling");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "garlicsupergatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             // ab包打包的时候资源会被展平，丢失文件夹层级信息
             CustomCore.RegisterCustomParticle(GarlicSuperGatling.ParticleID, ab.GetAsset<GameObject>("BombCloudSmall"));
             CustomCore.RegisterCustomBullet<Bullet_pea_garlic, Bullet_garlicPea_super>

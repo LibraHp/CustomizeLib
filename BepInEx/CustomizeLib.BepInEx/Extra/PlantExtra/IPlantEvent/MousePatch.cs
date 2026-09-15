@@ -89,7 +89,7 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
         [HarmonyPrefix]
         public static void PreAwake(Mouse __instance)
         {
-            __instance.GetOrAddComponent<MouseBehaviour>()?.mouse = __instance;
+            __instance.GetOrAddComponent<MouseBehaviour>().mouse = __instance;
         }
 
         [HarmonyPatch(nameof(Mouse.Update))]

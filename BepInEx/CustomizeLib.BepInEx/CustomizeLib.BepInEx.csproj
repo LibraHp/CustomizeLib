@@ -7,7 +7,7 @@
     <LangVersion>latest</LangVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <DocumentationFile>F:\PVZRH_Bep\BepInEx\plugins\CustomizeLib.BepInEx.xml</DocumentationFile>
+    <DocumentationFile>F:\Game\PlantsVsZombies\dev\Culib\doc\CustomizeLib.BepInEx.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <NoWarn>$(NoWarn);MSB3277;$(NoWarn);1591</NoWarn>

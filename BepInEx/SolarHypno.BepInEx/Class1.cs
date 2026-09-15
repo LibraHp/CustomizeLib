@@ -16,8 +16,7 @@ namespace SolarHypno.BepInEx
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<SolarHypno>();
             ClassInjector.RegisterTypeInIl2Cpp<UltimateJumpSun>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "solarhypno");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "solarhypno" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SolarCabbage, SolarHypno>((int)SolarHypno.PlantID, ab.GetAsset<GameObject>("SolarHypnoPrefab").SetSaveMaterial(),
                 ab.GetAsset<GameObject>("SolarHypnoPreview").SetSaveMaterial(), new List<(int, int)>
                 {

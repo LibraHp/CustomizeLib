@@ -1,0 +1,66 @@
+ManifestFileVersion: 0
+CRC: 3404615007
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9def0b0c861eb1abba589c892f1b181b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 342269afdc324a7b5a67cf42c3183e54
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9def0b0c861eb1abba589c892f1b181b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/plants/supergarlicfume/SuperGarlicFume_0.asset
+- Assets/plants/supergarlicfume/shoot.anim
+- Assets/plants/supergarlicfume/SuperGarlicFumePreview.prefab
+- Assets/plants/supergarlicfume/SuperGarlicFume_0.png
+- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_3.asset"
+- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_5.asset"
+- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_7.asset"
+- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7.png"
+- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_1.asset"
+- Assets/plants/supergarlicfume/shooting.anim
+- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_4.asset"
+- Assets/plants/supergarlicfume/SuperGarlicFumePrefab.prefab
+- Assets/plants/supergarlicfume/idle.anim
+- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_2.asset"
+- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_6.asset"
+- Assets/plants/supergarlicfume/FinalFume.controller
+- Assets/plants/supergarlicfume/shadow.asset
+- Assets/plants/supergarlicfume/startshoot.anim
+- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_0.asset"
+- Assets/plants/supergarlicfume/endshoot.anim
+- Assets/plants/supergarlicfume/shadow.png
+Dependencies: []

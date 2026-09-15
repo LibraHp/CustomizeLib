@@ -1,0 +1,74 @@
+ManifestFileVersion: 0
+CRC: 2779751891
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0abb61a1a1807c7c0d7af6a77ae519ef
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0abb61a1a1807c7c0d7af6a77ae519ef
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/plantskins/mscaredyshroom/ScaredyShroom_eyebrow1.asset
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroom_star.png
+- Assets/resources/plantskins/mscaredyshroom/ScaredyShroom_sweat1.asset
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroom_down.asset
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroom_down.png
+- Assets/resources/plantskins/mscaredyshroom/scared.anim
+- Assets/resources/plantskins/mscaredyshroom/ScaredyShroom_eye1.asset
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroomPreview.prefab
+- Assets/resources/plantskins/mscaredyshroom/idle.anim
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroom_stick.png
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroomPreview.asset
+- Assets/resources/plantskins/mscaredyshroom/ScaredyShroom_mouth.asset
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroomPreview.png
+- Assets/resources/plantskins/mscaredyshroom/ScaredyShroom_eyebrow2.asset
+- Assets/resources/plantskins/mscaredyshroom/scaredgrow.anim
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroom_hair_bottom.asset
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroom_hair_top.png
+- Assets/resources/plantskins/mscaredyshroom/ScaredyShroom_stem.asset
+- Assets/resources/plantskins/mscaredyshroom/ScaredyShroom_eye2.asset
+- Assets/resources/plantskins/mscaredyshroom/ScaredyShroom_sweat2.asset
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroom_hair_bottom.png
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroom_hair_top.asset
+- Assets/resources/plantskins/mscaredyshroom/ScaredyShroom_eye_big1.asset
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroomPrefab.prefab
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroom.controller
+- Assets/resources/plantskins/mscaredyshroom/ScaredyShroom_lips.asset
+- Assets/resources/plantskins/mscaredyshroom/ScaredyShroom_eye_big2.asset
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroom_stick.asset
+- Assets/resources/plantskins/mscaredyshroom/scaredidle.anim
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroom.png
+- Assets/resources/plantskins/mscaredyshroom/shoot.anim
+- Assets/resources/plantskins/mscaredyshroom/MScaredyShroom_star.asset
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

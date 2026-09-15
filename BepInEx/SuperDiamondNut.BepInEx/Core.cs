@@ -44,10 +44,9 @@ namespace SuperDiamondNut.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<SuperDiamondNut>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "superdiamondnut");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "superdiamondnut" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SuperSunNut, SuperDiamondNut>(161, ab.GetAsset<GameObject>("SuperDiamondNutPrefab"),
                 ab.GetAsset<GameObject>("SuperDiamondNutPreview"), [(905, 31)], 3, 0, 20, 4000, 7.5f, 800);
             CustomCore.RegisterCustomPlantClickEvent(161, SuperDiamondNut.SummonAndRecover);

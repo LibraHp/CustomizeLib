@@ -9,10 +9,14 @@
 
 	<ItemGroup>
 	  <None Remove="ultimatecornfume" />
+
+	  <None Remove="ultimatecornfume.android" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <EmbeddedResource Include="ultimatecornfume" />
+
+	  <EmbeddedResource Include="ultimatecornfume.android" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

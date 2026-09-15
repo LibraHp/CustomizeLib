@@ -1,0 +1,233 @@
+ManifestFileVersion: 0
+CRC: 3735799408
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 85dbd1702784cce563ad3c36de81a610
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9fa4be018fd7fdd3dad2da91a2f65c5c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 85dbd1702784cce563ad3c36de81a610
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 331
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/SolarEclipse.prefab
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/\u5C0F\u592A\u9633.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/60F6487D9968908AD7E169139D6374C3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffsupersnowgatling/stem.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/shoot.anim
+- Assets/Texture2D/Circle.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/H5.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/R7.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/M6.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/P3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/R9.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/SolarEclipseCabbagePrefabSkin.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/SolarEclipseCabbagePreviewSkin.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/R4.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/D4047F4DBA41C1908EBF2EAB31186BF1_2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/SolarEclipseCabbage.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/R10.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/Out_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupergatling/stem.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/R3.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/\u592A\u9633.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/DoomStem.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/Stem.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/D4047F4DBA41C1908EBF2EAB31186BF1_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/E2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/Bullet_solarEclipseCabbageSkin.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/EclipseDoomParticle.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/H6.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/DoomCloud.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/Cloud.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/R9.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/SolarEclipseCabbagePreview.prefab
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/\u80CC\u666F.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/R5.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/SolarEclipseCabbagePrefab.prefab
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/\u95EA\u5149.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/P6.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/SolarStar.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/C0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/W1.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/\u592A\u9633.asset"
+- Assets/resources/plantskins/pufffiresniperpea/stem.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/Dong.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/\u5355\u56FE.asset"
+- Assets/zombies/zombieboss2remake/cloud.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/smoke3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/C6.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/\u65E5\u98DF\u76AE\u80A4.png"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/H1.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/\u6D41\u661F.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/C5.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/E1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/SunParticle.mat
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/bullet_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffsupergatling/stem.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/\u73E0\u5B50.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/body.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/SolarEclipseCabbage.controller
+- Assets/resources/plantskins/puffhypnosupergatling/stem.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/\u95EA\u5149.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/T3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/idle.anim
+- Assets/resources/plantskins/puffsniperpea/stem.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/R8.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/StarBomb.png
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/\u65E5\u98DF\u76AE\u80A4
+  Skeleton.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/shoot.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/W4.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/H3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/Stem.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/1285BEC18CB138A2E425806B5B0161AA.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/Dong.png
+- Assets/Sprite/Circle.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/C2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/Cloud.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/R8.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/W5.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/W4.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/W3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/W2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/R2.asset
+- Assets/Texture2D/PeaShooter_1.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/R2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/W3.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/cloud.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/SolarEclipseStar.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/M5.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/\u5377\u5FC3\u83DC.asset"
+- Assets/Sprite/PeaShooter_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/P5.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/R3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/M8.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/SolarEclipseCabbage.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/SolarStar.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/SolarEclipseCabbage
+  Skeleton.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/M7.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/P1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/smoke3.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/Out.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/Out_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/DoomCloud.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/\u5355\u56FE.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/C1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/stem.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/\u73E0\u5B50.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/appear.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/R1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/M2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/StarBomb.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/Out_2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/P2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/E1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/M3.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/\u5C0F\u592A\u9633.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/W2.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/\u65E5\u98DF\u76AE\u80A4.prefab"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/60F6487D9968908AD7E169139D6374C3.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/C6.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/EclipseBombParticle.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/R7.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/R1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/C4.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/C5.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/M1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/T2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/68008DCE2280CA69B01165412BD3EAC6.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/68008DCE2280CA69B01165412BD3EAC6.asset
+- Assets/plants/peashooter/electricpea/Circle.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/M4.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/R6.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/DoomOut.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/E2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/D4047F4DBA41C1908EBF2EAB31186BF1_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/P4.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/Bullet_solarEclipseCabbage.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/Cloud.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/R6.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/H2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/appear.anim
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/\u5377\u5FC3\u83DC.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/R10.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/R4.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/SolarEclipseCabbage.controller
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/DoomStem.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/SunEmmit.mat
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/R5.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/idle.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/T1.asset
+- Assets/Sprite/stem.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/W5.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/H4.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/stem.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/body.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/W1.asset
+- "Assets/resources/mod/primitiveshooter/shooter/\u80CC\u666F.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/SolarEclipseBomb.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/1285BEC18CB138A2E425806B5B0161AA.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/C3.asset
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/primitiveshooter
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/pufffiresniperpea
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/pufffiresupergatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/puffhypnosupergatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/puffsniperpea
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/puffsupersnowgatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/skin_933
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/solarhypno
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/threepuffsupersnowgatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomminigun
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomminigunscaredy
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatemachinechomper
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatewintercabbagecannon
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/zombieboss2remake
+- "E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/\u51D1\u4F01\u9E45"

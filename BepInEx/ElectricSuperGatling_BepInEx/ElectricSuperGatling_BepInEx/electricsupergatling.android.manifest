@@ -1,0 +1,298 @@
+ManifestFileVersion: 0
+CRC: 3038913491
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 678a2bf875872dffcc36584da6952684
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f9502c8839e7f5515656b2cf98b15c7c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 678a2bf875872dffcc36584da6952684
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_32.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_5.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_12.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_10.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_19.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_15.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 153.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_18.asset"
+- "Assets/resources/mod/electricsupergatling/\u539F\u59CB\u5927\u54E5 \u5934\u76D4.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A.asset"
+- "Assets/Sprite/\u75357.asset"
+- Assets/resources/mod/electricsupergatling/bullet/idiebulletE2.anim
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_8.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_9.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42485_0.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_11.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_21.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u8D85\u7EA7\u7535\u80FD\u673A\u67AA\u5C04\u624B\uFF08\u5B8C\u6210\uFF09.prefab"
+- "Assets/resources/mod/electricsupergatling/prefab/\u8D85\u7EA7\u7535\u80FD\u673A\u67AA\u5C04\u624B.png"
+- Assets/resources/mod/electricsupergatling/biu/biu(4).prefab
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 159.asset"
+- Assets/resources/mod/electricsupergatling/ElectricSuperGatlingSkinPreview.prefab
+- Assets/resources/mod/electricsupergatling/ElectricSuperGatlingPreview.prefab
+- Assets/resources/mod/electricsupergatling/skin/HP1.anim
+- "Assets/resources/mod/electricsupergatling/skin/\u8D85\u7EA7\u7535\u80FD\u673A\u67AA\u5C04\u624B\uFF08\u5B8C\u6210\uFF09
+  Skeleton.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_13.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_39.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u8D85\u7EA7\u7535\u80FD\u673A\u67AA\u5C04\u624B
+  Skeleton.asset"
+- "Assets/resources/mod/electricsupergatling/\u7535\u5927\u54E5 \u5934\u76D4.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_4.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_4.asset"
+- "Assets/resources/mod/electricsupergatling/\u672A\u547D\u540D\u4F5C1).png"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_11.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 75.asset"
+- Assets/resources/mod/electricsupergatling/bullet/bulletE2.controller
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_2.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_17.asset"
+- Assets/resources/mod/electricsupergatling/prefab/shoot.anim
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_16.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 56.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 133_0.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u56FE\u5C42 64.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_14.asset"
+- Assets/resources/mod/electricsupergatling/ElectricPeaSkin.prefab
+- "Assets/resources/mod/electricsupergatling/\u7535\u5927\u54E5skin Preview.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 186_0.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_9.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_4.asset"
+- Assets/resources/mod/electricsupergatling/biu/biu(4) Skeleton.asset
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_10.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_27.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u56FE\u5C42 38.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_1.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_3.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_29.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u8D85\u7EA7\u7535\u80FD\u673A\u67AA\u5C04\u624B(1).png"
+- Assets/Sprite/999_6.asset
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_8.asset"
+- Assets/resources/mod/electricsupergatling/biu/55630718D6485530A3CFCA4029690D36.png
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_7.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 133.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_14.asset"
+- Assets/resources/mod/electricsupergatling/biu/355EA8563BEDE01883B66EA055E150A4.asset
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_0.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_6.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_5.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_10.asset"
+- Assets/AnimationClip/Hide_2.anim
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_18.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_17.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_23.asset"
+- "Assets/Sprite/\u75354.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 114.asset"
+- Assets/resources/mod/electricsupergatling/skin/SuperElectricGatling.controller
+- "Assets/resources/mod/electricsupergatling/prefab/\u56FE\u5C42 62_0.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_18.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_6.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_36.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_13.asset"
+- Assets/resources/mod/electricsupergatling/biu/629BD8F4CCDE8C78CD05166D710CBB4C.png
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_20.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_45.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_1.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 92.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_37.asset"
+- Assets/resources/mod/electricsupergatling/skin/HP2.anim
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_7.asset"
+- Assets/resources/mod/electricsupergatling/ElectricSuperGatlingSkin2Preview.prefab
+- Assets/resources/mod/electricsupergatling/ElectricSuperGatlingPrefab.prefab
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 106_0.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_34.asset"
+- "Assets/Sprite/\u4ECE\u9009\u533A_72.asset"
+- "Assets/Sprite/\u75358.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_46.asset"
+- "Assets/Sprite/\u56FE\u5C42 4_2.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
+- "Assets/resources/mod/electricsupergatling/\u672A\u547D\u540D\u4F5C1).prefab"
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_15.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u8D85\u7EA7\u7535\u80FD\u673A\u67AA\u5C04\u624B(1).prefab"
+- Assets/resources/mod/electricsupergatling/biu/biu(3) Skeleton.asset
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_12.asset"
+- "Assets/resources/mod/electricsupergatling/\u7535\u5927\u54E5skin1\u5934\u76D4.asset"
+- "Assets/Sprite/\u75351.asset"
+- Assets/resources/mod/electricsupergatling/biu/2D341BB8A5B77FADA17ADBE3940CD843.png
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_9.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_15.asset"
+- Assets/resources/mod/electricsupergatling/PrismLineSkin.prefab
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_2.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_9.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 170_0.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u56FE\u5C42 63_0.asset"
+- Assets/resources/mod/electricsupergatling/biu/biu(3).prefab
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_3.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 186.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 160.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_12.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42485.asset"
+- Assets/resources/mod/electricsupergatling/biu/biu(4).png
+- Assets/resources/mod/electricsupergatling/Bullet ElectricSplatblue.prefab
+- "Assets/resources/mod/electricsupergatling/biu/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- "Assets/resources/mod/electricsupergatling/biu/\u56FE\u5C42 1_0.asset"
+- Assets/resources/mod/electricsupergatling/ElectricPeaSkin2.prefab
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_6.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_31.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- Assets/resources/mod/electricsupergatling/biu/629BD8F4CCDE8C78CD05166D710CBB4C.asset
+- "Assets/Sprite/\u75353.asset"
+- "Assets/Sprite/\u75352.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 80.asset"
+- Assets/resources/mod/electricsupergatling/bullet/bulletE1.controller
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 170_1.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_14.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_0.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_15.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 170.asset"
+- "Assets/Sprite/\u4ECE\u9009\u533A_71.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u8D85\u7EA7\u7535\u80FD\u673A\u67AA\u5C04\u624B.prefab"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 99.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_7.asset"
+- Assets/resources/mod/electricsupergatling/biu/biu(3).png
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 127.asset"
+- "Assets/Sprite/\u75356.asset"
+- Assets/resources/mod/electricsupergatling/ElectricSplat.prefab
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_20.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u56FE\u5C42 64_0.asset"
+- "Assets/Sprite/\u75355.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 145.asset"
+- Assets/resources/mod/electricsupergatling/skin/shoot.anim
+- Assets/resources/mod/electricsupergatling/PrismLine.prefab
+- Assets/resources/mod/electricsupergatling/prefab/SuperSnowGatling.controller
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_19.asset"
+- "Assets/Sprite/\u26A1\uFE0F_0.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_4.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_41.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_13.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_35.asset"
+- Assets/resources/mod/electricsupergatling/prefab/431CEC0A7AD3D7ABD1CE53F5DD000F94.asset
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_13.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_22.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_17.asset"
+- Assets/resources/mod/electricsupergatling/bullet/Skinbullet.controller
+- "Assets/resources/mod/electricsupergatling/biu/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- Assets/resources/mod/electricsupergatling/ElectricSuperGatlingSkin2Prefab.prefab
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_11.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u56FE\u5C42 65.asset"
+- Assets/resources/mod/electricsupergatling/biu/FC7DE4C0BF6EF409C51B049DD7CBDB19.png
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_26.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u8D85\u7EA7\u7535\u80FD\u673A\u67AA\u5C04\u624B(1)
+  Skeleton.asset"
+- "Assets/resources/mod/electricsupergatling/\u7535\u5927\u54E5 Preview.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_16.asset"
+- Assets/resources/mod/electricsupergatling/biu/FC7DE4C0BF6EF409C51B049DD7CBDB19.asset
+- Assets/resources/mod/electricsupergatling/ElectricSuperGatlingSkinPrefab.prefab
+- Assets/Sprite/999_5.asset
+- Assets/resources/mod/electricsupergatling/ElectricSplatSkin.prefab
+- Assets/resources/mod/electricsupergatling/skin/idle.anim
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_30.asset"
+- Assets/resources/mod/electricsupergatling/Bullet  ElectricSplatyellow.prefab
+- "Assets/Texture2D/\u7ECF\u9A8C\u6761_5.png"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_42.asset"
+- Assets/resources/mod/electricsupergatling/prefab/3F039C7A6CFAE003FDCE558DED224D8C.asset
+- Assets/resources/mod/electricsupergatling/bullet/SkinidiebulletE1.anim
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_11.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_24.asset"
+- Assets/resources/mod/electricsupergatling/biu/355EA8563BEDE01883B66EA055E150A4.png
+- "Assets/resources/mod/electricsupergatling/\u672A\u547D\u540D\u4F5C1) Skeleton.asset"
+- "Assets/resources/mod/electricsupergatling/\u539F\u59CB\u5927\u54E5Preivew.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_19.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u56FE\u5C42 63.asset"
+- Assets/resources/mod/electricsupergatling/biu/2D341BB8A5B77FADA17ADBE3940CD843.asset
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- Assets/resources/mod/electricsupergatling/prefab/3EA3A5089D576B1EE689A26FFA30C451.asset
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_16.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_25.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 106.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_7.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_43.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_21.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
+- Assets/resources/mod/electricsupergatling/skin/supershoot.anim
+- "Assets/resources/mod/electricsupergatling/prefab/\u56FE\u5C42 65_0.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 127_0.asset"
+- "Assets/Sprite/\u26A1\uFE0F.asset"
+- Assets/resources/mod/electricsupergatling/biu/electirc.mat
+- Assets/resources/mod/electricsupergatling/prefab/supershoot.anim
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_28.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A_10.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_8.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_44.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 130.asset"
+- Assets/resources/mod/electricsupergatling/prefab/431CEC0A7AD3D7ABD1CE53F5DD000F94.png
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_14.asset"
+- "Assets/Sprite/\u5DF2\u63D2\u5165\u56FE\u50CF_4.asset"
+- Assets/resources/mod/electricsupergatling/bullet/idiebulletE1.anim
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_20.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_38.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_16.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_40.asset"
+- Assets/resources/mod/electricsupergatling/biu/electirc 1.mat
+- "Assets/resources/mod/electricsupergatling/skin/\u4ECE\u9009\u533A.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_5.asset"
+- Assets/resources/mod/electricsupergatling/prefab/idle.anim
+- Assets/resources/mod/electricsupergatling/biu/55630718D6485530A3CFCA4029690D36.asset
+- Assets/resources/mod/electricsupergatling/prefab/ElectricSuperGatlingSkinPreview.controller
+- "Assets/resources/mod/electricsupergatling/skin/\u5DF2\u63D2\u5165\u56FE\u50CF_12.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_33.asset"
+- Assets/resources/mod/electricsupergatling/prefab/3EA3A5089D576B1EE689A26FFA30C451.png
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_5.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u8D85\u7EA7\u7535\u80FD\u673A\u67AA\u5C04\u624B\uFF08\u5B8C\u6210\uFF09.png"
+- "Assets/resources/mod/electricsupergatling/prefab/\u4ECE\u9009\u533A_8.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u56FE\u5C42 42.asset"
+- Assets/resources/mod/electricsupergatling/prefab/3F039C7A6CFAE003FDCE558DED224D8C.png
+- "Assets/resources/mod/electricsupergatling/prefab/\u5DF2\u63D2\u5165\u56FE\u50CF_6.asset"
+- "Assets/resources/mod/electricsupergatling/prefab/\u56FE\u5C42 62.asset"
+- "Assets/resources/mod/electricsupergatling/skin/\u56FE\u5C42 149.asset"
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomsniperpea
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

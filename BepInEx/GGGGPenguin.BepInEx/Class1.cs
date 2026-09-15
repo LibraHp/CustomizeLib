@@ -17,7 +17,7 @@ namespace GGGGPenguin.BepInEx
 
         public override void OnStart()
         {
-            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "凑企鹅");
+            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "凑企鹅" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             ab.GetAsset<GameObject>("PenguinZombie 1").transform.FindChild("body/head1").tag = "ZombieHead";
             CustomCore.RegisterCustomZombie<PenguinZombie, GGGGPenguinZombie>(GGGGPenguinZombie.ZombieID, ab.GetAsset<GameObject>("PenguinZombie 1"),
                 ab.GetAsset<GameObject>("PenguinZombiePreview").GetComponent<SpriteRenderer>().sprite, 100, 1350, 0, 0);

@@ -15,8 +15,7 @@ namespace ThreePuffFireSuperGatling.BepInEx
         {
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<ThreePuffFireSuperGatling>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "threepufffiresupergatling");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "threepufffiresupergatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SuperThreeGatling, ThreePuffFireSuperGatling>(
                 ThreePuffFireSuperGatling.PlantID,
                 ab.GetAsset<GameObject>("ThreePuffFireSuperGatlingPrefab"),

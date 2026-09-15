@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 2760665811
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7f4b1ffc8b0d6add17c49d091a682521
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7f4b1ffc8b0d6add17c49d091a682521
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/plantskins/dorocat/DoroCat_blink.prefab
+- Assets/resources/plantskins/dorocat/DoroCat_bulletShadow.asset
+- Assets/resources/plantskins/dorocat/DoroCat_bullet.asset
+- Assets/resources/plantskins/dorocat/DoroCat_bullet.png
+- Assets/resources/plantskins/dorocat/DoroCat_paw1.asset
+- Assets/resources/plantskins/dorocat/DoroCat.controller
+- Assets/resources/plantskins/dorocat/DoroCatPreview.png
+- Assets/resources/plantskins/dorocat/shoot.anim
+- Assets/resources/plantskins/dorocat/DoroCat_0.png
+- Assets/resources/plantskins/dorocat/DoroCat_blink2.asset
+- Assets/resources/plantskins/dorocat/DoroCat_tail2_overlay.asset
+- Assets/resources/plantskins/dorocat/DoroCatPreview.asset
+- Assets/resources/plantskins/dorocat/DoroCatPreview.prefab
+- Assets/resources/plantskins/dorocat/DoroCat_tail2.asset
+- Assets/resources/plantskins/dorocat/DoroCatBullet.prefab
+- Assets/resources/plantskins/dorocat/DoroCat_tail.asset
+- Assets/resources/plantskins/dorocat/DoroCat_paw3.asset
+- Assets/resources/plantskins/dorocat/DoroCatPrefab.prefab
+- Assets/resources/plantskins/dorocat/idle.anim
+- Assets/resources/plantskins/dorocat/DoroCat_spike.asset
+- Assets/resources/plantskins/dorocat/DoroCat_head.asset
+- Assets/resources/plantskins/dorocat/DoroCat.asset
+- Assets/resources/plantskins/dorocat/DoroCat_paw2.asset
+- Assets/resources/plantskins/dorocat/DoroCat_blink1.asset
+Dependencies: []

@@ -9,10 +9,14 @@
 
   <ItemGroup>
     <None Remove="ultimatehellthreepeater" />
+
+    <None Remove="ultimatehellthreepeater.android" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="ultimatehellthreepeater" />
+
+    <EmbeddedResource Include="ultimatehellthreepeater.android" />
   </ItemGroup>
 
   <ItemGroup>

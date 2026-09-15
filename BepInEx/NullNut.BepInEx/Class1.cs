@@ -14,10 +14,8 @@ namespace NullNut.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "nullnut");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "nullnut" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             ClassInjector.RegisterTypeInIl2Cpp<NullNut>();
             CustomCore.RegisterCustomPlant<WallNut, NullNut>(NullNut.PlantID, ab.GetAsset<GameObject>("NullNutPrefab"),
                 ab.GetAsset<GameObject>("NullNutPreview"), [], 0f, 0f, 0, 4000, 60f, 750);

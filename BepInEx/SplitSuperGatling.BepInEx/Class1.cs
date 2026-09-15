@@ -15,8 +15,7 @@ namespace SplitSuperGatling.BepInEx
         {
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<SplitSuperGatling>(); 
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "splitsupergatling");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "splitsupergatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SuperGatling, SplitSuperGatling>(
                 SplitSuperGatling.PlantID,
                 ab.GetAsset<GameObject>("SplitSuperGatlingPrefab"),

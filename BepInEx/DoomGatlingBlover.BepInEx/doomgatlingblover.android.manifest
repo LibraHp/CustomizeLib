@@ -1,0 +1,98 @@
+ManifestFileVersion: 0
+CRC: 821216156
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ef0c8f428a8dd517bee22d8ce50c66f9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ecbf41a0f317fdb5fd39c45eeb6fb6d0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ef0c8f428a8dd517bee22d8ce50c66f9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/resources/mod/doomgatlingblover/doomgatlingblover/\u98DE\u6BC1\u673A.prefab"
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/\u4ECE\u9009\u533A.asset"
+- Assets/resources/mod/doomgatlingblover/doomgatlingblover/DoomGatlingBlover.controller
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/\u4ECE\u9009\u533A_1.asset"
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/\u56FE\u5C42
+  43.asset"
+- Assets/resources/mod/doomgatlingblover/UltimateDoomGatlingBloverPreview.prefab
+- "Assets/resources/mod/doomgatlingblover/doomgatlingblover/\u4ECE\u9009\u533A.asset"
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/\u56FE\u5C424_0.asset"
+- "Assets/resources/mod/doomgatlingblover/doomgatlingblover/\u56FE\u5C4236.asset"
+- "Assets/resources/mod/doomgatlingblover/doombomb/\u672A\u547D\u540D\u4F5C\u54C1(8).asset"
+- Assets/resources/mod/doomgatlingblover/doomgatlingblover/shoot.anim
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/sp\u98DE\u6BC1\u673A
+  Skeleton.asset"
+- Assets/resources/mod/doomgatlingblover/UltimateDoomGatlingBloverPrefab.prefab
+- "Assets/resources/mod/doomgatlingblover/doom/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- "Assets/resources/mod/doomgatlingblover/doomgatlingblover/\u98DE\u6BC1\u673A Skeleton.asset"
+- "Assets/resources/mod/doomgatlingblover/doomgatlingblover/\u4ECE\u9009\u533A_0.asset"
+- "Assets/resources/mod/doomgatlingblover/doom/\u672A\u547D\u540D\u4F5C\u54C1(9).prefab"
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/\u56FE\u5C4236_0.asset"
+- "Assets/resources/mod/doomgatlingblover/doom/\u4ECE\u9009\u533A_1.asset"
+- "Assets/resources/mod/doomgatlingblover/doomgatlingblover/\u56FE\u5C4222.asset"
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/\u4ECE\u9009\u533A_3.asset"
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/\u56FE\u5C4235.asset"
+- "Assets/resources/mod/doomgatlingblover/doom/\u4ECE\u9009\u533A_0.asset"
+- Assets/resources/mod/doomgatlingblover/DoomGatlingBloverPrefab.prefab
+- Assets/resources/mod/doomgatlingblover/DoomGatlingBloverPreview.prefab
+- "Assets/resources/mod/doomgatlingblover/doomgatlingblover/\u56FE\u5C426.asset"
+- "Assets/resources/mod/doomgatlingblover/doomgatlingblover/\u98DE\u6BC1\u673A.png"
+- "Assets/resources/mod/doomgatlingblover/doomgatlingblover/\u56FE\u5C424.asset"
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/\u98DE\u6BC1\u673A.png"
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/\u4ECE\u9009\u533A_4.asset"
+- Assets/resources/mod/doomgatlingblover/doom/Boom.anim
+- Assets/resources/mod/doomgatlingblover/doom/Boom.controller
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/\u56FE\u5C4222_0.asset"
+- "Assets/resources/mod/doomgatlingblover/doom/\u672A\u547D\u540D\u4F5C\u54C1(9)
+  Skeleton.asset"
+- "Assets/resources/mod/doomgatlingblover/doomgatlingblover/\u56FE\u5C425.asset"
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/\u56FE\u5C426_0.asset"
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/sp\u98DE\u6BC1\u673A.prefab"
+- Assets/resources/mod/doomgatlingblover/doomgatlingblover/idle.anim
+- "Assets/resources/mod/doomgatlingblover/doom/\u672A\u547D\u540D\u4F5C\u54C1(9).png"
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/\u4ECE\u9009\u533A_5.asset"
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/\u98DE\u6BC1\u673A.prefab"
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/\u4ECE\u9009\u533A_0.asset"
+- Assets/resources/mod/doomgatlingblover/DoomBomb.prefab
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/\u56FE\u5C425_0.asset"
+- "Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/sp\u98DE\u6BC1\u673A.png"
+- "Assets/resources/mod/doomgatlingblover/doom/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- "Assets/resources/mod/doomgatlingblover/doom/\u4ECE\u9009\u533A.asset"
+- "Assets/resources/mod/doomgatlingblover/doombomb/\u672A\u547D\u540D\u4F5C\u54C1(8).png"
+- "Assets/resources/mod/doomgatlingblover/doomgatlingblover/\u56FE\u5C4235.asset"
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

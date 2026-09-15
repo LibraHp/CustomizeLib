@@ -9,9 +9,13 @@
 	</PropertyGroup>
 	<ItemGroup>
 	  <None Remove="ultimateportalspring" />
+
+	  <None Remove="ultimateportalspring.android" />
 	</ItemGroup>
 	<ItemGroup>
 	  <EmbeddedResource Include="ultimateportalspring" />
+
+	  <EmbeddedResource Include="ultimateportalspring.android" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

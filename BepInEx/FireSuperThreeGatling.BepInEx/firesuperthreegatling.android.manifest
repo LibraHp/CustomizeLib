@@ -1,0 +1,110 @@
+ManifestFileVersion: 0
+CRC: 1718148208
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 06730d8353ec145b547cb69ebbbb1dd1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 06730d8353ec145b547cb69ebbbb1dd1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/plantskins/firesuperthreegatling/ThreePeater_mouth_1.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou2_1.asset
+- Assets/resources/plantskins/firesuperthreegatling/PeaShooter_frontleaf_lefttip.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou5.asset
+- Assets/resources/plantskins/firesuperthreegatling/FireSuperThreeGatlingPrefab.prefab
+- Assets/resources/plantskins/firesuperthreegatling/FireSuperThreeGatling.controller
+- Assets/resources/plantskins/firesuperthreegatling/ThreePeater_stem3.asset
+- Assets/resources/plantskins/firesuperthreegatling/PeaShooter_frontleaf.asset
+- Assets/resources/plantskins/firesuperthreegatling/ThreePeater_head_1.asset
+- Assets/resources/plantskins/firesuperthreegatling/ThreePeater_blink2_1.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou5_1.asset
+- Assets/resources/plantskins/firesuperthreegatling/FireSuperThreeGatlingPreview.asset
+- Assets/resources/plantskins/firesuperthreegatling/2.asset
+- Assets/resources/plantskins/firesuperthreegatling/ThreePeater_stem2.asset
+- Assets/resources/plantskins/firesuperthreegatling/PeaShooter_backleaf.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou6_1.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou5_0.asset
+- Assets/resources/plantskins/firesuperthreegatling/FireSuperThreeGatlingPreview.prefab
+- Assets/resources/plantskins/firesuperthreegatling/SuperThreeGatling.asset
+- Assets/resources/plantskins/firesuperthreegatling/ThreePeater_blink1.asset
+- Assets/resources/plantskins/firesuperthreegatling/ThreePeater_stem1.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou6_0.asset
+- Assets/resources/plantskins/firesuperthreegatling/shoot1.anim
+- Assets/resources/plantskins/firesuperthreegatling/GatlingPea_helmet_1.asset
+- Assets/resources/plantskins/firesuperthreegatling/shoot2.anim
+- Assets/resources/plantskins/firesuperthreegatling/ThreePeater_mouth_0.asset
+- Assets/resources/plantskins/firesuperthreegatling/shoot3.anim
+- Assets/resources/plantskins/firesuperthreegatling/paokou7_1.asset
+- Assets/resources/plantskins/firesuperthreegatling/FireSuperThreeGatling.png
+- Assets/resources/plantskins/firesuperthreegatling/paokou4.asset
+- Assets/resources/plantskins/firesuperthreegatling/ThreePeater_head_0.asset
+- Assets/resources/plantskins/firesuperthreegatling/ThreePeater_head.asset
+- Assets/resources/plantskins/firesuperthreegatling/ThreePeater_blink2.asset
+- Assets/resources/plantskins/firesuperthreegatling/ThreePeater_blink2_0.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou3_mid_0.asset
+- Assets/resources/plantskins/firesuperthreegatling/month_3.asset
+- Assets/resources/plantskins/firesuperthreegatling/head1.anim
+- Assets/resources/plantskins/firesuperthreegatling/paokou7.asset
+- Assets/resources/plantskins/firesuperthreegatling/PeaShooter_backleaf_righttip.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou1_0.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou7_0.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou3_mid_1.asset
+- Assets/resources/plantskins/firesuperthreegatling/FireSuperThreeGatlingPreview.png
+- Assets/resources/plantskins/firesuperthreegatling/paokou4_1.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou3_mid.asset
+- Assets/resources/plantskins/firesuperthreegatling/month_1.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou1.asset
+- Assets/resources/plantskins/firesuperthreegatling/ThreePeater_blink1_0.asset
+- Assets/resources/plantskins/firesuperthreegatling/PeaShooter_frontleaf_righttip.asset
+- Assets/resources/plantskins/firesuperthreegatling/GatlingPea_helmet_0.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou4_0.asset
+- Assets/resources/plantskins/firesuperthreegatling/head3.anim
+- Assets/resources/plantskins/firesuperthreegatling/ThreePeater_blink1_1.asset
+- Assets/resources/plantskins/firesuperthreegatling/hairleaf2_1.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou6.asset
+- Assets/resources/plantskins/firesuperthreegatling/month_2.asset
+- Assets/resources/plantskins/firesuperthreegatling/3.asset
+- Assets/resources/plantskins/firesuperthreegatling/head2.anim
+- Assets/resources/plantskins/firesuperthreegatling/shoot2_s.anim
+- Assets/resources/plantskins/firesuperthreegatling/PeaShooter_backleaf_lefttip.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou2.asset
+- Assets/resources/plantskins/firesuperthreegatling/hairleaf2_2.asset
+- Assets/resources/plantskins/firesuperthreegatling/hairleaf2_3.asset
+- Assets/resources/plantskins/firesuperthreegatling/1.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou2_0.asset
+- Assets/resources/plantskins/firesuperthreegatling/paokou1_1.asset
+- Assets/resources/plantskins/firesuperthreegatling/idle.anim
+- Assets/resources/plantskins/firesuperthreegatling/ThreePeater_mouth.asset
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

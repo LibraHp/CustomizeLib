@@ -17,12 +17,11 @@ namespace ElectricSuperGatling_BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<Bullet_electricSuperGatlingPea>();
             ClassInjector.RegisterTypeInIl2Cpp<ElectricSuperGatling>();
             ClassInjector.RegisterTypeInIl2Cpp<ElectricLine>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "electricsupergatling");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "electricsupergatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomBullet<Bullet_pea, Bullet_electricSuperGatlingPea>((BulletType)Bullet_electricSuperGatlingPea.BulletID, 
                 ab.GetAsset<GameObject>("ElectricPea"));
             CustomCore.RegisterCustomPlant<SuperGatling, ElectricSuperGatling>(

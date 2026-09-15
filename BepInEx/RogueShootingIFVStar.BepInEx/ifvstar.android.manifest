@@ -1,0 +1,53 @@
+ManifestFileVersion: 0
+CRC: 1324799681
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c34360737a7161178dc46577fc96f60b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 73feea8e8420735c0c8b97532965b808
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c34360737a7161178dc46577fc96f60b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/resources/\u7279\u6548/ifvstar/Doom_magnet.prefab"
+- "Assets/resources/\u7279\u6548/ifvstar/\u672A\u547D\u540D\u4F5C\u54C1(3)(1).prefab"
+- "Assets/resources/\u7279\u6548/ifvstar/\u672A\u547D\u540D\u4F5C\u54C1(3)(1).png"
+- "Assets/resources/\u7279\u6548/ifvstar/\u4ECE\u9009\u533A.asset"
+- "Assets/resources/\u7279\u6548/ifvstar/\u672A\u547D\u540D\u4F5C\u54C1(3)(1) Skeleton.asset"
+- "Assets/resources/\u7279\u6548/ifvstar/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- "Assets/resources/\u7279\u6548/ifvstar/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- "Assets/resources/\u7279\u6548/ifvstar/\u4ECE\u9009\u533A_1.asset"
+- "Assets/resources/\u7279\u6548/ifvstar/\u4ECE\u9009\u533A_0.asset"
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomminigun

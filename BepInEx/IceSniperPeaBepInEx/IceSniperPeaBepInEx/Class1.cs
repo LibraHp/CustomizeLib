@@ -13,10 +13,9 @@ namespace IceSniperBepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<IceSniper>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icesniper");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icesniper" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             List<ValueTuple<int, int>> list = new List<ValueTuple<int, int>>
             {
                 ((int)PlantType.SniperPea, (int)PlantType.IceShroom), 

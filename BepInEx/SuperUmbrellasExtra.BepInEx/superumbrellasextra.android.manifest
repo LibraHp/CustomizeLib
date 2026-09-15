@@ -1,0 +1,211 @@
+ManifestFileVersion: 0
+CRC: 4212055941
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6912653ff2ded3bece6cf2f69bcffb9b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21dda04230b1cfc0cbe12c9ceb534c08
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6912653ff2ded3bece6cf2f69bcffb9b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/plants/superhypnoumbrella/RedEmeraldUmbrella.asset
+- "Assets/plants/superjalapenoumbrella/\u6A59\u5B9D\u77F3\u4F1E_0.asset"
+- Assets/plants/superdoomumbrella/idle.anim
+- Assets/plants/superjalapenoumbrella/SuperJalapenoUmbrella_0.png
+- Assets/plants/superdoomumbrella/SuperDoomUmbrella_0.asset
+- Assets/plants/superhypnoumbrella/Umbrellaleaf_leaf7.asset
+- "Assets/plants/superdoomumbrella/\u9ED1\u5B9D\u77F3\u4F1E_2.asset"
+- Assets/plants/superhypnoumbrella/SuperHypnoUmbrellaPreview.prefab
+- "Assets/plants/supergarlicumbrella/\u767D\u5B9D\u77F3\u4F1E_8.asset"
+- Assets/plants/superhypnoumbrella/Umbrellaleaf_leaf3.asset
+- Assets/plants/supercornumbrella/block3.anim
+- "Assets/plants/superjalapenoumbrella/\u6A59\u5B9D\u77F3\u4F1E_6.asset"
+- Assets/plants/superchomperumbrella/SuperChomperUmbrella_0.asset
+- "Assets/plants/superchomperumbrella/\u7D2B\u5B9D\u77F3\u4F1E_8.asset"
+- Assets/plants/supericeumbrella/SuperIceUmbrella_0.png
+- "Assets/plants/superdoomumbrella/\u9ED1\u5B9D\u77F3\u4F1E_8.asset"
+- Assets/plants/superjalapenoumbrella/SuperJalapenoUmbrellaPreview.prefab
+- Assets/plants/supercornumbrella/YellowEmeraldUmbrella_body.asset
+- Assets/plants/superjalapenoumbrella/shadow19.png
+- "Assets/plants/supericeumbrella/\u84DD\u4F1E\u7ED3\u6676.png"
+- Assets/plants/supericeumbrella/SuperIceUmbrellaPrefab.prefab
+- Assets/plants/superjalapenoumbrella/block2.anim
+- Assets/plants/supercornumbrella/SuperCornUmbrellaPrefab.prefab
+- Assets/plants/superhypnoumbrella/Umbrellaleaf_body.asset
+- Assets/plants/supercornumbrella/RedEmeraldUmbrella_0.png
+- Assets/plants/superjalapenoumbrella/idle.anim
+- Assets/plants/superjalapenoumbrella/block3.anim
+- "Assets/plants/superchomperumbrella/\u7D2B\u4F1E\u82B1\u5349.png"
+- Assets/plants/superchomperumbrella/idle.anim
+- Assets/plants/supergarlicumbrella/SuperUmbrella.controller
+- Assets/plants/supergarlicumbrella/block3.anim
+- Assets/plants/supericeumbrella/block2.anim
+- "Assets/plants/superchomperumbrella/\u7D2B\u4F1E\u82B1\u5349.asset"
+- Assets/plants/superhypnoumbrella/block3.anim
+- "Assets/plants/superjalapenoumbrella/\u6A59\u5B9D\u77F3\u4F1E_2.asset"
+- "Assets/plants/superjalapenoumbrella/\u6A59\u5B9D\u77F3\u4F1E_1.asset"
+- "Assets/plants/superjalapenoumbrella/\u6A59\u4F1E\u6912\u85E4.asset"
+- Assets/plants/superchomperumbrella/shadow20.asset
+- Assets/plants/supercornumbrella/shadow4.asset
+- "Assets/plants/supericeumbrella/\u84DD\u5B9D\u77F3\u4F1E_9.asset"
+- "Assets/plants/superdoomumbrella/\u9ED1\u5B9D\u77F3\u4F1E_7.asset"
+- Assets/plants/superjalapenoumbrella/SuperUmbrella.controller
+- Assets/plants/superhypnoumbrella/block.anim
+- Assets/plants/supericeumbrella/idle.anim
+- "Assets/plants/superdoomumbrella/\u9ED1\u5B9D\u77F3\u4F1E.png"
+- Assets/plants/superhypnoumbrella/Umbrellaleaf_leaf5.asset
+- Assets/plants/superhypnoumbrella/SuperUmbrella.controller
+- Assets/plants/supergarlicumbrella/SuperGarlicUmbrellaPreview.prefab
+- Assets/plants/supergarlicumbrella/block.anim
+- Assets/plants/supercornumbrella/block2.anim
+- Assets/plants/supercornumbrella/YellowEmeraldUmbrella_goldstack.asset
+- "Assets/plants/supergarlicumbrella/\u767D\u5B9D\u77F3\u4F1E_7.asset"
+- Assets/plants/superhypnoumbrella/SuperHypnoUmbrella_hat.asset
+- Assets/plants/superdoomumbrella/block.anim
+- "Assets/plants/supericeumbrella/\u84DD\u5B9D\u77F3\u4F1E_8.asset"
+- Assets/plants/superhypnoumbrella/RedEmeraldUmbrella_body.asset
+- "Assets/plants/superdoomumbrella/\u9ED1\u5B9D\u77F3\u4F1E_3.asset"
+- Assets/plants/superchomperumbrella/shadow20.png
+- Assets/plants/superdoomumbrella/shadow16.asset
+- Assets/plants/supercornumbrella/shadow4.png
+- "Assets/plants/superhypnoumbrella/\u9B45\u5B9D\u77F3\u4F1E.asset"
+- Assets/plants/supericeumbrella/shadow17.png
+- Assets/plants/superjalapenoumbrella/SuperJalapenoUmbrellaPrefab.prefab
+- Assets/plants/superdoomumbrella/block3.anim
+- Assets/plants/superdoomumbrella/SuperUmbrella.controller
+- "Assets/plants/superchomperumbrella/\u7D2B\u5B9D\u77F3\u4F1E_4.asset"
+- Assets/plants/superchomperumbrella/SuperUmbrella.controller
+- Assets/plants/supericeumbrella/SuperUmbrella.controller
+- Assets/plants/supercornumbrella/YellowEmeraldUmbrella_leaf2.asset
+- Assets/plants/superchomperumbrella/block2.anim
+- Assets/plants/supercornumbrella/SuperUmbrella.controller
+- Assets/plants/superhypnoumbrella/Umbrellaleaf_leaf1.asset
+- Assets/Shader/Universal Render Pipeline_2D_Sprite-Lit-Default_2.shader
+- "Assets/plants/superhypnoumbrella/\u9B45\u5B9D\u77F3\u4F1E.png"
+- Assets/plants/superchomperumbrella/block3.anim
+- Assets/plants/superhypnoumbrella/SuperHypnoUmbrellaPrefab.prefab
+- "Assets/plants/supergarlicumbrella/\u767D\u5B9D\u77F3\u4F1E_2.asset"
+- "Assets/plants/superchomperumbrella/\u7D2B\u5B9D\u77F3\u4F1E_0.asset"
+- "Assets/plants/supericeumbrella/\u84DD\u5B9D\u77F3\u4F1E_7.asset"
+- Assets/plants/superdoomumbrella/block2.anim
+- "Assets/plants/supericeumbrella/\u84DD\u5B9D\u77F3\u4F1E_2.asset"
+- "Assets/plants/superdoomumbrella/\u9ED1\u5B9D\u77F3\u4F1E_4.asset"
+- "Assets/plants/superjalapenoumbrella/\u6A59\u5B9D\u77F3\u4F1E_7.asset"
+- "Assets/plants/supericeumbrella/\u84DD\u5B9D\u77F3\u4F1E_0.asset"
+- Assets/plants/supergarlicumbrella/shadow18.asset
+- Assets/plants/supercornumbrella/YellowEmeraldUmbrella_leaf4.asset
+- "Assets/plants/supergarlicumbrella/\u767D\u5B9D\u77F3\u4F1E_3.asset"
+- Assets/plants/superhypnoumbrella/block2.anim
+- Assets/plants/superhypnoumbrella/Umbrellaleaf_leaf6.asset
+- Assets/plants/superhypnoumbrella/RedEmeraldUmbrella_0.png
+- "Assets/plants/superjalapenoumbrella/\u6A59\u5B9D\u77F3\u4F1E_5.asset"
+- Assets/plants/supercornumbrella/RedEmeraldUmbrella_0.asset
+- Assets/plants/superchomperumbrella/SuperChomperUmbrellaPrefab.prefab
+- "Assets/plants/superjalapenoumbrella/\u6A59\u5B9D\u77F3\u4F1E_9.asset"
+- Assets/plants/supericeumbrella/SuperIceUmbrella_0.asset
+- Assets/plants/supercornumbrella/YellowEmeraldUmbrella_leaf1.asset
+- "Assets/plants/superchomperumbrella/\u7D2B\u5B9D\u77F3\u4F1E_7.asset"
+- Assets/plants/supergarlicumbrella/SuperGarlicUmbrella_0.png
+- "Assets/plants/superdoomumbrella/\u9ED1\u5B9D\u77F3\u4F1E_9.asset"
+- Assets/plants/superhypnoumbrella/RedEmeraldUmbrella_0.asset
+- Assets/plants/superdoomumbrella/shadow16.png
+- Assets/plants/superchomperumbrella/SuperChomperUmbrella_0.png
+- Assets/plants/supericeumbrella/block3.anim
+- Assets/plants/superhypnoumbrella/RedEmeraldUmbrella_stack.asset
+- Assets/plants/supericeumbrella/block.anim
+- "Assets/plants/supericeumbrella/\u84DD\u5B9D\u77F3\u4F1E_3.asset"
+- Assets/Material/Sprite-Lit-Default_2.mat
+- Assets/plants/superhypnoumbrella/Umbrellaleaf_leaf4.asset
+- Assets/plants/supergarlicumbrella/block2.anim
+- Assets/plants/superchomperumbrella/block.anim
+- Assets/plants/superjalapenoumbrella/shadow19.asset
+- Assets/plants/superdoomumbrella/SuperDoomUmbrellaPreview.prefab
+- Assets/plants/supercornumbrella/YellowEmeraldUmbrella.png
+- "Assets/plants/supergarlicumbrella/\u767D\u5B9D\u77F3\u4F1E_1.asset"
+- Assets/plants/supercornumbrella/YellowEmeraldUmbrella_leaf3.asset
+- "Assets/plants/superjalapenoumbrella/\u6A59\u5B9D\u77F3\u4F1E_4.asset"
+- "Assets/plants/superchomperumbrella/\u7D2B\u5B9D\u77F3\u4F1E_1.asset"
+- Assets/plants/supercornumbrella/YellowEmeraldUmbrella_leaf7.asset
+- "Assets/plants/superchomperumbrella/\u7D2B\u5B9D\u77F3\u4F1E.png"
+- "Assets/plants/supericeumbrella/\u84DD\u5B9D\u77F3\u4F1E_4.asset"
+- Assets/plants/superdoomumbrella/SuperDoomUmbrella_0.png
+- Assets/plants/superdoomumbrella/SuperDoomUmbrellaPrefab.prefab
+- Assets/plants/superchomperumbrella/SuperChomperUmbrellaPreview.prefab
+- "Assets/plants/superchomperumbrella/\u7D2B\u5B9D\u77F3\u4F1E_6.asset"
+- "Assets/plants/superchomperumbrella/\u7D2B\u5B9D\u77F3\u4F1E_2.asset"
+- Assets/plants/superhypnoumbrella/shadow7.asset
+- "Assets/plants/superjalapenoumbrella/\u6A59\u5B9D\u77F3\u4F1E_3.asset"
+- "Assets/plants/superdoomumbrella/\u9ED1\u5B9D\u77F3\u4F1E_5.asset"
+- Assets/plants/superhypnoumbrella/RedEmeraldUmbrella.png
+- Assets/plants/superjalapenoumbrella/block.anim
+- Assets/plants/superhypnoumbrella/SuperHypnoUmbrella_dec2.asset
+- Assets/plants/supergarlicumbrella/shadow18.png
+- "Assets/plants/supergarlicumbrella/\u767D\u5B9D\u77F3\u4F1E.png"
+- "Assets/plants/superdoomumbrella/\u9ED1\u5B9D\u77F3\u4F1E_0.asset"
+- "Assets/plants/supericeumbrella/\u84DD\u5B9D\u77F3\u4F1E.png"
+- Assets/plants/superhypnoumbrella/SuperHypnoUmbrella_dec1.asset
+- Assets/plants/superjalapenoumbrella/SuperJalapenoUmbrella_0.asset
+- Assets/plants/supericeumbrella/shadow17.asset
+- "Assets/plants/supericeumbrella/\u84DD\u5B9D\u77F3\u4F1E_5.asset"
+- Assets/plants/supercornumbrella/YellowEmeraldUmbrella_hat.asset
+- "Assets/plants/supergarlicumbrella/\u767D\u5B9D\u77F3\u4F1E_0.asset"
+- "Assets/plants/supericeumbrella/\u84DD\u5B9D\u77F3\u4F1E_1.asset"
+- Assets/plants/supergarlicumbrella/idle.anim
+- "Assets/plants/superdoomumbrella/\u9ED1\u5B9D\u77F3\u4F1E_1.asset"
+- "Assets/plants/supericeumbrella/\u84DD\u4F1E\u7ED3\u6676.asset"
+- "Assets/plants/superchomperumbrella/\u7D2B\u5B9D\u77F3\u4F1E_5.asset"
+- "Assets/plants/superjalapenoumbrella/\u6A59\u4F1E\u6912\u85E4.png"
+- Assets/plants/superhypnoumbrella/Umbrellaleaf_leaf2.asset
+- "Assets/plants/superjalapenoumbrella/\u6A59\u5B9D\u77F3\u4F1E_8.asset"
+- "Assets/plants/superdoomumbrella/\u9ED1\u5B9D\u77F3\u4F1E_6.asset"
+- "Assets/plants/supergarlicumbrella/\u767D\u5B9D\u77F3\u4F1E_4.asset"
+- Assets/plants/supercornumbrella/YellowEmeraldUmbrella_leaf5.asset
+- Assets/plants/supercornumbrella/idle.anim
+- "Assets/plants/superjalapenoumbrella/\u6A59\u5B9D\u77F3\u4F1E.png"
+- Assets/plants/supercornumbrella/SuperCornUmbrellaPreview.prefab
+- Assets/plants/supergarlicumbrella/SuperGarlicUmbrellaPrefab.prefab
+- "Assets/plants/supergarlicumbrella/\u767D\u5B9D\u77F3\u4F1E_6.asset"
+- Assets/plants/supergarlicumbrella/SuperGarlicUmbrella_0.asset
+- "Assets/plants/supergarlicumbrella/\u767D\u5B9D\u77F3\u4F1E_5.asset"
+- "Assets/plants/supericeumbrella/\u84DD\u5B9D\u77F3\u4F1E_6.asset"
+- Assets/plants/superhypnoumbrella/idle.anim
+- "Assets/plants/superchomperumbrella/\u7D2B\u5B9D\u77F3\u4F1E_9.asset"
+- Assets/plants/supercornumbrella/YellowEmeraldUmbrella_leaf6.asset
+- "Assets/plants/supergarlicumbrella/\u767D\u5B9D\u77F3\u4F1E_9.asset"
+- "Assets/plants/superchomperumbrella/\u7D2B\u5B9D\u77F3\u4F1E_3.asset"
+- Assets/plants/supericeumbrella/SuperIceUmbrellaPreview.prefab
+- Assets/plants/supercornumbrella/block.anim
+- Assets/plants/superhypnoumbrella/shadow7.png
+Dependencies: []

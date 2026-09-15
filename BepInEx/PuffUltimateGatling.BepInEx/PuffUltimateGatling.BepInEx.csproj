@@ -8,9 +8,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="puffultimategatling" />
+
+    <None Remove="puffultimategatling.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="puffultimategatling" />
+
+    <EmbeddedResource Include="puffultimategatling.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

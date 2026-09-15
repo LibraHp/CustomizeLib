@@ -14,11 +14,9 @@ namespace GoldenSalmon.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<GoldenSalmon>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "goldensalmon");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "goldensalmon" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<PeaShooter, GoldenSalmon>(GoldenSalmon.PlantID, ab.GetAsset<GameObject>("GoldenSalmonPrefab"),
                 ab.GetAsset<GameObject>("GoldenSalmonPreview"), [], 0f, 0f, 2147483647, 2147483647, 120, 950);
 

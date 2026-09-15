@@ -13,8 +13,7 @@ namespace UltimateDoomSqualour.BepInEx
     {
         public override void OnStart()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Tools.Assembly, "ultimatedoomsqualour");
+            var ab = CustomCore.GetAssetBundle(Tools.Assembly, "ultimatedoomsqualour" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<Squalour, UltimateDoomSqualour>(
                 (int)UltimateDoomSqualour.PlantID,
                 ab.GetAsset<GameObject>("UltimateDoomSqualourPrefab"),

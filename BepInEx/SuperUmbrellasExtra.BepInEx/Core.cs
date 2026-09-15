@@ -4,6 +4,7 @@ using System.Reflection;
 using BepInEx.Unity.IL2CPP;
 using Il2CppInterop.Runtime.Injection;
 using CustomizeLib.BepInEx;
+using UnityEngine;
 
 namespace SuperUmbrellasExtra.BepInEx
 {
@@ -42,8 +43,7 @@ namespace SuperUmbrellasExtra.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "superumbrellasextra");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "superumbrellasextra" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<SuperCornUmbrella>();
             ClassInjector.RegisterTypeInIl2Cpp<SuperHypnoUmbrella>();

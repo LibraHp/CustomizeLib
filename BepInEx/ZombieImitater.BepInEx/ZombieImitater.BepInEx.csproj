@@ -7,9 +7,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="zombieimitater" />
+
+    <None Remove="zombieimitater.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="zombieimitater" />
+
+    <EmbeddedResource Include="zombieimitater.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

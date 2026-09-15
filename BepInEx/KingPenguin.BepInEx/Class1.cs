@@ -15,7 +15,6 @@ namespace KingPenguin.BepInEx
 
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
         }
 
@@ -67,9 +66,10 @@ namespace KingPenguin.BepInEx
         {
             try
             {
+                string resourceName = Application.platform == RuntimePlatform.Android ? name + ".android" : name;
                 using Stream stream =
-                    Assembly.GetExecutingAssembly().GetManifestResourceStream(Assembly.GetExecutingAssembly().FullName!.Split(",")[0] + "." + name) ??
-                    Assembly.GetExecutingAssembly().GetManifestResourceStream(name)!;
+                    Assembly.GetExecutingAssembly().GetManifestResourceStream(Assembly.GetExecutingAssembly().FullName!.Split(",")[0] + "." + resourceName) ??
+                    Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName)!;
                 using MemoryStream stream1 = new();
                 stream.CopyTo(stream1);
                 var ab = AssetBundle.LoadFromMemory(stream1.ToArray());

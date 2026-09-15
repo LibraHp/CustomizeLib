@@ -14,10 +14,14 @@
 
   <ItemGroup>
     <None Remove="kingpenguin" />
+
+    <None Remove="kingpenguin.android" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="kingpenguin" />
+
+    <EmbeddedResource Include="kingpenguin.android" />
   </ItemGroup>
 
 </Project>

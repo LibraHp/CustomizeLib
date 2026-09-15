@@ -7,9 +7,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="icedoomgatling" />
+
+    <None Remove="icedoomgatling.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="icedoomgatling" />
+
+    <EmbeddedResource Include="icedoomgatling.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

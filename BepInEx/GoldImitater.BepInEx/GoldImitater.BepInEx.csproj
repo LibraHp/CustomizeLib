@@ -7,9 +7,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="goldimitater" />
+
+    <None Remove="goldimitater.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="goldimitater" />
+
+    <EmbeddedResource Include="goldimitater.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

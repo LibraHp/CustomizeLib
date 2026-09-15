@@ -9,10 +9,14 @@
 
 	<ItemGroup>
 	  <None Remove="ultimatedoomsqualour" />
+
+	  <None Remove="ultimatedoomsqualour.android" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <EmbeddedResource Include="ultimatedoomsqualour" />
+
+	  <EmbeddedResource Include="ultimatedoomsqualour.android" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

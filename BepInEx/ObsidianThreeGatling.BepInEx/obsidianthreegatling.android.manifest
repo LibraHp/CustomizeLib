@@ -1,0 +1,117 @@
+ManifestFileVersion: 0
+CRC: 305843918
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 217d71eaccf2b4b91dddb6d4baf14c9f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 217d71eaccf2b4b91dddb6d4baf14c9f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou5.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/PeaShooter_backleaf_lefttip.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/Obsidianleaf.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/Obsidianleaf2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou7.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/3body.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou4_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou5_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/month_2.asset
+- Assets/resources/plantskins/icesuperthreegatling/paokou1_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/ObsidianThreeGatlingPreview.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/head1.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/Obsidianleaf3.asset
+- Assets/resources/plantskins/icesuperthreegatling/month_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/shoot2.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou3_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou3_0.asset
+- Assets/resources/plantskins/icesuperthreegatling/paokou2_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/month_3.asset
+- Assets/resources/plantskins/icesuperthreegatling/paokou4_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou1_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/ThreePeater_mouth_2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou7_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou1_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/shoot2_s.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/frie.asset
+- Assets/resources/plantskins/icesuperthreegatling/paokou2_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/head2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/ThreePeater_mouth_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/ObsidianThreeGatlingPreview.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/PeaShooter_backleaf_righttip.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/hat2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/head1.asset
+- Assets/resources/plantskins/icesuperthreegatling/paokou7_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/ThreePeater_mouth_3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou2_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/PeaShooter_backleaf.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou5_1.asset
+- Assets/resources/plantskins/icesuperthreegatling/paokou7_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou2_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou6_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/ObsidianThreeGatlingPrefab.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou7_1.asset
+- Assets/resources/plantskins/ashthreegaling/hat3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/idle.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/PeaShooter_frontleaf_lefttip.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou4.asset
+- Assets/resources/plantskins/icesuperthreegatling/paokou5_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/head3.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/head2.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou3.asset
+- Assets/resources/plantskins/icesuperthreegatling/paokou6_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou4_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/PeaShooter_frontleaf_righttip.asset
+- Assets/resources/plantskins/icesuperthreegatling/paokou4_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/ObsidianThreeGatlingExtra.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/ObsidianThreeGatlingPreview.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/hat3.asset
+- Assets/resources/plantskins/icesuperthreegatling/paokou5_0.asset
+- Assets/resources/plantskins/icesuperthreegatling/paokou1_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou6_0.asset
+- Assets/resources/plantskins/icesuperthreegatling/paokou6_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/ObsidianThreeGatling.controller
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/PeaShooter_frontleaf.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/paokou6.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/shoot3.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/ObsidianThreeGatling.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/shoot1.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/head3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/frie1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/hat1.asset
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ashthreegaling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/icesuperthreegatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

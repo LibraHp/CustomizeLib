@@ -18,7 +18,7 @@ namespace UltimateHellThreePeater.BepInEx
     {
         public override void OnStart()
         {
-            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "ultimatehellthreepeater");
+            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "ultimatehellthreepeater" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SuperThreePeater_sp, UltimateHellThreePeater>(UltimateHellThreePeater.PlantID,
                 ab.GetAsset<GameObject>("UltimateHellThreePeaterPrefab"), ab.GetAsset<GameObject>("UltimateHellThreePeaterPreview"),
                 new(), 1.5f, 0f, 180, 300, 50f, 775);

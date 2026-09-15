@@ -1,0 +1,174 @@
+ManifestFileVersion: 0
+CRC: 2497706728
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7fd8394e60a2d7a92613d79fd9ecdedc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: acd857964d0c8f20443702af63c8bcb5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7fd8394e60a2d7a92613d79fd9ecdedc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/plants/superirongatling/hairleaf2_2.asset
+- Assets/plants/bigirongatlingpea/plantshadow3.asset
+- Assets/plants/superirongatling/hairleaf4_2.asset
+- Assets/plants/superirongatling/hair2.asset
+- Assets/plants/superirongatling/SuperSnowGatling.controller
+- Assets/plants/superirongatling/paokou6.asset
+- Assets/plants/superirongatling/PeaShooter_stalk_bottom.asset
+- Assets/plants/superirongatling/love.asset
+- Assets/plants/superirongatling/PeaShooter_stalk_top.asset
+- Assets/plants/bigirongatlingpea/BigIronGatlingPeaPrefab.prefab
+- Assets/plants/bigirongatlingpea/pea4_back.asset
+- Assets/plants/bigirongatlingpea/BigGatlingPea.png
+- Assets/plants/superirongatling/shoot.anim
+- Assets/plants/bigirongatlingpea/pea3_top.asset
+- Assets/plants/bigirongatlingpea/backleaf2_2.asset
+- Assets/plants/superirongatling/hairleaf3_1.asset
+- Assets/plants/superirongatling/GatlingPea_mouth_overlay.asset
+- Assets/plants/superirongatling/SuperIronGatlingPrefab.prefab
+- Assets/plants/superirongatling/hairtop_1.asset
+- Assets/plants/superirongatling/paokou1.asset
+- Assets/plants/bigirongatlingpea/rest.anim
+- Assets/plants/superirongatling/hairtop_2.asset
+- Assets/plants/bigirongatlingpea/BigGatlingPea_0.png
+- Assets/plants/bigirongatlingpea/jing1.asset
+- Assets/plants/superirongatling/PeaShooter_frontleaf_righttip.asset
+- Assets/plants/bigirongatlingpea/hairleaf3_1.asset
+- "Assets/plants/bigirongatlingpea/\u5DE8\u578B\u673A\u67AA.png"
+- Assets/plants/superirongatling/hairleaf2_1.asset
+- Assets/plants/bigirongatlingpea/mouth_top.asset
+- Assets/plants/bigirongatlingpea/idle2.anim
+- Assets/plants/superirongatling/PeaShooter_eyebrow.asset
+- Assets/plants/bigirongatlingpea/danjia_top.asset
+- Assets/plants/bigirongatlingpea/eyebrow.asset
+- Assets/plants/bigirongatlingpea/leaves.anim
+- Assets/plants/superirongatling/hairleaf4_1.asset
+- Assets/plants/bigirongatlingpea/BigGatlingPea.asset
+- Assets/plants/bigirongatlingpea/pea5_top.asset
+- Assets/plants/superirongatling/hairleaf1_2.asset
+- Assets/plants/bigirongatlingpea/jing3.asset
+- Assets/plants/bigirongatlingpea/haittop.asset
+- Assets/plants/bigirongatlingpea/topleaf2_2.asset
+- Assets/plants/bigirongatlingpea/hairleaf3_2.asset
+- Assets/plants/bigirongatlingpea/hairleaf4_1.asset
+- Assets/plants/superirongatling/PeaShooter_backleaf_righttip.asset
+- Assets/plants/bigirongatlingpea/pea4_top.asset
+- Assets/plants/bigirongatlingpea/pea1_back.asset
+- Assets/plants/superirongatling/GatlingPea_blink2.asset
+- Assets/plants/superirongatling/paokou2.asset
+- Assets/plants/superirongatling/SuperGatling_0.asset
+- Assets/plants/superirongatling/supershoot.anim
+- Assets/plants/bigirongatlingpea/elevating.anim
+- Assets/plants/superirongatling/SuperGatling.asset
+- Assets/plants/superirongatling/PeaShooter_backleaf_lefttip.asset
+- Assets/resources/plantskins/icesuperthreegatling/paokou3_mid_0.asset
+- Assets/plants/superirongatling/PeaShooter_frontleaf.asset
+- Assets/plants/bigirongatlingpea/pea1_top.asset
+- Assets/plants/bigirongatlingpea/BigGatlingPea.controller
+- Assets/plants/bigirongatlingpea/tiepian.asset
+- Assets/plants/bigirongatlingpea/shoot.anim
+- Assets/plants/bigirongatlingpea/blink2_0.asset
+- Assets/plants/bigirongatlingpea/hairleaf2_1.asset
+- Assets/plants/superirongatling/PeaShooter_frontleaf_lefttip.asset
+- Assets/plants/bigirongatlingpea/idle.anim
+- Assets/plants/bigirongatlingpea/mouth_back.asset
+- Assets/plants/bigirongatlingpea/hairleaf2_2.asset
+- Assets/plants/bigirongatlingpea/hairleaf1_1.asset
+- Assets/plants/bigirongatlingpea/topleaf1_1.asset
+- Assets/plants/bigirongatlingpea/topleaf1_1_0.asset
+- Assets/plants/superirongatling/GatlingPea_blink1.asset
+- Assets/plants/bigirongatlingpea/topleaf1_2.asset
+- Assets/plants/bigirongatlingpea/pea6_back.asset
+- Assets/plants/bigirongatlingpea/paokou4.asset
+- Assets/plants/superirongatling/SuperGatling.png
+- Assets/plants/superirongatling/paokou4.asset
+- Assets/plants/bigirongatlingpea/BigGatlingPea.prefab
+- Assets/plants/bigirongatlingpea/paokou1.asset
+- Assets/plants/superirongatling/GatlingPea_mouth.asset
+- Assets/plants/bigirongatlingpea/BigIronGatlingPeaPreview.prefab
+- Assets/plants/bigirongatlingpea/hairleaf4_2.asset
+- Assets/plants/bigirongatlingpea/paokou5.asset
+- Assets/plants/bigirongatlingpea/topleaf1_2_0.asset
+- Assets/plants/bigirongatlingpea/paokou6.asset
+- Assets/plants/superirongatling/hair.asset
+- Assets/plants/superirongatling/paokou7.asset
+- "Assets/plants/bigirongatlingpea/\u5DE8\u578B\u673A\u67AA\u5C04\u624B\u52A0\u4E86\u4E00\u8282.asset"
+- Assets/plants/superirongatling/paokou3_mid.asset
+- Assets/plants/superirongatling/SuperGatling.prefab
+- Assets/plants/superirongatling/SuperGatling_0.png
+- Assets/plants/bigirongatlingpea/hairtop_1.asset
+- Assets/plants/bigirongatlingpea/shoot_loop.anim
+- Assets/plants/superirongatling/PeaShooter_backleaf.asset
+- Assets/plants/bigirongatlingpea/biggatlingpea_0.asset
+- Assets/plants/superirongatling/GatlingPea_head.asset
+- Assets/plants/bigirongatlingpea/danjia_back.asset
+- Assets/plants/superirongatling/SuperIronGatlingPreview.prefab
+- Assets/plants/bigirongatlingpea/hairleaf1_2.asset
+- Assets/plants/bigirongatlingpea/jing2.asset
+- Assets/plants/bigirongatlingpea/paokou7.asset
+- Assets/plants/bigirongatlingpea/pea3_back.asset
+- Assets/plants/bigirongatlingpea/backleaf3_2.asset
+- Assets/plants/bigirongatlingpea/backleaf1_2.asset
+- Assets/plants/bigirongatlingpea/pea2_top.asset
+- Assets/plants/bigirongatlingpea/pea2_back.asset
+- Assets/plants/superirongatling/hairleaf3_2.asset
+- Assets/plants/bigirongatlingpea/hairtop_2.asset
+- Assets/plants/bigirongatlingpea/tiepian_0.asset
+- Assets/plants/superirongatling/paokou5.asset
+- Assets/plants/bigirongatlingpea/blink1_0.asset
+- Assets/plants/bigirongatlingpea/paokou2.asset
+- Assets/plants/superirongatling/hairleaf1_1.asset
+- Assets/plants/bigirongatlingpea/topleaf2_1.asset
+- Assets/plants/bigirongatlingpea/head.asset
+- "Assets/plants/bigirongatlingpea/\u5DE8\u578B\u673A\u67AA\u5C04\u624B\u52A0\u4E86\u4E00\u8282_0.asset"
+- Assets/plants/bigirongatlingpea/backleaf2_1.asset
+- Assets/plants/bigirongatlingpea/backleaf1_1.asset
+- "Assets/plants/bigirongatlingpea/\u5DE8\u578B\u673A\u67AA.prefab"
+- "Assets/plants/bigirongatlingpea/\u5DE8\u578B\u673A\u67AA\u5C04\u624B\u52A0\u4E86\u4E00\u8282.png"
+- Assets/plants/bigirongatlingpea/pea5_back.asset
+- Assets/resources/plantskins/firesupergatling/SuperGatling.prefab
+- Assets/plants/bigirongatlingpea/pea6_top.asset
+- Assets/plants/bigirongatlingpea/backleaf3_1.asset
+- Assets/plants/bigirongatlingpea/paokou3_mid.asset
+- Assets/plants/superirongatling/idle.anim
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/firesupergatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/icesuperthreegatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/magiczombie
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/puffhypnosupergatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/solarhypno
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/superminegatling

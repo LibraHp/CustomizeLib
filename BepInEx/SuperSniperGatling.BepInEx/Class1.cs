@@ -11,7 +11,7 @@ namespace SuperSniperGatling.BepInEx
     {
         public override void OnStart()
         {
-            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "supersnipergatling");
+            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "supersnipergatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SniperPea, SuperSniperGatling>(SuperSniperGatling.PlantID, ab.GetAsset<GameObject>("SuperSniperGatlingPrefab"),
                 ab.GetAsset<GameObject>("SuperSniperGatlingPreview"),
                 new List<(PlantType, PlantType)>()

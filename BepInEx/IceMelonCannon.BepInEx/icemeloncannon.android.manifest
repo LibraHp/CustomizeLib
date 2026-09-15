@@ -1,0 +1,73 @@
+ManifestFileVersion: 0
+CRC: 3077236040
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8edfef4479afcc914ed7bd143b7d6ca4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a8c141cd1ee0a1f3c7ee591b3eea0ce7
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8edfef4479afcc914ed7bd143b7d6ca4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/plants/icemeloncannon/wheel4.asset
+- Assets/bullet/prefabs/wintermelon_cannon/Melonpult_melon.asset
+- Assets/plants/icemeloncannon/3.asset
+- Assets/plants/icemeloncannon/CobCannon_log2.asset
+- Assets/plants/icemeloncannon/IceMelonCannonPreview.prefab
+- Assets/plants/icemeloncannon/CobCannon_log1.asset
+- Assets/bullet/prefabs/wintermelon_cannon/Melonpult.png
+- Assets/plants/icemeloncannon/IceMelonCannon_0.asset
+- Assets/bullet/prefabs/wintermelon_cannon/shadow9.png
+- Assets/plants/icemeloncannon/11.asset
+- Assets/plants/icemeloncannon/IceMelonCannonPrefab.prefab
+- Assets/plants/icemeloncannon/wheel2.asset
+- Assets/bullet/prefabs/wintermelon_cannon/ProjectileCannon_wintermelon.prefab
+- Assets/plants/icemeloncannon/wheel3.asset
+- Assets/plants/icemeloncannon/IceMelonCannon_0.png
+- Assets/bullet/prefabs/wintermelon_cannon/shadow9.asset
+- Assets/plants/icemeloncannon/33.asset
+- Assets/plants/icemeloncannon/4.asset
+- Assets/plants/icemeloncannon/MelonCannon Skeleton.asset
+- Assets/plants/icemeloncannon/1.asset
+- Assets/plants/icemeloncannon/22.asset
+- Assets/plants/icemeloncannon/leafbunch2.asset
+- Assets/plants/icemeloncannon/IceMelonCannon_leaf1.asset
+- Assets/plants/icemeloncannon/wheel1.asset
+- Assets/plants/icemeloncannon/44.asset
+- Assets/bullet/prefabs/wintermelon_cannon/WinterMelon_projectile.asset
+- Assets/plants/icemeloncannon/IceMelonCannon_leaf.asset
+- Assets/plants/icemeloncannon/body.asset
+- Assets/plants/icemeloncannon/2.asset
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatesolarspruce
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatewintermelon
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatewintermeloncannon

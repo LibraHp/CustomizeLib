@@ -77,7 +77,7 @@ namespace MilkyBlover.BepInEx
         {
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<MilkyBlover>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "milkyblover");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "milkyblover" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<Blover, MilkyBlover>(169, ab.GetAsset<GameObject>("MilkyBloverPrefab"),
                 ab.GetAsset<GameObject>("MilkyBloverPreview"), [], 3, 0, 80, 300, 60f, 500);
             CustomCore.RegisterCustomSprite(208, ab.GetAsset<Sprite>("SeedPacket_MilkyBlover"));

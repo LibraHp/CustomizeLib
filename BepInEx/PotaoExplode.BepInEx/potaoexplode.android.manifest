@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 811556787
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 052626f4b75d7bce3e827c5b16016523
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 76387a73bc0a319a3cee998f74b79823
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 052626f4b75d7bce3e827c5b16016523
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/resources/\u7279\u6548/potaoexplode/ObsidianPotaoExplode.prefab"
+- "Assets/resources/\u7279\u6548/potaoexplode/PotatoMine_particles_4.asset"
+- "Assets/resources/\u7279\u6548/potaoexplode/PotatoMine_particles_5.asset"
+- "Assets/resources/\u7279\u6548/potaoexplode/Puxi.controller"
+- "Assets/resources/\u7279\u6548/potaoexplode/\u672A\u547D\u540D\u4F5C\u54C1(20).prefab"
+- "Assets/resources/\u7279\u6548/potaoexplode/\u672A\u547D\u540D\u4F5C\u54C1(20).png"
+- "Assets/resources/\u7279\u6548/potaoexplode/PotatoMine_particles_3.asset"
+- "Assets/resources/\u7279\u6548/potaoexplode/PotatoMine_particles_2.asset"
+- "Assets/resources/\u7279\u6548/potaoexplode/\u9ED1\u66DC\u77F3\u571F\u8C46\u7206\u70B8\uFF01.asset"
+- "Assets/resources/\u7279\u6548/potaoexplode/\u672A\u547D\u540D\u4F5C\u54C1(20)
+  Skeleton.asset"
+- "Assets/resources/\u7279\u6548/potaoexplode/ExplosionSpudow.png"
+- "Assets/resources/\u7279\u6548/potaoexplode/PotatoMine_particles.png"
+- "Assets/resources/\u7279\u6548/potaoexplode/PotaoExplode.prefab"
+- "Assets/resources/\u7279\u6548/potaoexplode/puxi.anim"
+- "Assets/resources/\u7279\u6548/potaoexplode/\u9ED1\u66DC\u77F3\u571F\u8C46\u7206\u70B8\uFF01_0.asset"
+- "Assets/resources/\u7279\u6548/potaoexplode/PotatoMine_particles_0.asset"
+- "Assets/resources/\u7279\u6548/potaoexplode/PotatoMine_particles_1.asset"
+- "Assets/resources/\u7279\u6548/potaoexplode/ExplosionSpudow.asset"
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/superminegatling

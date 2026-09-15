@@ -7,9 +7,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="nullnut" />
+
+    <None Remove="nullnut.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="nullnut" />
+
+    <EmbeddedResource Include="nullnut.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

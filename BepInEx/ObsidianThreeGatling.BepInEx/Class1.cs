@@ -13,10 +13,9 @@ namespace ObsidianThreeGatling.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<ObsidianThreeGatling>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "obsidianthreegatling");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "obsidianthreegatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SuperThreeGatling, ObsidianThreeGatling>(ObsidianThreeGatling.PlantID,
                 ab.GetAsset<GameObject>("ObsidianThreeGatlingPrefab"),
                 ab.GetAsset<GameObject>("ObsidianThreeGatlingPreview"),

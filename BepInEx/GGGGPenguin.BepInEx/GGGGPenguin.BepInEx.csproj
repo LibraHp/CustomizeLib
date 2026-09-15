@@ -8,10 +8,14 @@
 	</PropertyGroup>
 	<ItemGroup>
 	  <None Remove="凑企鹅" />
+
+	  <None Remove="凑企鹅.android" />
 	  <None Remove="�����" />
 	</ItemGroup>
 	<ItemGroup>
 	  <EmbeddedResource Include="凑企鹅" />
+
+	  <EmbeddedResource Include="凑企鹅.android" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

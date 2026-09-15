@@ -7,9 +7,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="obsidianthreegatling" />
+
+    <None Remove="obsidianthreegatling.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="obsidianthreegatling" />
+
+    <EmbeddedResource Include="obsidianthreegatling.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

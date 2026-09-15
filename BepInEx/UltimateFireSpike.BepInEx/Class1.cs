@@ -13,7 +13,7 @@ namespace UltimateFireSpike.BepInEx
     {
         public override void OnStart()
         {
-            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "ultimatefirespike");
+            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "ultimatefirespike" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<CaltropTorch, UltimateFireSpike>(UltimateFireSpike.PlantID,
                 ab.GetAsset<GameObject>("UltimateFireSpikePrefab"),
                 ab.GetAsset<GameObject>("UltimateFireSpikePreview"), new List<(int, int)>

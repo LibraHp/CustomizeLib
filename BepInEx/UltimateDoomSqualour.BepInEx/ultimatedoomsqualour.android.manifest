@@ -1,0 +1,73 @@
+ManifestFileVersion: 0
+CRC: 1384928491
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 42415a98a8dd387f7da437d32d8aa9f2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ecbf41a0f317fdb5fd39c45eeb6fb6d0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 42415a98a8dd387f7da437d32d8aa9f2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/lookleft.anim
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/\u4ECE\u9009\u533A_1.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/\u4ECE\u9009\u533A_0.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/UltimateDoomSqualourPreview.prefab
+- Assets/plants/hypnosquash/lookright.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/jump.anim
+- Assets/plants/hypnosquash/jumppop.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/UltimateDoomSqualour.controller
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/\u4ECE\u9009\u533A_4.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/\u672A\u547D\u540D\u4F5C\u54C1(5)(1).png"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/idle.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/jumppop.anim
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/\u672A\u547D\u540D\u4F5C\u54C1(5)(1).prefab"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/lookright.anim
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/\u56FE\u5C42
+  65.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/\u4ECE\u9009\u533A_2.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/UltimateDoomSqualourPrefab.prefab
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/\u672A\u547D\u540D\u4F5C\u54C1(5)(1)
+  Skeleton.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/\u4ECE\u9009\u533A.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/\u4ECE\u9009\u533A_6.asset"
+- Assets/plants/hypnosquash/lookleft.anim
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/\u4ECE\u9009\u533A_5.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/\u56FE\u5C42
+  65_0.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/\u4ECE\u9009\u533A_3.asset"
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatehellthreepeater

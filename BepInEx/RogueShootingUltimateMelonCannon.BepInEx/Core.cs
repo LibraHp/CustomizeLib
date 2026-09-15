@@ -15,7 +15,6 @@ namespace RogueShootingUltimateMelonCannon.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             // 类型初始化
             // config

@@ -16,8 +16,7 @@ namespace UltimateCherryTorch.BepInEx
         {
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<UltimateCherryTorch>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatecherrytorch");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatecherrytorch" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SuperTorch, UltimateCherryTorch>((int)UltimateCherryTorch.PlantID, ab.GetAsset<GameObject>("UltimateCherryTorchPrefab"),
                 ab.GetAsset<GameObject>("UltimateCherryTorchPreview"), new List<(int, int)>
                 {

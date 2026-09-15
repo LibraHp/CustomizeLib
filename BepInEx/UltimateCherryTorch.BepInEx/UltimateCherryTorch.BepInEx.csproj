@@ -8,9 +8,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="ultimatecherrytorch" />
+
+    <None Remove="ultimatecherrytorch.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ultimatecherrytorch" />
+
+    <EmbeddedResource Include="ultimatecherrytorch.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

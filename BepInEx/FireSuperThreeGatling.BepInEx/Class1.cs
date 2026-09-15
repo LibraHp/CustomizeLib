@@ -15,11 +15,9 @@ namespace FireSuperThreeGatling.BepInEx
         public const int PlantID = 1921;
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<FireSuperThreeGatling>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "firesuperthreegatling");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "firesuperthreegatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SuperThreeGatling, FireSuperThreeGatling>(PlantID, ab.GetAsset<GameObject>("FireSuperThreeGatlingPrefab"),
                 ab.GetAsset<GameObject>("FireSuperThreeGatlingPreview"), new List<(int, int)>
                 {

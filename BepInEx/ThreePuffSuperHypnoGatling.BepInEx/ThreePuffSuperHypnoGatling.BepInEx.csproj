@@ -8,10 +8,14 @@
 
   <ItemGroup>
     <None Remove="threepuffsuperhypnogatling" />
+
+    <None Remove="threepuffsuperhypnogatling.android" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="threepuffsuperhypnogatling" />
+
+    <EmbeddedResource Include="threepuffsuperhypnogatling.android" />
   </ItemGroup>
 
   <ItemGroup>

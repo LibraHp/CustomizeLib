@@ -65,11 +65,10 @@ namespace IronPeasExtra.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<BigIronGatlingPea>();
             ClassInjector.RegisterTypeInIl2Cpp<SuperIronGatling>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ironpeas");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ironpeas" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<BigGatling, BigIronGatlingPea>(301, ab.GetAsset<GameObject>("BigIronGatlingPeaPrefab"),
                 ab.GetAsset<GameObject>("BigIronGatlingPeaPreview"), [], 0.3f, 0, 80, 2500, 15, 1000);
             CustomCore.RegisterCustomPlant<SuperSnowGatling, SuperIronGatling>(163, ab.GetAsset<GameObject>("SuperIronGatlingPrefab"),

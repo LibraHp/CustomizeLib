@@ -14,10 +14,9 @@ namespace FireSuperGatling_BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<FireSuperGatling>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "firesupergatling");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "firesupergatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SuperGatling, FireSuperGatling>(
                 FireSuperGatling.PlantID,
                 ab.GetAsset<GameObject>("FireSuperGatlingPrefab"),
@@ -36,7 +35,7 @@ namespace FireSuperGatling_BepInEx
                 0f,
                 725
             );
-            var ab_skin2 = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "skin2");
+            var ab_skin2 = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "skin2" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlantSkin<SuperGatling, FireSuperGatling>(
                 FireSuperGatling.PlantID,
                 ab_skin2.GetAsset<GameObject>("Prefab"),

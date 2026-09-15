@@ -8,10 +8,14 @@
 
   <ItemGroup>
     <None Remove="jalasqualour" />
+
+    <None Remove="jalasqualour.android" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="jalasqualour" />
+
+    <EmbeddedResource Include="jalasqualour.android" />
   </ItemGroup>
 
   <ItemGroup>

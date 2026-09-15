@@ -21,8 +21,7 @@ namespace ZombieImitater.BepInEx
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<ZombieImitater>();
             ClassInjector.RegisterTypeInIl2Cpp<ClearCold>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "zombieimitater");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "zombieimitater" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<Imitater, ZombieImitater>(ZombieImitater.PlantID, ab.GetAsset<GameObject>("ZombieimitaterPrefab"),
                 ab.GetAsset<GameObject>("ZombieimitaterPreview"), [], 0f, 0f, 0, 300, 30f, -500);
             CustomCore.RegisterCustomPlant<Imitater, ZombieImitater>(ZombieImitater.PlantIDRed, ab.GetAsset<GameObject>("ZombieimitaterPrefabRed"),

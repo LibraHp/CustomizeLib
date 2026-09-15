@@ -27,13 +27,11 @@ namespace IceDoomSniperPea.BepInEx
 
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<IceDoomSniperPea>();
             ClassInjector.RegisterTypeInIl2Cpp<IceDoomBomb>();
 
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icedoomsniperpea");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icedoomsniperpea" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             var list = new List<(int, int)>
             {
                 ((int)PlantType.SniperPea, (int)PlantType.IceDoom),

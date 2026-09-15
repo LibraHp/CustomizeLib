@@ -1,0 +1,79 @@
+ManifestFileVersion: 0
+CRC: 3225045840
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 47d3936b387e5c9e86195330689ae69b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ecbf41a0f317fdb5fd39c45eeb6fb6d0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 47d3936b387e5c9e86195330689ae69b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/mod/puffultimatechomper/2.asset
+- Assets/resources/mod/puffultimatechomper/B3.asset
+- Assets/resources/mod/puffultimatechomper/5.asset
+- "Assets/resources/mod/puffultimatechomper/\u5C0F\u7262\u6218.prefab"
+- Assets/resources/mod/puffultimatechomper/PuffUltimateChomperPrefab.prefab
+- Assets/resources/mod/puffultimatechomper/4.asset
+- Assets/resources/mod/puffultimatechomper/3.asset
+- Assets/resources/mod/puffultimatechomper/idie.anim
+- Assets/resources/mod/puffultimatechomper/L1.asset
+- Assets/resources/mod/puffultimatechomper/Body.asset
+- Assets/resources/mod/puffultimatechomper/mouth1.asset
+- Assets/resources/mod/puffultimatechomper/1.asset
+- Assets/resources/mod/puffultimatechomper/L4_2.asset
+- Assets/resources/mod/puffultimatechomper/L3.asset
+- Assets/resources/mod/puffultimatechomper/PuffUltimateChomperPreview.prefab
+- Assets/resources/mod/puffultimatechomper/mouth1-2.asset
+- Assets/resources/mod/puffultimatechomper/L4_1.asset
+- Assets/resources/mod/puffultimatechomper/B2.asset
+- "Assets/resources/mod/puffultimatechomper/\u5C0F\u7262\u6218 Skeleton.asset"
+- Assets/resources/mod/puffultimatechomper/rororororo.asset
+- Assets/resources/mod/puffultimatechomper/L4.asset
+- "Assets/resources/mod/puffultimatechomper/\u5C0F\u7262\u6218.png"
+- Assets/resources/mod/puffultimatechomper/L4-2.asset
+- Assets/resources/mod/puffultimatechomper/mouth2.asset
+- Assets/resources/mod/puffultimatechomper/PuffUltimateChomper.controller
+- Assets/resources/mod/puffultimatechomper/supershoot.anim
+- Assets/resources/mod/puffultimatechomper/T1.asset
+- Assets/resources/mod/puffultimatechomper/L4_0.asset
+- Assets/resources/mod/puffultimatechomper/L2.asset
+- Assets/resources/mod/puffultimatechomper/mouth3.asset
+- Assets/resources/mod/puffultimatechomper/T2.asset
+- Assets/resources/mod/puffultimatechomper/mouth1-3.asset
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatemachinechomper
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

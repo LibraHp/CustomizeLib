@@ -1,0 +1,135 @@
+ManifestFileVersion: 0
+CRC: 2965160164
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 05c6146195741e12192da52ffcf479e8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ecbf41a0f317fdb5fd39c45eeb6fb6d0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 05c6146195741e12192da52ffcf479e8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_36.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_21.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_40.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_31.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_11.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_1.asset"
+- Assets/Sprite/k2_0.asset
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_51.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_48.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_38.asset"
+- Assets/resources/mod/ultimatefiresupergatling/D220786234F84CB1875B73E9F6DF8256.png
+- Assets/Texture2D/plantshadow_3.png
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_54.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_8.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_6.asset"
+- Assets/resources/mod/ultimatefiresupergatling/UltimateFireThreeGatlingPreview.prefab
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_53.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_42.asset"
+- Assets/Sprite/leaf_0.asset
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A.asset"
+- Assets/Sprite/3body_0.asset
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_46.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_33.asset"
+- Assets/resources/mod/ultimatefiresupergatling/head2.anim
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_14.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_30.asset"
+- Assets/resources/mod/ultimatefiresupergatling/head3.anim
+- "Assets/resources/mod/ultimatefiresupergatling/\u7A76\u6781\u6D74\u706B\u673A\u67AA\u5C04\u624B
+  Skeleton.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u7A76\u6781\u6D74\u706B\u673A\u67AA\u5C04\u624B.png"
+- Assets/Sprite/leaf2_0.asset
+- "Assets/resources/mod/ultimatefiresupergatling/\u7A76\u6781\u6D74\u706B\u673A\u67AA\u5C04\u624B.prefab"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_56.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_26.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_18.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_55.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_44.asset"
+- Assets/resources/mod/ultimatefiresupergatling/head1.anim
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_49.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_19.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_16.asset"
+- Assets/resources/mod/ultimatefiresupergatling/shoot2.anim
+- Assets/Sprite/plantshadow_3.asset
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_20.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_27.asset"
+- Assets/Sprite/k1_0.asset
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_34.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_50.asset"
+- Assets/resources/mod/ultimatefiresupergatling/UltimateFireThreeGatling.controller
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_41.asset"
+- Assets/resources/mod/ultimatefiresupergatling/shoot2_s.anim
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_43.asset"
+- Assets/Sprite/fire_0.asset
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_3.asset"
+- Assets/resources/mod/ultimatefiresupergatling/shoot3.anim
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_24.asset"
+- "Assets/Texture2D/\u7A76\u6781\u6D74\u706B\u673A\u67AA\u5C04\u624B.png"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_23.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_2.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_0.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_52.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_15.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_7.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_13.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_5.asset"
+- Assets/resources/mod/ultimatefiresupergatling/idle.anim
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_60.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_22.asset"
+- Assets/resources/mod/ultimatefiresupergatling/shoot1.anim
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_9.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_25.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_57.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_12.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_28.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_4.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_29.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_35.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_59.asset"
+- Assets/resources/mod/ultimatefiresupergatling/D220786234F84CB1875B73E9F6DF8256.asset
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_39.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_47.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_17.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_37.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_58.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_32.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_10.asset"
+- "Assets/resources/mod/ultimatefiresupergatling/\u4ECE\u9009\u533A_45.asset"
+- Assets/Texture2D/SuperThreePeater_1.png
+- Assets/resources/mod/ultimatefiresupergatling/UltimateFireThreeGatlingPrefab.prefab
+- Assets/Sprite/k3_1.asset
+Dependencies: []

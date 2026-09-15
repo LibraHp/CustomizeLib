@@ -18,9 +18,8 @@ namespace UltimateWinterMelonBepInEx
         {
             try
             {
-                Console.OutputEncoding = System.Text.Encoding.UTF8;
                 Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
-                var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatewintermelon");
+                var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatewintermelon" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
                 ultimateWinterMelonParticlePrefab = ab.GetAsset<GameObject>("UltimateWinterMelonParicle");
 
                 ClassInjector.RegisterTypeInIl2Cpp<UltimateWinterMelon>();

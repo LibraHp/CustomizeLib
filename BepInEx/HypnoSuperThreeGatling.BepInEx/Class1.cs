@@ -16,8 +16,7 @@ namespace HypnoSuperThreeGatling.BepInEx
         {
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<HypnoSuperThreeGatling>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "hypnosuperthreegatling");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "hypnosuperthreegatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SuperThreeGatling, HypnoSuperThreeGatling>(HypnoSuperThreeGatling.PlantID, ab.GetAsset<GameObject>("HypnoSuperThreeGatlingPrefab"),
                 ab.GetAsset<GameObject>("HypnoSuperThreeGatlingPreview"), new List<(int, int)>
                 {

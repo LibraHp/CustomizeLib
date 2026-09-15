@@ -14,10 +14,14 @@
 
   <ItemGroup>
     <None Remove="ultimatetruck" />
+
+    <None Remove="ultimatetruck.android" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="ultimatetruck" />
+
+    <EmbeddedResource Include="ultimatetruck.android" />
   </ItemGroup>
 
 </Project>

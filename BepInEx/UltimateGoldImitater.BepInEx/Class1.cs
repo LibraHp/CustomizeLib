@@ -17,7 +17,7 @@ namespace UltimateGoldImitater.BepInEx
     {
         public override void OnStart()
         {
-            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "ultimategoldimitater");
+            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "ultimategoldimitater" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<Imitater, UltimateGoldImitater>(UltimateGoldImitater.PlantID, ab.GetAsset<GameObject>("UltimateGoldImitaterPrefab"),
                 ab.GetAsset<GameObject>("UltimateGoldImitaterPreview"), new List<(PlantType, PlantType)> { }.ToIntegerList(), 0f, 0f, 0, 300, 15f, 50);
             CustomCore.AddPlantAlmanacStrings(UltimateGoldImitater.PlantID, $"究极黄金模仿者",

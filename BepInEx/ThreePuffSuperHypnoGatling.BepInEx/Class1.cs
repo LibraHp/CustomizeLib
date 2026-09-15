@@ -17,8 +17,7 @@ namespace ThreePuffSuperHypnoGatling.BepInEx
             ClassInjector.RegisterTypeInIl2Cpp<ThreePuffHypnoSuperGatling>();
             ClassInjector.RegisterTypeInIl2Cpp<Bullet_puffHypnoPea>();
             ClassInjector.RegisterTypeInIl2Cpp<Bullet_puffHypnoPea_fire>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "threepuffsuperhypnogatling");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "threepuffsuperhypnogatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomBullet<Bullet_puffPea, Bullet_puffHypnoPea>((BulletType)Bullet_puffHypnoPea.BulletID, ab.GetAsset<GameObject>("Bullet_puffHypnoPea"));
             CustomCore.RegisterCustomBullet<Bullet_firePea, Bullet_puffHypnoPea_fire>((BulletType)Bullet_puffHypnoPea_fire.BulletID, ab.GetAsset<GameObject>("Bullet_puffHypnoPea_fire"));
             CustomCore.RegisterCustomPlant<SuperThreeGatling, ThreePuffHypnoSuperGatling>(

@@ -14,12 +14,11 @@ namespace PrimitiveShooter.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<PrimitiveShooter>();
             ClassInjector.RegisterTypeInIl2Cpp<Bullet_primitivePea>();
             ClassInjector.RegisterTypeInIl2Cpp<Bullet_stonePea>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "primitiveshooter");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "primitiveshooter" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             #region 原始豌豆
             CustomCore.RegisterCustomBullet<Bullet_pea, Bullet_primitivePea>(Bullet_primitivePea.BulletID, ab.GetAsset<GameObject>("PrimitivePea"));
             CustomCore.RegisterCustomBullet<Bullet_pea, Bullet_primitivePea>(Bullet_primitivePea.FireID, ab.GetAsset<GameObject>("FirePrimitivePea"));

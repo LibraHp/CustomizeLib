@@ -17,13 +17,11 @@ namespace UltimateMachineChomper.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<Bullet_machineCherry>();
             ClassInjector.RegisterTypeInIl2Cpp<UltimateMachineChomper>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatemachinechomper");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatemachinechomper" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomBullet<Bullet_superCherry, Bullet_machineCherry>((BulletType)Bullet_machineCherry.BulletID, ab.GetAsset<GameObject>("Bullet_machineCherry"));
             CustomCore.RegisterCustomPlant<UltimateChomper, UltimateMachineChomper>(UltimateMachineChomper.PlantID, ab.GetAsset<GameObject>("UltimateMachineChomperPrefab"),
                 ab.GetAsset<GameObject>("UltimateMachineChomperPreview"),

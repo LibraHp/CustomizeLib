@@ -62,7 +62,7 @@ namespace DoroCatBepInEx
         public static bool isInit = false;
         public override void Load()
         {
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "dorocat");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "dorocat" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<DoroCat>();
             ClassInjector.RegisterTypeInIl2Cpp<Bullet_doroCat>();

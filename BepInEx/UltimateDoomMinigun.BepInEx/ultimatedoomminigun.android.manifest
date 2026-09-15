@@ -1,0 +1,121 @@
+ManifestFileVersion: 0
+CRC: 2507052984
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d4bfd1890018cfe784ea5235fdd50a1f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 342269afdc324a7b5a67cf42c3183e54
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d4bfd1890018cfe784ea5235fdd50a1f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/mod/doomgatlingblover/doom/Doom.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_29.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_19.asset
+- "Assets/resources/\u7279\u6548/ifvstar/Doom.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_23.asset
+- Assets/resources/mod/freezingcherry/icenucleardoom/Doom.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_15.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_10.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_2.asset
+- Assets/resources/mod/doomgatlingblover/Doom.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_33.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/Doom.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/Doom.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_36.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_12.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_35.asset
+- Assets/resources/mod/doomgatlingblover/doom/Doom.png
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/doom.anim"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_39.asset
+- "Assets/resources/\u7279\u6548/ifvstar/Doom.controller"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/UltimateDoomMinigunPreview.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/shooting.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/idle.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_21.asset
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/Doom.asset"
+- Assets/resources/mod/ultimateportalspring/doom/Doom.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_38.asset
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/Doom.png"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_16.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/UltimateDoomMinigunPrefab.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_6.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_4.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/doom.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_25.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/shoot.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/idle2.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/UltimateDoomMinigun.controller
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_13.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/UltimateDoomMinigunPreview.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_27.asset
+- Assets/resources/mod/freezingcherry/icenucleardoom/Doom.controller
+- "Assets/resources/\u7279\u6548/ifvstar/Doom.png"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_18.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_22.asset
+- Assets/resources/mod/ultimateportalspring/doom/Doom.controller
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_20.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_8.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_14.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_17.asset
+- Assets/resources/mod/ultimateportalspring/doom/doom.anim
+- Assets/resources/mod/doomgatlingblover/doom/Doom.controller
+- Assets/resources/mod/doomgatlingblover/doom/doom.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_31.asset
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/Doom.controller"
+- Assets/resources/mod/freezingcherry/icenucleardoom/doom.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_37.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_9.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/UltimateDoomMinigunPreview.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_32.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_7.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_24.asset
+- "Assets/resources/\u7279\u6548/ifvstar/doom.anim"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_5.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/UltimateDoomMinigun.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_34.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_30.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/Doom.controller
+- Assets/resources/mod/ultimateportalspring/doom/Doom.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/IMG_6284_28.asset
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/doomgatlingblover
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/solareclipsecabbage
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomminigunscaredy
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

@@ -1,0 +1,171 @@
+ManifestFileVersion: 0
+CRC: 2876548608
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 729b2e246254afbf038bb6ddaf6f7247
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2a85f7c0cc6e3e31bc493e3aba0ba587
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 729b2e246254afbf038bb6ddaf6f7247
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 331
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/solarhypno/\u4ECE\u9009\u533A_5.asset"
+- Assets/solarhypno/xuzhaung.png
+- Assets/Material/Brightness.mat
+- Assets/plants/peashooter/electricpea/PeaShooter_0.png
+- Assets/solarhypno/SolarHypnoPreview.prefab
+- "Assets/solarhypno/\u4ECE\u9009\u533A_35.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_32.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_16.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_27.asset"
+- Assets/solarhypno/5E7C2893F434B320A41DE7D85E98302B_1.asset
+- "Assets/solarhypno/\u4ECE\u9009\u533A_8.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_15.asset"
+- Assets/solarhypno/1765028621669(1)(2) - Copy.prefab
+- "Assets/solarhypno/\u56FE\u5C42 32.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_19.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_34.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_14.asset"
+- Assets/plants/bigirongatlingpea/PeaShooter_0.png
+- "Assets/solarhypno/\u56FE\u5C42 32_0.asset"
+- "Assets/solarhypno/\u56FE\u5C425.asset"
+- Assets/resources/mod/ultimatedoomsniperpea/assets/xuzhaung.asset
+- "Assets/solarhypno/\u56FE\u5C42 87.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/xuzhaung.png
+- "Assets/solarhypno/\u4ECE\u9009\u533A_33.asset"
+- "Assets/solarhypno/\u56FE\u5C424_1.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_31.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_2.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_37.asset"
+- Assets/resources/mod/freezingcherry/freezingcherry/xuzhaung.png
+- "Assets/solarhypno/\u4ECE\u9009\u533A_13.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_18.asset"
+- Assets/resources/mod/ultimateportalspring/sprites/xuzhaung.asset
+- Assets/solarhypno/Sun1 - Copy.asset
+- Assets/resources/mod/ultimatedoomsniperpea/assets/xuzhaung.png
+- Assets/solarhypno/idle_skin.anim
+- Assets/Sprite/PeaShooter_0.asset
+- Assets/solarhypno/Solar.anim
+- "Assets/solarhypno/\u4ECE\u9009\u533A_26.asset"
+- Assets/solarhypno/D6B492381CA5D71115C5FEEC2EF6874E.png
+- Assets/solarhypno/1765028621669(1)(1) - Copy Skeleton.asset
+- Assets/solarhypno/super_skin.anim
+- "Assets/solarhypno/\u56FE\u5C424_0.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_7.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_30.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_11.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_4.asset"
+- Assets/solarhypno/23660F9672F9FF45E822C7094AAE5F2D.png
+- Assets/solarhypno/SolarHypnoSkin.controller
+- Assets/resources/mod/freezingcherry/freezingcherry/xuzhaung.asset
+- Assets/solarhypno/Solar.controller
+- "Assets/solarhypno/\u4ECE\u9009\u533A.asset"
+- Assets/solarhypno/D6B492381CA5D71115C5FEEC2EF6874E.asset
+- "Assets/solarhypno/\u4ECE\u9009\u533A_28.asset"
+- Assets/solarhypno/1765028621669(1)(1) - Copy.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/xuzhaung.png
+- "Assets/solarhypno/\u56FE\u5C424.asset"
+- Assets/solarhypno/23660F9672F9FF45E822C7094AAE5F2D_0.asset
+- Assets/solarhypno/Sun2.asset
+- "Assets/solarhypno/\u56FE\u5C42 86.asset"
+- Assets/solarhypno/Bullet_HypnoSunCabbageSkin.prefab
+- "Assets/solarhypno/\u4ECE\u9009\u533A_3.asset"
+- "Assets/solarhypno/\u56FE\u5C426_0.asset"
+- Assets/solarhypno/1765028621669(1)(2) - Copy Skeleton.asset
+- "Assets/solarhypno/\u4ECE\u9009\u533A_38.asset"
+- Assets/solarhypno/SolarCabbage.png
+- Assets/plants/superdiamondnut/PeaShooter_0.png
+- Assets/solarhypno/idle.anim
+- "Assets/solarhypno/\u4ECE\u9009\u533A_24.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_10.asset"
+- Assets/Texture2D/PeaShooter_0.png
+- "Assets/solarhypno/\u56FE\u5C424_2.asset"
+- Assets/solarhypno/shoot_skin.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/xuzhaung.asset
+- "Assets/solarhypno/\u4ECE\u9009\u533A_1.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_17.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_36.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/xuzhaung.asset
+- "Assets/solarhypno/\u56FE\u5C425_0.asset"
+- Assets/solarhypno/1765028621669(1)(2) - Copy.png
+- Assets/solarhypno/SunEmmit.mat
+- Assets/solarhypno/Sun2 - Copy.asset
+- "Assets/solarhypno/\u4ECE\u9009\u533A_21.asset"
+- Assets/solarhypno/SmallSunSkin.prefab
+- Assets/solarhypno/Bullet_HypnoSunCabbage.prefab
+- Assets/solarhypno/SolarHypnoPrefab.prefab
+- Assets/solarhypno/5E7C2893F434B320A41DE7D85E98302B_0.asset
+- Assets/solarhypno/xuzhaung.asset
+- "Assets/solarhypno/\u4ECE\u9009\u533A_22.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_25.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_6.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_20.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_29.asset"
+- Assets/solarhypno/5E7C2893F434B320A41DE7D85E98302B_2.asset
+- Assets/solarhypno/SolarHypnoSkinPrefab.prefab
+- "Assets/solarhypno/\u56FE\u5C42 95.asset"
+- Assets/solarhypno/SolarHypno.controller
+- "Assets/solarhypno/\u56FE\u5C42 86_0.asset"
+- Assets/solarhypno/shoot.anim
+- "Assets/solarhypno/\u4ECE\u9009\u533A_23.asset"
+- Assets/solarhypno/SolarHypnoSkinPreview.prefab
+- Assets/solarhypno/23660F9672F9FF45E822C7094AAE5F2D_1.asset
+- "Assets/solarhypno/\u4ECE\u9009\u533A_0.asset"
+- "Assets/solarhypno/\u4ECE\u9009\u533A_12.asset"
+- Assets/solarhypno/5E7C2893F434B320A41DE7D85E98302B.png
+- Assets/resources/mod/ultimateportalspring/sprites/xuzhaung.png
+- Assets/Shader/Shader Graphs_Brightness.shader
+- Assets/solarhypno/Sun1.asset
+- "Assets/solarhypno/\u4ECE\u9009\u533A_9.asset"
+- "Assets/solarhypno/\u9633\u5149.png"
+- Assets/solarhypno/23660F9672F9FF45E822C7094AAE5F2D_2.asset
+- Assets/solarhypno/1765028621669(1)(1) - Copy.png
+- Assets/solarhypno/SmallSun.prefab
+- "Assets/solarhypno/\u56FE\u5C426.asset"
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/solareclipsecabbage
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- "E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/\u51D1\u4F01\u9E45"

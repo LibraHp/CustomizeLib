@@ -8,9 +8,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="skin_933" />
+
+    <None Remove="skin_933.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="skin_933" />
+
+    <EmbeddedResource Include="skin_933.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

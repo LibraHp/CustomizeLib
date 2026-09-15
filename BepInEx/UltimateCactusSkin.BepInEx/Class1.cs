@@ -14,8 +14,7 @@ namespace UltimateCactusSkin.BepInEx
         public override void Load()
         {
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "skin_933");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "skin_933" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlantSkin<UltimateCactus>((int)PlantType.UltimateCactus, ab.GetAsset<GameObject>("Prefab"),
                 ab.GetAsset<GameObject>("Preview"), (p) =>
                 {

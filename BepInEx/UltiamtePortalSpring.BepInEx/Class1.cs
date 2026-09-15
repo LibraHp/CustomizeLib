@@ -22,7 +22,7 @@ namespace UltimatePortalSpring.BepInEx
     {
         public override void OnStart()
         {
-            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "ultimateportalspring");
+            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "ultimateportalspring" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<UltimateSpring, UltimatePortalSpring>(UltimatePortalSpring.PlantID, ab.GetAsset<GameObject>("UltimatePortalSpringPrefab"),
                 ab.GetAsset<GameObject>("UltimatePortalSpringPreview"), new List<(PlantType, PlantType)>
                 {

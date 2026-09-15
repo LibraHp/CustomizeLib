@@ -13,9 +13,8 @@ namespace Mower.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "mower");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "mower" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             ClassInjector.RegisterTypeInIl2Cpp<Mower>();
             CustomCore.RegisterCustomPlant<Plant, Mower>(Mower.PlantID, ab.GetAsset<GameObject>("MowerPrefab"),
                 ab.GetAsset<GameObject>("MowerPreview"), new List<(int, int)> { }, 0f, 0f, int.MaxValue, int.MaxValue, 300f, 950);

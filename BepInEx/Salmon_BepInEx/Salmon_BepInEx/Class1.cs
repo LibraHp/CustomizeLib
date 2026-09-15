@@ -13,11 +13,10 @@ namespace SalmonBepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<Salmon>();
 
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "salmon");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "salmon" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<PeaShooter, Salmon>(Salmon.PlantID, ab.GetAsset<GameObject>("SalmonPrefab"),
                 ab.GetAsset<GameObject>("SalmonPreview"), [], 0f, 0f, 2147483647, 2147483647, 0, 127);
 

@@ -12,6 +12,8 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="superumbrellasextra" />
+
+    <EmbeddedResource Include="superumbrellasextra.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

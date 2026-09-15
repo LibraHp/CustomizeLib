@@ -7,9 +7,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="salmon" />
+
+    <None Remove="salmon.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="salmon" />
+
+    <EmbeddedResource Include="salmon.android" />
   </ItemGroup>
   <ItemGroup>
     

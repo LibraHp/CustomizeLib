@@ -20,8 +20,7 @@ namespace GoldImitater.BepInEx
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<GoldImitater>();
             ClassInjector.RegisterTypeInIl2Cpp<ClearCold>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "goldimitater");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "goldimitater" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<Imitater, GoldImitater>(GoldImitater.PlantID, ab.GetAsset<GameObject>("GoldImitaterPrefab"),
                 ab.GetAsset<GameObject>("GoldImitaterPreview"), [], 0f, 0f, 0, 300, 15, 50);
             CustomCore.RegisterCustomPlantSkin<Imitater, GoldImitater>(GoldImitater.PlantID, ab.GetAsset<GameObject>("GoldImitaterPrefabNewYear"),

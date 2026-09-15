@@ -13,12 +13,11 @@ namespace IceDoomGatlingBepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<Bullet_iceDoomGatling_doom>();
             ClassInjector.RegisterTypeInIl2Cpp<Bullet_iceDoomGatling_doomBig>();
             ClassInjector.RegisterTypeInIl2Cpp<IceDoomGatling>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icedoomgatling");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icedoomgatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomBullet<Bullet_doom, Bullet_iceDoomGatling_doom>((BulletType)Bullet_iceDoomGatling_doom.Bullet_ID, ab.GetAsset<GameObject>("Bullet_iceDoomGatling_doom"));
             CustomCore.RegisterCustomBullet<Bullet_doom, Bullet_iceDoomGatling_doomBig>((BulletType)Bullet_iceDoomGatling_doomBig.Bullet_ID, ab.GetAsset<GameObject>("Bullet_iceDoomGatling_doomBig"));
             CustomCore.RegisterCustomPlant<DoomGatling, IceDoomGatling>(IceDoomGatling.PlantID, ab.GetAsset<GameObject>("IceDoomGatlingPrefab"),

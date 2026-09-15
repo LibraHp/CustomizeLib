@@ -8,9 +8,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="doomgatlingblover" />
+
+    <None Remove="doomgatlingblover.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="doomgatlingblover" />
+
+    <EmbeddedResource Include="doomgatlingblover.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

@@ -15,8 +15,7 @@ namespace PuffFireSniperPeaBepInEx
         {
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<PuffFireSniperPea>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "pufffiresniperpea");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "pufffiresniperpea" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<FireSniper, PuffFireSniperPea>(PuffFireSniperPea.PlantID, ab.GetAsset<GameObject>("PuffFireSniperPeaPrefab"),
                 ab.GetAsset<GameObject>("PuffFireSniperPeaPreview"),
                 new List<(int, int)>

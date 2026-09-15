@@ -12,7 +12,7 @@ namespace SuperMineGatling.BepInEx
     {
         public override void OnStart()
         {
-            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "superminegatling");
+            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "superminegatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<PeaMine, SuperMineGatling>(SuperMineGatling.PlantID, ab.GetAsset<GameObject>("SuperMineGatlingPrefab"),
                 ab.GetAsset<GameObject>("SuperMineGatlingPreview"), 
                 new List<(PlantType, PlantType)>()

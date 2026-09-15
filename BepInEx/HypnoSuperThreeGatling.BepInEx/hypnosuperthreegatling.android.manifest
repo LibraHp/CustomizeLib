@@ -1,0 +1,103 @@
+ManifestFileVersion: 0
+CRC: 628835076
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f26e34dba6a287d6e6dda271be4c91be
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f26e34dba6a287d6e6dda271be4c91be
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/ThreePeater_stem2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou2_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/hairleaf2_3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/PeaShooter_frontleaf_righttip.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/head1.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/ThreePeater_head_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/HypnoSuperThreeGatlingPrefab.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/PeaShooter_frontleaf_lefttip.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/shoot2.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou2_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/idle.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/GatlingPea_helmet_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou1_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/head2.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/HypnoSuperThreeGatlingPreview.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/ThreePeater_stem1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/ThreePeater_mouth_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou3_mid_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/month_2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/HypnoSuperThreeGatling.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/HypnoSuperThreeGatling.controller
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/head3.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou4_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/shoot1.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/PeaShooter_backleaf_righttip.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou7.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/PeaShooter_backleaf_lefttip.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/ThreePeater_mouth_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou5_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou6_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/HypnoSuperThreeGatlingPreview.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/month_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou5.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/ThreePeater_head.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou3_mid_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/hairleaf2_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/ThreePeater_stem3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou4_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/GatlingPea_helmet_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou3_mid.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou4.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou5_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/ThreePeater_head_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/shoot2_s.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou1_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/HypnoSuperThreeGatlingPreview.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/month_3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/shoot3.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/PeaShooter_frontleaf.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou6.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/hairleaf2_2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/ThreePeater_mouth.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou6_1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/PeaShooter_backleaf.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou7_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/paokou7_1.asset
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

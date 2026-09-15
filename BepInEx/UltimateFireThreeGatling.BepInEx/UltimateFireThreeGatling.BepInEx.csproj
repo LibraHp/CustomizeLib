@@ -7,13 +7,25 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="ashthreegaling" />
+
+    <None Remove="ashthreegaling.android" />
     <None Remove="ultimatefiresupergatling" />
+
+    <None Remove="ultimatefiresupergatling.android" />
     <None Remove="ultimatefiresupergatling_sp" />
+
+    <None Remove="ultimatefiresupergatling_sp.android" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ashthreegaling" />
+
+    <EmbeddedResource Include="ashthreegaling.android" />
     <EmbeddedResource Include="ultimatefiresupergatling" />
+
+    <EmbeddedResource Include="ultimatefiresupergatling.android" />
     <EmbeddedResource Include="ultimatefiresupergatling_sp" />
+
+    <EmbeddedResource Include="ultimatefiresupergatling_sp.android" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

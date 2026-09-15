@@ -14,10 +14,9 @@ namespace SuperGarlicFume.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<SuperGarlicFume>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "supergarlicfume");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "supergarlicfume" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<UltimateFume, SuperGarlicFume>(165, ab.GetAsset<GameObject>("SuperGarlicFumePrefab"),
                 ab.GetAsset<GameObject>("SuperGarlicFumePreview"), [(904, 29)], 3, 0, 150, 300, 30, 700);
             CustomCore.AddFusion(904, 165, 8);

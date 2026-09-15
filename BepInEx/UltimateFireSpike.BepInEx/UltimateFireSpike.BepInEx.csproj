@@ -8,9 +8,13 @@
 	</PropertyGroup>
 	<ItemGroup>
 	  <None Remove="ultimatefirespike" />
+
+	  <None Remove="ultimatefirespike.android" />
 	</ItemGroup>
 	<ItemGroup>
 	  <EmbeddedResource Include="ultimatefirespike" />
+
+	  <EmbeddedResource Include="ultimatefirespike.android" />
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\CustomizeLib.BepInEx\CustomizeLib.BepInEx.csproj" />

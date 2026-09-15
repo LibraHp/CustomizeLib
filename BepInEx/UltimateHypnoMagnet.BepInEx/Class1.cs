@@ -23,7 +23,7 @@ namespace UltimateHypnoMagnet.BepInEx
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), null);
             ClassInjector.RegisterTypeInIl2Cpp<UltimateHypnoMagnet>();
             Console.OutputEncoding = Encoding.UTF8;
-            AssetBundle assetBundle = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatehypnomagnet");
+            AssetBundle assetBundle = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatehypnomagnet" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<UltimateMagnet, UltimateHypnoMagnet>(UltimateHypnoMagnet.PlantID, Extensions.GetAsset<GameObject>(assetBundle, "UltimateHypnoMagnetPrefab"), Extensions.GetAsset<GameObject>(assetBundle, "UltimateHypnoMagnetPreview"), new List<ValueTuple<int, int>>
             {
                 new ValueTuple<int, int>(944, 8),

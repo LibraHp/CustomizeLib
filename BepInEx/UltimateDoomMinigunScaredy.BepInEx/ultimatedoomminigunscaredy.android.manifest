@@ -1,0 +1,149 @@
+ManifestFileVersion: 0
+CRC: 2597801244
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 077b98437aab331ce115349edbb5845a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ecbf41a0f317fdb5fd39c45eeb6fb6d0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 077b98437aab331ce115349edbb5845a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_2.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_15.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/SuperDoomScaredy_0.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/ScaredyShroom_eye_big1.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/ScaredyShroom_sweat2.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u5DF2\u63D2\u5165\u56FE\u50CF_10.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u5DF2\u63D2\u5165\u56FE\u50CF_18.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/GatlingPea_barrel4.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_16.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u5DF2\u63D2\u5165\u56FE\u50CF_5.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u901F\u5C04\u6BC1\u673A.png"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/ScaredyShroom_mouth.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u4ECE\u9009\u533A_18.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_10.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u4ECE\u9009\u533A_19.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/preshoot.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/idle.anim
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u5DF2\u63D2\u5165\u56FE\u50CF_9.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_6.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u5DF2\u63D2\u5165\u56FE\u50CF_4.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/shoot.anim
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u901F\u5C04\u6BC1\u673A(1).prefab"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u56FE\u5C42
+  50_0.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_1.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u5DF2\u63D2\u5165\u56FE\u50CF_20.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u4ECE\u9009\u533A_8.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_8.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/Smoke.anim
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u901F\u5C04\u6BC1\u673A(1)
+  Skeleton.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_0.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u4ECE\u9009\u533A_16.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u5DF2\u63D2\u5165\u56FE\u50CF_11.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/ScaredyShroom_sweat1.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u5DF2\u63D2\u5165\u56FE\u50CF_11.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u5DF2\u63D2\u5165\u56FE\u50CF_8.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u5DF2\u63D2\u5165\u56FE\u50CF_7.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u5DF2\u63D2\u5165\u56FE\u50CF_15.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u5DF2\u63D2\u5165\u56FE\u50CF_22.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/UltimateDoomMinigunScaredyPrefab.prefab
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/UltimateDoomMinigunScaredy.controller
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u4ECE\u9009\u533A_6.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_13.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_9.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u901F\u5C04\u6BC1\u673A.png"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_7.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/SuperDoomScaredy.png
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/ScaredyShroom_lips.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u4ECE\u9009\u533A_10.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u901F\u5C04\u6BC1\u673A
+  Skeleton.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_5.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u5DF2\u63D2\u5165\u56FE\u50CF_19.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/ScaredyShroom_eye_big2.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_3.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/preshoot.anim
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/idle2.anim
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u4ECE\u9009\u533A_2.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/GatlingPea_barrel2.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/SuperDoomScaredy_0.png
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_14.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u56FE\u5C42
+  50.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u4ECE\u9009\u533A_11.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u5DF2\u63D2\u5165\u56FE\u50CF_5.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_11.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/GatlingPea_barrel1.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u5DF2\u63D2\u5165\u56FE\u50CF_17.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u5DF2\u63D2\u5165\u56FE\u50CF_16.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u4ECE\u9009\u533A_27.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u901F\u5C04\u6BC1\u673A.prefab"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/lips_top.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/GatlingPea_barrel3.asset
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/UltimateDoomMinigunScaredyPreview.prefab
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u5DF2\u63D2\u5165\u56FE\u50CF_6.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u4ECE\u9009\u533A_3.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u5DF2\u63D2\u5165\u56FE\u50CF_14.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/ScaredyShroom_eye2.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u4ECE\u9009\u533A.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/PeaShooter_eyebrow.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u901F\u5C04\u6BC1\u673A.prefab"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u901F\u5C04\u6BC1\u673A(1).png"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u5DF2\u63D2\u5165\u56FE\u50CF_4.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_12.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/ScaredyShroom_head_inner.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u4ECE\u9009\u533A_24.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u4ECE\u9009\u533A_0.asset"
+- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/ScaredyShroom_eye1.asset
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/\u4ECE\u9009\u533A_15.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u4ECE\u9009\u533A_4.asset"
+- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/\u5DF2\u63D2\u5165\u56FE\u50CF_7.asset"
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/puffhypnosupergatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/solareclipsecabbage
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling

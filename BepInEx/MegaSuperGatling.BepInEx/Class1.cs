@@ -39,7 +39,6 @@ namespace MegaSuperGatling.BepInEx
 
         public override void OnStart()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             BuffID = CustomCore.RegisterCustomBuff("五阶升级：超级机枪射手系列的攻击力x10，其效果大幅加强", BuffType.AdvancedBuff,
                 () => (Board.Instance.ObjectExist<SuperSnowGatling>() || Board.Instance.ObjectExist<SuperThreeGatling>()) && TravelStore.Instance != null, 15000, PlantType.SuperGatling);

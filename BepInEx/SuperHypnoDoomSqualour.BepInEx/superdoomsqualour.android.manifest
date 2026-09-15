@@ -1,0 +1,82 @@
+ManifestFileVersion: 0
+CRC: 784645337
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 87b81f03c5c532ee409cfd6bac13593c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 87b81f03c5c532ee409cfd6bac13593c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/plants/superdoomsqualour/shadow5.asset
+- Assets/plants/superhypnodoomcattaillour/CattailLour.controller
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLour_4.asset
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLour_2.asset
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLourPreview2.prefab
+- Assets/plants/superdoomsqualour/SuperDoomSqualourPreview.prefab
+- Assets/plants/superhypnodoomcattaillour/shoot.anim
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLour_1.asset
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLour_12.asset
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLourPrefab2.prefab
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLour_5.asset
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLour_11.asset
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLour_10.asset
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLour_0.asset
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLour_fly.prefab
+- "Assets/plants/superhypnodoomcattaillour/\u672A\u547D\u540D\u4F5C\u54C1 2.png"
+- Assets/plants/superdoomsqualour/Squalour.controller
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLour_3.asset
+- Assets/plants/superdoomsqualour/Squalour.asset
+- Assets/plants/superdoomsqualour/idle.anim
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLour_6.asset
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLourPrefab.prefab
+- Assets/plants/superdoomsqualour/shadow5.png
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLourPreview.prefab
+- Assets/plants/superhypnodoomcattaillour/idle.anim
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLour_7.asset
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLour_8.asset
+- Assets/plants/superdoomsqualour/lookright.anim
+- Assets/plants/superdoomsqualour/lookleft.anim
+- Assets/plants/superdoomsqualour/jump.anim
+- Assets/plants/superhypnodoomcattaillour/Bullet_SuperHypnoDoomCattailLourCactus.prefab
+- "Assets/plants/superhypnodoomcattaillour/\u672A\u547D\u540D\u4F5C\u54C1 2.asset"
+- Assets/plants/superdoomsqualour/Squalour_0.asset
+- Assets/plants/superdoomsqualour/jumppop.anim
+- Assets/resources/modzombie/squalourzombie/Squalour.png
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLour.png
+- Assets/plants/superhypnodoomcattaillour/SuperHypnoDoomCattailLour_9.asset
+- Assets/plants/superdoomsqualour/SuperDoomSqualourPrefab.prefab
+- Assets/resources/modzombie/squalourzombie/Squalour.asset
+- Assets/plants/superdoomsqualour/Squalour.png
+Dependencies:
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalspring

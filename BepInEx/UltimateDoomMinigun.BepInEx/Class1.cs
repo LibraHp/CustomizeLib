@@ -15,8 +15,7 @@ namespace UltimateDoomMinigun.BepInEx
         {
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<UltimateDoomMinigun>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatedoomminigun");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatedoomminigun" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<UltimateMinigun, UltimateDoomMinigun>(UltimateDoomMinigun.PlantID, ab.GetAsset<GameObject>("UltimateDoomMinigunPrefab"),
                 ab.GetAsset<GameObject>("UltimateDoomMinigunPreview"), new List<(int, int)> (), 0.5f, 0f, 300, 300, 90f, 1000);
             CustomCore.AddPlantAlmanacStrings(UltimateDoomMinigun.PlantID, $"究级速射毁灭机枪射手({UltimateDoomMinigun.PlantID})",

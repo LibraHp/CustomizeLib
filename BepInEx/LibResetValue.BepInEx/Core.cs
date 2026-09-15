@@ -16,7 +16,6 @@ namespace MapValue.BepInEx
         public override void Initialize()
         {
             Logger = Log;
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             Logger.LogMessage("MapValue has loaded");
             base.Initialize();

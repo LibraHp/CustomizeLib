@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <EmbeddedResource Include="ultimatehypnomagnet" />
+
+    <EmbeddedResource Include="ultimatehypnomagnet.android" />
   </ItemGroup>
 
   <ItemGroup>

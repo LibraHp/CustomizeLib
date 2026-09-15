@@ -13,10 +13,9 @@ namespace IceSuperThreeGatling.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<IceSuperThreeGatling>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icesuperthreegatling");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icesuperthreegatling" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<SuperThreeGatling, IceSuperThreeGatling>(IceSuperThreeGatling.PlantID, ab.GetAsset<GameObject>("IceSuperThreeGatlingPrefab"),
                 ab.GetAsset<GameObject>("IceSuperThreeGatlingPreview"), new List<(int, int)>
                 {

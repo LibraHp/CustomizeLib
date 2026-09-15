@@ -8,10 +8,14 @@
 
   <ItemGroup>
     <None Remove="squalourzombie" />
+
+    <None Remove="squalourzombie.android" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="squalourzombie" />
+
+    <EmbeddedResource Include="squalourzombie.android" />
   </ItemGroup>
 	<ItemGroup>
 		

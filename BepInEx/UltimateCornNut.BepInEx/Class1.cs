@@ -15,8 +15,7 @@ namespace UltimateCornNut.BepInEx
         {
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<UltimateCornNut>();
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatecornnut");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatecornnut" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<UltimatePortalNut, UltimateCornNut>(UltimateCornNut.PlantID, ab.GetAsset<GameObject>("UltimateCornNutPrefab"),
                 ab.GetAsset<GameObject>("UltimateCornNutPreview"), new List<(int, int)> { }, 0f, 0f, 0, 16000, 90f, 750);
             CustomCore.AddPlantAlmanacStrings(UltimateCornNut.PlantID, $"究级超时空黄油坚果",

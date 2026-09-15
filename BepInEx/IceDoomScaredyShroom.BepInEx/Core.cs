@@ -13,10 +13,9 @@ namespace IceDoomScaredyShroom.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<IceDoomScaredyShroom>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icedoomscaredyshroom");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icedoomscaredyshroom" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<IceScaredyShroom, IceDoomScaredyShroom>(304, ab.GetAsset<GameObject>("IceDoomScaredyShroomPrefab"),
                 ab.GetAsset<GameObject>("IceDoomScaredyShroomPreview"), [(9, 1040), (1040, 9), (1038, 11), (11, 1038), (1042, 10), (10, 1042)], 0.8f, 0, 20, 300, 7.5f, 300);
             CustomCore.TypeMgrExtra.IsIcePlant.Add((PlantType)304);

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2122576352
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0c7bdb5accd3cfd0a68878d83a3fff5b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0c7bdb5accd3cfd0a68878d83a3fff5b
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/resources/mod/ultimatetruck/music.ogg
+Dependencies: []

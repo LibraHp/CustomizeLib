@@ -16,7 +16,6 @@ namespace InvisibleZombie.BepInEx
 
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             ClassInjector.RegisterTypeInIl2Cpp<Invisibler>();
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
 

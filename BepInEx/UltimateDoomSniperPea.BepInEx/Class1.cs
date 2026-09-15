@@ -17,7 +17,7 @@ namespace UltimateDoomSniperPea.BepInEx
     {
         public override void OnStart()
         {
-            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "ultimatedoomsniperpea");
+            var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "ultimatedoomsniperpea" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<DoomSniper, UltimateDoomSniperPea>(UltimateDoomSniperPea.PlantID, ab.GetAsset<GameObject>("UltimateDoomSniperPeaPrefab"),
                 ab.GetAsset<GameObject>("UltimateDoomSniperPeaPreview"), new List<(int, int)>
                 {

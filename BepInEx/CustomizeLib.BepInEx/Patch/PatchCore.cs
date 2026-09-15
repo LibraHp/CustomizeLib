@@ -1,4 +1,4 @@
-// #define DEBUG_FEATURE__ENABLE_MULTI_LEVEL_BUFF // ÆôÓÃ¶à¼¶´ÊÌõ
+// #define DEBUG_FEATURE__ENABLE_MULTI_LEVEL_BUFF // ï¿½ï¿½ï¿½Ã¶à¼¶ï¿½ï¿½ï¿½ï¿½
 
 using AlmanacData;
 using Core;
@@ -38,7 +38,7 @@ using static UnityEngine.Object;
 namespace CustomizeLib.BepInEx.Patch
 {
     /// <summary>
-    /// ×¢²áÈÚºÏÑóÓóÅä·½
+    /// ×¢ï¿½ï¿½ï¿½Úºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ä·½
     /// </summary>
     [HarmonyPatch(typeof(MixBomb), nameof(MixBomb.AttributeEvent))]
     public static class MixBombPatch
@@ -93,7 +93,7 @@ namespace CustomizeLib.BepInEx.Patch
     }
 
     /// <summary>
-    /// ×¢²á·ÊÁÏÊ¹ÓÃÊÂ¼þ
+    /// ×¢ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½Â¼ï¿½
     /// </summary>
     [HarmonyPatch(typeof(Fertilize))]
     public static class FertilizePatch
@@ -107,7 +107,7 @@ namespace CustomizeLib.BepInEx.Patch
             int column = __instance.theTargetPlant.thePlantColumn;
             int row = __instance.theTargetPlant.thePlantRow;
 
-            List<Plant> plants = Lawnf.Get1x1Plants(column, row).ToArray().ToList<Plant>(); // »ñÈ¡Ö²Îï£¬il2cppÎÑ°®Äã
+            List<Plant> plants = Lawnf.Get1x1Plants(column, row).ToArray().ToList<Plant>(); // ï¿½ï¿½È¡Ö²ï¿½ï£¬il2cppï¿½Ñ°ï¿½ï¿½ï¿½
             if (plants == null) return;
 
             for (int i = 0; i < plants.Count; i++)
@@ -218,7 +218,7 @@ namespace CustomizeLib.BepInEx.Patch
             unityEvent.AddListener(action);
             newSelect.GetComponent<UIButton>().clickEvent = unityEvent;
             newSelect.name = "LookCustom";
-            newSelect.transform.FindChild("TextShadow").gameObject.GetComponent<TextMeshProUGUI>().text = "¶þ´´Ö²Îï";
+            newSelect.transform.FindChild("TextShadow").gameObject.GetComponent<TextMeshProUGUI>().text = "ï¿½ï¿½ï¿½ï¿½Ö²ï¿½ï¿½";
             newSelect.transform.localPosition = new Vector3(0f, -44f * newSelect.transform.childCount + 72f, 0f);
 
             var rect = __instance.transform.FindChild("Scroll View/Viewport/Content").GetComponent<RectTransform>();
@@ -301,7 +301,7 @@ namespace CustomizeLib.BepInEx.Patch
         [HarmonyPrefix]
         public static bool Prefix(string text, float time)
         {
-            if (text == "Í¨¹ØÌôÕ½Ä£Ê½½âËøÅä·½" && time == 7f && disable)
+            if (text == "Í¨ï¿½ï¿½ï¿½ï¿½Õ½Ä£Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ä·½" && time == 7f && disable)
             {
                 disable = false;
                 return false;
@@ -311,7 +311,7 @@ namespace CustomizeLib.BepInEx.Patch
     }
 
     /// <summary>
-    /// Îª¶þ´´Ö²Îï¸½¼ÓÖ²ÎïÌØÐÔ
+    /// Îªï¿½ï¿½ï¿½ï¿½Ö²ï¿½ï¸½ï¿½ï¿½Ö²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     /// </summary>
     [HarmonyPatch(typeof(CreatePlant))]
     public static class CreatePlantPatch
@@ -331,7 +331,7 @@ namespace CustomizeLib.BepInEx.Patch
         [HarmonyPostfix]
         public static void PostLim(CreatePlant __instance, ref PlantType theSeedType, ref bool __result)
         {
-            // ×Ô¶¨ÒåÌõ¼þ
+            // ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             {
                 if (CustomCore.CustomBanMix.ContainsKey(theSeedType) && CustomCore.CustomBanMix[theSeedType].Item1 != null)
                 {
@@ -353,7 +353,7 @@ namespace CustomizeLib.BepInEx.Patch
         [HarmonyPostfix]
         public static void Postfix_LimTravel(CreatePlant __instance, ref PlantType theSeedType, ref bool __result)
         {
-            // ÅÐ¶¨
+            // ï¿½Ð¶ï¿½
             {
                 bool isCanSet = false;
                 if (TravelMgr.Instance != null && Board.Instance.boardTag.isTravel)
@@ -364,11 +364,11 @@ namespace CustomizeLib.BepInEx.Patch
                 if (CustomCore.CustomUltimatePlants.Contains(theSeedType) && !isCanSet)
                 {
                     __result = true;
-                    InGameText.Instance.ShowText("¸ÃÅä·½½öÂÃÐÐÉú´æÏµÁÐ»òÉîÔ¨¿ÉÓÃ", 3f, false);
+                    InGameText.Instance.ShowText("ï¿½ï¿½ï¿½ä·½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½Ð»ï¿½ï¿½ï¿½Ô¨ï¿½ï¿½ï¿½ï¿½", 3f, false);
                 }
             }
             
-            // Ç¿¾¿
+            // Ç¿ï¿½ï¿½
             {
                 if (CustomCore.CustomStrongUltimatePlants.ContainsKey(theSeedType))
                 {
@@ -379,7 +379,7 @@ namespace CustomizeLib.BepInEx.Patch
                         if (!__instance.board.boardTag.enableAllTravelPlant && !__instance.board.boardTag.enableTravelPlant && !__instance.board.boardTag.isSuperRandom && !__instance.board.boardTag.isUltimateSuperRandom)
                         {
                             __result = true;
-                            InGameText.Instance.ShowText("¸ÃÅä·½½öÂÃÐÐÄ£Ê½»òÉîÔ¨¿ÉÓÃ", 4f);
+                            InGameText.Instance.ShowText("ï¿½ï¿½ï¿½ä·½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£Ê½ï¿½ï¿½ï¿½ï¿½Ô¨ï¿½ï¿½ï¿½ï¿½", 4f);
                         }
                         else
                         {
@@ -392,7 +392,7 @@ namespace CustomizeLib.BepInEx.Patch
                                 else
                                 {
                                     __result = true;
-                                    InGameText.Instance.ShowText("¸ÃÅä·½ÐèÒª³éÈ¡", 4f);
+                                    InGameText.Instance.ShowText("ï¿½ï¿½ï¿½ä·½ï¿½ï¿½Òªï¿½ï¿½È¡", 4f);
                                 }
                             }
                         }
@@ -489,7 +489,7 @@ namespace CustomizeLib.BepInEx.Patch
     }
 
     /// <summary>
-    /// ×Óµ¯ÒÆ¶¯Â·¾¶
+    /// ï¿½Óµï¿½ï¿½Æ¶ï¿½Â·ï¿½ï¿½
     /// </summary>
     [HarmonyPatch(typeof(Bullet))]
     public static class BulletPatch
@@ -678,7 +678,7 @@ namespace CustomizeLib.BepInEx.Patch
     }
 
     /// <summary>
-    /// µã»÷ÆäËûButton£¬Òþ²Ø¶þ´´Ö²Îï½çÃæ
+    /// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Buttonï¿½ï¿½ï¿½ï¿½ï¿½Ø¶ï¿½ï¿½ï¿½Ö²ï¿½ï¿½ï¿½ï¿½ï¿½
     /// </summary>
     [HarmonyPatch(typeof(UIButton))]
     public static class HideCustomPlantCards
@@ -803,7 +803,7 @@ namespace CustomizeLib.BepInEx.Patch
     }
 
     /// <summary>
-    /// »¨Ç®¿ª´óÕÐ
+    /// ï¿½ï¿½Ç®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     /// </summary>
     [HarmonyPatch(typeof(Money))]
     public static class MoneyPatch
@@ -814,17 +814,17 @@ namespace CustomizeLib.BepInEx.Patch
         {
             if (CustomCore.SuperSkills.ContainsKey(plant.thePlantType))
             {
-                var cost = CustomCore.SuperSkills[plant.thePlantType].Item1(plant);//ÊµÊ±¼ÆËã´óÕÐ»¨·Ñ
+                var cost = CustomCore.SuperSkills[plant.thePlantType].Item1(plant);//ÊµÊ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½ï¿½ï¿½
 
-                if (Board.Instance.theMoney < cost)//Èç¹ûÇ®²»¹»
+                if (Board.Instance.theMoney < cost)//ï¿½ï¿½ï¿½Ç®ï¿½ï¿½ï¿½ï¿½
                 {
-                    InGameText.Instance.ShowText($"´óÕÐÐèÒª{cost}½ð±Ò", 5);//ÌáÊ¾
-                    return false;//Ö±½Ó·µ»Ø
+                    InGameText.Instance.ShowText($"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òª{cost}ï¿½ï¿½ï¿½", 5);//ï¿½ï¿½Ê¾
+                    return false;//Ö±ï¿½Ó·ï¿½ï¿½ï¿½
                 }
 
                 if (plant.SuperSkill())
                 {
-                    CustomCore.SuperSkills[plant.thePlantType].Item2(plant);//Ö´ÐÐ´óÕÐ´úÂë
+                    CustomCore.SuperSkills[plant.thePlantType].Item2(plant);//Ö´ï¿½Ð´ï¿½ï¿½Ð´ï¿½ï¿½ï¿½
                     plant.AnimSuperShoot();
                     __instance.UsedEvent(plant.thePlantColumn, plant.thePlantRow, cost);
                     __instance.OtherSuperSkill(plant);
@@ -864,7 +864,7 @@ namespace CustomizeLib.BepInEx.Patch
             Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 rayPosition = new Vector2(worldPosition.x, worldPosition.y);
 
-            // ´ÓÊó±êÎ»ÖÃ·¢ÉäÉäÏß¼ì²âÅö×²
+            // ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½ï¿½×²
             foreach (var hit in Physics2D.RaycastAll(rayPosition, Vector2.zero))
             {
                 if (hit.collider == null || hit.collider.gameObject == null || hit.collider.gameObject.IsDestroyed())
@@ -891,7 +891,7 @@ namespace CustomizeLib.BepInEx.Patch
                     bool block = false, clearOrigin = false;
                     foreach (var (action, can, onPlant) in CustomCore.CustomClickCardOnPlantEvents[(item.thePlantType, __instance.thePlantTypeOnMouse)])
                     {
-                        if (executedActions.Contains(action)) // ÅÐ¶Ï£¬²»È»»á¶àÖ´ÐÐÒ»´Î
+                        if (executedActions.Contains(action)) // ï¿½Ð¶Ï£ï¿½ï¿½ï¿½È»ï¿½ï¿½ï¿½Ö´ï¿½ï¿½Ò»ï¿½ï¿½
                             continue;
                         if (can != null && !can(item))
                             continue;
@@ -928,7 +928,7 @@ namespace CustomizeLib.BepInEx.Patch
                         {
                             Board.Instance.UseSun(card.theSeedCost);
 
-                            // ¸ß¼¶ÂÃÐÐ¼ì²é
+                            // ï¿½ß¼ï¿½ï¿½ï¿½ï¿½Ð¼ï¿½ï¿½
                             if (Lawnf.TravelAdvanced((AdvBuff)5004))
                             {
                                 Board.Instance.UseSun(Board.Instance.theSun / 2);
@@ -943,7 +943,7 @@ namespace CustomizeLib.BepInEx.Patch
                         {
                             Board.Instance.UseSun(__instance.theCardOnMouse.theSeedCost);
 
-                            // ¸ß¼¶ÂÃÐÐ¼ì²é
+                            // ï¿½ß¼ï¿½ï¿½ï¿½ï¿½Ð¼ï¿½ï¿½
                             if (Lawnf.TravelAdvanced((AdvBuff)5004))
                             {
                                 Board.Instance.UseSun(Board.Instance.theSun / 2);
@@ -961,7 +961,7 @@ namespace CustomizeLib.BepInEx.Patch
                         glove.fullCD = gloveCD;
                         glove.CD = 0f;
 
-                        // ÌØÊâÖ²ÎïÀàÐÍÀäÈ´Ê±¼äµ÷Õû
+                        // ï¿½ï¿½ï¿½ï¿½Ö²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È´Ê±ï¿½ï¿½ï¿½ï¿½ï¿½
                         if (TypeMgr.IsPuff(__instance.thePlantTypeOnMouse) || TypeMgr.IsPot(__instance.thePlantTypeOnMouse) ||
                             TypeMgr.IsLily(__instance.thePlantTypeOnMouse) || TypeMgr.FlyingPlants(__instance.thePlantTypeOnMouse))
                         {
@@ -1015,7 +1015,7 @@ namespace CustomizeLib.BepInEx.Patch
             }
             __instance.StartCoroutine(CoreTools.Init());
 
-            // ´¥·¢ÓÎÏ·Æô¶¯ÊÂ¼þ
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½Â¼ï¿½
             EventListenr.Trigger(ListenerType.OnGameLaunch);
         }
 
@@ -1025,8 +1025,8 @@ namespace CustomizeLib.BepInEx.Patch
         {
             try
             {
-                #region ×Ô¶¯À©ÈÝ
-                // À©ÈÝparticlePrefab
+                #region ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½
+                // ï¿½ï¿½ï¿½ï¿½particlePrefab
                 if (CustomCore.CustomParticles.Count > 0 && (int)CustomCore.CustomParticles.Keys.DefaultIfEmpty().Max() + 1 >= GameAPP.particlePrefab.Length)
                 {
                     long size_particlePrefab = (int)CustomCore.CustomParticles.Keys.DefaultIfEmpty().Max();
@@ -1034,7 +1034,7 @@ namespace CustomizeLib.BepInEx.Patch
                     GameAPP.particlePrefab = particlePrefab;
                 }
 
-                // À©ÈÝspritePrefab
+                // ï¿½ï¿½ï¿½ï¿½spritePrefab
                 if (CustomCore.CustomSprites.Count > 0 && CustomCore.CustomSprites.Keys.DefaultIfEmpty().Max() + 1 >= GameAPP.spritePrefab.Length)
                 {
                     long size_spritePrefab = CustomCore.CustomSprites.Keys.Max();
@@ -1044,45 +1044,45 @@ namespace CustomizeLib.BepInEx.Patch
                 #endregion
             }
             catch (InvalidOperationException) { }
-            foreach (var plant in CustomCore.CustomPlants)//¶þ´´Ö²Îï
+            foreach (var plant in CustomCore.CustomPlants)//ï¿½ï¿½ï¿½ï¿½Ö²ï¿½ï¿½
             {
-                GameAPP.resourcesManager.plantPrefabs[plant.Key] = plant.Value.Prefab;//×¢²áÔ¤ÖÆÌå
-                GameAPP.resourcesManager.plantPrefabs[plant.Key].tag = "Plant";//±ØÐë´òtag
+                GameAPP.resourcesManager.plantPrefabs[plant.Key] = plant.Value.Prefab;//×¢ï¿½ï¿½Ô¤ï¿½ï¿½ï¿½ï¿½
+                GameAPP.resourcesManager.plantPrefabs[plant.Key].tag = "Plant";//ï¿½ï¿½ï¿½ï¿½ï¿½tag
                 if (!GameAPP.resourcesManager.allPlants.Contains(plant.Key))
-                    GameAPP.resourcesManager.allPlants.Add(plant.Key);//×¢²áÖ²ÎïÀàÐÍ
+                    GameAPP.resourcesManager.allPlants.Add(plant.Key);//×¢ï¿½ï¿½Ö²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
                 if (plant.Value.PlantData is not null)
                 {
-                    PlantDataManager.PlantData_Default.Add(plant.Key, plant.Value.PlantData);//×¢²áÖ²ÎïÊý¾Ý
+                    PlantDataManager.PlantData_Default.Add(plant.Key, plant.Value.PlantData);//×¢ï¿½ï¿½Ö²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
                 }
-                GameAPP.resourcesManager.plantPreviews[plant.Key] = plant.Value.Preview;//×¢²áÖ²ÎïÔ¤ÀÀ
-                GameAPP.resourcesManager.plantPreviews[plant.Key].tag = "Preview";//±ØÐÞ´òtag
+                GameAPP.resourcesManager.plantPreviews[plant.Key] = plant.Value.Preview;//×¢ï¿½ï¿½Ö²ï¿½ï¿½Ô¤ï¿½ï¿½
+                GameAPP.resourcesManager.plantPreviews[plant.Key].tag = "Preview";//ï¿½ï¿½ï¿½Þ´ï¿½tag
             }
             foreach (var f in CustomCore.CustomFusions)
             {
                 MixData.AddOrderedRecipe((PlantType)f.Item2, (PlantType)f.Item3, (PlantType)f.Item1);
             }
 
-            foreach (var z in CustomCore.CustomZombies)//×¢²á¶þ´´½©Ê¬
+            foreach (var z in CustomCore.CustomZombies)//×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¬
             {
                 if (!GameAPP.resourcesManager.allZombieTypes.Contains(z.Key))
-                    GameAPP.resourcesManager.allZombieTypes.Add(z.Key);//×¢²á½©Ê¬ÀàÐÍ
-                GameAPP.resourcesManager.zombiePrefabs[z.Key] = z.Value.Item1;//×¢²á½©Ê¬Ô¤ÖÆÌå
-                GameAPP.resourcesManager.zombiePrefabs[z.Key].layer = LayerMask.NameToLayer("Zombie"); // ¸Ä²ã¼¶
-                GameAPP.resourcesManager.zombiePrefabs[z.Key].tag = "Zombie";//±ØÐÞ´òtag
+                    GameAPP.resourcesManager.allZombieTypes.Add(z.Key);//×¢ï¿½á½©Ê¬ï¿½ï¿½ï¿½ï¿½
+                GameAPP.resourcesManager.zombiePrefabs[z.Key] = z.Value.Item1;//×¢ï¿½á½©Ê¬Ô¤ï¿½ï¿½ï¿½ï¿½
+                GameAPP.resourcesManager.zombiePrefabs[z.Key].layer = LayerMask.NameToLayer("Zombie"); // ï¿½Ä²ã¼¶
+                GameAPP.resourcesManager.zombiePrefabs[z.Key].tag = "Zombie";//ï¿½ï¿½ï¿½Þ´ï¿½tag
                 InitZombieList.allowAllzombies.Add(z.Key);
                 if (z.Value.Item2 != null)
                     GameAPP.resourcesManager.zombieSprites[z.Key] = z.Value.Item2;
             }
 
-            // ÏÈ×¢²á¶þ´´×Óµ¯£¬ÔÙ×¢²áÆ¤·ô£¬²»È»×¢²á¶þ´´×Óµ¯Æ¤·ô»á³öbug
-            foreach (var bullet in CustomCore.CustomBullets)//×¢²á¶þ´´×Óµ¯
+            // ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½È»×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½Æ¤ï¿½ï¿½ï¿½ï¿½bug
+            foreach (var bullet in CustomCore.CustomBullets)//×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½
             {
-                GameAPP.resourcesManager.bulletPrefabs[bullet.Key] = bullet.Value;//×¢²á×Óµ¯Ô¤ÖÆÌå
+                GameAPP.resourcesManager.bulletPrefabs[bullet.Key] = bullet.Value;//×¢ï¿½ï¿½ï¿½Óµï¿½Ô¤ï¿½ï¿½ï¿½ï¿½
                 if (!GameAPP.resourcesManager.allBullets.Contains(bullet.Key))
-                    GameAPP.resourcesManager.allBullets.Add(bullet.Key);//×¢²á×Óµ¯ÀàÐÍ
+                    GameAPP.resourcesManager.allBullets.Add(bullet.Key);//×¢ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½
             }
 
-            foreach (var (id, list) in CustomCore.CustomSkinBullet) //×¢²á¶þ´´Æ¤·ô×Óµ¯
+            foreach (var (id, list) in CustomCore.CustomSkinBullet) //×¢ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½Óµï¿½
             {
                 foreach (var (newBulletID, bullet) in list)
                 {
@@ -1097,38 +1097,38 @@ namespace CustomizeLib.BepInEx.Patch
                 }
             }
 
-            foreach (var par in CustomCore.CustomParticles)//×¢²áÁ£×ÓÐ§¹û
+            foreach (var par in CustomCore.CustomParticles)//×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½
             {
                 GameAPP.particlePrefab[(int)par.Key] = par.Value;
-                GameAPP.resourcesManager.particlePrefabs[par.Key] = par.Value;//×¢²áÁ£×ÓÐ§¹ûÔ¤ÖÆÌå
+                GameAPP.resourcesManager.particlePrefabs[par.Key] = par.Value;//×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½Ô¤ï¿½ï¿½ï¿½ï¿½
                 if (!GameAPP.resourcesManager.allParticles.Contains(par.Key))
-                    GameAPP.resourcesManager.allParticles.Add(par.Key);//×¢²áÁ£×ÓÐ§¹ûÀàÐÍ
+                    GameAPP.resourcesManager.allParticles.Add(par.Key);//×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             }
 
-            foreach (var spr in CustomCore.CustomSprites)//×¢²á×Ô¶¨Òå¾«ÁéÌùÍ¼
+            foreach (var spr in CustomCore.CustomSprites)//×¢ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½å¾«ï¿½ï¿½ï¿½ï¿½Í¼
             {
                 GameAPP.spritePrefab[spr.Key] = spr.Value;
             }
 
-            // °Ñ¼üµÄindex¼ÓÉÏprefabsµÄCountµÃµ½ÐÂµÄÊµ¼ÊIndex
+            // ï¿½Ñ¼ï¿½ï¿½ï¿½indexï¿½ï¿½ï¿½ï¿½prefabsï¿½ï¿½Countï¿½Ãµï¿½ï¿½Âµï¿½Êµï¿½ï¿½Index
             CustomCore.CustomBulletsSkinID = CustomCore.CustomBulletsSkinID.ToDictionary(kvp =>
                 (kvp.Key.pt, kvp.Key.oriBulletType, 
-                kvp.Key.index + (GameAPP.resourcesManager._plantPrefabs.TryGetValue(kvp.Key.pt, out var list) ? list.Count : 0)), // Èç¹ûÓÐ£¬ÓÃÁÐ±íµÄ³¤¶È£¬·ñÔòÓÃ0
+                kvp.Key.index + (GameAPP.resourcesManager._plantPrefabs.TryGetValue(kvp.Key.pt, out var list) ? list.Count : 0)), // ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½Ð±ï¿½Ä³ï¿½ï¿½È£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½0
                 kvp => kvp.Value);
 
-            GameAPP.Instance.StartCoroutine(PatchMgr.RegisterSkin()); // ÔÚËùÓÐ×¢²áÍê³ÉÖ®ºóÆô¶¯Æ¤·ôÐ­³Ì
+            GameAPP.Instance.StartCoroutine(PatchMgr.RegisterSkin()); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½Ð­ï¿½ï¿½
         }
 
         [HarmonyPatch(nameof(GameAPP.LoadResources))]
         [HarmonyPostfix]
         public static void PostLoadResources()
         {
-            foreach (var audio in CustomCore.CustomSounds) // ×¢²á×Ô¶¨ÒåÒôÐ§
+            foreach (var audio in CustomCore.CustomSounds) // ×¢ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½Ð§
             {
                 GameAPP.soundManager.sounds.Add((SoundType)audio.Key, audio.Value);
             }
 
-            foreach (var music in CustomCore.CustomMusics) // ×¢²á×Ô¶¨ÒåÒôÀÖ
+            foreach (var music in CustomCore.CustomMusics) // ×¢ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             {
                 GameAPP.soundManager.musics.Add(music.Key, music.Value);
                 SoundManager.MusicNames.Add(music.Key, music.Key.ToString());
@@ -1150,7 +1150,7 @@ namespace CustomizeLib.BepInEx.Patch
                 behaviour.transform.SetParent(null);
                 DontDestroyOnLoad(behaviour);
 
-                // ×¢²áºì¿¨
+                // ×¢ï¿½ï¿½ì¿¨
                 {
                     var propertyInfo = typeof(TypeMgr).GetProperty("RedPlant", BindingFlags.Static | BindingFlags.Public);
                     var value = propertyInfo.GetValue(null);
@@ -1160,7 +1160,7 @@ namespace CustomizeLib.BepInEx.Patch
                             redPlant.Add(k);
                     propertyInfo.SetValue(null, redPlant);
                 }
-                // ×¢²á·ÀÄëÑ¹Ö²Îï
+                // ×¢ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¹Ö²ï¿½ï¿½
                 {
                     var propertyInfo = typeof(TypeMgr).GetProperty("UncrashablePlants", BindingFlags.Static | BindingFlags.Public);
                     if (propertyInfo is null)
@@ -1237,7 +1237,7 @@ namespace CustomizeLib.BepInEx.Patch
     }
 
     /// <summary>
-    /// ÏÔÊ¾×Ô¶¨Òå¿¨
+    /// ï¿½ï¿½Ê¾ï¿½Ô¶ï¿½ï¿½å¿¨
     /// </summary>
     [HarmonyPatch(typeof(SeedLibrary))]
     public static class SeedLibraryPatch
@@ -1247,13 +1247,13 @@ namespace CustomizeLib.BepInEx.Patch
         public static void PostAwake(SeedLibrary __instance)
         {
             SelectCustomPlants.InitButton();
-            // ×¢²á×Ô¶¨Òå¿¨ÅÆ
+            // ×¢ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½å¿¨ï¿½ï¿½
             PatchMgr.ShowCustomCards(__instance);
         }
     }
 
     /// <summary>
-    /// ÏÔÊ¾×Ô¶¨Òå¿¨
+    /// ï¿½ï¿½Ê¾ï¿½Ô¶ï¿½ï¿½å¿¨
     /// </summary>
     [HarmonyPatch(typeof(PlantCardPackageBuilder))]
     public static class PlantCardPackageBuilderPatch
@@ -1263,7 +1263,7 @@ namespace CustomizeLib.BepInEx.Patch
         public static void PostStart(PlantCardPackageBuilder __instance)
         {
             SelectCustomPlants.InitButton();
-            // ×¢²á×Ô¶¨Òå¿¨ÅÆ
+            // ×¢ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½å¿¨ï¿½ï¿½
             PatchMgr.ShowCustomCards(__instance);
         }
     }
@@ -1421,7 +1421,7 @@ namespace CustomizeLib.BepInEx.Patch
     }
 
     /// <summary>
-    /// ¶þ´´´ÊÌõÎÄ±¾È¾É«
+    /// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½È¾É«
     /// </summary>
     [HarmonyPatch(typeof(TravelBuffOptionButton))]
     public static class TravelBuffOptionButtonPatch
@@ -1434,7 +1434,7 @@ namespace CustomizeLib.BepInEx.Patch
         }
 
         /// <summary>
-        /// Ç¿¾¿´ÊÌõÏÔÊ¾Ö²ÎïÐÞ¸´
+        /// Ç¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾Ö²ï¿½ï¿½ï¿½Þ¸ï¿½
         /// </summary>
         [HarmonyPatch(nameof(TravelBuffOptionButton.SetPlant), new Type[] { })]
         [HarmonyPostfix]
@@ -1546,27 +1546,27 @@ namespace CustomizeLib.BepInEx.Patch
                 __instance.SetZombie(CustomCore.CustomDebuffs[buffIndex].Item2);
             }
 
-            // ¶à¼¶´ÊÌõÎÄ±¾ÏÔÊ¾
+            // ï¿½à¼¶ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½Ê¾
             var result = MultiLevelBuff.IsMultiLevelBuff(buffType, buffIndex);
             try
             {
-                // Èç¹ûÊÇ¶à¼¶´ÊÌõ
+                // ï¿½ï¿½ï¿½ï¿½Ç¶à¼¶ï¿½ï¿½ï¿½ï¿½
                 if (result.Item1)
                 {
                     var array = MultiLevelBuff.GetBuffArray();
-                    if (array is null) return; // Èç¹ûÊý¾ÝÊý×éÎª¿ÕÖ±½Ó·µ»Ø
+                    if (array is null) return; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½Ö±ï¿½Ó·ï¿½ï¿½ï¿½
                     int index = result.Item2;
                     int maxLevel = MultiLevelBuff.GetBuffMaxLevel(buffType, buffIndex);
-                    if (TravelLookMenu.Instance.showAll) // Èç¹ûÊÇizµÄÈ«Ñ¡Ä£Ê½
+                    if (TravelLookMenu.Instance.showAll) // ï¿½ï¿½ï¿½ï¿½ï¿½izï¿½ï¿½È«Ñ¡Ä£Ê½
                     {
                         __instance.SetText(array[index] != 0, array[index]);
                         if (array[index] <= maxLevel &&
                             array[index] != 0)
                         {
                             if (maxLevel > 1)
-                                __instance.SetText($"ÒÑ¿ªÆô£¨{array[index]}¼¶£©");
+                                __instance.SetText($"ï¿½Ñ¿ï¿½ï¿½ï¿½ï¿½{array[index]}ï¿½ï¿½ï¿½ï¿½");
                             else
-                                __instance.SetText($"ÒÑ¿ªÆô");
+                                __instance.SetText($"ï¿½Ñ¿ï¿½ï¿½ï¿½");
                         }
                         return;
                     }
@@ -1574,11 +1574,11 @@ namespace CustomizeLib.BepInEx.Patch
                     {
                         if (array[index] < maxLevel && maxLevel != 1)
                         {
-                            __instance.SetText($"{array[index]}¼¶");
+                            __instance.SetText($"{array[index]}ï¿½ï¿½");
                         }
                         else if (array[index] >= maxLevel && maxLevel != 1)
                         {
-                            __instance.SetText("ÒÑÂú¼¶");
+                            __instance.SetText("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
                         }
                         TravelMgr.Instance.SetData(LevelBuffData.LEVEL_BUFF_ARR, array);
                     }
@@ -1591,7 +1591,7 @@ namespace CustomizeLib.BepInEx.Patch
         }
 
         /// <summary>
-        /// ¸ß¼¶´ÊÌõÉý¼¶´¦Àí
+        /// ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         /// </summary>
         [HarmonyPatch(nameof(TravelLookBuff.OnMouseUpAsButton))]
         [HarmonyPrefix]
@@ -1599,7 +1599,7 @@ namespace CustomizeLib.BepInEx.Patch
         {
             var (buffType, buffIndex) = __instance.TryGetTypeAndID();
             var result = MultiLevelBuff.IsMultiLevelBuff(buffType, buffIndex);
-            bool reset = false; // ÖØÖÃÉý¼¶´ÊÌõ
+            bool reset = false; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             if (result.Item1)
             {
                 try
@@ -1608,34 +1608,34 @@ namespace CustomizeLib.BepInEx.Patch
                     if (array is null) return true;
                     int index = result.Item2;
                     int maxLevel = MultiLevelBuff.GetBuffMaxLevel(buffType, buffIndex);
-                    if (TravelLookMenu.Instance.showAll) // Èç¹ûÊÇizµÄÈ«Ñ¡
+                    if (TravelLookMenu.Instance.showAll) // ï¿½ï¿½ï¿½ï¿½ï¿½izï¿½ï¿½È«Ñ¡
                     {
                         MultiLevelBuff.AddBuffLevel(buffType, buffIndex);
-                        __instance.SetText(array[index] != 0, array[index]); // ÉèÖÃÎÄ±¾
+                        __instance.SetText(array[index] != 0, array[index]); // ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½
                         if (array[index] <= maxLevel && array[index] != 0)
                         {
                             if (maxLevel > 1)
-                                __instance.SetText($"ÒÑ¿ªÆô£¨{array[index]}¼¶£©");
+                                __instance.SetText($"ï¿½Ñ¿ï¿½ï¿½ï¿½ï¿½{array[index]}ï¿½ï¿½ï¿½ï¿½");
                             else
-                                __instance.SetText($"ÒÑ¿ªÆô");
+                                __instance.SetText($"ï¿½Ñ¿ï¿½ï¿½ï¿½");
                         }
                         TravelMgr.Instance.SetData(LevelBuffData.LEVEL_BUFF_ARR, array);
                         return false;
                     }
                     else
                     {
-                        if (array[index] < maxLevel && CoreTools.TravelAdvanced("Éý¼¶") && maxLevel != 1)
+                        if (array[index] < maxLevel && CoreTools.TravelAdvanced("ï¿½ï¿½ï¿½ï¿½") && maxLevel != 1)
                         {
-                            array[index] = array[index] + 1; // Éý¼¶
+                            array[index] = array[index] + 1; // ï¿½ï¿½ï¿½ï¿½
                             reset = true;
                             if (array[index] >= maxLevel)
-                                __instance.SetText("ÒÑÂú¼¶");
+                                __instance.SetText("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
                             else
-                                __instance.SetText($"{array[index]}¼¶");
+                                __instance.SetText($"{array[index]}ï¿½ï¿½");
                         }
                         if (array[index] >= maxLevel)
                         {
-                            __instance.SetText("ÒÑÂú¼¶");
+                            __instance.SetText("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
                         }
                         TravelMgr.Instance.SetData("CustomBuffsLevel", array);
                     }
@@ -1647,7 +1647,7 @@ namespace CustomizeLib.BepInEx.Patch
             }
             if (reset)
             {
-                __instance.manager.data.advBuffs.Remove(CoreTools.GetAdvBuffByString("Éý¼¶")); // ÒÆ³ýÉý¼¶
+                __instance.manager.data.advBuffs.Remove(CoreTools.GetAdvBuffByString("ï¿½ï¿½ï¿½ï¿½")); // ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½
                 return false;
             }
             return true;
@@ -1665,7 +1665,7 @@ namespace CustomizeLib.BepInEx.Patch
             var buff = __instance.cardInfos[__instance.current].buff;
             var (buffType, buffIndex) = TravelExtensions.GetTypeAndID(buff);
             var result = MultiLevelBuff.IsMultiLevelBuff(buffType, buffIndex);
-            bool reset = false; // ÖØÖÃÉý¼¶´ÊÌõ
+            bool reset = false; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             if (result.Item1)
             {
                 try
@@ -1675,30 +1675,30 @@ namespace CustomizeLib.BepInEx.Patch
                     if (array is null) return true;
                     int index = result.Item2;
                     int maxLevel = MultiLevelBuff.GetBuffMaxLevel(buffType, buffIndex);
-                    if (__instance.editMode) // Èç¹ûÊÇizµÄÈ«Ñ¡
+                    if (__instance.editMode) // ï¿½ï¿½ï¿½ï¿½ï¿½izï¿½ï¿½È«Ñ¡
                     {
                         MultiLevelBuff.AddBuffLevel(buffType, buffIndex);
-                        MultiLevelBuff.SetToolText(button, buffType, buffIndex, array[index] != 0); // ÉèÖÃÎÄ±¾
+                        MultiLevelBuff.SetToolText(button, buffType, buffIndex, array[index] != 0); // ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½
                         TravelMgr.Instance.SetData(LevelBuffData.LEVEL_BUFF_ARR, array);
-                        // ¸üÐÂ¿¨Æ¬UIµÄÍ¸Ã÷¶È
+                        // ï¿½ï¿½ï¿½Â¿ï¿½Æ¬UIï¿½ï¿½Í¸ï¿½ï¿½ï¿½ï¿½
                         var hasBuff = Lawnf.HasTravelBuff(buff) ? 0f : 1f;
                         __instance.current.GetComponent<Image>().color = new Color(hasBuff, 1f, hasBuff, 1f);
                         return false;
                     }
                     else
                     {
-                        if (array[index] < maxLevel && CoreTools.TravelAdvanced("Éý¼¶") && maxLevel != 1)
+                        if (array[index] < maxLevel && CoreTools.TravelAdvanced("ï¿½ï¿½ï¿½ï¿½") && maxLevel != 1)
                         {
-                            array[index] = array[index] + 1; // Éý¼¶
+                            array[index] = array[index] + 1; // ï¿½ï¿½ï¿½ï¿½
                             reset = true;
                             if (array[index] >= maxLevel)
-                                buttonText.text = "ÒÑÂú¼¶";
+                                buttonText.text = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
                             else
-                                buttonText.text = $"{array[index]}¼¶";
+                                buttonText.text = $"{array[index]}ï¿½ï¿½";
                         }
-                        if (array[index] >= maxLevel) buttonText.text = "ÒÑÂú¼¶";
+                        if (array[index] >= maxLevel) buttonText.text = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
                         TravelMgr.Instance.SetData("CustomBuffsLevel", array);
-                        // ¸üÐÂ¿¨Æ¬UIµÄÍ¸Ã÷¶È
+                        // ï¿½ï¿½ï¿½Â¿ï¿½Æ¬UIï¿½ï¿½Í¸ï¿½ï¿½ï¿½ï¿½
                         var hasBuff = Lawnf.HasTravelBuff(buff) ? 0f : 1f;
                         __instance.current.GetComponent<Image>().color = new Color(hasBuff, 1f, hasBuff, 1f);
                     }
@@ -1710,7 +1710,7 @@ namespace CustomizeLib.BepInEx.Patch
             }
             if (reset)
             {
-                TravelMgr.Instance.data.advBuffs.Remove(CoreTools.GetAdvBuffByString("Éý¼¶")); // ÒÆ³ýÉý¼¶
+                TravelMgr.Instance.data.advBuffs.Remove(CoreTools.GetAdvBuffByString("ï¿½ï¿½ï¿½ï¿½")); // ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½
                 return false;
             }
             return true;
@@ -1730,7 +1730,7 @@ namespace CustomizeLib.BepInEx.Patch
             var result = MultiLevelBuff.IsMultiLevelBuff(buffType, buffIndex);
             if (result.Item1)
             {
-                MultiLevelBuff.SetToolText(button, buffType, buffIndex, array[result.Item2] != 0); // ÉèÖÃÎÄ±¾
+                MultiLevelBuff.SetToolText(button, buffType, buffIndex, array[result.Item2] != 0); // ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½
             }
         }
 
@@ -1750,9 +1750,9 @@ namespace CustomizeLib.BepInEx.Patch
                 var curse = __instance.transform.FindChild("Scroll View/Viewport/Content/curseBuffs").gameObject;
                 var customBuffs = Instantiate(curse, __instance.transform.FindChild("Scroll View/Viewport/Content"));
                 customBuffs.name = "customBuffs";
-                customBuffs.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "¶þ´´´ÊÌõ";
+                customBuffs.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
                 var list = new Il2CppSystem.Collections.Generic.List<AlmanacCardUI>();
-                int cnt = 0; // µ±Ç°ÊÇµÚ¼¸´ÎÑ­»·
+                int cnt = 0; // ï¿½ï¿½Ç°ï¿½ÇµÚ¼ï¿½ï¿½ï¿½Ñ­ï¿½ï¿½
                 foreach (var ((buffType, id), (desc, icon, zt)) in CustomCore.CustomBuffs)
                 {
                     var obj = new Il2CppSystem.Object();
@@ -1907,7 +1907,7 @@ namespace CustomizeLib.BepInEx.Patch
             {
                 __instance.SetData("CustomBuffsLevel", new int[CustomCore.CustomBuffsLevel.Count]);
             }
-            TravelMgr.Instance.SetData("LoadByEndless", false); // ÖØÖÃ±êÖ¾Î»£¬±ÜÃâ½øÈëÆäËûÄ£Ê½ºó²»ÖØÖÃ
+            TravelMgr.Instance.SetData("LoadByEndless", false); // ï¿½ï¿½ï¿½Ã±ï¿½Ö¾Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         }
 
         [HarmonyPatch(nameof(TravelMgr.GetAdvancedBuffPool))]
@@ -1987,7 +1987,7 @@ namespace CustomizeLib.BepInEx.Patch
             else
             {
                 foreach (var pt in CustomCore.CustomUltimatePlants)
-                    if (!CustomCore.CustomStrongUltimatePlants.ContainsKey(pt)) // ÅÅ³ýÇ¿¾¿
+                    if (!CustomCore.CustomStrongUltimatePlants.ContainsKey(pt)) // ï¿½Å³ï¿½Ç¿ï¿½ï¿½
                         __result.Add(pt);
             }
         }
@@ -2051,12 +2051,12 @@ namespace CustomizeLib.BepInEx.Patch
                 {
                     if (window.cost > 15000)
                     {
-                        window.UpdateButtonText("¹ýÓÚ°º¹ó", UnityEngine.Color.red);
+                        window.UpdateButtonText("ï¿½ï¿½ï¿½Ú°ï¿½ï¿½ï¿½", UnityEngine.Color.red);
                         window.canBuy = false;
                         return;
                     }
                 }
-                window.UpdateButtonText($"{window.cost}·Ö", UnityEngine.Color.yellow);
+                window.UpdateButtonText($"{window.cost}ï¿½ï¿½", UnityEngine.Color.yellow);
                 window.canBuy = true;
             }
         }
@@ -2823,7 +2823,7 @@ namespace CustomizeLib.BepInEx.Patch
                     custom.name = "CustomLevels";
                     custom.transform.localPosition = CalculatePosition((firstBtns.childCount - 1) % 6, (firstBtns.childCount - 1) / 6);
                     var window = custom.transform.FindChild("Window");
-                    window.FindChild("Name").GetComponent<TextMeshProUGUI>().text = "¶þ´´¹Ø¿¨";
+                    window.FindChild("Name").GetComponent<TextMeshProUGUI>().text = "ï¿½ï¿½ï¿½ï¿½ï¿½Ø¿ï¿½";
                     var adv = levels.FindChild("PageAdvantureLevel");
                     var customLevels = UnityEngine.Object.Instantiate(adv.gameObject, levels);
                     customLevels.active = false;
@@ -2876,30 +2876,30 @@ namespace CustomizeLib.BepInEx.Patch
             if ((int)levelType is not 66) return true;
             var levelData = CustomCore.CustomLevels[levelNumber];
 
-            // ÇåÀíUI×ÊÔ´
+            // ï¿½ï¿½ï¿½ï¿½UIï¿½ï¿½Ô´
             SynergyManager.Instance.ClearAllSynergies();
             EventManager.ClearAllEvents();
             GameAPP.UIManager.PopAll();
 
-            // ÖØÖÃÏà»ú
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             CamaraFollowMouse.Instance.ResetCamera();
 
-            // ÉèÖÃÓÎÏ·ËÙ¶È
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½Ù¶ï¿½
             Time.timeScale = GameAPP.config.gameSpeed;
 
-            // ÉèÖÃµ±Ç°¹Ø¿¨ÐÅÏ¢
+            // ï¿½ï¿½ï¿½Ãµï¿½Ç°ï¿½Ø¿ï¿½ï¿½ï¿½Ï¢
             GameAPP.theBoardType = levelType;
             GameAPP.theBoardLevel = levelNumber;
 
             RogueManager.Instance.Clear();
-            // ÇåÀíÏÖÓÐµÄTravel¹ÜÀíÆ÷
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½Travelï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             if (TravelMgr.Instance != null)
             {
                 UnityEngine.Object.Destroy(TravelMgr.Instance);
                 TravelMgr._instance = null;
             }
 
-            // ´´½¨ÓÎÏ·°å
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½
             GameObject boardGO = new("Board");
             GameAPP.board = boardGO;
             Board board = boardGO.AddComponent<Board>();
@@ -2915,16 +2915,16 @@ namespace CustomizeLib.BepInEx.Patch
             levelData.PostBoard(board);
             if (levelData.LevelData != null)
                 LevelManager.registry.RegisterPredefinedLevel(levelData.LevelData);
-            // ¼ÓÔØ²¢ÊµÀý»¯µØÍ¼
+            // ï¿½ï¿½ï¿½Ø²ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼
             var map = MapData_cs.GetMap(levelData.SceneType, board);
 
             InitZombieList.InitZombie(levelType, levelNumber);
 
-            // ²¥·ÅÒôÀÖ²¢¿ªÊ¼ÓÎÏ·
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö²ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½Ï·
             GameAPP.Instance.PlayMusic(MusicType.SelectCard);
             GameAPP.theGameStatus = GameStatus.InInterlude;
 
-            // ³õÊ¼»¯ÓÎÏ·°å
+            // ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½
             levelData.PreInitBoard();
 
             levelData.PostInitBoard(board.gameObject.AddComponent<InitBoard>());
@@ -3091,11 +3091,11 @@ namespace CustomizeLib.BepInEx.Patch
                 customButton.transform.localPosition = new Vector2(10, 0);
                 customButton.name = "LoolAll_Other";
                 customButton.transform.localPosition = new Vector2(440, -499);
-                // ÐÞ¸Ä°´Å¥ÎÄ±¾
+                // ï¿½Þ¸Ä°ï¿½Å¥ï¿½Ä±ï¿½
                 foreach (var text in customButton.GetComponentsInChildren<TextMeshProUGUI>())
                 {
                     if (text != null)
-                        text.text = "¶þ´´½©Ê¬";
+                        text.text = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¬";
                 }
 
                 var uiButton = customButton.GetComponent<UIButton>();

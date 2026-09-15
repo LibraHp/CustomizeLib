@@ -29,7 +29,7 @@ namespace SuperShovelLevel.BepInEx
             customLevelData.WaveCount = () => 100;
             customLevelData.BgmType = MusicType.Day_drum;
             customLevelData.Sun = () => 1000;
-            customLevelData.Logo = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "supershovellevel").GetAsset<Sprite>("icon");
+            customLevelData.Logo = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "supershovellevel" + (Application.platform == RuntimePlatform.Android ? ".android" : "")).GetAsset<Sprite>("icon");
             customLevelData.ZombieList = () => new List<ZombieType>()
             {
                 ZombieType.RandomZombie,

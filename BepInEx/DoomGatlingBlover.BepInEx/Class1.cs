@@ -22,12 +22,11 @@ namespace DoomGatlingBlover.BepInEx
 
         public override void OnStart()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             ClassInjector.RegisterTypeInIl2Cpp<DoomGatlingBlover>();
             ClassInjector.RegisterTypeInIl2Cpp<UltimateDoomGatlingBlover>();
             ClassInjector.RegisterTypeInIl2Cpp<DoomBomb>();
             ClassInjector.RegisterTypeInIl2Cpp<DoomDoom>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "doomgatlingblover");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "doomgatlingblover" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             {
                 CustomCore.RegisterCustomPlant<UltimateGatlingBlover, DoomGatlingBlover>((int)DoomGatlingBlover.PlantID, ab.GetAsset<GameObject>("DoomGatlingBloverPrefab"),
                     ab.GetAsset<GameObject>("DoomGatlingBloverPreview"), new List<(int, int)>

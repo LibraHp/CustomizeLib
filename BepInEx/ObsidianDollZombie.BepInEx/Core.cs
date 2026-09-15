@@ -72,11 +72,10 @@ namespace ObsidianDollZombie.BepInEx
     {
         public override void Load()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<ObsidianDollZombie>();
             ClassInjector.RegisterTypeInIl2Cpp<ObsidianRandomZombie>();
-            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "obsidiandollzombie");
+            var ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "obsidiandollzombie" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomZombie<DollZombie, ObsidianDollZombie>((ZombieType)99,
                 ab.GetAsset<GameObject>("ObsidianDollZombie"), 202, 50, 40000, 18000, 0);
             CustomCore.RegisterCustomSprite(200, ab.GetAsset<Sprite>("ObsidianDollZombie_head2"));
