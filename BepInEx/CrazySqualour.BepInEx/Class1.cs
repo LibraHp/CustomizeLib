@@ -34,7 +34,7 @@ namespace CrazySqualourBepInEx
         {
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             ClassInjector.RegisterTypeInIl2Cpp<EndoFlameSaver>();
-            AssetBundle ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icon");
+            AssetBundle ab = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "icon" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomLevelData customLevelData = new CustomLevelData();
             customLevelData.Name = (() => "严肃窝瓜3");
             Board.BoardTag boardTag = default(Board.BoardTag);

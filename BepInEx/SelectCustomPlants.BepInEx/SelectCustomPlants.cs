@@ -66,7 +66,6 @@ public class SelectCustomPlants : BasePlugin
     public static void InitCustomCards()
     {
         //控制台支持中文
-        Console.OutputEncoding = Encoding.UTF8;
         //用正常植物Button创建二创植物Button
         MyShowCustomPlantsButton = UnityEngine.Object.Instantiate(
             Resources.Load<GameObject>("ui/prefabs/InGameUI").transform.FindChild("Bottom/SeedLibrary/ShowNormal")

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1212507531
+CRC: 2026978631
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 23a3968de56d97e39e0b180514200df4
+    Hash: 2857ad952e726c298f8924cc19a719cf
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 886f15ae7808a7713ce4d4f6190a94dd
+    Hash: 77f2dc64695c6a991b97575261e14c12
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 23a3968de56d97e39e0b180514200df4
+    Hash: 2857ad952e726c298f8924cc19a719cf
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -35,9 +35,7 @@ ClassTypes:
 - Class: 114
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
-- Class: 115
-  Script: {instanceID: 0}
+  Script: {fileID: -54844177, guid: f68e4d9210748575b7313c5ba1460876, type: 3}
 - Class: 198
   Script: {instanceID: 0}
 - Class: 199
@@ -50,166 +48,193 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Base_1.asset"
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_11.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/CherryBomb_right1.asset
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/Squash_body.asset
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_22.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/UltimateFreezingCherry.controller
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Top_0.asset"
+- Assets/resources/mod/freezingcherry/freezingcherry/FreezingCherry.prefab
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_4.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/shake.anim
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/NuclearDoomCherry_1.png
+- Assets/resources/mod/freezingcherry/icenucleardoom/32F6C62823BD91AEBD58A37B0508376A.png
+- Assets/resources/mod/freezingcherry/icenucleardoom/513FE2D1683121095326FF328516CA9B_0.asset
 - "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_8.asset"
-- Assets/resources/mod/freezingcherry/Radiation.prefab
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_5.asset"
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/SuperBoom.anim
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Top.png"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/NuclearDoomCherry.png
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_9.asset"
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_12.asset"
+- Assets/resources/mod/freezingcherry/freezingcherry/FreezingCherry.controller
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/NuclearDoomCherry Skeleton.asset
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_11.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/NuclearDoomCherry.asset
+- Assets/resources/mod/freezingcherry/freezingcherry/plantshadow.asset
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_0.asset"
+- Assets/resources/mod/freezingcherry/icenucleardoom/5826594BE2AA5EAAB10CCAC5C9700A67.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/F.asset
+- Assets/resources/mod/freezingcherry/icenucleardoom/513FE2D1683121095326FF328516CA9B.png
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Base_0.asset"
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/Doom.controller"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/G.asset
+- Assets/resources/mod/freezingcherry/bullet/F696D9021AF3EA718088F57BB725B285.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/cloud.anim
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_19.asset"
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_20.asset"
 - "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/godray01.png"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/2C70616C0C411DCACF7D1B141280F0C6.png
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_6.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/4.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/D.asset
+- Assets/resources/mod/freezingcherry/Doom_nuclear.prefab
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_6.asset"
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/924C5DBF4CFC41E5660D58009A31B3E4.png
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/NuclearDoomCherry_0.asset
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/eyeleft.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/D.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/snakebody.anim
+- Assets/resources/mod/freezingcherry/freezingcherry/SunEmmit.mat
+- Assets/resources/mod/freezingcherry/FreezingCherryPreview.prefab
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_7.asset"
+- Assets/resources/mod/freezingcherry/IceDoomOnlySprite.prefab
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/C.asset
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_0.asset"
+- Assets/resources/mod/freezingcherry/UltimateFreezingCherryPrefab.prefab
+- Assets/resources/mod/freezingcherry/freezingcherry/xuzhaung.asset
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_3.asset"
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Base_0.png"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/CherryBomb_left1.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/UltimateFreezingCherry2.prefab
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_17.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/Squash_eyebrows.asset
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Top.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/UltimateFreezingCherry.png
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/Doom.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/924C5DBF4CFC41E5660D58009A31B3E4.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/AwardPickupGlow.png
+- Assets/resources/mod/freezingcherry/Doom_nuclear2.prefab
+- Assets/resources/mod/freezingcherry/icenucleardoom/5826594BE2AA5EAAB10CCAC5C9700A67.png
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_21.asset"
+- Assets/resources/mod/freezingcherry/icenucleardoom/51F9564BB663CF3FE606A129578039B2.asset
+- Assets/resources/mod/freezingcherry/icenucleardoom/513FE2D1683121095326FF328516CA9B_0.png
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/doom 1.anim"
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_23.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/5.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/1.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/NuclearDoomCherry_1.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/NuclearSquash_0.asset
+- Assets/resources/mod/freezingcherry/bombsmall/ExplosionCloud.asset
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Base_2.asset"
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_1.asset"
+- Assets/resources/mod/freezingcherry/icenucleardoom/Doom.controller
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/3.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/NuclearDoomCherry_0.png
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/7.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/body2.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/Squash_body.asset
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_3.asset"
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_4.asset"
 - Assets/resources/mod/freezingcherry/BombCloud_vision_Super.prefab
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/UltimateFreezingCherry2.png
+- Assets/texture2d/PeaShooter.png
+- Assets/resources/mod/freezingcherry/bombsmall/ExplosionCloud.png
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/NuclearSquash.png
+- Assets/resources/mod/freezingcherry/FreezingCherryPrefab.prefab
+- Assets/resources/mod/freezingcherry/bullet/F696D9021AF3EA718088F57BB725B285_0.asset
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_10.asset"
+- Assets/resources/mod/freezingcherry/freezingcherry/idle.anim
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_13.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/2C70616C0C411DCACF7D1B141280F0C6.asset
+- Assets/resources/mod/freezingcherry/Radiation.prefab
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Stem_0.asset"
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_9.asset"
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Base_1.asset"
+- Assets/Sprite/PeaShooter.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/idle.anim
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/6.asset
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_18.asset"
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_12.asset"
+- Assets/resources/mod/freezingcherry/icenucleardoom/513FE2D1683121095326FF328516CA9B_2.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/c.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/2.asset
+- Assets/resources/mod/freezingcherry/icenucleardoom/Doom2.controller
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/1.asset
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_1.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/CherryBomb_leftmouth1.asset
+- Assets/resources/mod/freezingcherry/icenucleardoom/32F6C62823BD91AEBD58A37B0508376A.asset
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_2.asset"
+- Assets/resources/mod/freezingcherry/freezingcherry/plantshadow.png
 - Assets/resources/mod/freezingcherry/ultimatefreezingcherry/UltimateFreezingCherry2
   Skeleton.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/7.asset
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_3.asset"
-- Assets/resources/mod/freezingcherry/freezingcherry/FreezingCherry Skeleton.asset
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_12.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/idle.anim
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/F.asset
-- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/doom 1.anim"
-- Assets/resources/mod/freezingcherry/FreezingCherryPrefab.prefab
-- Assets/resources/mod/freezingcherry/icenucleardoom/Doom2.controller
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/6.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/SuperBoom2.anim
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
-- Assets/resources/mod/freezingcherry/icenucleardoom/513FE2D1683121095326FF328516CA9B_1.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/CherryBomb_leftmouth1.asset
-- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Base_2.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/NuclearDoomCherry_0.png
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/eyebrow.asset
-- Assets/resources/mod/freezingcherry/icenucleardoom/5826594BE2AA5EAAB10CCAC5C9700A67.png
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_19.asset"
-- Assets/resources/mod/freezingcherry/Doom_nuclear.prefab
-- Assets/resources/mod/freezingcherry/icenucleardoom/513FE2D1683121095326FF328516CA9B.png
-- Assets/resources/mod/freezingcherry/freezingcherry/FreezingCherry.prefab
 - "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/F.asset
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_13.asset"
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_17.asset"
-- Assets/resources/mod/freezingcherry/freezingcherry/FreezingCherry.controller
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/A.asset
-- Assets/resources/mod/freezingcherry/bullet/F696D9021AF3EA718088F57BB725B285.asset
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_3.asset"
 - "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_16.asset"
-- Assets/resources/mod/freezingcherry/icenucleardoom/5826594BE2AA5EAAB10CCAC5C9700A67.asset
-- Assets/resources/mod/freezingcherry/IceDoomNoSprite.prefab
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/NuclearSquash.asset
-- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Top.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/NuclearDoomCherry.controller
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/A.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/Squash_eyebrows.asset
-- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Stem.png"
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_12.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/c.asset
-- Assets/resources/mod/freezingcherry/bullet/F696D9021AF3EA718088F57BB725B285.png
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_9.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/IMG_7921.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/C_0.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/3.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/snakebody.anim
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/924C5DBF4CFC41E5660D58009A31B3E4.png
-- Assets/resources/mod/freezingcherry/UltimateFreezingCherryPrefab.prefab
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_2.asset"
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/SuperBoom.anim
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/NuclearSquash.png
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_7.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/D.asset
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_7.asset"
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_2.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/2.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/4.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/NuclearDoomCherry Skeleton.asset
-- Assets/resources/mod/freezingcherry/UltimateFreezingCherryPreview.prefab
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_23.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/1.asset
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
-- Assets/resources/mod/freezingcherry/freezingcherry/FreezingCherry.png
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_20.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/NuclearDoomCherry.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/shake.anim
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_0.asset"
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/CherryBomb_left1.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/2.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/5.asset
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_10.asset"
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_6.asset"
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_5.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/eyeright.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/6.asset
-- Assets/resources/mod/freezingcherry/Doom_nuclear2.prefab
-- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Stem.asset"
-- Assets/resources/mod/freezingcherry/FreezingCherryPreview.prefab
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/IMG_7921.png
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/UltimateFreezingCherry.prefab
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/CherryBomb_rightmouth1.asset
-- Assets/resources/mod/freezingcherry/icenucleardoom/Godray.mat
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_8.asset"
-- Assets/resources/mod/freezingcherry/freezingcherry/idle.anim
-- Assets/resources/mod/freezingcherry/freezingcherry/SunEmmit.mat
-- Assets/resources/mod/freezingcherry/icenucleardoom/32F6C62823BD91AEBD58A37B0508376A.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/3.asset
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_6.asset"
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_18.asset"
-- Assets/resources/mod/freezingcherry/icenucleardoom/51F9564BB663CF3FE606A129578039B2.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/body2.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/1.asset
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_1.asset"
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_22.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/2C70616C0C411DCACF7D1B141280F0C6.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/NuclearSquash_0.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/NuclearDoomCherry_0.asset
-- Assets/resources/mod/freezingcherry/IceDoomOnlySprite.prefab
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_14.asset"
 - Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/G.asset
-- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Base_0.asset"
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_5.asset"
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_1.asset"
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_13.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/c_0.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/NuclearSquash.asset
+- Assets/resources/mod/freezingcherry/bombsmall/ExplosionPowie.png
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_8.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/NuclearDoomCherry_0.controller
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/IMG_7921.asset
+- Assets/resources/mod/freezingcherry/icenucleardoom/Godray.mat
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/2.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/CherryBomb_rightmouth1.asset
+- Assets/resources/mod/freezingcherry/icenucleardoom/513FE2D1683121095326FF328516CA9B_1.asset
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_14.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/3.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/eyebrow.asset
+- Assets/resources/mod/freezingcherry/IceDoomNoSprite.prefab
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_2.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/CherryBomb.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/A.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/eyeright.asset
 - Assets/resources/mod/freezingcherry/ultimatefreezingcherry/UltimateFreezingCherry
   Skeleton.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/UltimateFreezingCherry2.prefab
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/UltimateFreezingCherry.png
-- Assets/resources/mod/freezingcherry/icenucleardoom/51F9564BB663CF3FE606A129578039B2.png
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/7.asset
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_11.asset"
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_4.asset"
-- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/Doom 1.controller"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/924C5DBF4CFC41E5660D58009A31B3E4.asset
-- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Top.png"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/G.asset
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_0.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/UltimateFreezingCherry.controller
-- Assets/resources/mod/freezingcherry/icenucleardoom/513FE2D1683121095326FF328516CA9B_0.asset
-- Assets/resources/mod/freezingcherry/Bullet_IceNuclear.prefab
 - "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_10.asset"
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_4.asset"
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A.asset"
+- Assets/resources/mod/freezingcherry/freezingcherry/xuzhaung.png
+- Assets/resources/mod/freezingcherry/freezingcherry/FreezingCherry.png
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/UltimateFreezingCherry.prefab
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/boom/ExplosionCloud.png
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/SuperBoom2.anim
+- Assets/resources/mod/freezingcherry/Bullet_IceNuclear.prefab
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/F.asset
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Stem.asset"
+- Assets/texture2d/xuzhaung.png
 - "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_15.asset"
-- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Base.png"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/4.asset
-- Assets/resources/mod/freezingcherry/icenucleardoom/32F6C62823BD91AEBD58A37B0508376A.png
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/C.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/5.asset
-- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_21.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/D.asset
-- Assets/resources/mod/freezingcherry/icenucleardoom/513FE2D1683121095326FF328516CA9B_2.asset
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/NuclearDoomCherry.png
-- Assets/Texture2D/PeaShooter_6.png
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_11.asset"
 - Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/NuclearSquash_0.png
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/UltimateFreezingCherry2.png
-- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_9.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/eyeleft.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/kingpenguin
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/solareclipsecabbage
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/solarhypno
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomminigun
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomsniperpea
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatewintercabbagecannon
+- Assets/resources/mod/freezingcherry/icenucleardoom/51F9564BB663CF3FE606A129578039B2.png
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/2C70616C0C411DCACF7D1B141280F0C6.png
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/c_0.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/AwardPickupGlow.asset
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/Doom.png"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/IMG_7921.png
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/A.asset
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/doom.anim"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/5.asset
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u4ECE\u9009\u533A_5.asset"
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Stem.png"
+- Assets/resources/mod/freezingcherry/freezingcherry/FreezingCherry Skeleton.asset
+- Assets/resources/mod/freezingcherry/bombsmall/ExplosionPowie.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/boom/ExplosionPowie.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/boom/ExplosionPowie.png
+- Assets/resources/mod/freezingcherry/icenucleardoom/doom.anim
+- Assets/resources/mod/freezingcherry/bullet/F696D9021AF3EA718088F57BB725B285.png
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/Doom 1.controller"
+- Assets/resources/mod/freezingcherry/icenucleardoom/Doom.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/6.asset
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_7.asset"
+- "Assets/resources/mod/freezingcherry/freezingcherry/\u4ECE\u9009\u533A_13.asset"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/CherryBomb_right1.asset
+- "Assets/resources/mod/freezingcherry/icedoom\uFF08no sprit\uFF09/IceDoomShroom_Explosion_Base.png"
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/NuclearDoomCherry.controller
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/boom/ExplosionCloud.asset
+- "Assets/resources/mod/freezingcherry/ultimatefreezingcherry/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- Assets/resources/mod/freezingcherry/BombCloudSmall.prefab
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/7.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/4.asset
+- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nuclearsquash/C_0.asset
+- Assets/resources/mod/freezingcherry/UltimateFreezingCherryPreview.prefab
+Dependencies: []

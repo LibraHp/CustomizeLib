@@ -28,7 +28,6 @@ namespace CustomizeLib.BepInEx
         {
             try
             {
-                Console.OutputEncoding = Encoding.UTF8;
                 if (board == null) return;
                 GameObject customButton = null!;
                 if (!board.boardTag.isIZ)

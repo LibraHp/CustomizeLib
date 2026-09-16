@@ -34,7 +34,6 @@ namespace CustomizeLib.BepInEx
 
         public static void InitMod(Assembly assembly, bool skipRegister = false)
         {
-            Console.OutputEncoding = Encoding.UTF8;
             if (!skipRegister)
             {
                 var types = GetAllMonoBehaviourTypes(assembly);

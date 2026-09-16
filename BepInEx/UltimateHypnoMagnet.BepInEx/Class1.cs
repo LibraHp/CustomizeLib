@@ -19,10 +19,8 @@ namespace UltimateHypnoMagnet.BepInEx
         // Token: 0x06000001 RID: 1 RVA: 0x000020C0 File Offset: 0x000002C0
         public override void Load()
         {
-            Console.OutputEncoding = Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), null);
             ClassInjector.RegisterTypeInIl2Cpp<UltimateHypnoMagnet>();
-            Console.OutputEncoding = Encoding.UTF8;
             AssetBundle assetBundle = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "ultimatehypnomagnet" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<UltimateMagnet, UltimateHypnoMagnet>(UltimateHypnoMagnet.PlantID, Extensions.GetAsset<GameObject>(assetBundle, "UltimateHypnoMagnetPrefab"), Extensions.GetAsset<GameObject>(assetBundle, "UltimateHypnoMagnetPreview"), new List<ValueTuple<int, int>>
             {

@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
   <PropertyGroup>
-    <PluginsPath>F:\PVZRH_Bep\BepInEx\plugins</PluginsPath>
-	<InnerPath>F:\PVZRH_Inner\BepInEx\plugins</InnerPath>
-    <ModsPath>F:\PVZRH_Melon\Mods</ModsPath>
-	<BepResPath>F:\vsrepos\Customizelib\res\BepInEx</BepResPath>
-	<MelonResPath>F:\vsrepos\Customizelib\res\MelonLoader</MelonResPath>
+    <PluginsPath>F:\Game\PlantsVsZombies\dev\Culib\plugins</PluginsPath>
+	<InnerPath>F:\Game\PlantsVsZombies\dev\Culib\in_plugins</InnerPath>
+    <ModsPath>F:\Game\PlantsVsZombies\dev\Culib\mod</ModsPath>
+	<BepResPath>F:\Game\PlantsVsZombies\dev\Culib\res</BepResPath>
+	<MelonResPath>F:\Game\PlantsVsZombies\dev\Culib\mres</MelonResPath>
   </PropertyGroup>
   <ItemGroup>
     <!-- 绉婚櫎鎵€鏈塂LL寮曠敤锛堜繚鐣橮rojectReference锛?-->
     <Reference Remove="@(Reference)" />
     
     <!-- 娣诲姞鍏ㄥ眬BepInEx寮曠敤 -->
-    <Reference Include="F:\vsrepos\CustomizeLib\lib\BepInEx\libs\*.dll" 
-               Exclude="F:\vsrepos\CustomizeLib\lib\BepInEx\libs\dobby.dll">
+    <Reference Include="F:\Game\PlantsVsZombies\dev\Culib\lib\*.dll" 
+               Exclude="F:\Game\PlantsVsZombies\dev\Culib\lib\dobby.dll">
       <Private>false</Private>
     </Reference>
   </ItemGroup>
@@ -25,6 +25,7 @@
 		<NoWarn>$(NoWarn);MSB3277</NoWarn>
 	</PropertyGroup>
 </Project>
+
 
 
 

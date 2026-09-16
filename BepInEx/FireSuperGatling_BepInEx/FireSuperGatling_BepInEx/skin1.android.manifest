@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2727205442
+CRC: 1179502638
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ffc3d17bf555a1d5480e39f03729b087
+    Hash: e861bdec2ec7eb440c11d1842d3278b3
   TypeTreeHash:
     serializedVersion: 2
-    Hash: ecbf41a0f317fdb5fd39c45eeb6fb6d0
+    Hash: 85960fd8c43a7789d6cef298e3598690
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: ffc3d17bf555a1d5480e39f03729b087
+    Hash: e861bdec2ec7eb440c11d1842d3278b3
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -33,57 +33,56 @@ ClassTypes:
 - Class: 95
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
-- Class: 115
-  Script: {instanceID: 0}
+  Script: {fileID: -54844177, guid: f68e4d9210748575b7313c5ba1460876, type: 3}
 - Class: 212
   Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
+- Assets/texture2d/plantshadow_19.png
 - "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_5.asset"
-- "Assets/Sprite/\u4ECE\u9009\u533A_66.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u8D85\u7EA7\u706B\u7130\u673A\u67AA\u5C04\u624B.prefab"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_7.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/shoot.anim"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_8.asset"
+- "Assets/sprite/\u4ECE\u9009\u533A_2.asset"
 - "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF_6.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/FireSuperGatlingPrefab1.prefab"
-- "Assets/Texture2D/\u8D85\u7EA7\u673A\u67AA\u5C04\u624B.png"
-- "Assets/Sprite/\u4ECE\u9009\u533A_65.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF_4.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF_5.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/FireSuperGatlingPreview1.prefab"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u8D85\u7EA7\u706B\u7130\u673A\u67AA\u5C04\u624B.png"
-- Assets/Sprite/plantshadow_19.asset
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_2.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_4.asset"
+- "Assets/sprite/\u4ECE\u9009\u533A_4.asset"
+- "Assets/texture2d/\u8D85\u7EA7\u673A\u67AA\u5C04\u624B-\u65B0\u6625\u9650\u5B9A\uFF08\u6682\u5B9A.png"
+- Assets/sprite/plantshadow_0.asset
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/SuperFireGatling.controller"
 - "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_10.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_4.asset"
 - "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_1.asset"
+- "Assets/sprite/\u4ECE\u9009\u533A_6.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF_7.asset"
+- "Assets/sprite/\u4ECE\u9009\u533A_8.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u8D85\u7EA7\u706B\u7130\u673A\u67AA\u5C04\u624B.png"
+- "Assets/sprite/\u4ECE\u9009\u533A_7.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_3.asset"
 - "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u8D85\u7EA7\u706B\u7130\u673A\u67AA\u5C04\u624B
   Skeleton.asset"
-- "Assets/Sprite/\u4ECE\u9009\u533A_62.asset"
-- "Assets/Sprite/\u4ECE\u9009\u533A_63.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u8D85\u7EA7\u706B\u7130\u673A\u67AA\u5C04\u624B.prefab"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF_7.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_8.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_3.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF_4.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_2.asset"
+- "Assets/sprite/\u4ECE\u9009\u533A_5.asset"
+- "Assets/sprite/\u4ECE\u9009\u533A_9.asset"
 - "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/idle.anim"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/supershoot.anim"
-- "Assets/Sprite/\u4ECE\u9009\u533A_69.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_6.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_7.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/SuperFireGatling.controller"
 - "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_0.asset"
-- "Assets/Texture2D/\u8D85\u7EA7\u673A\u67AA\u5C04\u624B-\u65B0\u6625\u9650\u5B9A\uFF08\u6682\u5B9A.png"
-- "Assets/Sprite/\u4ECE\u9009\u533A_67.asset"
-- "Assets/Sprite/\u4ECE\u9009\u533A_68.asset"
-- Assets/Texture2D/plantshadow_19.png
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/shoot.anim"
-- "Assets/Sprite/\u4ECE\u9009\u533A_70.asset"
-- "Assets/Sprite/\u4ECE\u9009\u533A_64.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/FireSuperGatlingPreview1.prefab"
+- Assets/texture2d/plantshadow_19.asset
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/supershoot.anim"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
+- "Assets/sprite/\u4ECE\u9009\u533A_3.asset"
 - "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_9.asset"
-- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u5DF2\u63D2\u5165\u56FE\u50CF_5.asset"
+- "Assets/sprite/\u4ECE\u9009\u533A_1.asset"
+- "Assets/texture2d/\u8D85\u7EA7\u673A\u67AA\u5C04\u624B.png"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/\u4ECE\u9009\u533A_6.asset"
+- "Assets/resources/skin/supergatlingnew/mod/\u706B\u5927\u54E5/skin1/FireSuperGatlingPrefab1.prefab"
 Dependencies: []

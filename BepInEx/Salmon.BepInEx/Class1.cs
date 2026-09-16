@@ -16,10 +16,9 @@ namespace Salmon.BepInEx
         // Token: 0x06000001 RID: 1 RVA: 0x00002050 File Offset: 0x00000250
         public override void Load()
         {
-            Console.OutputEncoding = Encoding.UTF8;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), null);
             ClassInjector.RegisterTypeInIl2Cpp<Salmon>();
-            AssetBundle assetBundle = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "salmon");
+            AssetBundle assetBundle = CustomCore.GetAssetBundle(Assembly.GetExecutingAssembly(), "salmon" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
             CustomCore.RegisterCustomPlant<PeaShooter, Salmon>(Salmon.PlantID, assetBundle.GetAsset<GameObject>("SalmonPrefab"), assetBundle.GetAsset<GameObject>("SalmonPreview"), new List<ValueTuple<int, int>>(), 0f, 0f, int.MaxValue, int.MaxValue, 0f, 127);
             CustomCore.TypeMgrExtra.IsIcePlant.Add((PlantType)Salmon.PlantID);
             CustomCore.TypeMgrExtra.IsTallNut.Add((PlantType)Salmon.PlantID);

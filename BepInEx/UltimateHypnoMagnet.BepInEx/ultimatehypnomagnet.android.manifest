@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 813880224
+CRC: 4121400643
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0f7acc2119f2cef30f9dce3115d2dc8a
+    Hash: 37081d4feccef04890995904d91b8be1
   TypeTreeHash:
     serializedVersion: 2
     Hash: 342269afdc324a7b5a67cf42c3183e54
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 0f7acc2119f2cef30f9dce3115d2dc8a
+    Hash: 37081d4feccef04890995904d91b8be1
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,54 +42,56 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnetPreview.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_idle_electric3.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/eye_left.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/eye_right.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/C1.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/plantshadow.asset
 - Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_head0.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/idle.anim
-- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_shock2.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnetPreview.prefab
-- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_head3shining.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_shock1.asset
-- Assets/plants/peashooter/electricpea/electric.anim
-- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnetPrefab.prefab
-- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_eye2_right.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/eyebrow0.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/electric.anim
-- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_eye1_left.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/loop.anim
-- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnetExtra.png
 - Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_shock3.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/C3.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/C2.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_stemcap_overlay.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/B2.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnet.png
-- Assets/resources/plantskins/ultimatehypnomagnet/B1.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/attrack.anim
-- Assets/resources/plantskins/ultimatehypnomagnet/Ball0.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/Ballshining.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_head4shining.asset
-- Assets/plants/icemeloncannon/leafbunch1.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnetPreview.png
-- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnet.controller
-- Assets/resources/plantskins/ultimatehypnomagnet/B3.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/eyebrow2shining.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_head1.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_eye2_left.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/eye_left.asset
 - Assets/resources/plantskins/ultimatehypnomagnet/UltimateMagnet.prefab
+- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_shock2.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/eyebrow0.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/back.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnetExtra.png
+- Assets/resources/plantskins/ultimatehypnomagnet/Ball0.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_stemcap_overlay.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/idle.anim
+- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnet_0.png
+- Assets/resources/plantskins/ultimatehypnomagnet/attrack.anim
+- Assets/resources/plantskins/ultimatehypnomagnet/B3.asset
 - Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_idle_electric2.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/back_shining.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/UltimateMagnet.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/B1.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/AwardPickupGlow.png
+- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_head4shining.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnet.controller
+- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_eye2_right.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/C2.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/B2.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/eye_right.asset
 - Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_idle_electric1.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnetPreview.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/UltimateMagnet.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnetPreview.png
+- Assets/resources/plantskins/ultimatehypnomagnet/C1.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_idle_electric3.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/eyebrow2shining.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_shock1.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/AwardPickupGlow.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnetPrefab.prefab
 - Assets/resources/plantskins/ultimatehypnomagnet/leafbunch1.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnet_0.controller
 - Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_stemcap.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/electric.anim
+- Assets/resources/plantskins/ultimatehypnomagnet/Ballshining.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/back_shining.asset
+- Assets/plants/icemeloncannon/leafbunch1.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnet.png
+- Assets/plants/peashooter/electricpea/electric.anim
+- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_eye2_left.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/C3.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_head1.asset
 - Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_eye1_right.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/electricpea
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomsniperpea
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatesolarspruce
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatewintermeloncannon
+- Assets/resources/plantskins/ultimatehypnomagnet/loop.anim
+- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_head3shining.asset
+- Assets/resources/plantskins/ultimatehypnomagnet/UltimateHypnoMagnetPreview.prefab
+- Assets/resources/plantskins/ultimatehypnomagnet/plantshadow.png
+- Assets/resources/plantskins/ultimatehypnomagnet/Magnetshroom_eye1_left.asset
+Dependencies: []
