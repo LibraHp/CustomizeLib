@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 478778300
+CRC: 2908746767
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9b38c9c5173ff127e5583c4185360a00
+    Hash: 9ced1088b09ebc550af2fe21ff7d9708
   TypeTreeHash:
     serializedVersion: 2
     Hash: 342269afdc324a7b5a67cf42c3183e54
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 9b38c9c5173ff127e5583c4185360a00
+    Hash: 9ced1088b09ebc550af2fe21ff7d9708
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,60 +42,54 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/plants/ultimatewintermeloncannon/idle2.anim
-- Assets/plants/icemeloncannon/idle.anim
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_17.asset"
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_12.asset"
-- "Assets/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_1.asset"
-- Assets/bullet/prefabs/ultimatewintermelon_cannon/shadow10.asset
-- Assets/plants/icemeloncannon/MelonCannon.png
-- Assets/plants/icemeloncannon/MelonCannon.controller
-- "Assets/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_3.asset"
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_10.asset"
-- "Assets/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_4.asset"
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_13.asset"
-- Assets/plants/ultimatewintermeloncannon/UltimateWinterMelonCannonPreview.prefab
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_14.asset"
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_5.asset"
-- Assets/bullet/prefabs/ultimatewintermelon_cannon/shadow10.png
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_19.asset"
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_15.asset"
-- Assets/plants/icemeloncannon/idle2.anim
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_9.asset"
-- Assets/Material/Sprite-Lit-Default_0.mat
-- "Assets/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_6.asset"
-- "Assets/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_9.asset"
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_21.asset"
-- "Assets/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39.png"
-- Assets/resources/mod/doomgatlingblover/DoomSplat.prefab
-- Assets/plants/ultimatewintermeloncannon/MelonCannon_0.asset
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_20.asset"
-- Assets/plants/ultimatewintermeloncannon/shooting.anim
-- "Assets/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_7.asset"
-- Assets/plants/ultimatewintermeloncannon/UltimateWinterMelonCannonPrefab.prefab
-- Assets/plants/ultimatewintermeloncannon/idle.anim
-- "Assets/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_0.asset"
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6.png"
-- "Assets/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_2.asset"
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_16.asset"
-- Assets/plants/icemeloncannon/shooting.anim
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_22.asset"
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_8.asset"
-- "Assets/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_8.asset"
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_7.asset"
-- "Assets/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_5.asset"
-- Assets/Shader/Universal Render Pipeline_2D_Sprite-Lit-Default_0.shader
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_3.asset"
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_1.asset"
-- Assets/plants/ultimatewintermeloncannon/MelonCannon.controller
-- Assets/bullet/prefabs/ultimatewintermelon_cannon/CannonUltimateWinterMelonSplat.prefab
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_4.asset"
-- Assets/plants/ultimatewintermeloncannon/MelonCannon_0.png
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_0.asset"
-- Assets/bullet/prefabs/ultimatewintermelon_cannon/ProjectileCannon_UltimateWinterMelon.prefab
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_18.asset"
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_6.asset"
-- "Assets/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_2.asset"
+- Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/idle2.anim
+- Assets/Bundles/ultimatewintermeloncannon/Material/Sprite-Lit-Default.mat
+- Assets/Bundles/ultimatewintermeloncannon/bullet/prefabs/ultimatewintermelon_cannon/ProjectileCannon_UltimateWinterMelon.prefab
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_20.asset"
+- Assets/Bundles/ultimatewintermeloncannon/bullet/prefabs/ultimatewintermelon_cannon/CannonUltimateWinterMelonSplat.prefab
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_2.asset"
+- Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/MelonCannon.controller
+- Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/UltimateWinterMelonCannonPrefab.prefab
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_16.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_19.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_9.asset"
+- Assets/Bundles/ultimatewintermeloncannon/Shader/Universal Render Pipeline_2D_Sprite-Lit-Default.shader
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_1.asset"
+- Assets/Bundles/doomgatlingblover/resources/mod/doomgatlingblover/DoomSplat.prefab
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_12.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_15.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_3.asset"
+- Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/idle.anim
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_3.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_4.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_4.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_10.asset"
+- Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/shooting.anim
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_21.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39.png"
+- "Assets/Bundles/ultimatewintermeloncannon/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_7.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_9.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_2.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_18.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_17.asset"
+- Assets/Bundles/ultimatewintermeloncannon/bullet/prefabs/ultimatewintermelon_cannon/shadow10.asset
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_13.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_14.asset"
+- Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/MelonCannon_0.png
+- Assets/Bundles/ultimatewintermeloncannon/bullet/prefabs/ultimatewintermelon_cannon/shadow10.png
+- Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/UltimateWinterMelonCannonPreview.prefab
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_7.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_0.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6.png"
+- "Assets/Bundles/ultimatewintermeloncannon/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_5.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_5.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_8.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_22.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_6.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_0.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_8.asset"
+- "Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/\u7A76\u74DC\u70AE\u90E8\u4EF6_6.asset"
+- Assets/Bundles/ultimatewintermeloncannon/plants/ultimatewintermeloncannon/MelonCannon_0.asset
+- "Assets/Bundles/ultimatewintermeloncannon/bullet/prefabs/ultimatewintermelon_cannon/\u7A76\u74DC\u70AE\u5B50\u5F39_1.asset"
 Dependencies:
 - E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/doomgatlingblover
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatesolarspruce

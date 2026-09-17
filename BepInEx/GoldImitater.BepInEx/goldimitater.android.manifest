@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1795269276
+CRC: 3489779886
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6bb8be564d53a651198498e183738a54
+    Hash: 7285b97c71a5a7a97a858ff583977917
   TypeTreeHash:
     serializedVersion: 2
     Hash: ecbf41a0f317fdb5fd39c45eeb6fb6d0
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 6bb8be564d53a651198498e183738a54
+    Hash: 7285b97c71a5a7a97a858ff583977917
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,77 +42,79 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- "Assets/resources/mod/goldimitater/\u56FE\u5C42 16.asset"
-- "Assets/resources/mod/goldimitater/\u56FE\u5C42 83_0.asset"
-- Assets/resources/mod/goldimitater/GoldImitaterPreviewNewYear.prefab
-- Assets/resources/mod/goldimitater/GoldImitaterPreview.prefab
-- "Assets/resources/mod/goldimitater/\u56FE\u5C42 25.asset"
-- Assets/resources/mod/goldimitater/Imitater_spin5.asset
-- Assets/resources/mod/goldimitater/Imitater_spin6.asset
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_20.asset"
-- Assets/resources/mod/goldimitater/explode.anim
-- Assets/resources/mod/goldimitater/idle2.anim
-- "Assets/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A\uFF08\u6682\u5B9A\u540D.prefab"
-- Assets/resources/mod/goldimitater/GoldImitater_0.asset
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_18.asset"
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_9.asset"
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_15.asset"
-- Assets/resources/mod/goldimitater/Imitater_spin4.asset
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_1.asset"
-- "Assets/resources/mod/goldimitater/\u56FE\u5C42 31.asset"
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_3.asset"
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_19.asset"
-- Assets/resources/mod/goldimitater/Imitater_root2.asset
-- "Assets/resources/mod/goldimitater/\u56FE\u5C42 75_0.asset"
-- Assets/resources/mod/goldimitater/GoldImitaterPrefabNewYear.prefab
-- "Assets/resources/mod/goldimitater/\u56FE\u5C42 75.asset"
-- "Assets/resources/mod/goldimitater/\u56FE\u5C42 112.asset"
-- Assets/resources/mod/goldimitater/Imitater_spin1.asset
-- Assets/resources/mod/goldimitater/Imitater_eyebrow.asset
-- "Assets/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A(1).prefab"
-- Assets/resources/mod/goldimitater/GoldImitater2.controller
-- Assets/resources/mod/goldimitater/Imitater_body.asset
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_4.asset"
-- "Assets/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_1.asset"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/Imitater.asset
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/Imitater_root1.asset
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_0.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_11.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_4.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A(1).prefab"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/plantshadow.png
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u56FE\u5C42 31.asset"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/Imitater_eyebrow.asset
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_20.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_17.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_10.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_16.asset"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/Imitater_root4.asset
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_15.asset"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/GoldImitaterPreview.prefab
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_19.asset"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/GoldImitaterPrefabNewYear.prefab
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A.prefab"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_12.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_7.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u56FE\u5C42 16_0.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_13.asset"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/Imitater_spin6.asset
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u56FE\u5C42 32.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_3.asset"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/Imitater_spin2.asset
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_2.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u56FE\u5C42 75.asset"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/GoldImitater.controller
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A.png"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u56FE\u5C42 83_0.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u56FE\u5C42 75_0.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A\uFF08\u6682\u5B9A\u540D.prefab"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/explode2.anim
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/Imitater_spin5.asset
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_8.asset"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/idle.anim
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/Imitater_root2.asset
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/idle2.anim
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u56FE\u5C42 37.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_18.asset"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/Imitater_spin1.asset
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A(1).png"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u56FE\u5C42 31_0.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u56FE\u5C42 112.asset"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/explode.anim
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A
   Skeleton.asset"
-- "Assets/resources/mod/goldimitater/\u56FE\u5C42 32.asset"
-- Assets/resources/mod/goldimitater/GoldImitater_0.png
-- Assets/resources/mod/goldimitater/Imitater.asset
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_5.asset"
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_13.asset"
-- Assets/resources/mod/goldimitater/idle.anim
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_14.asset"
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_6.asset"
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_2.asset"
-- Assets/resources/mod/goldimitater/Imitater_hat.asset
-- Assets/resources/mod/goldimitater/GoldImitaterPrefab.prefab
-- "Assets/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A.png"
-- Assets/resources/mod/goldimitater/Imitater_root1.asset
-- Assets/resources/mod/goldimitater/Imitater_root4.asset
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_7.asset"
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_17.asset"
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_12.asset"
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_0.asset"
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_11.asset"
-- Assets/resources/mod/goldimitater/Imitater_spin2.asset
-- Assets/resources/mod/goldimitater/Imitater_root3.asset
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_16.asset"
-- "Assets/resources/mod/goldimitater/\u56FE\u5C42 16_0.asset"
-- "Assets/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A\uFF08\u6682\u5B9A\u540D.png"
-- "Assets/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A\uFF08\u6682\u5B9A\u540D
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/Imitater_body.asset
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/GoldImitaterPrefab.prefab
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/GoldImitater_0.png
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/plantshadow.asset
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/GoldImitater.png
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u56FE\u5C42 83.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_9.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A\uFF08\u6682\u5B9A\u540D.png"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_5.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u56FE\u5C42 16.asset"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/Imitater_spin3.asset
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A(1)
   Skeleton.asset"
-- "Assets/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A(1).png"
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_10.asset"
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A_8.asset"
-- "Assets/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A(1)
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_14.asset"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/Imitater_root3.asset
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/Imitater_hat.asset
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u4ECE\u9009\u533A_6.asset"
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A\uFF08\u6682\u5B9A\u540D
   Skeleton.asset"
-- "Assets/resources/mod/goldimitater/\u9EC4\u91D1\u6A21\u4EFF\u8005-\u65B0\u6625\u9650\u5B9A.prefab"
-- "Assets/resources/mod/goldimitater/\u56FE\u5C42 31_0.asset"
-- "Assets/resources/mod/goldimitater/\u56FE\u5C42 37.asset"
-- "Assets/resources/mod/goldimitater/\u4ECE\u9009\u533A.asset"
-- Assets/resources/mod/goldimitater/Imitater_spin3.asset
-- "Assets/resources/mod/goldimitater/\u56FE\u5C42 83.asset"
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimategoldimitater
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/zombieimitater
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/GoldImitater2.controller
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/Imitater_spin4.asset
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/GoldImitaterPreviewNewYear.prefab
+- "Assets/Bundles/goldimitater/resources/mod/goldimitater/\u56FE\u5C42 25.asset"
+- Assets/Bundles/goldimitater/resources/mod/goldimitater/GoldImitater_0.asset
+Dependencies: []

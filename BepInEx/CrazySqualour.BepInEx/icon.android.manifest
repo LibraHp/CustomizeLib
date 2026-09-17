@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3407813528
+CRC: 175453542
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: afd73979bb90057be3ed55d3e0a72a35
+    Hash: 91825ae785567ab3da74c40cacebfc87
   TypeTreeHash:
     serializedVersion: 2
     Hash: 2d8df09e698f722ada1caa03d3413830
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: afd73979bb90057be3ed55d3e0a72a35
+    Hash: 91825ae785567ab3da74c40cacebfc87
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -18,6 +18,6 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/icon/icon.asset
-- Assets/resources/plantskins/icon/icon.png
+- Assets/Bundles/icon/resources/plantskins/icon/icon.png
+- Assets/Bundles/icon/resources/plantskins/icon/icon.asset
 Dependencies: []

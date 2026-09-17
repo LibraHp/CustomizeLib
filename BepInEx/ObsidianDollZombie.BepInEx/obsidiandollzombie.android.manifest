@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 171360118
+CRC: 3316729945
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3fa8eded226fd13e9e5989ceefb8e21b
+    Hash: 102a69ebd28a1d68845169acfab1d8e4
   TypeTreeHash:
     serializedVersion: 2
     Hash: 342269afdc324a7b5a67cf42c3183e54
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 3fa8eded226fd13e9e5989ceefb8e21b
+    Hash: 102a69ebd28a1d68845169acfab1d8e4
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,32 +42,95 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/zombies/obsidiandollzombie/zombie_0.png
-- Assets/zombies/obsidiandollzombie/ObsidianDollZombie.prefab
-- Assets/zombies/obsidiandollzombie/ObsidianDollZombie_head2.png
-- Assets/zombies/obsidiandollzombie/anim/idle.anim
-- Assets/zombies/obsidiandollzombie/Zombie_jaw.asset
-- Assets/zombies/obsidianrandomzombie/Zombie_outerarm_hand2_0.asset
-- Assets/zombies/obsidiandollzombie/anim/walk.anim
-- Assets/zombies/obsidiandollzombie/anim/walk2.anim
-- Assets/zombies/obsidianrandomzombie/Zombie_outerarm_hand2_0.png
-- Assets/zombies/obsidiandollzombie/anim/ObsidiandollZombieZombieAn.controller
-- Assets/zombies/obsidiandollzombie/shadow11.png
-- Assets/zombies/obsidiandollzombie/anim/die.anim
-- Assets/zombies/obsidiandollzombie/Zombie_hair.asset
-- Assets/zombies/obsidiandollzombie/ObsidianDollZombie_head3.png
-- Assets/zombies/obsidiandollzombie/zombie_0.asset
-- Assets/zombies/obsidiandollzombie/anim/idle2.anim
-- Assets/zombies/obsidianrandomzombie/Zombie_0.png
-- Assets/zombies/obsidiandollzombie/ObsidianDollZombie_head3.asset
-- Assets/zombies/obsidiandollzombie/ObsidianDollZombie_head1.png
-- Assets/zombies/obsidiandollzombie/ObsidianDollZombie_head1.asset
-- Assets/zombies/obsidiandollzombie/ObsidianDollZombie_head2.asset
-- Assets/zombies/obsidiandollzombie/anim/attack.anim
-- Assets/zombies/obsidiandollzombie/ObsidianDollZombie_0.png
-- Assets/zombies/obsidiandollzombie/Zombie_outerarm_hand2_0.asset
-- Assets/zombies/obsidiandollzombie/shadow11.asset
-- Assets/zombies/obsidiandollzombie/ObsidianDollZombie_0.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/obsidianrandomzombie
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/squalourzombie
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_innerleg_upper.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_outerarm_lower.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_innerleg_foot.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/Zombie.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/anim/attack.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_outerleg_lower.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombie.prefab
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/anim/losewalk.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombie_0.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/anim/losewalk2.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/anim/losewalk.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/ZombieArm.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/shadow11.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/anim/idle2.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_outerleg_upper.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_innerarm_lower.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_outerleg_foot.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/ObsidianDollZombie.prefab
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombie_head3.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_innerleg_lower.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_outerarm_upper.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/ObsidianDollZombie_head3.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_outerarm_hand2.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_outerarm_lower.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/zombie_0.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/anim/randomplus.controller
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/zombie_0.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_innerleg_upper.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_innerarm_hand.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombie_head2.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/anim/RandomZombieAn.controller
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_body.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombie_0.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_innerleg_foot.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/anim/die.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/ZombieArm.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_outerarm_hand2.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_jaw.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_outerleg_lower.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombie_head1.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/ObsidianDollZombie_0.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_jaw.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_innerarm_upper.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_tie.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombie_head2.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/ObsidianDollZombie_head3.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_hair.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/anim/walk.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/anim/idle2.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_neck.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/anim/randomplus.controller
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/anim/idle.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_outerarm_hand.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/anim/walk2.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/Zombie_outerarm_hand2.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_hair.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/anim/die.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_tie.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/shadow11.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/ObsidianDollZombie_head2.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/shadow12.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_innerarm_lower.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_neck.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_innerarm_upper.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/ObsidianDollZombie_head1.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombieArm.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombie_head1.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_outerleg_foot.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/ObsidianDollZombie_0.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_outerarm_hand.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/anim/walk2.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_outerarm_hand2.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/anim/losewalk2.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/anim/attack.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_head.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_innerleg_lower.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/shadow12.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/anim/walk.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_outerleg_upper.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombieArm.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombie_head3.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/anim/idle.anim
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/ObsidianDollZombie_head2.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_innerarm_hand.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/Zombie_outerarm_upper.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/ObsidianRandomZombieZombie_body.asset
+- Assets/Bundles/obsidiandollzombie/zombies/obsidianrandomzombie/Zombie_outerarm_hand2.png
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/anim/ObsidiandollZombieZombieAn.controller
+- Assets/Bundles/obsidiandollzombie/zombies/obsidiandollzombie/ObsidianDollZombie_head1.asset
+Dependencies: []

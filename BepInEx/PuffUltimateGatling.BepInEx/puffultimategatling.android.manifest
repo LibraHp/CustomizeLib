@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2064913682
+CRC: 3988541223
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 60db264df73a37574943192d484788cd
+    Hash: 4bad50c81efede8cb6942397bc511d96
   TypeTreeHash:
     serializedVersion: 2
     Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 60db264df73a37574943192d484788cd
+    Hash: 4bad50c81efede8cb6942397bc511d96
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,43 +38,42 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatling.controller
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPreviewSkin.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/GatlingPea_barrel_1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPreviewSkin.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/skinhat.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffShroom_stem.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/GatlingPea_barrel_0.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/CherryBomb.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/GatlingPea_barrel_2.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/Bullet_puffSuperCherry.prefab
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/GatlingPuff.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPreview.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/GatlingPea_barrel.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/idle.anim
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffShroom_tip.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/bendai.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPrefab.prefab
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PeaShooter_eyebrow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingSkin.png
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/nucleardoomcherry/CherryBomb.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/CherryBomb.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/cherry.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPrefabSkin.prefab
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/shoot.anim
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPreview.prefab
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPreview.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/cherryleaf.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/skincherry.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingExtra.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingSkinBangdai.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/bangdai.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/cherryhat.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/outmouth.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPreviewSkin.prefab
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffShroom_body.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/freezingcherry
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/puffhypnosupergatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/threepuffsuperhypnogatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/Bullet_puffSuperCherry.prefab
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPreview.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/plantshadow.png
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPreviewSkin.prefab
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/bendai.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffShroom_stem.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffShroom_body.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingSkin.png
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/idle.anim
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatling.controller
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/skinhat.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/cherryleaf.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingExtra.png
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/CherryBomb.png
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/CherryBomb.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPreviewSkin.png
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/GatlingPuff.png
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingSkinBangdai.png
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/skincherry.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/shoot.anim
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/GatlingPea_helmet.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPrefabSkin.prefab
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PeaShooter_eyebrow.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/GatlingPea_barrel_1.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/GatlingPea_barrel_2.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/cherryhat.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/cherry.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPrefab.prefab
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/GatlingPea_barrel.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/plantshadow.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/outmouth.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPreviewSkin.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/GatlingPea_barrel_0.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPreview.prefab
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffUltimateGatlingPreview.png
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/leaf.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/bangdai.asset
+- Assets/Bundles/puffultimategatling/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/PuffShroom_tip.asset
+Dependencies: []

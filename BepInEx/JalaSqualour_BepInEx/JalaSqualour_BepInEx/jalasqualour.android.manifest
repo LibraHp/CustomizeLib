@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 4041032135
+CRC: 3732959660
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6f297021ed5c6e4c2f480b036762eab2
+    Hash: bdcf370fea6985068b9f3fc871e35dc5
   TypeTreeHash:
     serializedVersion: 2
     Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 6f297021ed5c6e4c2f480b036762eab2
+    Hash: bdcf370fea6985068b9f3fc871e35dc5
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,24 +38,23 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/jalasqualour/JalaSqualourPrefab.prefab
-- Assets/resources/plantskins/jalasqualour/JalaSqualour.png
-- Assets/resources/plantskins/icesqualour/lookleft_skin.anim
-- Assets/resources/plantskins/jalasqualour/lookright_skin.anim
-- Assets/resources/plantskins/jalasqualour/JalaSqualour.controller
-- Assets/resources/plantskins/icesqualour/lookright_skin.anim
-- Assets/resources/plantskins/jalasqualour/jumppop.anim
-- Assets/resources/plantskins/jalasqualour/JalaSqualourSkin.asset
-- Assets/resources/plantskins/jalasqualour/JalaSqualourSkin.png
-- Assets/resources/plantskins/jalasqualour/JalaSqualourSkinPreview.prefab
-- Assets/resources/plantskins/jalasqualour/lookleft.anim
-- Assets/resources/plantskins/jalasqualour/jump.anim
-- Assets/resources/plantskins/jalasqualour/JalaSqualour.asset
-- Assets/resources/plantskins/jalasqualour/lookright.anim
-- Assets/resources/plantskins/jalasqualour/JalaSqualourSkinPrefab.prefab
-- Assets/resources/plantskins/jalasqualour/lookleft_skin.anim
-- Assets/resources/plantskins/jalasqualour/JalaSqualourPreview.prefab
-- Assets/resources/plantskins/jalasqualour/JalaSqualourSkin.controller
-- Assets/resources/plantskins/jalasqualour/idle.anim
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/JalaSqualour.png
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/idle.anim
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/JalaSqualourPreview.prefab
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/JalaSqualourSkinPreview.prefab
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/JalaSqualourSkin.png
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/JalaSqualourPrefab.prefab
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/plantshadow.asset
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/lookleft.anim
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/lookleft_skin.anim
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/plantshadow.png
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/JalaSqualourSkinPrefab.prefab
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/JalaSqualour.asset
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/JalaSqualour.controller
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/JalaSqualourSkin.controller
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/jumppop.anim
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/lookright.anim
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/lookright_skin.anim
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/JalaSqualourSkin.asset
+- Assets/Bundles/jalasqualour/resources/plantskins/jalasqualour/jump.anim
+Dependencies: []

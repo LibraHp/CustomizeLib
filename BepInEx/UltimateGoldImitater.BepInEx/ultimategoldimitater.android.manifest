@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3774642059
+CRC: 18185370
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c3cc82170ab3ab2d6ed333f1f8b3b8aa
+    Hash: 291210f346dfd19ae14a4a6c0885186b
   TypeTreeHash:
     serializedVersion: 2
     Hash: ecbf41a0f317fdb5fd39c45eeb6fb6d0
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: c3cc82170ab3ab2d6ed333f1f8b3b8aa
+    Hash: 291210f346dfd19ae14a4a6c0885186b
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,43 +42,40 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Sprite/Imitater_root2.asset
-- Assets/Sprite/Imitater_spin3.asset
-- "Assets/resources/mod/goldimitater/ultimategoldimitater/\u672A\u547D\u540D\u4F5C\u54C1(19)
+- Assets/Bundles/ultimategoldimitater/Sprite/Imitater_root4.asset
+- Assets/Bundles/ultimategoldimitater/Sprite/Imitater_spin1.asset
+- Assets/Bundles/ultimategoldimitater/Sprite/Imitater_spin4.asset
+- Assets/Bundles/ultimategoldimitater/AnimationClip/idle.anim
+- "Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_4.asset"
+- Assets/Bundles/ultimategoldimitater/Sprite/Imitater_spin3.asset
+- "Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_7.asset"
+- "Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/\u672A\u547D\u540D\u4F5C\u54C1(19)
   Skeleton.asset"
-- "Assets/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A.asset"
-- Assets/Sprite/Imitater_root4.asset
-- Assets/Sprite/Imitater_spin5.asset
-- Assets/resources/mod/goldimitater/ultimategoldimitater/explode.anim
-- Assets/Sprite/Imitater_spin6.asset
-- "Assets/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_7.asset"
-- "Assets/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_3.asset"
-- "Assets/resources/mod/goldimitater/ultimategoldimitater/\u672A\u547D\u540D\u4F5C\u54C1(19).png"
-- Assets/AnimationClip/idle.anim
-- Assets/Sprite/Imitater_body.asset
-- Assets/Texture2D/GoldImitater.png
-- Assets/Sprite/Imitater_spin2.asset
-- Assets/Sprite/Imitater_spin4.asset
-- Assets/resources/mod/goldimitater/GoldImitater.controller
-- "Assets/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_1.asset"
-- Assets/resources/mod/goldimitater/ultimategoldimitater/idle.anim
-- "Assets/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_5.asset"
-- "Assets/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_4.asset"
-- Assets/Sprite/Imitater_root1.asset
-- Assets/Sprite/Imitater_root3.asset
-- "Assets/resources/mod/goldimitater/ultimategoldimitater/\u56FE\u5C42 96.asset"
-- Assets/resources/mod/goldimitater/GoldImitater.png
-- "Assets/resources/mod/goldimitater/ultimategoldimitater/\u672A\u547D\u540D\u4F5C\u54C1(19).prefab"
-- Assets/resources/mod/goldimitater/ultimategoldimitater/UltimateGoldimitater.controller
-- Assets/Sprite/plantshadow_1.asset
-- Assets/AnimationClip/explode.anim
-- "Assets/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_6.asset"
-- "Assets/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_2.asset"
-- "Assets/resources/mod/goldimitater/ultimategoldimitater/\u56FE\u5C42 111.asset"
-- "Assets/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_0.asset"
-- Assets/resources/mod/goldimitater/ultimategoldimitater/UltimateGoldImitaterPreview.prefab
-- Assets/Texture2D/plantshadow_1.png
-- Assets/resources/mod/goldimitater/ultimategoldimitater/UltimateGoldImitaterPrefab.prefab
-- Assets/Sprite/Imitater_spin1.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/goldimitater
+- Assets/Bundles/ultimategoldimitater/Sprite/plantshadow.asset
+- "Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/\u672A\u547D\u540D\u4F5C\u54C1(19).png"
+- "Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/\u672A\u547D\u540D\u4F5C\u54C1(19).prefab"
+- Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/UltimateGoldImitaterPreview.prefab
+- Assets/Bundles/ultimategoldimitater/Texture2D/GoldImitater.png
+- "Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_1.asset"
+- Assets/Bundles/ultimategoldimitater/Sprite/Imitater_spin5.asset
+- Assets/Bundles/ultimategoldimitater/Texture2D/plantshadow.png
+- Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/UltimateGoldImitaterPrefab.prefab
+- Assets/Bundles/ultimategoldimitater/Sprite/Imitater_root2.asset
+- "Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_6.asset"
+- "Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_2.asset"
+- "Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A.asset"
+- Assets/Bundles/ultimategoldimitater/Sprite/Imitater_spin2.asset
+- Assets/Bundles/ultimategoldimitater/Sprite/Imitater_root1.asset
+- Assets/Bundles/ultimategoldimitater/Sprite/Imitater_body.asset
+- "Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_5.asset"
+- "Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_0.asset"
+- Assets/Bundles/ultimategoldimitater/AnimationClip/explode.anim
+- Assets/Bundles/ultimategoldimitater/Sprite/Imitater_spin6.asset
+- Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/UltimateGoldimitater.controller
+- "Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/\u4ECE\u9009\u533A_3.asset"
+- "Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/\u56FE\u5C42
+  111.asset"
+- Assets/Bundles/ultimategoldimitater/Sprite/Imitater_root3.asset
+- "Assets/Bundles/ultimategoldimitater/resources/mod/goldimitater/ultimategoldimitater/\u56FE\u5C42
+  96.asset"
+Dependencies: []

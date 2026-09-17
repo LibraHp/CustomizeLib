@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 4079867918
+CRC: 1546783129
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 289db87097e8bc206a4dd8d3476793d3
+    Hash: 00138d1eb17b5910e929995f425b047b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 289db87097e8bc206a4dd8d3476793d3
+    Hash: 00138d1eb17b5910e929995f425b047b
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,31 +38,31 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/plants/milkyblover/SeedPacket_MilkyBlover.asset
-- Assets/plants/milkyblover/MilkyBloverPreview.prefab
-- Assets/Shader/Universal Render Pipeline_2D_Sprite-Lit-Default_4.shader
-- Assets/plants/milkyblover/MilkyBlover_0_0.asset
-- Assets/plants/milkyblover/MilkyBlover_9.asset
-- Assets/plants/milkyblover/SeedPacket_MilkyBlover.png
-- Assets/plants/milkyblover/idle.anim
-- Assets/plants/milkyblover/MilkyBlover.png
-- Assets/plants/milkyblover/blow.anim
-- Assets/plants/milkyblover/MilkyBlover_4.asset
-- Assets/plants/milkyblover/MilkyBloverPrefab.prefab
-- Assets/plants/milkyblover/Blover.controller
-- Assets/plants/milkyblover/blowloop.anim
-- Assets/plants/milkyblover/MilkyBlover_10.asset
-- Assets/plants/milkyblover/shadow14.png
-- Assets/plants/milkyblover/MilkyBlover_11.asset
-- Assets/plants/milkyblover/MilkyBlover_0.asset
-- Assets/plants/milkyblover/MilkyBlover_2.asset
-- Assets/plants/milkyblover/MilkyBlover_5.asset
-- Assets/plants/milkyblover/MilkyBlover_1.asset
-- Assets/Material/Sprite-Lit-Default_4.mat
-- Assets/plants/milkyblover/MilkyBlover_8.asset
-- Assets/plants/milkyblover/MilkyBlover_3.asset
-- Assets/plants/milkyblover/shadow14.asset
-- Assets/plants/milkyblover/MilkyBlover_6.asset
-- Assets/plants/milkyblover/MilkyBlover_0.png
-- Assets/plants/milkyblover/MilkyBlover_7.asset
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBlover_7.asset
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBlover_3.asset
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBlover_4.asset
+- Assets/Bundles/milkyblover/plants/milkyblover/blow.anim
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBlover_11.asset
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBlover_2.asset
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBloverPrefab.prefab
+- Assets/Bundles/milkyblover/plants/milkyblover/SeedPacket_MilkyBlover.png
+- Assets/Bundles/milkyblover/Material/Sprite-Lit-Default.mat
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBlover.png
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBlover_1.asset
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBlover_5.asset
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBlover_0.png
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBloverPreview.prefab
+- Assets/Bundles/milkyblover/Shader/Universal Render Pipeline_2D_Sprite-Lit-Default.shader
+- Assets/Bundles/milkyblover/plants/milkyblover/shadow14.asset
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBlover_8.asset
+- Assets/Bundles/milkyblover/plants/milkyblover/blowloop.anim
+- Assets/Bundles/milkyblover/plants/milkyblover/SeedPacket_MilkyBlover.asset
+- Assets/Bundles/milkyblover/plants/milkyblover/shadow14.png
+- Assets/Bundles/milkyblover/plants/milkyblover/idle.anim
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBlover_0.asset
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBlover_10.asset
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBlover_6.asset
+- Assets/Bundles/milkyblover/plants/milkyblover/Blover.controller
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBlover_0_0.asset
+- Assets/Bundles/milkyblover/plants/milkyblover/MilkyBlover_9.asset
 Dependencies: []

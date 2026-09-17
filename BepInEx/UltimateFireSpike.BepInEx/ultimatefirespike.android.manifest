@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1228434979
+CRC: 1345401520
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7dbd7c816762bc516db5880f9c3bf1bd
+    Hash: 4f3f8aad834a28c7cf5175882afc13f3
   TypeTreeHash:
     serializedVersion: 2
     Hash: 670e2eef4a378aa20bc61ddeb1ad492d
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 7dbd7c816762bc516db5880f9c3bf1bd
+    Hash: 4f3f8aad834a28c7cf5175882afc13f3
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -44,61 +44,65 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/mod/ultimatefirespike/frie12.asset
-- Assets/resources/mod/ultimatefirespike/bullet/SplashBullet.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/FirePea_spark.asset
-- Assets/resources/mod/ultimatefirespike/Ultimatefirespike_1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/FirePea_spark.png
-- Assets/resources/mod/ultimatefirespike/bullet/IronPeaBullet.asset
-- Assets/resources/mod/ultimatefirespike/bullet/IronPeaBullet.png
-- Assets/resources/mod/ultimatefirespike/Caltrop_body2.asset
-- Assets/resources/mod/ultimatefirespike/Ultimatefirespike.png
-- Assets/resources/mod/ultimatefirespike/FirePea_spark.png
-- Assets/resources/mod/ultimatefirespike/fire5b-2.asset
-- Assets/resources/mod/ultimatefirespike/bullet/ECADDBBCC1A9026E4C5E493A54EC4DDE.asset
-- Assets/resources/mod/ultimatefirespike/bullet/ProjectilePea.asset
-- Assets/resources/mod/ultimatefirespike/Ultimatefirespike_0.asset
-- Assets/resources/mod/ultimatefirespike/FireSpike.prefab
-- Assets/resources/mod/ultimatefirespike/bullet/FirePeaIdle.anim
-- Assets/resources/mod/ultimatefirespike/bullet/FirePea_flame2.asset
-- Assets/resources/mod/ultimatefirespike/UltimateFireSpikePreviewSkin.prefab
-- Assets/resources/mod/ultimatefirespike/Caltrop_body.asset
-- Assets/resources/mod/ultimatefirespike/Ultimatefirespike1.png
-- Assets/resources/mod/ultimatefirespike/bullet/FirePea_flame1.asset
-- Assets/resources/mod/ultimatefirespike/Ultimatefirespike_1.png
-- Assets/resources/mod/ultimatefirespike/bullet/FirePea.asset
-- Assets/resources/mod/ultimatefirespike/frie13.asset
-- Assets/resources/mod/ultimatefirespike/FireSpike Skeleton.asset
-- Assets/resources/mod/ultimatefirespike/zakohat.asset
-- Assets/resources/mod/ultimatefirespike/Bullet_firePea_small_hypno.prefab
-- Assets/resources/mod/ultimatefirespike/Ultimatefirespike2.png
-- Assets/resources/mod/ultimatefirespike/Ultimatefirespike1_0.asset
-- Assets/resources/mod/ultimatefirespike/bullet/FirePea.controller
-- Assets/resources/mod/ultimatefirespike/zakoeyes2.asset
-- Assets/resources/mod/ultimatefirespike/UltimateFireSpikePreview.prefab
-- Assets/resources/mod/ultimatefirespike/fire6-2.asset
-- Assets/resources/mod/ultimatefirespike/zako.asset
-- Assets/resources/mod/ultimatefirespike/UltimateFireSpikePrefabSkin.prefab
-- Assets/resources/mod/ultimatefirespike/Torchwood_fire1c.asset
-- Assets/resources/mod/ultimatefirespike/bullet/FirePea_flame1_0.asset
-- Assets/resources/mod/ultimatefirespike/idle.anim
-- Assets/resources/mod/ultimatefirespike/Bullet_puffIronPea fire.prefab
-- Assets/resources/mod/ultimatefirespike/fire5-2.asset
-- Assets/resources/mod/ultimatefirespike/bullet/FirePea_flame3_0.asset
-- Assets/resources/mod/ultimatefirespike/FireSpike.asset
-- Assets/resources/mod/ultimatefirespike/Ultimatefirespike_0.png
-- Assets/resources/mod/ultimatefirespike/Bullet_firePea_small_red.prefab
-- Assets/resources/mod/ultimatefirespike/zakoeyes.asset
-- Assets/resources/mod/ultimatefirespike/UltimateFireSpikePrefab.prefab
-- Assets/resources/mod/ultimatefirespike/Torchwood_fire1a.asset
-- Assets/resources/mod/ultimatefirespike/Torchwood_fire1b.asset
-- Assets/resources/mod/ultimatefirespike/feir11.asset
-- Assets/resources/mod/ultimatefirespike/Bullet_cherrySquash_small.prefab
-- Assets/resources/mod/ultimatefirespike/bullet/ECADDBBCC1A9026E4C5E493A54EC4DDE.png
-- Assets/resources/mod/ultimatefirespike/FireSpike.controller
-- Assets/resources/mod/ultimatefirespike/bullet/FirePea_0.asset
-- Assets/resources/mod/ultimatefirespike/FirePea_spark.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/primitiveshooter
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatehellthreepeater
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/idle.anim
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Ultimatefirespike.png
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/UltimateFireSpikePrefab.prefab
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/plantshadow.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Torchwood_fire1a.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/fire5-2.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/zakoeyes.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/ECADDBBCC1A9026E4C5E493A54EC4DDE.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/fire6.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/sactx-0-2048x2048-DXT5_BC3-New
+  Sprite Atlas-bc3c590a.png
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/fire5.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Torchwood_fire1c.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Ultimatefirespike_1.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/UltimateFireSpikePreview.prefab
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/frie12.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Ultimatefirespike2.png
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/FireSpike.prefab
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/UltimateFireSpikePreviewSkin.prefab
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/zako.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/zakohat.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/zakoeyes2.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/UltimateFireSpikePrefabSkin.prefab
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/fire6-2.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Torchwood_fire1b.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Caltrop_body.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/FirePea_0.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/FirePea_spark.png
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Ultimatefirespike1_0.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Caltrop_body2.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/fire5b.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Ultimatefirespike_0.png
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/FirePea_spark.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/FirePea_flame1.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/ECADDBBCC1A9026E4C5E493A54EC4DDE.png
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/FirePea_flame3.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/FirePeaIdle.anim
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/FirePea_flame1_0.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/frie13.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/SplashBullet.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Bullet_puffIronPea
+  fire.prefab
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/plantshadow.png
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/fire5b-2.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/FirePea_flame2.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/feir11.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/FireSpike.controller
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Bullet_firePea_small_red.prefab
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Ultimatefirespike1.png
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Bullet_cherrySquash_small.prefab
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Bullet_firePea_small_hypno.prefab
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/ProjectilePea.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Ultimatefirespike_1.png
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/FireSpike Skeleton.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/Ultimatefirespike_0.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/FirePea.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/FirePea.controller
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/IronPeaBullet.png
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/FireSpike.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/FirePea_flame3_0.asset
+- Assets/Bundles/ultimatefirespike/resources/mod/ultimatefirespike/bullet/IronPeaBullet.asset
+Dependencies: []

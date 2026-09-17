@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 580938721
+CRC: 29511292
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3901d8427a437b9f4af4f2b6a774731a
+    Hash: 448a2701162fb76095b15043083e9714
   TypeTreeHash:
     serializedVersion: 2
     Hash: 342269afdc324a7b5a67cf42c3183e54
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 3901d8427a437b9f4af4f2b6a774731a
+    Hash: 448a2701162fb76095b15043083e9714
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,32 +42,34 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/plants/superdiamondnut/WallNutPrefab.prefab
-- Assets/plants/superdiamondnut/SuperDiamondNut.png
-- Assets/plants/superdiamondnut/DiamondNut.asset
-- Assets/plants/superdiamondnut/SuperSunNut.asset
-- Assets/plants/superdiamondnut/SuperDiamondNutPreview.prefab
-- Assets/plants/superdiamondnut/Dust_0.asset
-- Assets/plants/superdiamondnut/SuperDiamondNutPrefab.prefab
-- Assets/plants/superdiamondnut/body1.asset
-- Assets/plants/superdiamondnut/BigDiamondNutPrefab.prefab
-- Assets/plants/superdiamondnut/SuperSunNut_0.asset
-- Assets/plants/superdiamondnut/Dust_3.asset
-- Assets/plants/superdiamondnut/Dust_4.asset
-- Assets/plants/superdiamondnut/Big.controller
-- Assets/plants/superdiamondnut/SuperSunNut.png
-- Assets/plants/superdiamondnut/SuperSunNut_0.png
-- Assets/plants/superdiamondnut/idle.anim
-- Assets/plants/superdiamondnut/body2.asset
-- Assets/plants/superdiamondnut/body3.asset
-- Assets/plants/superdiamondnut/idle_big.anim
-- Assets/plants/superdiamondnut/Round.anim
-- Assets/plants/superdiamondnut/Dust.png
-- Assets/plants/superdiamondnut/Dust_2.asset
-- Assets/plants/superdiamondnut/Dust_1.asset
-- Assets/plants/superdiamondnut/plantshadow2.asset
-- Assets/plants/superdiamondnut/BigDiamondNutPreview.prefab
-- Assets/plants/superdiamondnut/SuperSunNut.prefab
-- Assets/plants/superdiamondnut/WallNut.controller
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/solarhypno
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/BigDiamondNutPrefab.prefab
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/DiamondNut.asset
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/Big.controller
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/Dust_1.asset
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/SuperSunNut.png
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/SuperSunNut_0.asset
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/SuperDiamondNutPreview.prefab
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/SuperDiamondNut.png
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/Round.anim
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/Dust.png
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/WallNutPrefab.prefab
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/PeaShooter_0.png
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/idle_big.anim
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/SuperSunNut.prefab
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/SuperSunNut_0.png
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/idle.anim
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/WallNut.controller
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/Dust_3.asset
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/plantshadow2.asset
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/body1.asset
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/body3.asset
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/body2.asset
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/Dust_0.asset
+- Assets/Bundles/superdiamondnut/plants/peashooter/electricpea/plantshadow.asset
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/SuperSunNut.asset
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/Dust_4.asset
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/Dust_2.asset
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/SuperDiamondNutPrefab.prefab
+- Assets/Bundles/superdiamondnut/plants/superdiamondnut/BigDiamondNutPreview.prefab
+- Assets/Bundles/superdiamondnut/plants/peashooter/electricpea/PeaShooter_0.png
+Dependencies: []

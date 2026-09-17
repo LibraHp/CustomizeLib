@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2377333618
+CRC: 1014710065
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 98591fa4a214e36b68b196bd3c7ebe0b
+    Hash: a18e6b07e792b2961afdaba959d92189
   TypeTreeHash:
     serializedVersion: 2
     Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 98591fa4a214e36b68b196bd3c7ebe0b
+    Hash: a18e6b07e792b2961afdaba959d92189
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,12 +38,12 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/salmon/plantshadow.png
-- Assets/resources/plantskins/salmon/salmon.asset
-- Assets/resources/plantskins/salmon/idle.anim
-- Assets/resources/plantskins/salmon/salmon.png
-- Assets/resources/plantskins/salmon/SalmonPrefab.prefab
-- Assets/resources/plantskins/salmon/Salmon.controller
-- Assets/resources/plantskins/salmon/SalmonPreview.prefab
-- Assets/resources/plantskins/salmon/plantshadow.asset
+- Assets/Bundles/salmon/resources/plantskins/salmon/Salmon.controller
+- Assets/Bundles/salmon/resources/plantskins/salmon/idle.anim
+- Assets/Bundles/salmon/resources/plantskins/salmon/SalmonPrefab.prefab
+- Assets/Bundles/salmon/resources/plantskins/salmon/plantshadow.png
+- Assets/Bundles/salmon/resources/plantskins/salmon/salmon.png
+- Assets/Bundles/salmon/resources/plantskins/salmon/plantshadow.asset
+- Assets/Bundles/salmon/resources/plantskins/salmon/salmon.asset
+- Assets/Bundles/salmon/resources/plantskins/salmon/SalmonPreview.prefab
 Dependencies: []

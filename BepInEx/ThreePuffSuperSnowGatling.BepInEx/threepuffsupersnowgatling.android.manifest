@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 250018704
+CRC: 137138969
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: cab49f89b6640e3fc69f92960aa7e6fa
+    Hash: 55d936aeec137140fb0b38cfb14fe5b0
   TypeTreeHash:
     serializedVersion: 2
     Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: cab49f89b6640e3fc69f92960aa7e6fa
+    Hash: 55d936aeec137140fb0b38cfb14fe5b0
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,50 +38,45 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/ThreePuffSuperSnowGatling.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/mouse1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun5_1.asset
-- Assets/Texture2D/PuffSuperGatling_0.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffsupergatling/PuffSuperGatling.controller
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun1_1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/glass2.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/tip2.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun7_1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun3.asset
-- Assets/resources/plantskins/ashthreegaling/mouse2.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/ThreePuffSuperSnowGatlingPreview.prefab
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun4.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/mouse2.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun6_1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/idle.anim
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun7.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/iceleaf1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/shoot.anim
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/3body.asset
-- Assets/Sprite/leaf_1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun4_1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/ThreePuffSuperSnowGatlingPreview.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupergatling/PuffSuperGatling.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun5.asset
-- Assets/Sprite/PuffSuperGatling_barrel_center.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/ThreePuffSuperSnowGatlingPrefab.prefab
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/bendai.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun3_1.asset
-- Assets/resources/plantskins/ashthreegaling/mouse1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun2_1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/iceleaf.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/ThreePuffSuperSnowGatlingPreview.asset
-- Assets/Texture2D/PuffSuperGatling.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun6.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun2.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/supershoot.anim
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/glass1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun1.asset
-- Assets/Sprite/eyebrow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffsupergatling/PuffSuperGatling.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/ThreePuffSuperSnowGatling.controller
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ashthreegaling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/magiczombie
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/puffsupergatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun3_1.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun2_1.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun6.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/idle.anim
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/glass1.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/ThreePuffSuperSnowGatling.controller
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/plantshadow.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun2.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/iceleaf1.asset
+- Assets/Bundles/threepuffsupersnowgatling/Sprite/leaf.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/ThreePuffSuperSnowGatlingPreview.prefab
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun5.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/supershoot.anim
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/ThreePuffSuperSnowGatlingPreview.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun7_1.asset
+- Assets/Bundles/threepuffsupersnowgatling/Texture2D/PuffSuperGatling.png
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/iceleaf.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/ThreePuffSuperSnowGatling.png
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/mouse2.asset
+- Assets/Bundles/threepuffsupersnowgatling/Sprite/PuffSuperGatling_barrel_center.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun1.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun4_1.asset
+- Assets/Bundles/threepuffsupersnowgatling/Texture2D/PuffSuperGatling_0.png
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/tip2.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun6_1.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun3.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun7.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/mouse1.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun1_1.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/hat.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/plantshadow.png
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/ThreePuffSuperSnowGatlingPrefab.prefab
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun4.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/shoot.anim
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/tip.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/bendai.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/3body.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/gun5_1.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/glass2.asset
+- Assets/Bundles/threepuffsupersnowgatling/Sprite/eyebrow.asset
+- Assets/Bundles/threepuffsupersnowgatling/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/ThreePuffSuperSnowGatlingPreview.png
+Dependencies: []

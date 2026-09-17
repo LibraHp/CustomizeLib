@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1784503390
+CRC: 1645015509
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8def45e75be5fdd841dab0f971ce436c
+    Hash: 4c6c282c9bfdb95dd0bcdd3356874ce2
   TypeTreeHash:
     serializedVersion: 2
     Hash: d9b7978d9608ece2d5c91daffba557ec
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 8def45e75be5fdd841dab0f971ce436c
+    Hash: 4c6c282c9bfdb95dd0bcdd3356874ce2
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -36,11 +36,11 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Texture2D/plantshadow_12.png
-- Assets/resources/mod/mower/MowerPreview.prefab
-- Assets/Sprite/plantshadow_12.asset
-- Assets/resources/mod/mower/Mower.png
-- Assets/resources/mod/mower/Mower.controller
-- Assets/resources/mod/mower/Mower.asset
-- Assets/resources/mod/mower/MowerPrefab.prefab
+- Assets/Bundles/mower/Texture2D/plantshadow.png
+- Assets/Bundles/mower/resources/mod/mower/MowerPrefab.prefab
+- Assets/Bundles/mower/resources/mod/mower/Mower.asset
+- Assets/Bundles/mower/resources/mod/mower/MowerPreview.prefab
+- Assets/Bundles/mower/resources/mod/mower/Mower.controller
+- Assets/Bundles/mower/resources/mod/mower/Mower.png
+- Assets/Bundles/mower/Sprite/plantshadow.asset
 Dependencies: []

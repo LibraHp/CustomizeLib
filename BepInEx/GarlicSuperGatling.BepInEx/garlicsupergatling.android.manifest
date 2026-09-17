@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2035905150
+CRC: 4227316044
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c55931dc84e5a454d1ad5217822527d8
+    Hash: 381349912e38e9133f596c7d5559c5d8
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 1b0128c8a4d4509c394163945d68b65e
+    Hash: 7403e8bc1091d4cb05053b511a03a07a
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: c55931dc84e5a454d1ad5217822527d8
+    Hash: 381349912e38e9133f596c7d5559c5d8
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -33,7 +33,9 @@ ClassTypes:
 - Class: 95
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: -54844177, guid: f68e4d9210748575b7313c5ba1460876, type: 3}
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
 - Class: 198
   Script: {instanceID: 0}
 - Class: 199
@@ -46,152 +48,150 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- "Assets/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42 145.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u56FE\u5C421001.asset"
-- Assets/resources/mod/garlicsupergatling/PoisonMiasma.prefab
-- "Assets/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42 55.asset"
-- Assets/texture2d/plantshadow_17.png
-- "Assets/texture2d/\u8D85\u7EA7\u706B\u7130\u673A\u67AA\u5C04\u624B\u8D85\u88C5\uFF08\u5B8C\u6210\uFF09.png"
-- "Assets/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF_5.asset"
-- "Assets/sprite/\u4ECE\u9009\u533A_1.asset"
-- Assets/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super.prefab
-- "Assets/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42 163.asset"
-- Assets/animationclip/Hide.anim
-- "Assets/resources/mod/garlicsupergatling/skin2/\u8D85\u7EA7\u75C5\u6BD2\u673A\u67AA\u5C04\u624B\uFF08\u5B8C\u6210\uFF09.prefab"
-- Assets/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_fire_super_skin.asset
-- "Assets/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42 187.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_7.asset"
-- "Assets/sprite/\u4ECE\u9009\u533A_3.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u8D85\u7EA7\u75C5\u6BD2\u673A\u67AA\u5C04\u624B\uFF08\u5B8C\u6210\uFF09
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_4.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_6.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_1.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super_2.asset
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/Bullet_garlicPea_super.asset
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/shoot.anim
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_7.asset"
+- Assets/Bundles/garlicsupergatling/AnimationClip/idle.anim
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u8D85\u7EA7\u75C5\u6BD2\u673A\u67AA\u5C04\u624B
   Skeleton.asset"
-- "Assets/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_11.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_10.asset"
-- Assets/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super.png
-- Assets/resources/mod/garlicsupergatling/default/Bullet_garlicPea_super.png
-- "Assets/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u8D85\u7EA7\u75C5\u6BD2\u673A\u67AA\u5C04\u624B\uFF08\u5B8C\u6210\uFF09.png"
-- Assets/resources/mod/garlicsupergatling/skin1/GarlicSuperGatlingPrefabSkin1.prefab
-- Assets/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_skin.prefab
-- "Assets/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_8.asset"
-- "Assets/resources/mod/garlicsupergatling/default/\u56FE\u5C42 1.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_4.asset"
-- "Assets/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_10.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_3.asset"
-- "Assets/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_1.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42 143.asset"
-- "Assets/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
-- Assets/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super_idle.anim
-- Assets/resources/mod/garlicsupergatling/skin2/GarlicSuperGatlingPrefabSkin2.prefab
-- "Assets/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF_4.asset"
-- Assets/sprite/plantshadow.asset
-- Assets/sprite/Garlic_stink2.asset
-- Assets/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super_1.asset
-- Assets/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_fire_skin.prefab
-- Assets/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super_0.asset
-- Assets/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_fire_super_skin.png
-- "Assets/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_6.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
-- Assets/texture2d/Garlic.png
-- Assets/resources/mod/garlicsupergatling/default/GarlicSuperGatlingPreview.prefab
-- "Assets/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_8.asset"
-- Assets/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_fire_skin.asset
-- Assets/resources/mod/garlicsupergatling/default/GarlicSuperGatlingPrefab.prefab
-- "Assets/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
-- Assets/texture2d/PeaShooter.png
-- Assets/sprite/Garlic_stink1.asset
-- Assets/resources/mod/garlicsupergatling/skin2/shoot.anim
-- "Assets/sprite/\u56FE\u5C42 4.asset"
-- Assets/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_fire_super_skin_0.asset
-- Assets/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super_0.prefab
-- "Assets/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_2.asset"
-- Assets/animationclip/shoot.anim
-- "Assets/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_4.asset"
-- "Assets/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_6.asset"
-- "Assets/sprite/\u6BD21.asset"
-- Assets/resources/mod/garlicsupergatling/skin2/supershoot.anim
-- "Assets/resources/mod/garlicsupergatling/default/\u8D85\u7EA7\u75C5\u6BD2\u673A\u67AA\u5C04\u624B.prefab"
-- Assets/resources/mod/garlicsupergatling/boom/ExplosionPowie.png
-- "Assets/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_2.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_6.asset"
-- Assets/resources/mod/garlicsupergatling/default/idle.anim
-- "Assets/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_0.asset"
-- Assets/sprite/Garlic_stink4.asset
-- Assets/resources/mod/garlicsupergatling/default/SuperGrlicGatling.controller
-- Assets/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_super_skin.prefab
-- Assets/sprite/999.asset
-- "Assets/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
-- "Assets/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_12.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A.asset"
-- Assets/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super_0.png
-- Assets/resources/mod/garlicsupergatling/skin2/idle.anim
-- Assets/resources/mod/garlicsupergatling/plantshadow.png
-- "Assets/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42 131.asset"
-- Assets/sprite/PeaShooter.asset
-- Assets/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_super_skin.asset
-- "Assets/texture2d/\u7ECF\u9A8C\u6761.png"
-- "Assets/sprite/\u4ECE\u9009\u533A_2.asset"
-- Assets/resources/mod/garlicsupergatling/plantshadow.asset
-- "Assets/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_4.asset"
-- Assets/sprite/Garlic_stink3.asset
-- Assets/texture2d/plantshadow_17.asset
-- "Assets/texture2d/\u7ECF\u9A8C\u6761_2.png"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42986.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
-- "Assets/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_3.asset"
-- Assets/resources/mod/garlicsupergatling/default/Bullet_garlicPea_super.prefab
-- Assets/resources/mod/garlicsupergatling/default/supershoot.anim
-- Assets/resources/mod/garlicsupergatling/boom/ExplosionPowie.asset
-- Assets/animationclip/supershoot.anim
-- Assets/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super_2.asset
-- "Assets/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42 145_0.asset"
-- "Assets/texture2d/\u7ECF\u9A8C\u6761_1.png"
-- "Assets/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A.asset"
-- Assets/AnimatorController/SuperFireGatling.controller
-- "Assets/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_5.asset"
-- Assets/resources/mod/garlicsupergatling/skin2/SuperGrlicGatling.controller
-- "Assets/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_9.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
-- "Assets/sprite/\u6BD22.asset"
-- Assets/resources/mod/garlicsupergatling/skin2/HP1.anim
-- "Assets/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_1.asset"
-- "Assets/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_9.asset"
-- "Assets/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_0.asset"
-- Assets/resources/mod/garlicsupergatling/skin1/GarlicSuperGatlingPreviewSkin1.prefab
-- Assets/texture2d/plantshadow.png
-- "Assets/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
-- Assets/resources/mod/garlicsupergatling/skin2/GarlicSuperGatlingPreviewSkin2.prefab
-- "Assets/resources/mod/garlicsupergatling/default/\u8D85\u7EA7\u75C5\u6BD2\u673A\u67AA\u5C04\u624B.png"
-- Assets/resources/mod/garlicsupergatling/boom/ExplosionCloud.asset
-- "Assets/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42 81.asset"
-- Assets/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_fire_super_skin.prefab
-- Assets/animationclip/idle.anim
-- "Assets/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF_6.asset"
-- Assets/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_fire_skin.png
-- "Assets/sprite/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
-- Assets/resources/mod/garlicsupergatling/boom/ExplosionCloud.png
-- Assets/sprite/999_0.asset
-- Assets/resources/mod/garlicsupergatling/default/Bullet_garlicPea_super.asset
-- "Assets/sprite/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
-- Assets/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super.controller
-- "Assets/sprite/\u4ECE\u9009\u533A.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42993.asset"
-- Assets/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super_3.asset
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u8D85\u7EA7\u706B\u7130\u673A\u67AA\u5C04\u624B\u8D85\u88C5\uFF08\u5B8C\u6210\uFF09.png"
-- Assets/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_super_skin.png
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u8D85\u7EA7\u706B\u7130\u673A\u67AA\u5C04\u624B\u8D85\u88C5\uFF08\u5B8C\u6210\uFF09.prefab"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42 199.asset"
-- Assets/resources/mod/garlicsupergatling/boom/BombCloudSmall.prefab
-- "Assets/sprite/\u4ECE\u9009\u533A_0.asset"
-- "Assets/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_13.asset"
-- "Assets/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_5.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42 129.asset"
-- "Assets/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_7.asset"
-- "Assets/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_5.asset"
-- "Assets/resources/mod/garlicsupergatling/default/\u8D85\u7EA7\u75C5\u6BD2\u673A\u67AA\u5C04\u624B
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/HP1.anim
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_5.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/plantshadow.png
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/boom/BombCloudSmall.prefab
+- Assets/Bundles/garlicsupergatling/Sprite/PeaShooter.asset
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_5.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42
+  55.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/supershoot.anim
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/plantshadow.asset
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super_0.asset
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_6.asset"
+- "Assets/Bundles/garlicsupergatling/Sprite/\u4ECE\u9009\u533A_0.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/boom/ExplosionCloud.png
+- "Assets/Bundles/garlicsupergatling/Texture2D/\u7ECF\u9A8C\u6761.png"
+- "Assets/Bundles/garlicsupergatling/Sprite/\u4ECE\u9009\u533A.asset"
+- Assets/Bundles/garlicsupergatling/Sprite/plantshadow.asset
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/GarlicSuperGatlingPrefab.prefab
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF_5.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_super_skin.asset
+- Assets/Bundles/garlicsupergatling/AnimatorController/SuperFireGatling.controller
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_4.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin1/GarlicSuperGatlingPrefabSkin1.prefab
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_0.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_fire_super_skin.asset
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_fire_skin.asset
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF_4.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_fire_skin.prefab
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_fire_skin.png
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_11.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_12.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u56FE\u5C421001.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_1.asset"
+- "Assets/Bundles/garlicsupergatling/Sprite/\u6BD21.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_10.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_3.asset"
+- Assets/Bundles/garlicsupergatling/Sprite/Garlic_stink1.asset
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super_idle.anim
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_6.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/GarlicSuperGatlingPrefabSkin2.prefab
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_fire_super_skin.prefab
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/PoisonMiasma.prefab
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42
+  187.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42
+  131.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_8.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super_1.asset
+- Assets/Bundles/garlicsupergatling/Sprite/Garlic_stink2.asset
+- Assets/Bundles/garlicsupergatling/Texture2D/plantshadow.png
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42986.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super.prefab
+- "Assets/Bundles/garlicsupergatling/Sprite/\u4ECE\u9009\u533A_3.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u8D85\u7EA7\u75C5\u6BD2\u673A\u67AA\u5C04\u624B\uFF08\u5B8C\u6210\uFF09
   Skeleton.asset"
-- "Assets/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
-- Assets/resources/mod/garlicsupergatling/default/shoot.anim
-- Assets/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super_0.controller
-- Assets/resources/mod/garlicsupergatling/skin2/HP2.anim
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u8D85\u7EA7\u75C5\u6BD2\u673A\u67AA\u5C04\u624B\uFF08\u5B8C\u6210\uFF09.png"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/GarlicSuperGatlingPreview.prefab
+- "Assets/Bundles/garlicsupergatling/Sprite/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- Assets/Bundles/garlicsupergatling/Sprite/Garlic_stink4.asset
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_4.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u8D85\u7EA7\u75C5\u6BD2\u673A\u67AA\u5C04\u624B.prefab"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/Bullet_garlicPea_super.png
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super.png
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u8D85\u7EA7\u75C5\u6BD2\u673A\u67AA\u5C04\u624B\uFF08\u5B8C\u6210\uFF09.prefab"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42
+  143.asset"
+- "Assets/Bundles/garlicsupergatling/Sprite/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_3.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/idle.anim
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF_6.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42
+  145_0.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_5.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
+- "Assets/Bundles/garlicsupergatling/Sprite/\u6BD22.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42
+  163.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/Bullet_garlicPea_super.prefab
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42
+  129.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42
+  145.asset"
+- Assets/Bundles/garlicsupergatling/Texture2D/Garlic.png
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_2.asset"
+- Assets/Bundles/garlicsupergatling/AnimationClip/Hide.anim
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42
+  199.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/GarlicSuperGatlingPreviewSkin2.prefab
+- "Assets/Bundles/garlicsupergatling/Sprite/\u4ECE\u9009\u533A_2.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_fire_super_skin.png
+- Assets/Bundles/garlicsupergatling/Texture2D/PeaShooter.png
+- "Assets/Bundles/garlicsupergatling/Texture2D/\u8D85\u7EA7\u706B\u7130\u673A\u67AA\u5C04\u624B\u8D85\u88C5\uFF08\u5B8C\u6210\uFF09.png"
+- "Assets/Bundles/garlicsupergatling/Sprite/\u4ECE\u9009\u533A_1.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/boom/ExplosionPowie.asset
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_super_skin.png
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_9.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/HP2.anim
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/boom/ExplosionCloud.asset
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_0.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/boom/ExplosionPowie.png
+- "Assets/Bundles/garlicsupergatling/Texture2D/\u7ECF\u9A8C\u6761_0.png"
+- Assets/Bundles/garlicsupergatling/Sprite/Garlic_stink3.asset
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_10.asset"
+- Assets/Bundles/garlicsupergatling/Sprite/999_0.asset
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42
+  81.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u56FE\u5C42993.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super_3.asset
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_super_skin.prefab
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin1/GarlicSuperGatlingPreviewSkin1.prefab
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/Bullet_garlicPea_skin.prefab
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_13.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_9.asset"
+- Assets/Bundles/garlicsupergatling/Sprite/999.asset
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u8D85\u7EA7\u75C5\u6BD2\u673A\u67AA\u5C04\u624B.png"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u56FE\u5C42
+  1.asset"
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/SuperGrlicGatling.controller
+- Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/Bullet_garlicPea_fire_super.controller
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_8.asset"
+- Assets/Bundles/garlicsupergatling/AnimationClip/supershoot.anim
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/default/\u4ECE\u9009\u533A_2.asset"
+- "Assets/Bundles/garlicsupergatling/Sprite/\u56FE\u5C42 4.asset"
+- "Assets/Bundles/garlicsupergatling/resources/mod/garlicsupergatling/skin2/\u4ECE\u9009\u533A_7.asset"
+- Assets/Bundles/garlicsupergatling/AnimationClip/shoot.anim
 Dependencies: []

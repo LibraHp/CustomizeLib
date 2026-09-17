@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 4186497136
+CRC: 3094121979
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 50e1468e0c21c23405b807f929648044
+    Hash: d8b374e49cf5d6971ab03cfd9093463d
   TypeTreeHash:
     serializedVersion: 2
     Hash: 2d8df09e698f722ada1caa03d3413830
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 50e1468e0c21c23405b807f929648044
+    Hash: d8b374e49cf5d6971ab03cfd9093463d
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -18,8 +18,6 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/supershovellevel/icon.asset
-- Assets/resources/plantskins/icon/icon.asset
-- Assets/resources/plantskins/icon/icon.png
-- Assets/resources/plantskins/supershovellevel/icon.png
+- Assets/Bundles/supershovellevel/resources/plantskins/supershovellevel/icon.asset
+- Assets/Bundles/supershovellevel/resources/plantskins/supershovellevel/icon.png
 Dependencies: []

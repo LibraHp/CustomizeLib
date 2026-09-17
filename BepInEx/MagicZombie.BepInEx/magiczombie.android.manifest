@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1109918233
+CRC: 4186649348
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d3dcdce6d992e651ba4b9b640939816b
+    Hash: 1e246f69e03561b6086b59bfc441cfac
   TypeTreeHash:
     serializedVersion: 2
     Hash: 839f2dee513a66e1200c52afc92c58aa
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: d3dcdce6d992e651ba4b9b640939816b
+    Hash: 1e246f69e03561b6086b59bfc441cfac
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -44,76 +44,61 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Sprite/leg4.asset
-- Assets/Sprite/hand5.asset
-- Assets/Sprite/hand.asset
-- Assets/Sprite/Square.asset
-- Assets/Sprite/4.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepufffiresupergatling/hat.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/idle.anim
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/MagicZombie_outerarm_hand2.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/MagicZombie_0.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/shoot.anim
-- Assets/Sprite/plantshadow_13.asset
-- Assets/plants/bigirongatlingpea/hat.asset
-- Assets/resources/mod/threepuffsuperhypnogatling/hat.asset
-- Assets/Sprite/foot1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/attack.anim
-- Assets/Sprite/hand2.asset
-- Assets/AnimationClip/shoot_0.anim
-- Assets/AnimatorController/MagicZombie.controller
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/die.anim
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/MagicZombie_outerarm_hand2.asset
-- Assets/Texture2D/plantshadow_13.png
-- Assets/Sprite/leg2.asset
-- Assets/AnimationClip/walk.anim
-- Assets/Sprite/hat.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/MagicZombie.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/hat.png
-- Assets/Sprite/body.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/hand4.asset
-- Assets/Sprite/leg3.asset
-- Assets/Texture2D/card.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/walk.anim
-- Assets/AnimationClip/idle-appear.anim
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/hat.asset
-- Assets/Sprite/MagicZombie_outerarm_hand2.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/MagicZombie.controller
-- Assets/Texture2D/MagicZombie_outerarm_hand2.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/haed_hat.png
-- Assets/Texture2D/hand.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/card.png
-- Assets/Sprite/3.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/MagicZombie_0.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/hat.asset
-- Assets/Sprite/2.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/MagicZombie.prefab
-- Assets/Texture2D/Square.png
-- Assets/Sprite/card_0.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/idle-appear.anim
-- Assets/Sprite/magic.asset
-- Assets/Sprite/1_0.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/hand.asset
-- Assets/Sprite/foot2.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/walk2.anim
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/hand.png
-- Assets/Texture2D/11F5C77068B5830E698397DBDFF6462B.png
-- Assets/AnimationClip/idle_2.anim
-- Assets/Sprite/head.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupergatling/hat.asset
-- Assets/AnimationClip/die.anim
-- Assets/Sprite/1_1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/hand3.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/hand1.asset
-- Assets/Sprite/head2.asset
-- Assets/Sprite/leg1.asset
-- Assets/Texture2D/MagicZombie.png
-- Assets/Sprite/2_0.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ironpeas
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/obsidianrandomzombie
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/squalourzombie
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/threepufffiresupergatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/threepuffsupergatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/threepuffsuperhypnogatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/threepuffsupersnowgatling
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/hand.png
+- Assets/Bundles/magiczombie/Sprite/plantshadow.asset
+- Assets/Bundles/magiczombie/Sprite/1.asset
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/hand3.asset
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/MagicZombie_0.png
+- Assets/Bundles/magiczombie/Texture2D/11F5C77068B5830E698397DBDFF6462B.png
+- Assets/Bundles/magiczombie/Sprite/head.asset
+- Assets/Bundles/magiczombie/Sprite/hat.asset
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/MagicZombie.prefab
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/plantshadow.asset
+- Assets/Bundles/magiczombie/Sprite/4.asset
+- Assets/Bundles/magiczombie/AnimationClip/idle.anim
+- Assets/Bundles/magiczombie/Sprite/leg4.asset
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/MagicZombie_0.asset
+- Assets/Bundles/magiczombie/Texture2D/MagicZombie_outerarm_hand2.png
+- Assets/Bundles/magiczombie/AnimatorController/MagicZombie.controller
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/hand1.asset
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/plantshadow.png
+- Assets/Bundles/magiczombie/Sprite/leg2.asset
+- Assets/Bundles/magiczombie/Sprite/card_0.asset
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/haed_hat.png
+- Assets/Bundles/magiczombie/AnimationClip/walk.anim
+- Assets/Bundles/magiczombie/Sprite/2.asset
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/hat.png
+- Assets/Bundles/magiczombie/Texture2D/card.png
+- Assets/Bundles/magiczombie/Sprite/body.asset
+- Assets/Bundles/magiczombie/Texture2D/Square.png
+- Assets/Bundles/magiczombie/Sprite/1_0.asset
+- Assets/Bundles/magiczombie/AnimationClip/walk2.anim
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/MagicZombie.controller
+- Assets/Bundles/magiczombie/Sprite/foot2.asset
+- Assets/Bundles/magiczombie/Texture2D/hand.png
+- Assets/Bundles/magiczombie/Sprite/hand.asset
+- Assets/Bundles/magiczombie/AnimationClip/idle-appear.anim
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/hand.asset
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/MagicZombie.png
+- Assets/Bundles/magiczombie/Sprite/hand2.asset
+- Assets/Bundles/magiczombie/Sprite/leg3.asset
+- Assets/Bundles/magiczombie/Sprite/leg1.asset
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/card.png
+- Assets/Bundles/magiczombie/AnimationClip/die.anim
+- Assets/Bundles/magiczombie/Sprite/3.asset
+- Assets/Bundles/magiczombie/Sprite/hand5.asset
+- Assets/Bundles/magiczombie/AnimationClip/shoot.anim
+- Assets/Bundles/magiczombie/Sprite/Square.asset
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/MagicZombie_outerarm_hand2.png
+- Assets/Bundles/magiczombie/Sprite/magic.asset
+- Assets/Bundles/magiczombie/Sprite/2_0.asset
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/hat.asset
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/hand4.asset
+- Assets/Bundles/magiczombie/Sprite/MagicZombie_outerarm_hand2.asset
+- Assets/Bundles/magiczombie/Texture2D/plantshadow.png
+- Assets/Bundles/magiczombie/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/MagicZombie_outerarm_hand2.asset
+- Assets/Bundles/magiczombie/AnimationClip/attack.anim
+- Assets/Bundles/magiczombie/Sprite/foot1.asset
+- Assets/Bundles/magiczombie/Sprite/head2.asset
+- Assets/Bundles/magiczombie/Texture2D/MagicZombie.png
+Dependencies: []

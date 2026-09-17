@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2851565031
+CRC: 3066316586
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1bc2f3c9f6d7e3a9ba22c869ee9b4017
+    Hash: 65958ed677880854bdf7a80a58ec2f4b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 342269afdc324a7b5a67cf42c3183e54
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 1bc2f3c9f6d7e3a9ba22c869ee9b4017
+    Hash: 65958ed677880854bdf7a80a58ec2f4b
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,72 +42,51 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/firesuperthreegatling/GatlingPea_helmet.asset
-- Assets/resources/plantskins/puffhypnosupergatling/blink2.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/GatlingPea_helmet.asset
-- Assets/resources/plantskins/puffhypnosupergatling/puffhypnosupergatling.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/GatlingPea_helmet.png
-- Assets/resources/plantskins/puffhypnosupergatling/PuffHypnoSuperGatling_0.controller
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffsupergatling/GatlingPea_helmet.asset
-- Assets/resources/plantskins/puffhypnosupergatling/PuffHypnoSuperGatlingPrefab.prefab
-- Assets/resources/plantskins/puffhypnosupergatling/leaf.asset
-- Assets/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_barrel_1.asset
-- Assets/resources/plantskins/firesupergatling/GatlingPea_helmet.asset
-- Assets/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_barrel_center.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/GatlingPea_helmet.asset
-- Assets/resources/plantskins/puffhypnosupergatling/eyes.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffsupergatling/GatlingPea_helmet.png
-- Assets/resources/plantskins/puffhypnosupergatling/shoot.anim
-- Assets/resources/plantskins/puffhypnosupergatling/puffhypnosupergatling_0.png
-- Assets/resources/plantskins/puffhypnosupergatling/eyebrow.asset
-- Assets/resources/plantskins/puffhypnosupergatling/idle.anim
-- Assets/resources/plantskins/puffhypnosupergatling/IdleHypnoFirePea.anim
-- Assets/sprite/glasses.asset
-- Assets/resources/plantskins/puffhypnosupergatling/PuffHypnoPeaSplat.prefab
-- Assets/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_barrel_2.asset
-- Assets/resources/plantskins/puffhypnosupergatling/supershoot.anim
-- Assets/resources/plantskins/puffhypnosupergatling/HypnoPea.png
-- Assets/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_outmouth.asset
-- Assets/resources/plantskins/puffhypnosupergatling/HypnoFirePea_Flame3.asset
-- Assets/resources/plantskins/puffhypnosupergatling/plantshadow.png
-- Assets/resources/plantskins/puffhypnosupergatling/IdleHypnoFirePea_0.anim
-- Assets/resources/plantskins/puffhypnosupergatling/blink1.asset
-- Assets/resources/plantskins/puffhypnosupergatling/body.asset
-- Assets/resources/plantskins/puffhypnosupergatling/HypnoFirePea.asset
-- Assets/resources/plantskins/puffhypnosupergatling/plantshadow.asset
-- Assets/resources/plantskins/puffhypnosupergatling/Bullet_puffHypnoPea.prefab
-- Assets/texture2d/PuffSuperGatling_8.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/GatlingPea_helmet.asset
-- Assets/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_barrel_0.asset
-- Assets/resources/plantskins/puffhypnosupergatling/HypnoFirePea_Flame2_0.asset
-- Assets/resources/plantskins/puffhypnosupergatling/PuffHypnoFirePea.controller
-- Assets/resources/plantskins/puffhypnosupergatling/HypnoFirePea.png
-- Assets/resources/plants/travel/sniperpea/icesniper/GatlingPea_helmet.asset
-- Assets/resources/plantskins/puffhypnosupergatling/HypnoFirePea_Flame1.asset
-- Assets/resources/plantskins/puffhypnosupergatling/idie.anim
-- Assets/resources/plantskins/puffhypnosupergatling/HypnoFirePea_Flame1_0.asset
-- Assets/resources/plantskins/puffhypnosupergatling/PuffHypnoFirePea_0.controller
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/GatlingPea_helmet.asset"
-- Assets/resources/plantskins/puffhypnosupergatling/puffhypnosupergatlingPreview.png
-- Assets/resources/plantskins/puffhypnosupergatling/helmet.asset
-- Assets/resources/plantskins/puffhypnosupergatling/GatlingPea_helmet.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/GatlingPea_helmet.asset
-- Assets/resources/plantskins/puffhypnosupergatling/PuffHypnoSuperGatlingPreview.prefab
-- Assets/resources/plantskins/puffhypnosupergatling/PuffHypnoSuperGatling.controller
-- Assets/resources/plantskins/puffhypnosupergatling/Bullet_puffHypnoPea_fire.prefab
-- Assets/resources/plantskins/icesuperthreegatling/GatlingPea_helmet.asset
-- Assets/resources/plantskins/puffhypnosupergatling/tip.asset
-- Assets/resources/plantskins/puffhypnosupergatling/HypnoFirePea_Flame2.asset
-- Assets/resources/plantskins/puffhypnosupergatling/bangdai.asset
-- Assets/resources/plantskins/puffhypnosupergatling/puffhypnosupergatlingPreview.asset
-- Assets/resources/plantskins/puffhypnosupergatling/stem.asset
-- Assets/resources/plantskins/puffhypnosupergatling/HypnoFirePea_Flame3_0.asset
-- Assets/resources/plantskins/puffhypnosupergatling/HypnoPea.asset
-- Assets/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_barrel_5.asset
-- Assets/plants/superirongatling/GatlingPea_helmet.asset
-- Assets/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_barrel_4.asset
-- Assets/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_barrel.asset
-- Assets/resources/plantskins/puffhypnosupergatling/eyes.png
-- Assets/resources/plantskins/puffhypnosupergatling/GatlingPea_helmet.png
-- Assets/texture2d/PuffSuperGatling.png
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/plantshadow.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/idie.anim
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/GatlingPea_helmet.png
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_barrel.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/PuffHypnoSuperGatlingPrefab.prefab
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/HypnoFirePea.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/tip.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/puffhypnosupergatlingPreview.png
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/HypnoFirePea.png
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/leaf.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/blink1.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/body.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_barrel_0.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/helmet.asset
+- Assets/Bundles/puffhypnosupergatling/Sprite/glasses.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/PuffHypnoSuperGatling.controller
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_barrel_5.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/bangdai.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/PuffHypnoFirePea.controller
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/PuffHypnoSuperGatlingPreview.prefab
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/PuffHypnoPeaSplat.prefab
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_outmouth.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/eyes.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/Bullet_puffHypnoPea_fire.prefab
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_barrel_2.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/eyes.png
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/eyebrow.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/HypnoFirePea_Flame2.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/plantshadow.png
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/HypnoPea.png
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_barrel_1.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/puffhypnosupergatling.png
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/idle.anim
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/HypnoFirePea_Flame1.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/IdleHypnoFirePea.anim
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/HypnoPea.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/supershoot.anim
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/GatlingPea_helmet.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/stem.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_barrel_center.asset
+- Assets/Bundles/puffhypnosupergatling/Texture2D/PuffSuperGatling.png
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/shoot.anim
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/blink2.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/puffhypnosupergatlingPreview.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/Bullet_puffHypnoPea.prefab
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/HypnoFirePea_Flame3.asset
+- Assets/Bundles/puffhypnosupergatling/resources/plantskins/puffhypnosupergatling/PuffSuperGatling_barrel_4.asset
 Dependencies: []

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 280172952
+CRC: 2460176710
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 460befbeb2e96c26e4d8bb309e289330
+    Hash: 79ff20263666aa08938467ff20e11c9d
   TypeTreeHash:
     serializedVersion: 2
-    Hash: acd857964d0c8f20443702af63c8bcb5
+    Hash: 85960fd8c43a7789d6cef298e3598690
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 460befbeb2e96c26e4d8bb309e289330
+    Hash: 79ff20263666aa08938467ff20e11c9d
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -34,34 +34,30 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 114
   Script: {instanceID: 0}
-- Class: 210
-  Script: {instanceID: 0}
 - Class: 212
   Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/plants/hypnosquash/shadow3.asset
-- Assets/resources/modzombie/squalourzombie/Squash.prefab
-- Assets/plants/hypnosquash/idle.anim
-- Assets/plants/hypnosquash/HypnoSquash_stem.asset
-- Assets/plants/hypnosquash/Squash.controller
-- Assets/plants/hypnosquash/Squash_body.asset
-- Assets/plants/hypnosquash/Squash.png
-- Assets/plants/hypnosquash/Squash Skeleton.asset
-- Assets/plants/hypnosquash/shadow3.png
-- Assets/plants/hypnosquash/Squash_eyebrows.asset
-- Assets/plants/hypnosquash/Squash_stem.asset
-- Assets/plants/hypnosquash/HypnoSquashPreview.prefab
-- Assets/resources/modzombie/squalourzombie/Squash.controller
-- Assets/plants/hypnosquash/Squash.asset
-- Assets/plants/hypnosquash/Squash_0.png
-- Assets/plants/hypnosquash/Squash_0.asset
-- Assets/plants/hypnosquash/HypnoSquashPrefab.prefab
-- Assets/plants/hypnosquash/HypnoSquash_eyes.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/squalourzombie
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/superdoomsqualour
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomsqualour
-- "E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/\u51D1\u4F01\u9E45"
+- Assets/Bundles/hypnosquash/plants/hypnosquash/Squash.png
+- Assets/Bundles/hypnosquash/plants/hypnosquash/Squash_body.asset
+- Assets/Bundles/hypnosquash/plants/hypnosquash/jump.anim
+- Assets/Bundles/hypnosquash/plants/hypnosquash/Squash.asset
+- Assets/Bundles/hypnosquash/plants/hypnosquash/Squash.controller
+- Assets/Bundles/hypnosquash/plants/hypnosquash/lookright.anim
+- Assets/Bundles/hypnosquash/plants/hypnosquash/idle.anim
+- Assets/Bundles/hypnosquash/plants/hypnosquash/Squash_0.png
+- Assets/Bundles/hypnosquash/plants/hypnosquash/HypnoSquashPrefab.prefab
+- Assets/Bundles/hypnosquash/plants/hypnosquash/shadow3.asset
+- Assets/Bundles/hypnosquash/plants/hypnosquash/lookleft.anim
+- Assets/Bundles/hypnosquash/plants/hypnosquash/HypnoSquash_stem.asset
+- Assets/Bundles/hypnosquash/plants/hypnosquash/Squash_eyebrows.asset
+- Assets/Bundles/hypnosquash/plants/hypnosquash/shadow3.png
+- Assets/Bundles/hypnosquash/plants/hypnosquash/HypnoSquashPreview.prefab
+- Assets/Bundles/hypnosquash/plants/hypnosquash/Squash Skeleton.asset
+- Assets/Bundles/hypnosquash/plants/hypnosquash/Squash_stem.asset
+- Assets/Bundles/hypnosquash/plants/hypnosquash/Squash_0.asset
+- Assets/Bundles/hypnosquash/plants/hypnosquash/jumppop.anim
+- Assets/Bundles/hypnosquash/plants/hypnosquash/HypnoSquash_eyes.asset
+Dependencies: []

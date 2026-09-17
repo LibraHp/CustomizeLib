@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2064613417
+CRC: 3908923756
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3e089fde7c3bf4a9640b1286958b2e69
+    Hash: 94dfaa54a20e650d3d1b623ada287f79
   TypeTreeHash:
     serializedVersion: 2
     Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 3e089fde7c3bf4a9640b1286958b2e69
+    Hash: 94dfaa54a20e650d3d1b623ada287f79
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,13 +38,12 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/AnimatorController/Salmon.controller
-- Assets/resources/plantskins/salmon/SalmonPreview.prefab
-- Assets/resources/plantskins/salmon/salmon.asset
-- Assets/resources/plantskins/salmon/salmon.png
-- Assets/resources/plantskins/salmon/idle.anim
-- Assets/resources/plantskins/salmon/SalmonPrefab.prefab
-- Assets/AnimationClip/idle_3.anim
-- Assets/resources/plantskins/salmon/Salmon.controller
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- Assets/Bundles/salmon#2/resources/plantskins/salmon/SalmonPrefab.prefab
+- Assets/Bundles/salmon#2/resources/plantskins/salmon/plantshadow.png
+- Assets/Bundles/salmon#2/resources/plantskins/salmon/Salmon.controller
+- Assets/Bundles/salmon#2/resources/plantskins/salmon/salmon.asset
+- Assets/Bundles/salmon#2/resources/plantskins/salmon/plantshadow.asset
+- Assets/Bundles/salmon#2/resources/plantskins/salmon/SalmonPreview.prefab
+- Assets/Bundles/salmon#2/resources/plantskins/salmon/idle.anim
+- Assets/Bundles/salmon#2/resources/plantskins/salmon/salmon.png
+Dependencies: []

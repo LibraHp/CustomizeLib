@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3696183013
+CRC: 900034193
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 339fd784d85715f6b3cab8bd4815045b
+    Hash: 365ecd01ce9c38d16e35c73c89cc3612
   TypeTreeHash:
     serializedVersion: 2
     Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 339fd784d85715f6b3cab8bd4815045b
+    Hash: 365ecd01ce9c38d16e35c73c89cc3612
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,46 +38,47 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatling_barrel_2.asset
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatling_blink1.asset
-- Assets/resources/plantskins/icedoomgatling/stalk_bottom.asset
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatlingPreviewSkin.asset
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatlingPreviewNoSkin.asset
-- Assets/resources/plantskins/icedoomgatling/eyebrow.asset
-- Assets/resources/plantskins/icedoomgatling/stalk_top.asset
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatling_har_skin.asset
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatling_barrel_1.asset
-- Assets/resources/plantskins/icedoomgatling/frontleaf_righttip.asset
-- Assets/resources/plantskins/icedoomgatling/frontleaf.asset
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatling_barrel_3.asset
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatling_barrel.asset
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatling_blink2.asset
-- Assets/resources/plantskins/icedoomgatling/frontleaf_lefttip.asset
-- Assets/resources/plantskins/icedoomgatling/backleaf.asset
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatling_helmet.asset
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatling_hat.prefab
-- Assets/resources/plantskins/icedoomgatling/idle.anim
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatling.png
-- Assets/resources/plantskins/icedoomgatling/shoot.anim
-- Assets/resources/plantskins/icedoomgatling/backleaf_lefttip.asset
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatlingPreview.prefab
-- Assets/resources/plantskins/icedoomgatling/Bullet_iceDoomGatling_doomBig.prefab
-- Assets/resources/plantskins/icedoomgatling/Bullet_iceDoomGatling_doom.png
-- Assets/resources/plantskins/icedoomgatling/Bullet_iceDoomGatling_doomBig.asset
-- Assets/resources/plantskins/icedoomgatling/backleaf_righttip.asset
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatling_mouth_overlay.asset
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatlingPreviewSkin.png
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatling_mouth.asset
-- Assets/resources/plantskins/icedoomgatling/Bullet_iceDoomGatling_doomBig.png
-- Assets/resources/plantskins/icedoomgatling/hair.asset
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatlingPreviewNoSkin.png
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatling_head.asset
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatlingSkinPrefab.prefab
-- Assets/resources/plantskins/icedoomgatling/Bullet_iceDoomGatling_doom.asset
-- Assets/resources/plantskins/icedoomgatling/Bullet_iceDoomGatling_doom.prefab
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatlingPrefab.prefab
-- Assets/resources/plantskins/icedoomgatling/GatlingPea.controller
-- Assets/resources/plantskins/icedoomgatling/IceDoomGatlingSkinPreview.prefab
-- Assets/resources/plantskins/icedoomgatling/ice.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/backleaf_righttip.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/frontleaf_lefttip.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/ice.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatling.png
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatling_blink1.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatlingPreviewSkin.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatling_barrel_2.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/hair.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatling_barrel_1.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/Bullet_iceDoomGatling_doom.prefab
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/eyebrow.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/Bullet_iceDoomGatling_doomBig.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatlingSkinPreview.prefab
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatlingPreviewNoSkin.png
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatlingPreviewSkin.png
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/frontleaf.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/Bullet_iceDoomGatling_doom.png
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/backleaf.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/Bullet_iceDoomGatling_doomBig.png
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatlingPreviewNoSkin.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/Bullet_iceDoomGatling_doomBig.prefab
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/shoot.anim
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatling_hat.prefab
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/Bullet_iceDoomGatling_doom.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/backleaf_lefttip.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/plantshadow.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatling_har_skin.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/idle.anim
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatlingPreview.prefab
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatlingSkinPrefab.prefab
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatling_blink2.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/stalk_top.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatling_head.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/GatlingPea.controller
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatling_mouth.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/plantshadow.png
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatling_barrel.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatling_barrel_3.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/frontleaf_righttip.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatlingPrefab.prefab
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatling_helmet.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/stalk_bottom.asset
+- Assets/Bundles/icedoomgatling/resources/plantskins/icedoomgatling/IceDoomGatling_mouth_overlay.asset
+Dependencies: []

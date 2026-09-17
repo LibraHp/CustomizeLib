@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3920402484
+CRC: 2780119068
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 31525ed2c4ce36d602ac596d65ce633c
+    Hash: d5300f97d0771d70afc9154701a83311
   TypeTreeHash:
     serializedVersion: 2
     Hash: ecbf41a0f317fdb5fd39c45eeb6fb6d0
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 31525ed2c4ce36d602ac596d65ce633c
+    Hash: d5300f97d0771d70afc9154701a83311
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,58 +42,55 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- "Assets/resources/mod/superminegatling/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
-- Assets/resources/mod/superminegatling/Shoot.asset
-- "Assets/resources/mod/superminegatling/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
-- "Assets/resources/mod/superminegatling/\u4ECE\u9009\u533A_0.asset"
-- Assets/resources/mod/superminegatling/PotatoMine_mashed.asset
-- Assets/resources/mod/superminegatling/PotatoMine_rock5b.asset
-- Assets/resources/mod/superminegatling/PotatoMine_rock2c.asset
-- Assets/resources/mod/superminegatling/SuperMineGatling.controller
-- Assets/plants/bigirongatlingpea/armed.anim
-- "Assets/resources/mod/superminegatling/\u571F\u8C46\u8D85\u7EA7\u673A\u67AA\u5C04\u624B.prefab"
-- Assets/resources/mod/superminegatling/1D304C0EC49995553794B9D2849F65AB.png
-- Assets/resources/mod/superminegatling/supershoot.anim
-- "Assets/resources/mod/superminegatling/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
-- Assets/resources/mod/superminegatling/shoot.anim
-- "Assets/resources/mod/superminegatling/\u5DF2\u63D2\u5165\u56FE\u50CF_5.asset"
-- Assets/resources/mod/superminegatling/PotatoMine_rock3b.asset
-- "Assets/resources/mod/superminegatling/\u4ECE\u9009\u533A.asset"
-- Assets/resources/mod/superminegatling/1D304C0EC49995553794B9D2849F65AB.asset
-- Assets/resources/mod/superminegatling/armed.anim
-- "Assets/resources/mod/superminegatling/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
-- "Assets/resources/mod/superminegatling/\u4ECE\u9009\u533A_2.asset"
-- Assets/resources/mod/superminegatling/idle.anim
-- Assets/resources/mod/superminegatling/PotatoMine_rock4c.asset
-- Assets/resources/mod/superminegatling/PotatoMine_rock4b.asset
-- "Assets/resources/mod/superminegatling/\u56FE\u5C42 59.asset"
-- "Assets/Texture2D/\u571F\u8C46\u96F7.png"
-- Assets/resources/mod/superminegatling/SuperMineGatlingPreview.prefab
-- Assets/resources/mod/superminegatling/PotatoMine_body.asset
-- "Assets/resources/mod/superminegatling/\u571F\u8C46\u96F7.png"
-- Assets/resources/mod/superminegatling/rise.anim
-- "Assets/resources/mod/superminegatling/\u571F\u8C46\u8D85\u7EA7\u673A\u67AA\u5C04\u624B
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PeaMine.png
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PotatoMine_stem.asset
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PotatoMine_rock4b.asset
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PotatoMine_rock5b.asset
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u571F\u8C46\u8D85\u7EA7\u673A\u67AA\u5C04\u624B
   Skeleton.asset"
-- Assets/resources/mod/superminegatling/PotatoMine_rock1b.asset
-- Assets/resources/mod/superminegatling/PotatoMine_rock6b.asset
-- Assets/resources/mod/superminegatling/PotatoMine_stem.asset
-- "Assets/resources/mod/superminegatling/\u571F\u8C46\u8D85\u7EA7\u673A\u67AA\u5C04\u624B.png"
-- Assets/resources/mod/superminegatling/PeaMine.asset
-- "Assets/resources/mod/superminegatling/\u5DF2\u63D2\u5165\u56FE\u50CF_4.asset"
-- Assets/resources/mod/superminegatling/PotatoMine_eyes.asset
-- "Assets/resources/mod/superminegatling/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
-- Assets/resources/mod/superminegatling/down.anim
-- Assets/Sprite/plantshadow - Copy_0.asset
-- Assets/resources/mod/superminegatling/SuperMineGatlingPrefab.prefab
-- Assets/Texture2D/plantshadow - Copy_0.png
-- Assets/resources/mod/superminegatling/PotatoMine_rock3a.asset
-- Assets/resources/mod/superminegatling/mashed.anim
-- Assets/resources/mod/superminegatling/PotatoMine_rock5a.asset
-- Assets/resources/mod/superminegatling/PotatoMine_rock1a.asset
-- Assets/resources/mod/superminegatling/Head.asset
-- "Assets/resources/mod/superminegatling/\u4ECE\u9009\u533A_1.asset"
-- Assets/resources/mod/superminegatling/PotatoMine_rock6a.asset
-- "Assets/resources/\u7279\u6548/potaoexplode/PotatoMine_mashed.asset"
-- Assets/resources/mod/superminegatling/PeaMine.png
-- "Assets/resources/mod/superminegatling/\u5934.png"
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/mashed.anim
+- Assets/Bundles/superminegatling/Sprite/plantshadow - Copy.asset
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PeaMine.asset
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PotatoMine_rock6b.asset
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u4ECE\u9009\u533A_2.asset"
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/Head.asset
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PotatoMine_rock4c.asset
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PotatoMine_rock5a.asset
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u5934.png"
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PotatoMine_rock1b.asset
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u4ECE\u9009\u533A_0.asset"
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u4ECE\u9009\u533A_1.asset"
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u5DF2\u63D2\u5165\u56FE\u50CF_4.asset"
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u571F\u8C46\u8D85\u7EA7\u673A\u67AA\u5C04\u624B.png"
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/Shoot.asset
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PotatoMine_rock2c.asset
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PotatoMine_rock6a.asset
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/down.anim
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u56FE\u5C42 59.asset"
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/SuperMineGatlingPrefab.prefab
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u571F\u8C46\u8D85\u7EA7\u673A\u67AA\u5C04\u624B.prefab"
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PotatoMine_eyes.asset
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PotatoMine_mashed.asset
+- Assets/Bundles/superminegatling/Texture2D/plantshadow - Copy.png
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PotatoMine_rock3b.asset
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PotatoMine_rock3a.asset
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/SuperMineGatlingPreview.prefab
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PotatoMine_body.asset
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u5DF2\u63D2\u5165\u56FE\u50CF_5.asset"
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/supershoot.anim
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/SuperMineGatling.controller
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/rise.anim
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/PotatoMine_rock1a.asset
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/shoot.anim
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/idle.anim
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/armed.anim
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u571F\u8C46\u96F7.png"
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/1D304C0EC49995553794B9D2849F65AB.png
+- Assets/Bundles/superminegatling/resources/mod/superminegatling/1D304C0EC49995553794B9D2849F65AB.asset
+- "Assets/Bundles/superminegatling/resources/mod/superminegatling/\u4ECE\u9009\u533A.asset"
 Dependencies: []

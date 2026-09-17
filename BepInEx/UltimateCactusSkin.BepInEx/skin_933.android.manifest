@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 257614458
+CRC: 586354935
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 25615fba1c8ad02fa93e137a8dedf7f0
+    Hash: 04a7585e82e89c7b9dd5a97a00f3ac85
   TypeTreeHash:
     serializedVersion: 2
     Hash: 886f15ae7808a7713ce4d4f6190a94dd
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 25615fba1c8ad02fa93e137a8dedf7f0
+    Hash: 04a7585e82e89c7b9dd5a97a00f3ac85
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -50,122 +50,127 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 16.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_15.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactus.prefab
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/arm1_2.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_3.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u7A76\u7EA7\u8DEF\u706F\u82B1-\u6781\u5149.png"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_16.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 76.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/superskill.anim
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_4.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Prefab.prefab
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_19.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_11.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 69.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_22.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_0.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/shoot2.anim
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/1CCBF018251AE3A360EC0830186447CA.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactus.controller
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u7A76\u7EA7\u4ED9\u4EBA\u638C-\u6781\u5149(1).png"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Bullet_ultimateCactus.prefab
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_blink2.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_21.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/idle2.anim
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_7.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_top1.asset
-- "Assets/Sprite/\u56FE\u5C42 4_1.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_18.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 73.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_body2.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_body3.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_mouth.asset
-- "Assets/Sprite/\u4ECE\u9009\u533A_60.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 65_1.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_body_overlay.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_13.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/arm2_2.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_23.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 65.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/Preview.prefab"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_2.asset"
-- Assets/Sprite/999_3.asset
-- Assets/Texture2D/plantshadow_5.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_top2.asset
-- "Assets/Texture2D/\u7ECF\u9A8C\u6761_3.png"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_31.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_1.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_26.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/1CCBF018251AE3A360EC0830186447CA.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_28.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_body1.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u7A76\u7EA7\u4ED9\u4EBA\u638C-\u6781\u5149(1)
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u7A76\u7EA7\u8DEF\u706F\u82B1-\u6781\u5149
   Skeleton.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 77.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 73_1.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactus.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u7A76\u7EA7\u8DEF\u706F\u82B1-\u6781\u5149.prefab"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 78.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_5.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/1CCBF018251AE3A360EC0830186447CA.png
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_30.asset"
-- Assets/Sprite/plantshadow_18.asset
-- "Assets/Sprite/\u4ECE\u9009\u533A_61.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 75.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_25.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_body_overlay2.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 65_0.asset"
-- Assets/Sprite/999_4.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_9.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_lips.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 65_2.asset"
-- Assets/Sprite/plantshadow_5.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactus_0.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 63.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_24.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_10.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Preview.prefab
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/rise.anim
-- Assets/Texture2D/plantshadow_18.png
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_20.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/fly.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 73_0.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/shoot1.anim
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactus Skeleton.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactusPrefab
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  63.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_12.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_1.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_27.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactus
+  Skeleton.asset
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  65_0.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_31.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactus_0.png
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_body_overlay.asset
+- Assets/Bundles/skin_933/Sprite/plantshadow.asset
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_28.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_25.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u7A76\u7EA7\u8DEF\u706F\u82B1-\u6781\u5149.prefab"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_17.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u80CC\u666F.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_18.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  76.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u7A76\u7EA7\u4ED9\u4EBA\u638C-\u6781\u5149(1).png"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_32.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_19.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_29.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_4.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/SunEmmit.mat
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_2.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactus.controller
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_11.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/shoot1.anim
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/superskill.anim
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_20.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  16_0.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/arm1_1.asset
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_8.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  69.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/idle.anim
+- Assets/Bundles/skin_933/Texture2D/plantshadow.png
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_blink1.asset
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u7A76\u7EA7\u4ED9\u4EBA\u638C-\u6781\u5149(1).prefab"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Bullet_ultimateCactus.prefab
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/1CCBF018251AE3A360EC0830186447CA.asset
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_blink2.asset
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_22.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  77.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  65_2.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_7.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_30.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/arm1_2.asset
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/plantshadow.asset
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_body1.asset
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/fly.asset
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_top2.asset
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/plantshadow.png
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/xuzhaung.png
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  73.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/rise.anim
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_14.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  65.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  16.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_24.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/idle2.anim
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/lower.anim
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_body3.asset
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u7A76\u7EA7\u8DEF\u706F\u82B1-\u6781\u5149.png"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  65_1.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactus.png
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_5.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/arm2_2.asset
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_26.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Preview.prefab
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_10.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u7A76\u7EA7\u4ED9\u4EBA\u638C-\u6781\u5149(1)
+  Skeleton.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactusPrefab
   1.prefab
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/idle.anim
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactus.png
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 16_0.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/1CCBF018251AE3A360EC0830186447CA.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/SunEmmit.mat
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u7A76\u7EA7\u4ED9\u4EBA\u638C-\u6781\u5149(1).prefab"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_blink1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactus_0.png
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u80CC\u666F.asset"
-- "Assets/Sprite/\u56FE\u5C42 99.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/arm2_1.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_12.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_29.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_27.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/Prefab.prefab"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_14.asset"
-- "Assets/Sprite/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/lower.anim
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_8.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_32.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u7A76\u7EA7\u8DEF\u706F\u82B1-\u6781\u5149
-  Skeleton.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 74.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_6.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/arm1_1.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_17.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42 37.asset"
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/skin2
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/solarhypno
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  74.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_6.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_13.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  75.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_9.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/1CCBF018251AE3A360EC0830186447CA.png
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/xuzhaung.asset
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactus_0.asset
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_16.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactus.asset
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/arm2_1.asset
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_top1.asset
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/1.asset
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_lips.asset
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  73_0.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_15.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/UltimateCactus.prefab
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/shoot2.anim
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_23.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_21.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  78.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  37.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u56FE\u5C42
+  73_1.asset"
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_3.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_body_overlay2.asset
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_body2.asset
+- "Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/\u4ECE\u9009\u533A_0.asset"
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Cactus_mouth.asset
+- Assets/Bundles/skin_933/resources/plantskins/aaautumnlin/8.22.unity/skin_933/Prefab.prefab
+Dependencies: []

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1132934408
+CRC: 885589588
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 617ec7672686ec2bc700fd9683df4750
+    Hash: e953ca64d5d6237df48f033f76925771
   TypeTreeHash:
     serializedVersion: 2
     Hash: ca9aaba8fed70f13f242019b8fba0dca
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 617ec7672686ec2bc700fd9683df4750
+    Hash: e953ca64d5d6237df48f033f76925771
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -46,44 +46,46 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_4.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/A.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u7EC8\u6781\u805A\u80FD\u538B\u7F29\u706B\u70AC.png"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/UltimateCherryTorchPreview.prefab
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/UltimateCherryTorch.controller
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/1.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_5.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_10.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/CherryTorch.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/C.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u7EC8\u6781\u805A\u80FD\u538B\u7F29\u706B\u70AC.prefab"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/2.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/3.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/7.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/5.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/UltimateCherryTorchPrefab.prefab
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/F.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_9.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_6.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_1.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u7EC8\u6781\u805A\u80FD\u538B\u7F29\u706B\u70AC
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/2.asset
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/D.asset
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/5.asset
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/A.asset
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_10.asset"
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/CherryTorch.png
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_2.asset"
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u7EC8\u6781\u805A\u80FD\u538B\u7F29\u706B\u70AC
   Skeleton.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_0.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_13.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/6.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/idle.anim
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_2.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/D.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u56FE\u5C42
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_11.asset"
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u56FE\u5C42
   56.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_8.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_12.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/G.asset
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_7.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_11.asset"
-- "Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_3.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/4.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatefirespike
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_7.asset"
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/G.asset
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_4.asset"
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_13.asset"
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/plantshadow.asset
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_6.asset"
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/7.asset
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/C.asset
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/3.asset
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/FirePea_spark.asset
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/FirePea_spark.png
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_1.asset"
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/1.asset
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/4.asset
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/F.asset
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_5.asset"
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A.asset"
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_0.asset"
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_9.asset"
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/UltimateCherryTorchPreview.prefab
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_3.asset"
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u7EC8\u6781\u805A\u80FD\u538B\u7F29\u706B\u70AC.png"
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/6.asset
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/UltimateCherryTorch.controller
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u7EC8\u6781\u805A\u80FD\u538B\u7F29\u706B\u70AC.prefab"
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/UltimateCherryTorchPrefab.prefab
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_8.asset"
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/idle.anim
+- Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/plantshadow.png
+- "Assets/Bundles/ultimatecherrytorch/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/\u4ECE\u9009\u533A_12.asset"
+Dependencies: []

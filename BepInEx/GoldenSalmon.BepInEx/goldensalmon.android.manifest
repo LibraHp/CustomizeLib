@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3288803162
+CRC: 3398103290
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c431a4a03288c296d5ec865029333be2
+    Hash: fee72aa25b1118db687ea0c4b9da9af6
   TypeTreeHash:
     serializedVersion: 2
     Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: c431a4a03288c296d5ec865029333be2
+    Hash: fee72aa25b1118db687ea0c4b9da9af6
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,13 +38,15 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/goldensalmon/idle.anim
-- Assets/resources/plantskins/goldensalmon/GoldenSalmon.controller
-- Assets/resources/plantskins/goldensalmon/GoldenSalmonPreview.prefab
-- Assets/resources/plantskins/goldensalmon/golden_salmon.png
-- Assets/resources/plantskins/goldensalmon/GoldenSalmonPrefab.prefab
-- Assets/Sprite/plantshadow_16.asset
-- Assets/resources/plantskins/goldensalmon/golden_salmon.asset
-- Assets/Texture2D/plantshadow_16.png
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/salmon#2
+- Assets/Bundles/goldensalmon/resources/plantskins/goldensalmon/plantshadow.asset
+- Assets/Bundles/goldensalmon/resources/plantskins/goldensalmon/GoldenSalmonPreview.prefab
+- Assets/Bundles/goldensalmon/AnimatorController/Salmon.controller
+- Assets/Bundles/goldensalmon/resources/plantskins/goldensalmon/GoldenSalmonPrefab.prefab
+- Assets/Bundles/goldensalmon/Texture2D/plantshadow.png
+- Assets/Bundles/goldensalmon/AnimationClip/idle.anim
+- Assets/Bundles/goldensalmon/resources/plantskins/goldensalmon/golden_salmon.asset
+- Assets/Bundles/goldensalmon/resources/plantskins/goldensalmon/golden_salmon.png
+- Assets/Bundles/goldensalmon/Sprite/plantshadow.asset
+- Assets/Bundles/goldensalmon/resources/plantskins/goldensalmon/plantshadow.png
+- Assets/Bundles/goldensalmon/resources/plantskins/goldensalmon/GoldenSalmon.controller
+Dependencies: []

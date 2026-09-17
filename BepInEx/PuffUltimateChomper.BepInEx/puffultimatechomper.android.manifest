@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3225045840
+CRC: 3652454967
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 47d3936b387e5c9e86195330689ae69b
+    Hash: bd354f9ab118df79c9136f47f49768c9
   TypeTreeHash:
     serializedVersion: 2
     Hash: ecbf41a0f317fdb5fd39c45eeb6fb6d0
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 47d3936b387e5c9e86195330689ae69b
+    Hash: bd354f9ab118df79c9136f47f49768c9
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,38 +42,40 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/mod/puffultimatechomper/2.asset
-- Assets/resources/mod/puffultimatechomper/B3.asset
-- Assets/resources/mod/puffultimatechomper/5.asset
-- "Assets/resources/mod/puffultimatechomper/\u5C0F\u7262\u6218.prefab"
-- Assets/resources/mod/puffultimatechomper/PuffUltimateChomperPrefab.prefab
-- Assets/resources/mod/puffultimatechomper/4.asset
-- Assets/resources/mod/puffultimatechomper/3.asset
-- Assets/resources/mod/puffultimatechomper/idie.anim
-- Assets/resources/mod/puffultimatechomper/L1.asset
-- Assets/resources/mod/puffultimatechomper/Body.asset
-- Assets/resources/mod/puffultimatechomper/mouth1.asset
-- Assets/resources/mod/puffultimatechomper/1.asset
-- Assets/resources/mod/puffultimatechomper/L4_2.asset
-- Assets/resources/mod/puffultimatechomper/L3.asset
-- Assets/resources/mod/puffultimatechomper/PuffUltimateChomperPreview.prefab
-- Assets/resources/mod/puffultimatechomper/mouth1-2.asset
-- Assets/resources/mod/puffultimatechomper/L4_1.asset
-- Assets/resources/mod/puffultimatechomper/B2.asset
-- "Assets/resources/mod/puffultimatechomper/\u5C0F\u7262\u6218 Skeleton.asset"
-- Assets/resources/mod/puffultimatechomper/rororororo.asset
-- Assets/resources/mod/puffultimatechomper/L4.asset
-- "Assets/resources/mod/puffultimatechomper/\u5C0F\u7262\u6218.png"
-- Assets/resources/mod/puffultimatechomper/L4-2.asset
-- Assets/resources/mod/puffultimatechomper/mouth2.asset
-- Assets/resources/mod/puffultimatechomper/PuffUltimateChomper.controller
-- Assets/resources/mod/puffultimatechomper/supershoot.anim
-- Assets/resources/mod/puffultimatechomper/T1.asset
-- Assets/resources/mod/puffultimatechomper/L4_0.asset
-- Assets/resources/mod/puffultimatechomper/L2.asset
-- Assets/resources/mod/puffultimatechomper/mouth3.asset
-- Assets/resources/mod/puffultimatechomper/T2.asset
-- Assets/resources/mod/puffultimatechomper/mouth1-3.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatemachinechomper
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/L3.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/supershoot.anim
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/idie.anim
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/2.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/L1.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/L2.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/Body.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/mouth3.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/L4_1.asset
+- "Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/\u5C0F\u7262\u6218
+  Skeleton.asset"
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/PuffUltimateChomper.controller
+- "Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/\u5C0F\u7262\u6218.prefab"
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/L4-2.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/PuffUltimateChomperPrefab.prefab
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/mouth1.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/L4_2.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/4.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/rororororo.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/mouth2.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/plantshadow.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/PuffUltimateChomperPreview.prefab
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/1.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/mouth1-3.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/B3.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/3.asset
+- "Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/\u5C0F\u7262\u6218.png"
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/T1.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/T2.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/bite.anim
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/plantshadow.png
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/B2.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/L4_0.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/5.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/mouth1-2.asset
+- Assets/Bundles/puffultimatechomper/resources/mod/puffultimatechomper/L4.asset
+Dependencies: []

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1324799681
+CRC: 2294082356
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c34360737a7161178dc46577fc96f60b
+    Hash: 95f74a648e4a2218dc091346e547ebba
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 73feea8e8420735c0c8b97532965b808
+    Hash: 76387a73bc0a319a3cee998f74b79823
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: c34360737a7161178dc46577fc96f60b
+    Hash: 95f74a648e4a2218dc091346e547ebba
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -21,6 +21,8 @@ ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
 - Class: 48
+  Script: {instanceID: 0}
+- Class: 74
   Script: {instanceID: 0}
 - Class: 91
   Script: {instanceID: 0}
@@ -40,14 +42,24 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- "Assets/resources/\u7279\u6548/ifvstar/Doom_magnet.prefab"
-- "Assets/resources/\u7279\u6548/ifvstar/\u672A\u547D\u540D\u4F5C\u54C1(3)(1).prefab"
-- "Assets/resources/\u7279\u6548/ifvstar/\u672A\u547D\u540D\u4F5C\u54C1(3)(1).png"
-- "Assets/resources/\u7279\u6548/ifvstar/\u4ECE\u9009\u533A.asset"
-- "Assets/resources/\u7279\u6548/ifvstar/\u672A\u547D\u540D\u4F5C\u54C1(3)(1) Skeleton.asset"
-- "Assets/resources/\u7279\u6548/ifvstar/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
-- "Assets/resources/\u7279\u6548/ifvstar/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
-- "Assets/resources/\u7279\u6548/ifvstar/\u4ECE\u9009\u533A_1.asset"
-- "Assets/resources/\u7279\u6548/ifvstar/\u4ECE\u9009\u533A_0.asset"
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomminigun
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/Doom_magnet.prefab"
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/ExplosionPowie.asset"
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/ExplosionPowie.png"
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/Doom.png"
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/\u672A\u547D\u540D\u4F5C\u54C1(3)(1).png"
+- Assets/Bundles/ifvstar/Texture2D/PeaShooter.png
+- Assets/Bundles/ifvstar/Sprite/PeaShooter.asset
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/\u672A\u547D\u540D\u4F5C\u54C1(3)(1).prefab"
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/\u672A\u547D\u540D\u4F5C\u54C1(3)(1)
+  Skeleton.asset"
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/Doom.asset"
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/\u4ECE\u9009\u533A.asset"
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/Doom.controller"
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/doom.anim"
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/\u4ECE\u9009\u533A_0.asset"
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/ExplosionCloud.png"
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/ExplosionCloud.asset"
+- "Assets/Bundles/ifvstar/resources/\u7279\u6548/ifvstar/\u4ECE\u9009\u533A_1.asset"
+Dependencies: []

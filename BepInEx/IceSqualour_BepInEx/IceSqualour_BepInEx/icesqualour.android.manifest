@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 4045652834
+CRC: 1921743664
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0fa6c09e3562c0d8eae2ec19c4349d02
+    Hash: 34cc15a3b9ab496ebf361e15d17cf4b1
   TypeTreeHash:
     serializedVersion: 2
     Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 0fa6c09e3562c0d8eae2ec19c4349d02
+    Hash: 34cc15a3b9ab496ebf361e15d17cf4b1
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,21 +38,23 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/icesqualour/IceSqualourSkinPrefab.prefab
-- Assets/resources/plantskins/icesqualour/jump.anim
-- Assets/resources/plantskins/icesqualour/IceSqualour.png
-- Assets/resources/plantskins/icesqualour/idle.anim
-- Assets/resources/plantskins/icesqualour/IceSqualourSkinPreview.prefab
-- Assets/resources/plantskins/icesqualour/IceSqualour.asset
-- Assets/resources/plantskins/icesqualour/IceSqualourSkin.png
-- Assets/resources/plantskins/icesqualour/lookleft.anim
-- Assets/resources/plantskins/icesqualour/lookright.anim
-- Assets/resources/plantskins/icesqualour/IceSqualourPreview.prefab
-- Assets/resources/plantskins/icesqualour/IceSqualourSkin.controller
-- Assets/resources/plantskins/icesqualour/IceSqualour.controller
-- Assets/resources/plantskins/icesqualour/IceSqualourPrefab.prefab
-- Assets/resources/plantskins/icesqualour/jumppop.anim
-- Assets/resources/plantskins/icesqualour/IceSqualourSkin.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/jalasqualour
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/IceSqualourSkin.controller
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/lookright.anim
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/IceSqualour.png
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/IceSqualourSkinPrefab.prefab
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/plantshadow.asset
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/plantshadow.png
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/IceSqualour.asset
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/IceSqualourSkinPreview.prefab
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/jump.anim
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/IceSqualourPrefab.prefab
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/lookleft_skin.anim
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/idle.anim
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/IceSqualourPreview.prefab
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/IceSqualour.controller
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/lookleft.anim
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/lookright_skin.anim
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/jumppop.anim
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/IceSqualourSkin.png
+- Assets/Bundles/icesqualour/resources/plantskins/icesqualour/IceSqualourSkin.asset
+Dependencies: []

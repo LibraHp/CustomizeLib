@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3404615007
+CRC: 134781505
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9def0b0c861eb1abba589c892f1b181b
+    Hash: a0ac37c0b297fe74c65636bda05696d0
   TypeTreeHash:
     serializedVersion: 2
     Hash: 342269afdc324a7b5a67cf42c3183e54
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 9def0b0c861eb1abba589c892f1b181b
+    Hash: a0ac37c0b297fe74c65636bda05696d0
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,25 +42,25 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/plants/supergarlicfume/SuperGarlicFume_0.asset
-- Assets/plants/supergarlicfume/shoot.anim
-- Assets/plants/supergarlicfume/SuperGarlicFumePreview.prefab
-- Assets/plants/supergarlicfume/SuperGarlicFume_0.png
-- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_3.asset"
-- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_5.asset"
-- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_7.asset"
-- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7.png"
-- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_1.asset"
-- Assets/plants/supergarlicfume/shooting.anim
-- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_4.asset"
-- Assets/plants/supergarlicfume/SuperGarlicFumePrefab.prefab
-- Assets/plants/supergarlicfume/idle.anim
-- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_2.asset"
-- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_6.asset"
-- Assets/plants/supergarlicfume/FinalFume.controller
-- Assets/plants/supergarlicfume/shadow.asset
-- Assets/plants/supergarlicfume/startshoot.anim
-- "Assets/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_0.asset"
-- Assets/plants/supergarlicfume/endshoot.anim
-- Assets/plants/supergarlicfume/shadow.png
+- "Assets/Bundles/supergarlicfume/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_3.asset"
+- "Assets/Bundles/supergarlicfume/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_5.asset"
+- "Assets/Bundles/supergarlicfume/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7.png"
+- "Assets/Bundles/supergarlicfume/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_7.asset"
+- Assets/Bundles/supergarlicfume/plants/supergarlicfume/shoot.anim
+- Assets/Bundles/supergarlicfume/plants/supergarlicfume/SuperGarlicFumePrefab.prefab
+- "Assets/Bundles/supergarlicfume/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_1.asset"
+- "Assets/Bundles/supergarlicfume/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_0.asset"
+- Assets/Bundles/supergarlicfume/plants/supergarlicfume/FinalFume.controller
+- Assets/Bundles/supergarlicfume/plants/supergarlicfume/idle.anim
+- Assets/Bundles/supergarlicfume/plants/supergarlicfume/startshoot.anim
+- "Assets/Bundles/supergarlicfume/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_6.asset"
+- "Assets/Bundles/supergarlicfume/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_2.asset"
+- Assets/Bundles/supergarlicfume/plants/supergarlicfume/SuperGarlicFumePreview.prefab
+- Assets/Bundles/supergarlicfume/plants/supergarlicfume/SuperGarlicFume_0.png
+- Assets/Bundles/supergarlicfume/plants/supergarlicfume/shadow.png
+- Assets/Bundles/supergarlicfume/plants/supergarlicfume/endshoot.anim
+- "Assets/Bundles/supergarlicfume/plants/supergarlicfume/\u7A76\u6781\u849C\u5927\u55B7\u83C7_4.asset"
+- Assets/Bundles/supergarlicfume/plants/supergarlicfume/shooting.anim
+- Assets/Bundles/supergarlicfume/plants/supergarlicfume/shadow.asset
+- Assets/Bundles/supergarlicfume/plants/supergarlicfume/SuperGarlicFume_0.asset
 Dependencies: []

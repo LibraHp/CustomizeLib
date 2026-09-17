@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2125556240
+CRC: 280574301
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0e1c54fd71ca5cde0a3d4eff7877ca29
+    Hash: 5026ce7e9b49744a165af81afcc54e9b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 342269afdc324a7b5a67cf42c3183e54
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 0e1c54fd71ca5cde0a3d4eff7877ca29
+    Hash: 5026ce7e9b49744a165af81afcc54e9b
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,22 +42,23 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/nullnut/NullNut.png
-- Assets/resources/plantskins/nullnut/NullNutParticlesLarge_2.asset
-- Assets/resources/plantskins/nullnut/NullNutParticlesLarge_1.asset
-- Assets/resources/plantskins/nullnut/NullNutPreview.prefab
-- Assets/resources/plantskins/nullnut/NullNutParticlesLarge_0.asset
-- Assets/resources/plantskins/nullnut/NullNut_cracked1.png
-- Assets/resources/plantskins/nullnut/idle.anim
-- Assets/resources/plantskins/nullnut/NullNut_cracked1.asset
-- Assets/resources/plantskins/nullnut/NullNut_cracked2.asset
-- Assets/resources/plantskins/nullnut/NullNut.controller
-- Assets/resources/plantskins/nullnut/NullNutParticlesLarge_4.asset
-- Assets/resources/plantskins/nullnut/NullNutParticlesLarge_3.asset
-- Assets/resources/plantskins/nullnut/NullNutParticle.png
-- Assets/resources/plantskins/nullnut/NullNut_cracked2.png
-- Assets/resources/plantskins/nullnut/NullNut.asset
-- Assets/resources/plantskins/nullnut/NullNutPrefab.prefab
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatecornnut
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/NullNutParticlesLarge_2.asset
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/NullNut_cracked2.png
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/NullNutPreview.prefab
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/NullNutPrefab.prefab
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/NullNutParticlesLarge_1.asset
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/NullNutParticlesLarge_3.asset
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/NullNutParticlesLarge_0.asset
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/idle.anim
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/NullNut.asset
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/plantshadow.png
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/NullNutParticle.png
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/NullNut_cracked1.png
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/NullNut.png
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/NullNut_cracked2.asset
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/NullNutParticlesLarge_4.asset
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/nothing.anim
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/NullNut_cracked1.asset
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/plantshadow.asset
+- Assets/Bundles/nullnut/resources/plantskins/nullnut/NullNut.controller
+Dependencies: []

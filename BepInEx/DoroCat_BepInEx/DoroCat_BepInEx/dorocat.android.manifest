@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2760665811
+CRC: 3935737829
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7f4b1ffc8b0d6add17c49d091a682521
+    Hash: e076bed1c5fe2928e99520259d86f4fc
   TypeTreeHash:
     serializedVersion: 2
     Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 7f4b1ffc8b0d6add17c49d091a682521
+    Hash: e076bed1c5fe2928e99520259d86f4fc
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,28 +38,28 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/dorocat/DoroCat_blink.prefab
-- Assets/resources/plantskins/dorocat/DoroCat_bulletShadow.asset
-- Assets/resources/plantskins/dorocat/DoroCat_bullet.asset
-- Assets/resources/plantskins/dorocat/DoroCat_bullet.png
-- Assets/resources/plantskins/dorocat/DoroCat_paw1.asset
-- Assets/resources/plantskins/dorocat/DoroCat.controller
-- Assets/resources/plantskins/dorocat/DoroCatPreview.png
-- Assets/resources/plantskins/dorocat/shoot.anim
-- Assets/resources/plantskins/dorocat/DoroCat_0.png
-- Assets/resources/plantskins/dorocat/DoroCat_blink2.asset
-- Assets/resources/plantskins/dorocat/DoroCat_tail2_overlay.asset
-- Assets/resources/plantskins/dorocat/DoroCatPreview.asset
-- Assets/resources/plantskins/dorocat/DoroCatPreview.prefab
-- Assets/resources/plantskins/dorocat/DoroCat_tail2.asset
-- Assets/resources/plantskins/dorocat/DoroCatBullet.prefab
-- Assets/resources/plantskins/dorocat/DoroCat_tail.asset
-- Assets/resources/plantskins/dorocat/DoroCat_paw3.asset
-- Assets/resources/plantskins/dorocat/DoroCatPrefab.prefab
-- Assets/resources/plantskins/dorocat/idle.anim
-- Assets/resources/plantskins/dorocat/DoroCat_spike.asset
-- Assets/resources/plantskins/dorocat/DoroCat_head.asset
-- Assets/resources/plantskins/dorocat/DoroCat.asset
-- Assets/resources/plantskins/dorocat/DoroCat_paw2.asset
-- Assets/resources/plantskins/dorocat/DoroCat_blink1.asset
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCatBullet.prefab
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat_blink.prefab
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat_blink1.asset
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/idle.anim
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat_paw2.asset
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat_head.asset
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCatPrefab.prefab
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat_spike.asset
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCatPreview.png
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCatPreview.prefab
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat_paw1.asset
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat_blink2.asset
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat_tail2.asset
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat_bulletShadow.asset
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat.asset
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat_bullet.png
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat_tail2_overlay.asset
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCatPreview.asset
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat_bullet.asset
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat_0.png
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/shoot.anim
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat.controller
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat_tail.asset
+- Assets/Bundles/dorocat/resources/plantskins/dorocat/DoroCat_paw3.asset
 Dependencies: []

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2733298553
+CRC: 3911322096
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: dd81481406cf69f2db784e8e65ce2414
+    Hash: 2a9e2d5cec42c7b60e8a3a497da04209
   TypeTreeHash:
     serializedVersion: 2
-    Hash: acd857964d0c8f20443702af63c8bcb5
+    Hash: f7a88732c9893990234b5de3f8ff3996
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: dd81481406cf69f2db784e8e65ce2414
+    Hash: 2a9e2d5cec42c7b60e8a3a497da04209
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -33,7 +33,9 @@ ClassTypes:
 - Class: 95
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: -54844177, guid: f68e4d9210748575b7313c5ba1460876, type: 3}
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
 - Class: 210
   Script: {instanceID: 0}
 - Class: 212
@@ -42,177 +44,119 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_23.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/idle_0.anim"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42674.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/SuperFireBall_0.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_18.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_7.asset"
-- "Assets/sprite/\u706B2_0.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/FirePeaIdle
-  1.anim"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  136_0.asset"
-- Assets/texture2d/plantshadow - Copy_1.asset
-- "Assets/sprite/\u706B2.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  178_0.asset"
-- Assets/animatorcontroller/FirePea.controller
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  219_0.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  219.asset"
-- Assets/sprite/plantshadow.asset
-- Assets/texture2d/57B67893989F7E6207BF8ECE13792C84_0.png
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  168.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/FirePea.controller"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  182_0.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_14.asset"
-- "Assets/sprite/\u56FE\u5C42 4.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_12.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_15.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  131.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_6.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_8.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_16.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/Bullet_firePea_ultimate2.prefab"
-- Assets/sprite/FirePea_flame3.asset
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/FirePeaIdle.anim"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  232_0.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/SuperFireGatling.controller"
-- Assets/animationclip/FirePeaIdle.anim
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_3.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  155_2.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  183_0.asset"
-- Assets/texture2d/sactx-0-2048x2048-DXT5_BC3-New Sprite Atlas-bc3c590a_0.png
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  138.asset"
-- Assets/animatorcontroller/SuperFireGatling.controller
-- Assets/sprite/57B67893989F7E6207BF8ECE13792C84_2.asset
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/SuperFireGatling_0.controller"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  130.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/UltiamteBall_1.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/Preview.prefab"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_24.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_11.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/FirePea 1.controller"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  216.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u8D85\u7EA7\u706B\u7130\u673A\u67AA\u5C04\u624B\u8D85\u88C5\uFF08\u5B8C\u6210\uFF09
-  Skeleton.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/idle.anim"
-- "Assets/sprite/\u706B1.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u6B32\u706B\u8C4C\u8C46.asset"
-- "Assets/sprite/\u56FE\u5C42 99.asset"
-- Assets/animationclip/shoot.anim
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/HP1.anim"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/UltiamteBall_0.png"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_17.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_10.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u8D85\u7EA7\u706B\u7130\u673A\u67AA\u5C04\u624B\u8D85\u88C5\uFF08\u5B8C\u6210\uFF09.prefab"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/shoot_0.anim"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  131_0.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u7EA2\u8272\u6B32\u706B\u8C4C\u8C46.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/shoot.anim"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/Bullet_pea_jala.prefab"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  111.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/supershoot_0.anim"
-- Assets/sprite/999_0.asset
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/SuperFireBall_3.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42674_2.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/SuperFireBall_2.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/UltiamteBall_1_0.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42674_3.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_9.asset"
-- Assets/sprite/57B67893989F7E6207BF8ECE13792C84_3.asset
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/UltiamteBall_0.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_12.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u706B\u7206\u8C4C\u8C46.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/supershoot.anim"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  111_0.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u7EA2\u8272\u6B32\u706B\u8C4C\u8C462_0.asset"
-- Assets/sprite/FirePea_flame1.asset
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u7EA2\u8272\u6B32\u706B\u8C4C\u8C462.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  155_1.asset"
-- "Assets/texture2d/\u7ECF\u9A8C\u6761.png"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/UltiamteBall_0_0.asset"
-- Assets/sprite/plantshadow - Copy.asset
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/UltiamteBall_2.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  210_0.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/UltiamteBall_3.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/SuperFireBall_0.png"
-- Assets/sprite/999.asset
-- Assets/animationclip/Hide_0.anim
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  216_0.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u706B\u7206\u8C4C\u8C46_0.asset"
-- "Assets/sprite/\u4ECE\u9009\u533A.asset"
-- Assets/animationclip/Hide.anim
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42674_4.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_13.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/Bullet_firePea_super.prefab"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  136.asset"
-- Assets/texture2d/sactx-0-2048x2048-DXT5_BC3-New Sprite Atlas-bc3c590a.png
-- Assets/animationclip/idle.anim
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  130_0.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/SuperFireBall_1.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  155.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/HP1_0.anim"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  232.asset"
-- Assets/animationclip/supershoot.anim
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_22.asset"
-- Assets/texture2d/plantshadow - Copy.png
-- Assets/sprite/FirePea_flame2.asset
-- Assets/texture2d/plantshadow - Copy_1.png
-- "Assets/sprite/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
-- "Assets/sprite/\u4ECE\u9009\u533A_0.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/HP2_0.anim"
-- Assets/sprite/57B67893989F7E6207BF8ECE13792C84_1.asset
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  168_0.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/UltiamteBall_3_0.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  210.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/UltiamteBall.png"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_19.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_20.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_2.asset"
-- "Assets/texture2d/\u7ECF\u9A8C\u6761_4.png"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u8D85\u7EA7\u706B\u7130\u673A\u67AA\u5C04\u624B\u8D85\u88C5\uFF08\u5B8C\u6210\uFF09.png"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
+- Assets/Bundles/skin2/Texture2D/plantshadow - Copy.png
+- Assets/Bundles/skin2/Sprite/plantshadow.asset
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_7.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/UltiamteBall_1.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/Bullet_firePea_super.prefab"
+- Assets/Bundles/skin2/Sprite/FirePea_flame2.asset
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/FirePea
+  1.controller"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u7EA2\u8272\u6B32\u706B\u8C4C\u8C462.asset"
+- Assets/Bundles/skin2/AnimationClip/Hide.anim
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_6.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42674_0.asset"
+- Assets/Bundles/skin2/Sprite/57B67893989F7E6207BF8ECE13792C84_2.asset
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/FirePea.controller"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/SuperFireBall_2.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
   183.asset"
-- Assets/texture2d/plantshadow.png
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_21.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/SuperFireBall.png"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_2.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/idle.anim"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42674.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
+  155_0.asset"
+- "Assets/Bundles/skin2/Sprite/\u56FE\u5C42 4.asset"
+- Assets/Bundles/skin2/Texture2D/sactx-0-2048x2048-DXT5_BC3-New Sprite Atlas-bc3c590a.png
+- "Assets/Bundles/skin2/Sprite/\u4ECE\u9009\u533A_0.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
+  168.asset"
+- Assets/Bundles/skin2/Sprite/FirePea_flame1.asset
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
+  131.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
+  111.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/FirePeaIdle
+  1.anim"
+- "Assets/Bundles/skin2/Texture2D/\u7ECF\u9A8C\u6761.png"
+- Assets/Bundles/skin2/Sprite/999_0.asset
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_5.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
+  232.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/Bullet_firePea_ultimate.prefab"
+- Assets/Bundles/skin2/Texture2D/plantshadow.png
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
+  130.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_4.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/SuperFireBall_1.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/shoot.anim"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
+  136.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
+  219.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
+  210.asset"
+- "Assets/Bundles/skin2/Sprite/\u56FE\u5C42 99.asset"
+- "Assets/Bundles/skin2/Sprite/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/SuperFireGatling.controller"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/Preview.prefab"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_5.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/SuperFireBall_3.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
+  138.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_9.asset"
+- Assets/Bundles/skin2/AnimationClip/FirePeaIdle.anim
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_4.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/FirePeaIdle.anim"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/UltiamteBall_2.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u8D85\u7EA7\u706B\u7130\u673A\u67AA\u5C04\u624B\u8D85\u88C5\uFF08\u5B8C\u6210\uFF09.prefab"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/Bullet_pea_jala.prefab"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_11.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
   178.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/HP2.anim"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
-  138_0.asset"
-- Assets/resources/plantskins/firesupergatling/PlantShadow.asset
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_11.asset"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/Bullet_firePea_ultimate.prefab"
-- "Assets/texture2d/\u7ECF\u9A8C\u6761_0.png"
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/Prefab.prefab"
-- Assets/texture2d/57B67893989F7E6207BF8ECE13792C84.png
-- "Assets/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
+- "Assets/Bundles/skin2/Sprite/\u706B1.asset"
+- "Assets/Bundles/skin2/Sprite/\u4ECE\u9009\u533A.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u8D85\u7EA7\u706B\u7130\u673A\u67AA\u5C04\u624B\u8D85\u88C5\uFF08\u5B8C\u6210\uFF09.png"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/UltiamteBall_0.asset"
+- "Assets/Bundles/skin2/Texture2D/\u7ECF\u9A8C\u6761_0.png"
+- Assets/Bundles/skin2/AnimatorController/FirePea.controller
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/Prefab.prefab"
+- Assets/Bundles/skin2/Sprite/57B67893989F7E6207BF8ECE13792C84_3.asset
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_8.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_1.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/UltiamteBall_3.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u7EA2\u8272\u6B32\u706B\u8C4C\u8C46.asset"
+- Assets/Bundles/skin2/Sprite/57B67893989F7E6207BF8ECE13792C84_1.asset
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u6B32\u706B\u8C4C\u8C46.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_3.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_10.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/SuperFireBall.png"
+- Assets/Bundles/skin2/Sprite/FirePea_flame3.asset
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/SuperFireBall_0.asset"
+- "Assets/Bundles/skin2/Sprite/\u706B2.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
+  155.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u706B\u7206\u8C4C\u8C46.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/supershoot.anim"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u8D85\u7EA7\u706B\u7130\u673A\u67AA\u5C04\u624B\u8D85\u88C5\uFF08\u5B8C\u6210\uFF09
+  Skeleton.asset"
+- Assets/Bundles/skin2/Sprite/999.asset
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42674_1.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u4ECE\u9009\u533A_0.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
+  216.asset"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- Assets/Bundles/skin2/Sprite/plantshadow - Copy.asset
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/\u56FE\u5C42
   182.asset"
-- "Assets/sprite/\u706B1_0.asset"
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/firesupergatling
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/Bullet_firePea_ultimate2.prefab"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/HP1.anim"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/HP2.anim"
+- "Assets/Bundles/skin2/resources/mod/supergatlingnew/mod/\u706B\u5927\u54E5/skin2/UltiamteBall.png"
+- Assets/Bundles/skin2/Texture2D/57B67893989F7E6207BF8ECE13792C84.png
+Dependencies: []

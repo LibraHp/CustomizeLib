@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2515390798
+CRC: 624762338
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e8293859bd7319232df06502c1daccca
+    Hash: 0fd90196a33f00468a7db91b26abb9b8
   TypeTreeHash:
     serializedVersion: 2
     Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: e8293859bd7319232df06502c1daccca
+    Hash: 0fd90196a33f00468a7db91b26abb9b8
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,34 +38,39 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/idie.anim
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/supershoot.anim
-- Assets/Sprite/blink1_0.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffSuperGatling_barrel_1.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffSuperGatling_barrel_0.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffFireSuperGatling.controller
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffFireSuperGatlingPreview.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/shoot.anim
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffFireSuperGatlingPreview.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffSuperGatling_barrel_center.asset
-- Assets/Sprite/plantshadow_10.asset
-- Assets/Texture2D/PuffSuperGatling_9.png
-- Assets/Sprite/glasses_2.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffSuperGatling_barrel_2.asset
-- Assets/Texture2D/PuffSuperGatling_10.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/bangdai.asset
-- Assets/Sprite/eyebrow_4.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffSuperGatling_barrel.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffFireSuperGatlingPrefab.prefab
-- Assets/Texture2D/plantshadow_10.png
-- Assets/Sprite/blink2_0.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/tip.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/body.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffSuperGatling_barrel_5.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffFireSuperGatlingPreview.prefab
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffSuperGatling_outmouth.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffFireSuperGatling.png
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/puffhypnosupergatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/solareclipsecabbage
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/threepuffsuperhypnogatling
+- Assets/Bundles/pufffiresupergatling/Sprite/blink1.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffSuperGatling_barrel_2.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/tip.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffFireSuperGatlingPreview.png
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/supershoot.anim
+- Assets/Bundles/pufffiresupergatling/Texture2D/PuffSuperGatling_0.png
+- Assets/Bundles/pufffiresupergatling/Sprite/blink2.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffSuperGatling_barrel_center.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffFireSuperGatling.png
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/bangdai.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/plantshadow.png
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/GatlingPea_helmet.png
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/idie.anim
+- Assets/Bundles/pufffiresupergatling/Sprite/eyebrow.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/GatlingPea_helmet.asset
+- Assets/Bundles/pufffiresupergatling/Sprite/plantshadow.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffSuperGatling_barrel.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffFireSuperGatlingPreview.prefab
+- Assets/Bundles/pufffiresupergatling/Texture2D/PuffSuperGatling.png
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffSuperGatling_barrel_4.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/shoot.anim
+- Assets/Bundles/pufffiresupergatling/Texture2D/plantshadow.png
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffFireSuperGatling.controller
+- Assets/Bundles/pufffiresupergatling/Sprite/stem.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/plantshadow.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffSuperGatling_barrel_0.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffFireSuperGatlingPrefab.prefab
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffSuperGatling_outmouth.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/helmet.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/body.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/leaf.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffSuperGatling_barrel_1.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffSuperGatling_barrel_5.asset
+- Assets/Bundles/pufffiresupergatling/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/PuffFireSuperGatlingPreview.asset
+- Assets/Bundles/pufffiresupergatling/Sprite/glasses.asset
+Dependencies: []

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1383881256
+CRC: 3864868459
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d56a14e8c8838bc5bb55ad955507ea50
+    Hash: 7d4eb91747c7c1d5c9aa532b123b3325
   TypeTreeHash:
     serializedVersion: 2
     Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: d56a14e8c8838bc5bb55ad955507ea50
+    Hash: 7d4eb91747c7c1d5c9aa532b123b3325
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,40 +38,38 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plants/travel/sniperpea/icesniper/IceSniperPreview.asset
-- Assets/resources/plants/travel/sniperpea/icesniper/GatlingPea_helmet_0.asset
-- Assets/resources/plants/travel/sniperpea/icesniper/PeaShooter_mouth.asset
-- Assets/resources/plants/travel/sniperpea/icesniper/shoot.anim
-- Assets/resources/plants/travel/sniperpea/icesniper/PeaShooter_stalk_bottom.asset
-- Assets/resources/plants/travel/sniperpea/icesniper/PeaShooter_blink2.asset
-- Assets/resources/plants/travel/sniperpea/icesniper/gun_lower.asset
-- Assets/resources/plants/travel/sniperpea/icesniper/PeaShooter_Head.asset
-- Assets/Sprite/plantshadow_15.asset
-- Assets/plants/peashooter/electricpea/PeaShooter_head.asset
-- Assets/Material/Brightness_1.mat
-- Assets/resources/plants/travel/sniperpea/icesniper/IceSniperPreview.png
-- Assets/resources/plants/travel/sniperpea/icesniper/PeaShooter_frontleaf_righttip.asset
-- Assets/resources/plants/travel/sniperpea/icesniper/mouse2.asset
-- Assets/resources/plants/travel/sniperpea/icesniper/FireSniper.controller
-- Assets/resources/plants/travel/sniperpea/icesniper/IceSniperPreview.prefab
-- Assets/resources/plants/travel/sniperpea/icesniper/IceSniper.png
-- Assets/resources/plants/travel/sniperpea/icesniper/IceSniperPrefab.prefab
-- Assets/resources/plants/travel/sniperpea/icesniper/idle.anim
-- Assets/resources/plants/travel/sniperpea/icesniper/PeaShooter_frontleaf_lefttip.asset
-- Assets/Texture2D/PeaShooter_4.png
-- Assets/resources/plants/travel/sniperpea/icesniper/PeaShooter_eyebrow.asset
-- Assets/Texture2D/plantshadow_15.png
-- Assets/resources/plants/travel/sniperpea/icesniper/PeaShooter_backleaf_lefttip.asset
-- Assets/Shader/Shader Graphs_Brightness_1.shader
-- Assets/resources/plants/travel/sniperpea/icesniper/PeaShooter_backleaf_righttip.asset
-- Assets/resources/plants/travel/sniperpea/icesniper/gun_upper.asset
-- Assets/resources/plants/travel/sniperpea/icesniper/PeaShooter_frontleaf.asset
-- Assets/resources/plants/travel/sniperpea/icesniper/PeaShooter_stalk_top.asset
-- Assets/resources/plants/travel/sniperpea/icesniper/PeaShooter_blink1.asset
-- Assets/resources/plants/travel/sniperpea/icesniper/IceSniper.prefab
-- Assets/resources/plants/travel/sniperpea/icesniper/hair.asset
-- Assets/resources/plants/travel/sniperpea/icesniper/PeaShooter_backleaf.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/electricpea
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/puffhypnosupergatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/supersnipergatling
+- Assets/Bundles/icesniper/Texture2D/plantshadow.png
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/gun_lower.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/PeaShooter_backleaf_lefttip.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/PeaShooter_eyebrow.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/PeaShooter_stalk_bottom.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/PeaShooter_frontleaf_lefttip.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/IceSniperPreview.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/GatlingPea_helmet.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/PeaShooter_frontleaf_righttip.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/IceSniper.prefab
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/PeaShooter_blink2.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/PeaShooter_frontleaf.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/PeaShooter_stalk_top.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/gun_upper.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/IceSniperPreview.png
+- Assets/Bundles/icesniper/Material/Brightness.mat
+- Assets/Bundles/icesniper/Shader/Shader Graphs_Brightness.shader
+- Assets/Bundles/icesniper/Texture2D/PeaShooter.png
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/IceSniperPrefab.prefab
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/shoot.anim
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/idle.anim
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/hair.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/PeaShooter_backleaf_righttip.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/IceSniperPreview.prefab
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/PeaShooter_Head.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/Accurate_Heart.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/FireSniper.controller
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/PeaShooter_blink1.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/IceSniper.png
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/mouse2.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/PeaShooter_mouth.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/GatlingPea_helmet_0.asset
+- Assets/Bundles/icesniper/Sprite/plantshadow.asset
+- Assets/Bundles/icesniper/resources/plants/travel/sniperpea/icesniper/PeaShooter_backleaf.asset
+Dependencies: []

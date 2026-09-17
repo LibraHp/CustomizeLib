@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3014678440
+CRC: 1602035385
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 26a156cf39d02645dc0ca382ccc71967
+    Hash: 310a2fa675053ac69b86690ec453ed74
   TypeTreeHash:
     serializedVersion: 2
     Hash: ecbf41a0f317fdb5fd39c45eeb6fb6d0
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 26a156cf39d02645dc0ca382ccc71967
+    Hash: 310a2fa675053ac69b86690ec453ed74
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,77 +42,72 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/pufffiresniperpea/Accurate_Heart.png
-- "Assets/resources/mod/supersnipergatling/\u8D85\u7EA7\u72D9\u51FB\u5C04\u624B.prefab"
-- Assets/resources/mod/supersnipergatling/GatlingPea_mouth_overlay.asset
-- Assets/resources/mod/supersnipergatling/shoot.anim
-- Assets/resources/mod/supersnipergatling/PeaShooter_backleaf_righttip.asset
-- "Assets/resources/mod/supersnipergatling/\u4ECE\u9009\u533A_0.asset"
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4230.asset"
-- Assets/Sprite/paokou3_mid.asset
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4232.asset"
-- Assets/Sprite/paokou1.asset
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4247.asset"
-- Assets/resources/mod/supersnipergatling/GatlingPea_mouth.asset
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4245.asset"
-- "Assets/resources/mod/supersnipergatling/\u4E2D\u5FC3.asset"
-- Assets/resources/mod/supersnipergatling/Accurate_Heart.controller
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4246.asset"
-- Assets/resources/mod/supersnipergatling/supershoot.anim
-- Assets/resources/mod/supersnipergatling/PeaShooter_frontleaf.asset
-- "Assets/resources/mod/supersnipergatling/\u4ECE\u9009\u533A.asset"
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4224.asset"
-- "Assets/resources/mod/supersnipergatling/\u67AA\u7BA1_0.asset"
-- "Assets/resources/mod/supersnipergatling/\u4ECE\u9009\u533A_3.asset"
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4226.asset"
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4234.asset"
-- Assets/resources/mod/supersnipergatling/PeaShooter_backleaf_lefttip.asset
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4249.asset"
-- Assets/resources/plantskins/pufffiresniperpea/Accurate_Heart.asset
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4225.asset"
-- Assets/resources/mod/supersnipergatling/SuperGatling_leaf.asset
-- "Assets/resources/mod/supersnipergatling/\u4ECE\u9009\u533A_1.asset"
-- Assets/resources/mod/supersnipergatling/acc_shoot.anim
-- Assets/resources/plantskins/puffsniperpea/Accurate_Heart.asset
-- Assets/Sprite/plantshadow - Copy.asset
-- Assets/resources/mod/supersnipergatling/PeaShooter_frontleaf_lefttip.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/splitsupergatling/CherrySuperGatling.png
-- "Assets/resources/mod/supersnipergatling/\u8D85\u7EA7\u72D9\u51FB\u5C04\u624B.png"
-- Assets/Sprite/GatlingPea_blink2.asset
-- "Assets/resources/mod/supersnipergatling/\u67AA\u7BA1.asset"
-- Assets/resources/mod/supersnipergatling/Accurate_Heart.prefab
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C424.asset"
-- Assets/resources/mod/supersnipergatling/CherrySuperGatling.png
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4231.asset"
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4230_1.asset"
-- Assets/resources/mod/supersnipergatling/PeaShooter_backleaf.asset
-- Assets/resources/plants/travel/sniperpea/icesniper/Accurate_Heart.asset
-- Assets/Sprite/GatlingPea_blink1.asset
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C425.asset"
-- Assets/resources/mod/supersnipergatling/SuperGatling_head.asset
-- Assets/resources/mod/supersnipergatling/PeaShooter_eyebrow.asset
-- Assets/resources/mod/supersnipergatling/PeaShooter_frontleaf_righttip.asset
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4227.asset"
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4230_0.asset"
-- "Assets/resources/mod/supersnipergatling/\u8D85\u7EA7\u72D9\u51FB\u5C04\u624B Skeleton.asset"
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4228.asset"
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4229.asset"
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4234_0.asset"
-- Assets/resources/mod/supersnipergatling/SuperSniperGatling.controller
-- "Assets/resources/mod/supersnipergatling/\u4ECE\u9009\u533A_2.asset"
-- Assets/resources/mod/supersnipergatling/acc_idle.anim
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4248.asset"
-- Assets/resources/mod/supersnipergatling/idle.anim
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C42 84.asset"
-- Assets/resources/mod/supersnipergatling/shoot_0.anim
-- Assets/resources/mod/supersnipergatling/SuperSniperGatlingPrefab.prefab
-- Assets/resources/mod/supersnipergatling/SuperSniperGatlingPreview.prefab
-- "Assets/resources/mod/supersnipergatling/\u67AA\u7BA1_2.asset"
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C4214.asset"
-- Assets/Texture2D/plantshadow - Copy.png
-- "Assets/resources/mod/supersnipergatling/\u67AA\u7BA1_1.asset"
-- "Assets/resources/mod/supersnipergatling/\u56FE\u5C423.asset"
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/icesniper
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/puffsniperpea
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatecornnut
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4234.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4214.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C42
+  84.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u4ECE\u9009\u533A_3.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u4ECE\u9009\u533A_1.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4234_0.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C425.asset"
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/Accurate_Heart.prefab
+- Assets/Bundles/supersnipergatling/Texture2D/plantshadow - Copy.png
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/shoot_0.anim
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4230_1.asset"
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/Accurate_Heart.controller
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4227.asset"
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/SuperGatling_leaf.asset
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4230.asset"
+- Assets/Bundles/supersnipergatling/Sprite/paokou1.asset
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u8D85\u7EA7\u72D9\u51FB\u5C04\u624B.prefab"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4226.asset"
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/SuperSniperGatlingPreview.prefab
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/PeaShooter_eyebrow.asset
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4249.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u8D85\u7EA7\u72D9\u51FB\u5C04\u624B.png"
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/PeaShooter_frontleaf_righttip.asset
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/PeaShooter_backleaf.asset
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u4ECE\u9009\u533A_0.asset"
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/PeaShooter_frontleaf_lefttip.asset
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4231.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C424.asset"
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/PeaShooter_frontleaf.asset
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4225.asset"
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/SuperGatling_head.asset
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/sactx-1-2048x2048-DXT5_BC3-PlantAtlas-d61e968f.png
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u8D85\u7EA7\u72D9\u51FB\u5C04\u624B
+  Skeleton.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4246.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4248.asset"
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/GatlingPea_mouth.asset
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u67AA\u7BA1_0.asset"
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/shoot.anim
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u4ECE\u9009\u533A_2.asset"
+- Assets/Bundles/supersnipergatling/Sprite/GatlingPea_blink1.asset
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/acc_idle.anim
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4247.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u67AA\u7BA1.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4224.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u4ECE\u9009\u533A.asset"
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/CherrySuperGatling.png
+- Assets/Bundles/supersnipergatling/Sprite/GatlingPea_blink2.asset
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u4E2D\u5FC3.asset"
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/SuperSniperGatlingPrefab.prefab
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/acc_shoot.anim
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/GatlingPea_mouth_overlay.asset
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/SuperSniperGatling.controller
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4229.asset"
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/supershoot.anim
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/PeaShooter_backleaf_righttip.asset
+- Assets/Bundles/supersnipergatling/Sprite/plantshadow - Copy.asset
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u67AA\u7BA1_2.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4230_0.asset"
+- Assets/Bundles/supersnipergatling/Sprite/paokou3_mid.asset
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C423.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u67AA\u7BA1_1.asset"
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/idle.anim
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4228.asset"
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4232.asset"
+- Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/PeaShooter_backleaf_lefttip.asset
+- "Assets/Bundles/supersnipergatling/resources/mod/supersnipergatling/\u56FE\u5C4245.asset"
+Dependencies: []

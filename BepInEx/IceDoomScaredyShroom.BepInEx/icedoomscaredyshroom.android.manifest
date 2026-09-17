@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1899907946
+CRC: 2239581035
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ee60fd670c597d4a4fdd50bd991823f4
+    Hash: acb929bbbdafadc2c053f7a3b0cb6567
   TypeTreeHash:
     serializedVersion: 2
     Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: ee60fd670c597d4a4fdd50bd991823f4
+    Hash: acb929bbbdafadc2c053f7a3b0cb6567
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,37 +38,34 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/plants/icedoomscaredyshroom/gan.asset
-- Assets/plants/icedoomscaredyshroom/brow1.asset
-- Assets/plants/icedoomscaredyshroom/shadow22.png
-- "Assets/plants/icedoomscaredyshroom/\u51B0\u6BC1\u80C6\u5C0F\u83C7.png"
-- Assets/plants/icedoomscaredyshroom/IceScaredyShroom_0.asset
-- Assets/plants/icedoomscaredyshroom/IceDoomScaredyShroomPrefab.prefab
-- Assets/plants/icedoomscaredyshroom/IceDoomScaredyShroomPreview.prefab
-- Assets/plants/icedoomscaredyshroom/ScaredyShroom_eye1.asset
-- Assets/plants/icedoomscaredyshroom/ScaredyShroom_sweat1.asset
-- Assets/plants/icedoomscaredyshroom/scaredgrow.anim
-- Assets/plants/icedoomscaredyshroom/ScaredyShroom_eye2.asset
-- Assets/plants/icedoomscaredyshroom/shadow22.asset
-- Assets/plants/icedoomscaredyshroom/idle.anim
-- Assets/plants/ultimatesunhypno/brow1.asset
-- Assets/plants/icedoomscaredyshroom/ScaredyShroom_lips.asset
-- Assets/plants/icedoomscaredyshroom/scared.anim
-- Assets/plants/ultimatesunhypno/brow2.asset
-- Assets/plants/icedoomscaredyshroom/ScaredyShroom_eye_big2.asset
-- Assets/plants/icedoomscaredyshroom/ScaredyShroom_mouth.asset
-- Assets/plants/icedoomscaredyshroom/shoot.anim
-- Assets/plants/icedoomscaredyshroom/ScaredyShroom_head_inner.asset
-- Assets/plants/icedoomscaredyshroom/ScaredyShroom_eye_big1.asset
-- Assets/plants/icedoomscaredyshroom/brow2.asset
-- Assets/plants/icedoomscaredyshroom/IceScaredyShroom_0.png
-- Assets/plants/icedoomscaredyshroom/IceScaredyShroom.controller
-- Assets/plants/icedoomscaredyshroom/IceScaredyShroom.asset
-- Assets/plants/icedoomscaredyshroom/ScaredyShroom_head.asset
-- Assets/plants/icedoomscaredyshroom/IceScaredyShroom.png
-- Assets/plants/icedoomscaredyshroom/ScaredyShroom_sweat2.asset
-- Assets/plants/icedoomscaredyshroom/ScaredyShroom_head2.asset
-- "Assets/plants/icedoomscaredyshroom/\u51B0\u6BC1\u80C6\u5C0F\u83C7.asset"
-- Assets/plants/icedoomscaredyshroom/scaredidle.anim
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/electricpea
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/brow1.asset
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/IceDoomScaredyShroomPreview.prefab
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/idle.anim
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/ScaredyShroom_sweat2.asset
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/ScaredyShroom_eye2.asset
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/scaredidle.anim
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/IceDoomScaredyShroomPrefab.prefab
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/ScaredyShroom_eye1.asset
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/shadow22.asset
+- "Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/\u51B0\u6BC1\u80C6\u5C0F\u83C7.png"
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/shoot.anim
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/IceScaredyShroom.png
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/ScaredyShroom_mouth.asset
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/brow2.asset
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/ScaredyShroom_head2.asset
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/ScaredyShroom_head.asset
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/ScaredyShroom_sweat1.asset
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/IceScaredyShroom.asset
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/IceScaredyShroom.controller
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/scaredgrow.anim
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/IceScaredyShroom_0.asset
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/ScaredyShroom_eye_big1.asset
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/IceScaredyShroom_0.png
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/shadow22.png
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/ScaredyShroom_head_inner.asset
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/ScaredyShroom_eye_big2.asset
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/ScaredyShroom_lips.asset
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/scared.anim
+- "Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/\u51B0\u6BC1\u80C6\u5C0F\u83C7.asset"
+- Assets/Bundles/icedoomscaredyshroom/plants/icedoomscaredyshroom/gan.asset
+Dependencies: []

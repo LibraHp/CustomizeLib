@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 762158574
+CRC: 557688986
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f03449a13341fb821c75c5374e9f0fc0
+    Hash: 0cef2a892da977c43086317d873c7dc4
   TypeTreeHash:
     serializedVersion: 2
     Hash: ecbf41a0f317fdb5fd39c45eeb6fb6d0
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: f03449a13341fb821c75c5374e9f0fc0
+    Hash: 0cef2a892da977c43086317d873c7dc4
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,142 +42,40 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/plantshadow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/plantshadow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepufffiresupergatling/plantshadow.asset
-- "Assets/resources/mod/ultimateportalsnowgatling/\u56FE\u5C4265.asset"
-- Assets/resources/plantskins/ashthreegaling/plantshadow.asset
-- Assets/resources/plantskins/goldensalmon/plantshadow.asset
-- Assets/resources/plantskins/ultimatesolarspruce/plantshadow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/splitsupergatling/plantshadow.png
-- Assets/resources/plantskins/icedoomgatling/plantshadow.png
-- Assets/resources/plantskins/icesuperthreegatling/plantshadow.png
-- Assets/resources/mod/ultimateportalsnowgatling/UltimatePortalSnowGatlingPreview.prefab
-- Assets/resources/plants/ultimatecornnut/plantshadow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/plantshadow.asset
-- Assets/resources/mod/zombieimitater/plantshadow.png
-- Assets/resources/mod/puffultimatechomper/plantshadow.png
-- Assets/resources/mod/ultimateportalsnowgatling/shoot.anim
-- Assets/Sprite/plantshadow.asset
-- Assets/resources/plantskins/puffhypnosupergatling/plantshadow.asset
-- Assets/resources/mod/ultimateportalsnowgatling/UltimatePortalSnowGatling.controller
-- Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/plantshadow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/plantshadow.png
-- "Assets/resources/mod/ultimateportalsnowgatling/\u56FE\u5C4268.asset"
-- Assets/resources/mod/ultimateportalsnowgatling/UltimatePortalSnowGatling.prefab
-- "Assets/resources/mod/ultimateportalsnowgatling/\u56FE\u5C42 24.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/plantshadow.asset
-- Assets/resources/mod/doomgatlingblover/doomgatlingblover/plantshadow.asset
-- Assets/resources/mod/doomgatlingblover/doomgatlingblover/plantshadow.png
-- Assets/resources/plantskins/firesuperthreegatling/plantshadow.asset
-- "Assets/resources/mod/ultimateportalsnowgatling/\u56FE\u5C42 26.asset"
-- Assets/resources/plantskins/ultimatewintermelon/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffsupergatling/plantshadow.asset
-- Assets/solarhypno/plantshadow.asset
-- Assets/resources/plantskins/ultimatewintermelon/plantshadow.asset
-- Assets/resources/modzombie/squalourzombie/plantshadow.png
-- Assets/resources/plantskins/jalasqualour/plantshadow.png
-- Assets/Texture2D/sactx-2-2048x2048-DXT5_BC3-PlantAtlas-c03b09f5.png
-- Assets/solarhypno/plantshadow.png
-- Assets/resources/plantskins/ultimatehypnomagnet/plantshadow.png
-- "Assets/resources/mod/ultimateportalsnowgatling/\u56FE\u5C42 23.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/plantshadow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/plantshadow.png
-- Assets/resources/mod/ultimateportalspring/sprites/plantshadow.png
-- Assets/resources/mod/garlicsupergatling/plantshadow.png
-- "Assets/resources/mod/ultimateportalsnowgatling/\u56FE\u5C4257.asset"
-- Assets/resources/mod/zombieimitater/plantshadow.asset
-- Assets/resources/plantskins/puffsniperpea/plantshadow.asset
-- Assets/resources/mod/goldimitater/plantshadow.asset
-- Assets/resources/mod/ultimateportalsnowgatling/UltimatePortalSnowGatling Skeleton.asset
-- "Assets/resources/mod/ultimateportalsnowgatling/\u56FE\u5C4263.asset"
-- Assets/resources/mod/electricsupergatling/prefab/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/plantshadow.asset
-- Assets/resources/plantskins/goldensalmon/plantshadow.png
-- Assets/resources/plantskins/ultimatemachinechomper/plantshadow.asset
-- Assets/resources/mod/ultimateportalsnowgatling/Bullet_ultimatePortalSnowGatlingPea.prefab
-- Assets/resources/plantskins/nullnut/plantshadow.asset
-- Assets/resources/mod/ultimatedoomsniperpea/ultimatedoomsniperpea/plantshadow.asset
-- Assets/plants/peashooter/electricpea/plantshadow.asset
-- Assets/resources/plantskins/icesqualour/plantshadow.asset
-- Assets/resources/modzombie/squalourzombie/plantshadow.asset
-- Assets/resources/mod/freezingcherry/freezingcherry/plantshadow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffsupergatling/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/splitsupergatling/plantshadow.asset
-- Assets/resources/mod/ultimateportalsnowgatling/SnowPea_eyebrow.asset
-- Assets/resources/mod/ultimatecornfume/plantshadow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/plantshadow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomsqualour/plantshadow.png
-- Assets/resources/mod/ultimatedoomsniperpea/ultimatedoomsniperpea/plantshadow.png
-- Assets/resources/plantskins/firesupergatling/PlantShadow.asset
-- Assets/resources/plantskins/firesuperthreegatling/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupergatling/plantshadow.png
-- "Assets/resources/mod/ultimateportalsnowgatling/\u56FE\u5C4264.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/plantshadow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigunscaredy/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupergatling/plantshadow.asset
-- Assets/resources/mod/ultimatecornfume/plantshadow.png
-- Assets/resources/plants/ultimatecornnut/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/icedoomsniperpea/plantshadow.png
-- Assets/resources/mod/ultimateportalsnowgatling/idle.anim
-- "Assets/resources/mod/ultimateportalsnowgatling/\u56FE\u5C42 22 \u62F7\u8D1D 2.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatecherrytorch/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/plantshadow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatewintercabbagecannon/plantshadow.png
-- Assets/resources/plantskins/ultimatemachinechomper/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/magiczombie/re/magiczombie/plantshadow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/pufffiresupergatling/plantshadow.png
-- Assets/resources/plantskins/jalasqualour/plantshadow.asset
-- Assets/resources/plantskins/mscaredyshroom/plantshadow.asset
-- Assets/resources/mod/puffultimatechomper/plantshadow.asset
-- Assets/resources/plantskins/ultimatesolarspruce/plantshadow.png
-- Assets/resources/plantskins/ashthreegaling/plantshadow.png
-- "Assets/resources/mod/ultimateportalsnowgatling/\u56FE\u5C42 22 \u62F7\u8D1D 3.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/plantshadow.asset
-- Assets/resources/plantskins/puffhypnosupergatling/plantshadow.png
-- Assets/resources/mod/threepuffsuperhypnogatling/plantshadow.png
-- Assets/resources/plantskins/icedoomgatling/plantshadow.asset
-- Assets/resources/mod/ultimateportalsnowgatling/UltimatePortalSnowGatling.png
-- "Assets/resources/mod/ultimateportalsnowgatling/\u56FE\u5C422.asset"
-- Assets/resources/mod/ultimateportalspring/sprites/plantshadow.asset
-- Assets/resources/mod/freezingcherry/freezingcherry/plantshadow.png
-- Assets/resources/plantskins/salmon/plantshadow.asset
-- Assets/resources/mod/electricsupergatling/prefab/plantshadow.asset
-- Assets/resources/plantskins/nullnut/plantshadow.png
-- Assets/resources/plantskins/salmon/plantshadow.png
-- Assets/resources/plantskins/puffsniperpea/plantshadow.png
-- Assets/resources/mod/threepuffsuperhypnogatling/plantshadow.asset
-- "Assets/resources/mod/ultimatecornfume/\u56FE\u5C422.asset"
-- Assets/resources/mod/ultimatefirespike/bullet/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/skin_933/plantshadow.asset
-- Assets/resources/mod/ultimateportalsnowgatling/UltimatePortalSnowGatlingPrefab.prefab
-- Assets/resources/mod/ultimateportalsnowgatling/UltimatePortalSnowGatlingPreview.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffultimategatling/plantshadow.png
-- Assets/resources/mod/garlicsupergatling/plantshadow.asset
-- Assets/resources/mod/goldimitater/plantshadow.png
-- Assets/resources/plantskins/ultimatehypnomagnet/plantshadow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/ultimatedoomminigun/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffsupersnowgatling/plantshadow.asset
-- Assets/resources/plantskins/icesqualour/plantshadow.png
-- "Assets/resources/mod/ultimateportalsnowgatling/\u56FE\u5C42 22.asset"
-- Assets/resources/plantskins/pufffiresniperpea/plantshadow.asset
-- Assets/resources/mod/ultimatefirespike/bullet/plantshadow.asset
-- Assets/Texture2D/plantshadow.png
-- Assets/resources/plantskins/icesuperthreegatling/plantshadow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/plantshadow.asset
-- "Assets/resources/mod/ultimateportalsnowgatling/\u56FE\u5C42 22 \u62F7\u8D1D.asset"
-- Assets/resources/plantskins/pufffiresniperpea/plantshadow.png
-- Assets/resources/plantskins/mscaredyshroom/plantshadow.png
-- Assets/resources/mod/ultimateportalsnowgatling/D3E39FE054BEEEF46D654C41337F90A8_0.asset
-- Assets/resources/mod/doomgatlingblover/ultimatedoomgatlingblover/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepufffiresupergatling/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/plantshadow.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/obsidianthreegatling/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/threepuffsupersnowgatling/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/hypnosuperthreegatling/plantshadow.png
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/puffsupersnowgatling/plantshadow.png
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/firesupergatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/solarhypno
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatecornfume
+- "Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/\u56FE\u5C42
+  22 \u62F7\u8D1D.asset"
+- "Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/\u56FE\u5C4264.asset"
+- "Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/\u56FE\u5C42
+  22 \u62F7\u8D1D 3.asset"
+- Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/idle.anim
+- Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/UltimatePortalSnowGatlingPreview.png
+- "Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/\u56FE\u5C42
+  24.asset"
+- Assets/Bundles/ultimateportalsnowgatling/Texture2D/sactx-2-2048x2048-DXT5_BC3-PlantAtlas-c03b09f5.png
+- Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/SnowPea_eyebrow.asset
+- "Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/\u56FE\u5C422.asset"
+- "Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/\u56FE\u5C4268.asset"
+- Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/UltimatePortalSnowGatlingPrefab.prefab
+- "Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/\u56FE\u5C42
+  22 \u62F7\u8D1D 2.asset"
+- Assets/Bundles/ultimateportalsnowgatling/Sprite/plantshadow.asset
+- "Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/\u56FE\u5C4265.asset"
+- Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/shoot.anim
+- Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/UltimatePortalSnowGatling
+  Skeleton.asset
+- "Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/\u56FE\u5C42
+  23.asset"
+- Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/Bullet_ultimatePortalSnowGatlingPea.prefab
+- Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/UltimatePortalSnowGatlingPreview.prefab
+- "Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/\u56FE\u5C42
+  26.asset"
+- Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/UltimatePortalSnowGatling.controller
+- Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/D3E39FE054BEEEF46D654C41337F90A8_0.asset
+- Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/UltimatePortalSnowGatling.prefab
+- "Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/\u56FE\u5C42
+  22.asset"
+- Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/UltimatePortalSnowGatling.png
+- "Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/\u56FE\u5C4257.asset"
+- Assets/Bundles/ultimateportalsnowgatling/Texture2D/plantshadow.png
+- "Assets/Bundles/ultimateportalsnowgatling/resources/mod/ultimateportalsnowgatling/\u56FE\u5C4263.asset"
+Dependencies: []

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3952643484
+CRC: 3916080222
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 296cd8f4fb2b39afc676975c6dd90edd
+    Hash: 11fb8047293d41bcd0b842408444e8e0
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 1b0128c8a4d4509c394163945d68b65e
+    Hash: 7403e8bc1091d4cb05053b511a03a07a
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 296cd8f4fb2b39afc676975c6dd90edd
+    Hash: 11fb8047293d41bcd0b842408444e8e0
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -33,7 +33,9 @@ ClassTypes:
 - Class: 95
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: -54844177, guid: f68e4d9210748575b7313c5ba1460876, type: 3}
+  Script: {fileID: 11500000, guid: 7d141188192825b4e14618c5473b5e47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
 - Class: 198
   Script: {instanceID: 0}
 - Class: 199
@@ -46,182 +48,190 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_9.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u7360\u7259(1).png"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u65B0\u5EFA\u6750\u8D28.mat"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/sactx-0-2048x2048-DXT5_BC3-PlantAtlas-d61e968f.png"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_26.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_5.asset"
-- Assets/resources/plantskins/ultimatehypnomagnet/AwardPickupGlow.asset
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/B.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 79_0.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/spark_orange.png"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/DoomSniper_0.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/ice_sparkles_2.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_14.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 34.asset"
-- Assets/resources/mod/ultimatedoomsniperpea/ultimatedoomsniperpea/UltimateDoomSniperPea.controller
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u5341\u5B57\u65A9.png"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_22.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_42.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u7A76\u6781\u6B7B\u795E\u72D9\u51FB
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  34.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u65B0\u5EFA\u6750\u8D28.mat"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/ultimatedoomsniperpea/idle.anim
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_backleaf_lefttip.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_36.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/glow.png"
+- Assets/Bundles/ultimatedoomsniperpea/Sprite/AwardPickupGlow.asset
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/prefabs/Piece.controller
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/mouth_top.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_9.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_3.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_25.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_18.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_5.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_33.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_12.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/ice_sparkles.png"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/ultimatedoomsniperpea/shoot.anim
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/prefabs/DoomHunter.controller
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_22.asset"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/prefabs/Pieceparticle.prefab
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/GatlingPea_head.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  1_1.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_31.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u5341\u5B57\u65A9.png"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_13.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u7360\u7259(1).prefab"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/hairleaf1_1.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_38.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  63_2.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_41.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42_30
   Skeleton.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 1_0.asset"
-- Assets/resources/mod/ultimatedoomsniperpea/prefabs/pieceshoot2.anim
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 63_3.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u5341\u5B57\u65A9.prefab"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_49.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 6.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 7_0.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_28.asset"
-- Assets/texture2d/xuzhaung.png
-- Assets/resources/mod/ultimatedoomsniperpea/ultimatedoomsniperpea/idle.anim
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_37.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 79_2.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_stalk_bottom.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/mouth_top.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_15.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 32_1.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/gun.asset"
-- Assets/resources/mod/ultimatedoomsniperpea/ultimatedoomsniperpea/plantshadow.png
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 32_0.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/D.asset"
-- Assets/resources/mod/ultimatedoomsniperpea/prefabs/DoomHunter.anim
-- Assets/resources/mod/ultimatedoomsniperpea/prefabs/Piece2.controller
-- Assets/resources/mod/ultimatedoomsniperpea/prefabs/Pieceparticle.prefab
-- Assets/resources/mod/ultimatedoomsniperpea/Piece2.prefab
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_45.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_50.asset"
-- Assets/resources/mod/ultimatedoomsniperpea/ultimatedoomsniperpea/shoot.anim
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_frontleaf.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_2.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u5341\u5B57\u65A9 Skeleton.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 63_0.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_4.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_eyebrow.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u7360\u7259(1) Skeleton.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_31.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 1_2.asset"
-- Assets/sprite/AwardPickupGlow.asset
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_backleaf_righttip.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_39.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_18.asset"
-- Assets/resources/mod/ultimatedoomsniperpea/Bullet_DoomPiece.prefab
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 1.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/GatlingPea_head.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/biu.asset"
-- Assets/plants/peashooter/electricpea/Glow.mat
-- Assets/texture2d/sactx-0-2048x2048-DXT5_BC3-PlantAtlas-d61e968f.png
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 63.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/DoomSniper_0.png"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_8.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 32.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/gun_upper.asset"
-- Assets/resources/mod/ultimatedoomsniperpea/prefabs/DoomHunter.controller
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_17.asset"
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/AwardPickupGlow.asset
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/GatlingPea_blink1.asset"
-- Assets/resources/mod/ultimatedoomsniperpea/prefabs/Piece.controller
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_44.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_13.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_41.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 1_1.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_backleaf.asset"
-- Assets/plants/peashooter/electricpea/glow.png
-- Assets/texture2d/AwardPickupGlow.asset
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_11.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/hairleaf1_1.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_27.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_10.asset"
-- Assets/texture2d/AwardPickupGlow.png
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_3.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 63_4.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_36.asset"
-- Assets/resources/mod/ultimatedoomsniperpea/ultimatedoomsniperpea/plantshadow.asset
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/G.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_16.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_48.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_38.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/Spark_White.mat"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/glow.png"
-- Assets/resources/mod/ultimatedoomsniperpea/Piece.prefab
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42_30.png"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u7A76\u6781\u6B7B\u795E\u72D9\u51FB(1).png"
-- Assets/resources/mod/ultimatedoomsniperpea/UltimateDoomSniperPeaPreview.prefab
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 79_1.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_backleaf_lefttip.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/GatlingPea_blink2.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/GatlingPea_helmet.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_35.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_43.asset"
-- Assets/resources/mod/ultimatedoomsniperpea/prefabs/pieceshoot.anim
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_19.asset"
-- Assets/resources/mod/ultimatedoomsniperpea/DoomHunter.prefab
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u7360\u7259(1).prefab"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_7.asset"
-- Assets/resources/mod/ultimateportalspring/portal/AwardPickupGlow.png
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 79.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_34.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_mouth.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_25.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_32.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_33.asset"
-- Assets/resources/mod/ultimatedoomsniperpea/assets/SunEmmit.mat
-- Assets/resources/mod/freezingcherry/ultimatefreezingcherry/AwardPickupGlow.png
-- Assets/resources/mod/ultimatedoomsniperpea/assets/xuzhaung.png
-- "Assets/resources/mod/electricsupergatling/biu/\u56FE\u5C42 1.asset"
-- Assets/resources/mod/ultimateportalspring/portal/AwardPickupGlow.asset
-- Assets/resources/mod/electricsupergatling/biu/biu.asset
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/C.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 7.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/DoomSniper.png"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_47.asset"
-- Assets/resources/mod/electricsupergatling/biu/biu.png
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_51.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/ice_sparkles.png"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u7A76\u6781\u6B7B\u795E\u72D9\u51FB.png"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_stalk_top.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_30.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42_30.prefab"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 63_2.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_1.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/DoomSniper.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u7A76\u6781\u6B7B\u795E\u72D9\u51FB(1)
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/DoomHunter.prefab
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u5DF2\u63D2\u5165\u56FE\u50CF_3.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  63_3.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/G.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/biu.asset"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/ShootFire.prefab
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/xuzhaung.png
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/ultimatedoomsniperpea/fire.anim
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_6.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/spark_orange.png"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u5341\u5B57\u65A9
   Skeleton.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_29.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 63_1.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_frontleaf_righttip.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_12.asset"
-- Assets/resources/mod/ultimatedoomsniperpea/UltimateDoomSniperPeaPrefab.prefab
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_0.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42_30 Skeleton.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/GatlingPea_helmet_0.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/A.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/DoomSniper_1.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_20.asset"
-- Assets/resources/plantskins/ultimatehypnomagnet/AwardPickupGlow.png
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_40.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/DoomSniper_1.png"
-- Assets/resources/mod/ultimatedoomsniperpea/assets/xuzhaung.asset
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_46.asset"
-- "Assets/resources/mod/primitiveshooter/shooter/\u56FE\u5C42 79.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_6.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_21.asset"
-- Assets/plants/peashooter/electricpea/PeaShooter_mouth.asset
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_24.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 1_3.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/spark.png"
-- Assets/resources/mod/ultimatedoomsniperpea/ultimatedoomsniperpea/fire.anim
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u7A76\u6781\u6B7B\u795E\u72D9\u51FB(1).prefab"
-- Assets/resources/mod/ultimatedoomsniperpea/ShootFire.prefab
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u7A76\u6781\u6B7B\u795E\u72D9\u51FB.prefab"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42 22.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_frontleaf_lefttip.asset"
-- "Assets/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_23.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  1_2.asset"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/prefabs/Piece2.controller
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_24.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_4.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_40.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/sactx-0-2048x2048-DXT5_BC3-PlantAtlas-d61e968f.png"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u7A76\u6781\u6B7B\u795E\u72D9\u51FB(1).prefab"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  22.asset"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/ultimatedoomsniperpea/UltimateDoomSniperPea.controller
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42_30.png"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/GatlingPea_helmet.asset"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/SunEmmit.mat
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_8.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u7A76\u6781\u6B7B\u795E\u72D9\u51FB.png"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/Piece.prefab
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  63_1.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_32.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_frontleaf.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/DoomSniper.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u7A76\u6781\u6B7B\u795E\u72D9\u51FB.prefab"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u7A76\u6781\u6B7B\u795E\u72D9\u51FB(1)
+  Skeleton.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_30.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  7.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  32_0.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  7_0.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u7360\u7259(1).png"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_17.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_39.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_1.asset"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/prefabs/pieceshoot.anim
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_23.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/ice_sparkles_2.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_50.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_34.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u7A76\u6781\u6B7B\u795E\u72D9\u51FB(1).png"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_37.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_44.asset"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/prefabs/pieceshoot2.anim
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/Piece2.prefab
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  79.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_frontleaf_righttip.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_15.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_stalk_top.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_21.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_45.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  1.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/gun.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_27.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_19.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_28.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_49.asset"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/prefabs/DoomHunter.anim
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_51.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_16.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_43.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  63_0.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42_30.prefab"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_42.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  79_1.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_backleaf.asset"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/UltimateDoomSniperPeaPrefab.prefab
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_20.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/DoomSniper_0.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A.asset"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/ultimatedoomsniperpea/plantshadow.asset
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u5341\u5B57\u65A9.prefab"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/ultimatedoomsniperpea/plantshadow.png
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  32_1.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u5DF2\u63D2\u5165\u56FE\u50CF_2.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_stalk_bottom.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u7360\u7259(1)
+  Skeleton.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_10.asset"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/xuzhaung.asset
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/DoomSniper_0.png"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  79_2.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_26.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/gun_upper.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/DoomSniper.png"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  32.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u7A76\u6781\u6B7B\u795E\u72D9\u51FB
+  Skeleton.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/GatlingPea_helmet_0.asset"
+- Assets/Bundles/ultimatedoomsniperpea/Texture2D/AwardPickupGlow.png
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  1_0.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/A.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/B.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_11.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/C.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  63_4.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_29.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/GatlingPea_blink1.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  6.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u5DF2\u63D2\u5165\u56FE\u50CF_1.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/GatlingPea_blink2.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  63.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_2.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/D.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  1_3.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_mouth.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_46.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_backleaf_righttip.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_eyebrow.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_35.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_47.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_14.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_7.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u56FE\u5C42
+  79_0.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_48.asset"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/UltimateDoomSniperPeaPreview.prefab
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/assets/\u4ECE\u9009\u533A_0.asset"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/Spark_White.mat"
+- Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/Bullet_DoomPiece.prefab
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/spark.png"
+- "Assets/Bundles/ultimatedoomsniperpea/resources/mod/ultimatedoomsniperpea/\u5176\u4ED6/PeaShooter_frontleaf_lefttip.asset"
 Dependencies: []

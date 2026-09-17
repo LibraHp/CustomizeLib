@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2191380711
+CRC: 445247234
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: bddefa523b910c901c4da338511b81c7
+    Hash: 359b4ada4f9b03469b79d09c2e2071bb
   TypeTreeHash:
     serializedVersion: 2
     Hash: 1432bc18ec037ad0ba39af03d1a4baf7
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: bddefa523b910c901c4da338511b81c7
+    Hash: 359b4ada4f9b03469b79d09c2e2071bb
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -44,91 +44,105 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/handin1_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/die1.ogg"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 2.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/body1.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 66_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/special2.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/walk.anim"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/PenguinZombie.png"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/PenguinZombie.controller"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/die2.ogg"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/SuperPenguinZombiePreview 1.prefab"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/jamp2.ogg"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 2_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/eyebrow1.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/hat1.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u4ECE\u9009\u533A_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u672A\u547D\u540D\u4F5C\u54C1(2)
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/SuperPenguinZombie.prefab"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/handout2_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/PenguinZombie
+  1.prefab"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/body1_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  66.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/special1.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  28_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  28_1.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  43_2.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/footout2_1.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/footin2.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/handout2.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/body2.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  20_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/footout2.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/head2.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/hat1.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  66_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u672A\u547D\u540D\u4F5C\u54C1(2).png"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  28.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/die_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  28_3.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/skating.anim"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/hat2.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  28_2.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/idle.anim"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/footin1.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/handout1_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/die2.ogg"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/jamp2.ogg"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  43.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/monthup2.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/month1.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/head1.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  22.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/body2_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/eyebrow2.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/PenguinZombie.controller"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/Super.png"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/die.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u4ECE\u9009\u533A_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  2_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/head1_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/handin1_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u672A\u547D\u540D\u4F5C\u54C1(2)
   Skeleton.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/eyebrow2.asset"
-- Assets/resources/modzombie/kingpenguin/PenguinZombie.png
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/die.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/footin1.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/head2_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 22.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/footout1_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/die_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/handout2_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/jamp3.ogg"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/jump.anim"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/footin1_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/footout1.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/handout1_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 28_1.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 43_2.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u5DF2\u63D2\u5165\u56FE\u50CF_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/month2.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/die.anim"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 28_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/handout1.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/body2_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/monthdown1.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 20_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/hat2.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u672A\u547D\u540D\u4F5C\u54C1(2).png"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/head2.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 43_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 28_4.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/skin/super.anim
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/monthup2.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/footout2_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/handin2_0.asset"
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/super.anim
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/skating.anim"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 28_3.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/jamp1.ogg"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 20.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 28.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/monthup1.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/body1_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/Super.png"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u672A\u547D\u540D\u4F5C\u54C1(2).prefab"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/PenguinZombiePreview.prefab"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/handout2.asset"
-- Assets/solarhypno/super.anim
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/head1.asset"
-- Assets/plants/hypnosquash/jump.anim
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u4ECE\u9009\u533A.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/idle.anim"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/SuperPenguinZombie.prefab"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 43.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/footout2.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/month1.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 22_0.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/handin2.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/special1.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 66.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/footout2_1.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 43_1.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/footin2.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42 28_2.asset"
-- Assets/resources/modzombie/kingpenguin/Super.png
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/handin1.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/body2.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/PenguinZombie 1.prefab"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/monthdown2.asset"
-- "Assets/resources/modzombie/\u51D1\u4F01\u9E45/head1_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  28_4.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/footout2_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/monthup1.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/die1.ogg"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  22_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u672A\u547D\u540D\u4F5C\u54C1(2).prefab"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/jamp3.ogg"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/jump.anim"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/jamp1.ogg"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/die.anim"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/month2.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/PenguinZombie.png"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/special2.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/monthdown2.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u5DF2\u63D2\u5165\u56FE\u50CF.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/SuperPenguinZombiePreview
+  1.prefab"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/body1.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/footout1_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/handin2.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/footin1_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/eyebrow1.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  43_1.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  43_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/handout1.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/handin1.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/monthdown1.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  2.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/PenguinZombiePreview.prefab"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/handin2_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/footout1.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u4ECE\u9009\u533A.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/head2_0.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/\u56FE\u5C42
+  20.asset"
+- "Assets/Bundles/\u51D1\u4F01\u9E45/resources/modzombie/\u51D1\u4F01\u9E45/walk.anim"
 Dependencies: []

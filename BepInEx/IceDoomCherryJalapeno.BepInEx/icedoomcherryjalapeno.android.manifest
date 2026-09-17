@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 286947802
+CRC: 2526448076
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 54a1f40cae6f8429f4ca717e200da5c8
+    Hash: 57aec9a732a9cb3004ca0921c5393d98
   TypeTreeHash:
     serializedVersion: 2
     Hash: 342269afdc324a7b5a67cf42c3183e54
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 54a1f40cae6f8429f4ca717e200da5c8
+    Hash: 57aec9a732a9cb3004ca0921c5393d98
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,37 +42,41 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/plants/icedoomcherryjalapeno/CherryJalapeno.png
-- Assets/plants/icedoomcherryjalapeno/CherryJalapeno.asset
-- Assets/plants/icedoomcherryjalapeno/CherryJalapeno.controller
-- Assets/plants/icedoomcherryjalapeno/leaf2_1.asset
-- Assets/plants/icedoomcherryjalapeno/blink2.asset
-- Assets/plants/icedoomcherryjalapeno/shadow23.asset
-- Assets/plants/icedoomcherryjalapeno/body.asset
-- Assets/plants/icedoomcherryjalapeno/idle.anim
-- Assets/plants/icedoomcherryjalapeno/blink1.asset
-- Assets/plants/icedoomcherryjalapeno/bodyback.asset
-- Assets/Shader/Universal Render Pipeline_2D_Sprite-Lit-Default_5.shader
-- Assets/plants/icedoomcherryjalapeno/CherryJalapeno_2.asset
-- Assets/Material/Sprite-Lit-Default_5.mat
-- Assets/plants/icedoomcherryjalapeno/CherryJalapeno_3.asset
-- Assets/plants/icedoomcherryjalapeno/shirt.asset
-- Assets/plants/icedoomcherryjalapeno/IceDoomCloudSmall.prefab
-- Assets/plants/icedoomcherryjalapeno/boom.asset
-- Assets/plants/icedoomcherryjalapeno/IceDoomCherryJalapenoPrefab.prefab
-- Assets/plants/icedoomcherryjalapeno/CherryJalapeno_0_0.asset
-- Assets/plants/icedoomcherryjalapeno/leaf1_1.asset
-- Assets/plants/icedoomcherryjalapeno/CherryJalapeno_0.asset
-- Assets/plants/icedoomcherryjalapeno/CherryJalapeno_0.png
-- Assets/plants/icedoomcherryjalapeno/eyebrow.asset
-- Assets/plants/icedoomcherryjalapeno/CherryJalapeno_1.asset
-- Assets/plants/icedoomcherryjalapeno/279645D86849E50B05D156DAA1BDF541.asset
-- Assets/plants/icedoomcherryjalapeno/shadow23.png
-- Assets/plants/icedoomcherryjalapeno/leaf2_2.asset
-- Assets/plants/icedoomcherryjalapeno/279645D86849E50B05D156DAA1BDF541.png
-- Assets/plants/icedoomcherryjalapeno/leaf1_2.asset
-- Assets/plants/icedoomcherryjalapeno/IceDoomCherryJalapenoPreview.prefab
-- Assets/plants/icedoomcherryjalapeno/K1.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatehellthreepeater
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatewintercabbagecannon
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/Torchwood_fire1b.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/IceDoomCherryJalapenoPrefab.prefab
+- Assets/Bundles/icedoomcherryjalapeno/Material/Sprite-Lit-Default.mat
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/CherryJalapeno_0_0.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/ExplosionPowie.png
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/shirt.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/CherryJalapeno_2.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/idle.anim
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/ExplosionPowie.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/CherryJalapeno_0.png
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/shadow23.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/IceDoomCherryJalapenoPreview.prefab
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/IceDoomCloudSmall.prefab
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/Torchwood_fire1a.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/leaf2_1.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/279645D86849E50B05D156DAA1BDF541.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/eyebrow.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/boom.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/CherryJalapeno.controller
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/CherryJalapeno.png
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/bodyback.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/279645D86849E50B05D156DAA1BDF541.png
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/leaf1_1.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/blink2.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/leaf2_2.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/CherryJalapeno.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/leaf1_2.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/CherryJalapeno_1.asset
+- Assets/Bundles/icedoomcherryjalapeno/Shader/Universal Render Pipeline_2D_Sprite-Lit-Default.shader
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/shadow23.png
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/blink1.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/K1.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/Torchwood_fire1c.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/body.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/CherryJalapeno_3.asset
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/fire.anim
+- Assets/Bundles/icedoomcherryjalapeno/plants/icedoomcherryjalapeno/CherryJalapeno_0.asset
+Dependencies: []

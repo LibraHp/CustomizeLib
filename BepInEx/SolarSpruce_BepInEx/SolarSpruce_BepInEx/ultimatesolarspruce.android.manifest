@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3327385925
+CRC: 1960369924
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2d668599d028ee7173720ed47277fb26
+    Hash: b5a17c7275ac5c9e14dddc4a9fd472cf
   TypeTreeHash:
     serializedVersion: 2
     Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 2d668599d028ee7173720ed47277fb26
+    Hash: b5a17c7275ac5c9e14dddc4a9fd472cf
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,45 +38,34 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/ultimatesolarspruce/SolarSprucePrefab.prefab
-- Assets/resources/plantskins/ultimatesolarspruce/SolarRound.asset
-- Assets/resources/plantskins/ultimatesolarspruce/SolarRound.png
-- Assets/zombies/zombieboss2remake/boss_new/back.asset
-- Assets/resources/plantskins/ultimatesolarspruce/t3.asset
-- Assets/resources/plantskins/ultimatesolarspruce/front.asset
-- Assets/resources/plantskins/ultimatesolarspruce/SolarSprucePreview.asset
-- Assets/Sprite/plantshadow_8.asset
-- Assets/resources/plantskins/ultimatesolarspruce/shoot.anim
-- Assets/plants/icemeloncannon/blink.asset
-- Assets/plants/icemeloncannon/back.asset
-- Assets/resources/plantskins/ultimatesolarspruce/SolarSpruceBulletPrefab.prefab
-- Assets/resources/plantskins/ultimatesolarspruce/SolarSpruce.asset
-- Assets/resources/plantskins/ultimatesolarspruce/sunflower.asset
-- Assets/resources/plantskins/ultimatesolarspruce/back.png
-- Assets/resources/plantskins/ultimatesolarspruce/t1.asset
-- Assets/resources/plantskins/ultimatesolarspruce/round.asset
-- Assets/resources/plantskins/ultimatesolarspruce/t2.asset
-- Assets/resources/plantskins/ultimatesolarspruce/sysbrow.asset
-- Assets/plants/supergarlicumbrella/back.asset
-- Assets/resources/plantskins/ultimatehypnomagnet/back.asset
-- Assets/resources/plantskins/ultimatesolarspruce/SolarSprucePreview.prefab
-- Assets/Texture2D/plantshadow_8.png
-- Assets/resources/plantskins/ultimatesolarspruce/SolarSprucePreview.png
-- Assets/plants/superchomperumbrella/back.asset
-- Assets/zombies/zombieboss2remake/back.asset
-- Assets/resources/plantskins/ultimatesolarspruce/body.asset
-- Assets/resources/plantskins/ultimatesolarspruce/SolarSpruce.controller
-- Assets/resources/plantskins/ultimatesolarspruce/front_0.asset
-- Assets/resources/plantskins/ultimatesolarspruce/SolarSpruce.png
-- Assets/resources/plantskins/ultimatesolarspruce/idle.anim
-- Assets/resources/plantskins/ultimatewintermelon/back.asset
-- Assets/resources/plantskins/ultimatesolarspruce/back.asset
-- Assets/plants/superjalapenoumbrella/back.asset
-- Assets/resources/plantskins/ultimatesolarspruce/front.png
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/superumbrellasextra
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatehypnomagnet
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatewintermelon
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatewintermeloncannon
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/zombieboss2remake
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/SolarSpruce.controller
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/SolarRound.asset
+- Assets/Bundles/ultimatesolarspruce/Texture2D/plantshadow.png
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/back.png
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/SolarRound.png
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/idle.anim
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/sysbrow.asset
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/SolarSpruceBulletPrefab.prefab
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/front.png
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/t2.asset
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/t3.asset
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/plantshadow.asset
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/bullet.asset
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/t1.asset
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/shoot.anim
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/back.asset
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/SolarSpruce.asset
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/SolarSprucePreview.prefab
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/SolarSprucePreview.asset
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/sunflower.asset
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/front.asset
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/body.asset
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/SolarSprucePreview.png
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/front_0.asset
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/plantshadow.png
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/SolarSpruce.png
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/round.asset
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/SolarSprucePrefab.prefab
+- Assets/Bundles/ultimatesolarspruce/Sprite/plantshadow.asset
+- Assets/Bundles/ultimatesolarspruce/resources/plantskins/ultimatesolarspruce/blink.asset
+Dependencies: []

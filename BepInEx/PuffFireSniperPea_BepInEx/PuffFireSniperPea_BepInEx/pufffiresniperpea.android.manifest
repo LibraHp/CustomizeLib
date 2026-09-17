@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3704862496
+CRC: 919676830
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6dcf1ef794da1255a8e0e04a79129662
+    Hash: f83edac27eb991ab97e16924b2b88232
   TypeTreeHash:
     serializedVersion: 2
     Hash: 243efe9b679fbb4f5fcc5bb6b2e5d6d4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 6dcf1ef794da1255a8e0e04a79129662
+    Hash: f83edac27eb991ab97e16924b2b88232
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,27 +38,29 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/pufffiresniperpea/PuffFireSniperPeaPreview.asset
-- Assets/resources/plantskins/pufffiresniperpea/gun_lower.asset
-- Assets/resources/plantskins/pufffiresniperpea/blink1.asset
-- Assets/resources/plantskins/pufffiresniperpea/shoot.anim
-- Assets/resources/plantskins/pufffiresniperpea/PuffFireSniperPeaPreview.png
-- Assets/resources/plantskins/pufffiresniperpea/PuffFireSniperPea.controller
-- Assets/resources/plantskins/pufffiresniperpea/PuffFireSniperPea.png
-- Assets/resources/plantskins/pufffiresniperpea/body.asset
-- Assets/resources/plantskins/pufffiresniperpea/PuffFireSniperPeaPrefab.prefab
-- Assets/resources/plantskins/pufffiresniperpea/eyebrow.asset
-- Assets/resources/plantskins/pufffiresniperpea/mouth_overlay.asset
-- Assets/resources/plantskins/pufffiresniperpea/gun_upper.asset
-- Assets/resources/plantskins/pufffiresniperpea/PuffFireSniperPeaPreview.prefab
-- Assets/resources/plantskins/pufffiresniperpea/blink2.asset
-- Assets/resources/plantskins/pufffiresniperpea/bangdai.asset
-- Assets/resources/plantskins/pufffiresniperpea/idle.anim
-- Assets/resources/plantskins/pufffiresniperpea/glasses.asset
-- Assets/resources/plantskins/pufffiresniperpea/helmet.asset
-- Assets/resources/plantskins/pufffiresniperpea/mouth.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/solareclipsecabbage
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/supersnipergatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/threepuffsuperhypnogatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/blink2.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/PuffFireSniperPeaPreview.prefab
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/PuffFireSniperPea.controller
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/idle.anim
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/body.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/PuffFireSniperPeaPreview.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/blink1.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/Accurate_Heart.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/eyebrow.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/shoot.anim
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/stem.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/PuffFireSniperPeaPrefab.prefab
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/Accurate_Heart.png
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/mouth_overlay.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/gun_lower.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/gun_upper.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/glasses.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/mouth.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/PuffFireSniperPea.png
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/bangdai.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/leaf.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/plantshadow.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/plantshadow.png
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/helmet.asset
+- Assets/Bundles/pufffiresniperpea/resources/plantskins/pufffiresniperpea/PuffFireSniperPeaPreview.png
+Dependencies: []

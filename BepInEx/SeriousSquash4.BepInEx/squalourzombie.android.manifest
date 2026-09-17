@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 167686310
+CRC: 1707047279
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c74c4ba84cae05007eef09663ae0bd6d
+    Hash: 74a8d37ccecb6891b22cec7cbcd3cf12
   TypeTreeHash:
     serializedVersion: 2
     Hash: fb22511479732193acd32187009534b4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: c74c4ba84cae05007eef09663ae0bd6d
+    Hash: 74a8d37ccecb6891b22cec7cbcd3cf12
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -44,55 +44,34 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/zombies/obsidiandollzombie/Zombie_innerarm_hand.asset
-- Assets/zombies/obsidiandollzombie/Zombie_outerleg_lower.asset
-- Assets/zombies/obsidiandollzombie/Zombie.png
-- Assets/resources/modzombie/squalourzombie/idle.anim
-- Assets/resources/modzombie/squalourzombie/SqualourZombie.controller
-- Assets/resources/modzombie/squalourzombie/Zombie_innerarm_upper.asset
-- Assets/resources/modzombie/squalourzombie/SqualourZombiePreview.asset
-- Assets/zombies/obsidiandollzombie/Zombie_neck.asset
-- Assets/resources/modzombie/squalourzombie/walk2.anim
-- Assets/zombies/obsidiandollzombie/Zombie_outerarm_lower.asset
-- Assets/resources/modzombie/squalourzombie/Zombie_outerarm_hand.asset
-- Assets/zombies/obsidianrandomzombie/Zombie.png
-- Assets/zombies/obsidiandollzombie/ZombieArm.png
-- Assets/resources/modzombie/squalourzombie/Zombie_innerarm_hand.asset
-- Assets/zombies/obsidiandollzombie/Zombie_outerarm_upper.asset
-- Assets/resources/modzombie/squalourzombie/Zombie.png
-- Assets/zombies/obsidiandollzombie/Zombie_innerarm_lower.asset
-- Assets/resources/modzombie/squalourzombie/ZombieArm.asset
-- Assets/zombies/obsidiandollzombie/Zombie_innerarm_upper.asset
-- Assets/resources/modzombie/squalourzombie/ZombieArm.png
-- Assets/zombies/obsidiandollzombie/ZombieArm.asset
-- Assets/resources/modzombie/squalourzombie/Zombie_outerarm_upper.asset
-- Assets/resources/modzombie/squalourzombie/Zombie_outerleg_lower.asset
-- Assets/zombies/obsidiandollzombie/Zombie_outerleg_foot.asset
-- Assets/resources/modzombie/squalourzombie/ZombieArm_0.asset
-- Assets/zombies/obsidiandollzombie/Zombie_outerarm_hand.asset
-- Assets/resources/modzombie/squalourzombie/Zombie_outerleg_foot.asset
-- Assets/AnimationClip/walk2.anim
-- Assets/resources/modzombie/squalourzombie/Zombie_outerleg_upper.asset
-- Assets/zombies/obsidiandollzombie/Zombie_innerleg_upper.asset
-- Assets/zombies/obsidiandollzombie/Zombie_tie.asset
-- Assets/resources/modzombie/squalourzombie/jumppop.anim
-- Assets/resources/modzombie/squalourzombie/Zombie_innerleg_upper.asset
-- Assets/resources/modzombie/squalourzombie/Zombie_innerleg_foot.asset
-- Assets/resources/modzombie/squalourzombie/Zombie_body.asset
-- Assets/resources/modzombie/squalourzombie/Zombie_neck.asset
-- Assets/zombies/obsidiandollzombie/Zombie_innerleg_lower.asset
-- Assets/zombies/obsidiandollzombie/Zombie_body.asset
-- Assets/resources/modzombie/squalourzombie/die.anim
-- Assets/resources/modzombie/squalourzombie/Zombie_innerarm_lower.asset
-- Assets/resources/modzombie/squalourzombie/SqualourZombiePreview.png
-- Assets/zombies/obsidiandollzombie/Zombie_outerleg_upper.asset
-- Assets/resources/modzombie/squalourzombie/Zombie_innerleg_lower.asset
-- Assets/zombies/obsidiandollzombie/Zombie.asset
-- Assets/resources/modzombie/squalourzombie/Zombie_outerarm_lower.asset
-- Assets/resources/modzombie/squalourzombie/Zombie_tie.asset
-- Assets/resources/modzombie/squalourzombie/SqualourZombiePrefab.prefab
-- Assets/zombies/obsidiandollzombie/Zombie_innerleg_foot.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie.png
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/ZombieArm.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/jumppop.anim
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie_innerleg_foot.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/plantshadow.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/ZombieArm_0.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/SqualourZombie.controller
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/plantshadow.png
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie_innerleg_lower.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie_outerleg_upper.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie_outerleg_lower.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie_innerarm_hand.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie_outerarm_lower.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/SqualourZombiePrefab.prefab
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/die.anim
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie_neck.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie_outerleg_foot.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/ZombieArm.png
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie_innerleg_upper.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie_tie.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/idle.anim
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie_outerarm_hand.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/SqualourZombiePreview.png
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie_outerarm_upper.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie_innerarm_lower.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/SqualourZombiePreview.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie_body.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/Zombie_innerarm_upper.asset
+- Assets/Bundles/squalourzombie/resources/modzombie/squalourzombie/walk2.anim
 Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/obsidiandollzombie
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/superdoomsqualour
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomsqualour

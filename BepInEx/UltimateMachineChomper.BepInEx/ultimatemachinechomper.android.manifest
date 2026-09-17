@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1886519245
+CRC: 3060119270
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a5e220ac1fc614c8a502f08e9760dd14
+    Hash: 97602f134e22fde9f50298d569801c48
   TypeTreeHash:
     serializedVersion: 2
     Hash: 342269afdc324a7b5a67cf42c3183e54
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: a5e220ac1fc614c8a502f08e9760dd14
+    Hash: 97602f134e22fde9f50298d569801c48
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,58 +42,55 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plantskins/ultimatemachinechomper/armor_front_cracked1.asset
-- Assets/resources/plantskins/ultimatemachinechomper/PurpleNutParticles_4.asset
-- Assets/resources/plantskins/ultimatemachinechomper/armor_front_cracked2.asset
-- Assets/resources/plantskins/ultimatemachinechomper/mouth_lower.asset
-- Assets/resources/plantskins/ultimatemachinechomper/armor_back.asset
-- Assets/resources/plantskins/ultimatemachinechomper/mouth_upper_cracked1.asset
-- Assets/resources/plantskins/ultimatemachinechomper/body.asset
-- Assets/resources/plantskins/aaautumnlin/8.22.unity/solareclipsecabbage/bullet.png
-- Assets/resources/plantskins/ultimatemachinechomper/PurpleNutParticles_0.asset
-- Assets/resources/plantskins/ultimatemachinechomper/Bullet_machineCherry.prefab
-- Assets/resources/plantskins/ultimatemachinechomper/headleaf.asset
-- Assets/resources/plantskins/ultimatemachinechomper/PurpleNutParticles_3.asset
-- Assets/resources/plantskins/ultimatemachinechomper/leaf5.asset
-- Assets/resources/plantskins/ultimatemachinechomper/armor.asset
-- Assets/resources/plantskins/ultimatemachinechomper/mouth_upper.asset
-- Assets/resources/plantskins/ultimatemachinechomper/bite.anim
-- Assets/resources/plantskins/ultimatemachinechomper/armor_cracked1.asset
-- Assets/resources/plantskins/ultimatemachinechomper/leaf2.asset
-- Assets/resources/plantskins/ultimatemachinechomper/PurpleNutParticles_2.asset
-- Assets/resources/plantskins/ultimatemachinechomper/mouth_uppe.asset
-- Assets/resources/plantskins/ultimatemachinechomper/armor_head_cracked1.asset
-- Assets/resources/plantskins/ultimatemachinechomper/UltimateMachineChomperExtra.png
-- Assets/resources/plantskins/ultimatemachinechomper/PurpleNutParticles_1.asset
-- Assets/resources/plantskins/ultimatemachinechomper/leaf3.asset
-- Assets/resources/plantskins/ultimatesolarspruce/bullet.asset
-- Assets/resources/plantskins/ultimatemachinechomper/body_cracke1.asset
-- Assets/resources/plantskins/ultimatemachinechomper/UltimateMachineChomperArmor.png
-- Assets/resources/plantskins/ultimatemachinechomper/leaf4.asset
-- Assets/resources/plantskins/ultimatemachinechomper/idle.anim
-- Assets/resources/plantskins/ultimatemachinechomper/UltimateMachineChomper.png
-- Assets/resources/plantskins/ultimatemachinechomper/Bullet.asset
-- Assets/resources/plantskins/ultimatemachinechomper/UltimateMachineChomperPrefab.prefab
-- Assets/resources/plantskins/ultimatemachinechomper/Bullet.png
-- Assets/resources/plantskins/ultimatemachinechomper/armor_front.asset
-- Assets/resources/plantskins/ultimatemachinechomper/face_lower.asset
-- Assets/resources/plantskins/ultimatemachinechomper/armor_back_cracked2.asset
-- Assets/resources/plantskins/ultimatemachinechomper/UltimateMachineChomper.controller
-- Assets/resources/plantskins/ultimatemachinechomper/armor_cracked2.asset
-- Assets/resources/plantskins/ultimatemachinechomper/tongue.asset
-- Assets/resources/plantskins/ultimatemachinechomper/armor_back_cracked1.asset
-- Assets/resources/plantskins/ultimatemachinechomper/inside.asset
-- Assets/resources/plantskins/ultimatemachinechomper/UltimateMachineChomperPreview.prefab
-- Assets/resources/plantskins/ultimatemachinechomper/PurpleNutParticles.png
-- Assets/resources/plantskins/ultimatemachinechomper/UltimateMachineChomperPreview.asset
-- Assets/resources/mod/puffultimatechomper/bite.anim
-- Assets/resources/plantskins/ultimatemachinechomper/headleaf_1.asset
-- Assets/resources/plantskins/ultimatemachinechomper/mouth_upper_cracked2.asset
-- Assets/resources/plantskins/ultimatemachinechomper/UltimateMachineChomperPreview.png
-- Assets/resources/plantskins/ultimatemachinechomper/armor_head_cracked2.asset
-- Assets/resources/plantskins/ultimatemachinechomper/armor_head.asset
-- Assets/resources/plantskins/ultimatemachinechomper/leaf1.asset
-- Assets/resources/plantskins/ultimatemachinechomper/body_cracked2.asset
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatesolarspruce
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/armor_head_cracked1.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/UltimateMachineChomperPreview.prefab
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/armor_cracked1.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/Bullet_machineCherry.prefab
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/PurpleNutParticles.png
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/UltimateMachineChomperPrefab.prefab
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/mouth_uppe.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/mouth_upper_cracked2.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/PurpleNutParticles_4.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/armor_front_cracked2.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/body_cracked2.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/leaf5.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/headleaf.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/UltimateMachineChomper.png
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/body.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/leaf1.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/armor_head.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/armor_back.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/mouth_upper_cracked1.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/Bullet.png
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/armor_back_cracked2.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/plantshadow.png
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/armor_head_cracked2.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/face_lower.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/UltimateMachineChomperPreview.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/Bullet.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/PurpleNutParticles_0.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/bite.anim
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/inside.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/tongue.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/UltimateMachineChomperPreview.png
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/PurpleNutParticles_2.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/UltimateMachineChomperExtra.png
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/armor_cracked2.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/armor_front_cracked1.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/mouth_lower.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/PurpleNutParticles_3.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/UltimateMachineChomper.controller
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/armor_front.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/mouth_upper.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/plantshadow.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/armor_back_cracked1.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/PurpleNutParticles_1.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/UltimateMachineChomperArmor.png
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/body_cracke1.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/idle.anim
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/armor.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/headleaf_1.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/leaf3.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/leaf4.asset
+- Assets/Bundles/ultimatemachinechomper/resources/plantskins/ultimatemachinechomper/leaf2.asset
+Dependencies: []

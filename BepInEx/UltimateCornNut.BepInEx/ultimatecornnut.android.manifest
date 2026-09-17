@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1306437342
+CRC: 1873145992
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6ba9b9083a17f7d7909febacca548080
+    Hash: d4318036a524bc24e2a209bc15e5ba4a
   TypeTreeHash:
     serializedVersion: 2
     Hash: 342269afdc324a7b5a67cf42c3183e54
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 6ba9b9083a17f7d7909febacca548080
+    Hash: d4318036a524bc24e2a209bc15e5ba4a
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,46 +42,43 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/resources/plants/ultimatecornnut/CE575E995F8979F9EC66611630F357C6_0.asset
-- Assets/Material/Sprite-Lit-Default_1.mat
-- Assets/Shader/Universal Render Pipeline_2D_Sprite-Lit-Default_1.shader
-- Assets/resources/plants/ultimatecornnut/CE575E995F8979F9EC66611630F357C6.png
-- Assets/resources/plants/ultimatecornnut/UltimatePortalNut_lower3.asset
-- Assets/resources/plants/ultimatecornnut/UltimatePortalNut_body.asset
-- Assets/resources/mod/primitiveshooter/shooter/sactx-2-2048x2048-DXT5_BC3-PlantAtlas-d61e968f.asset
-- Assets/resources/plants/ultimatecornnut/WallnutParticlesLarge_4.asset
-- Assets/resources/plants/ultimatecornnut/UltimatePortalNut_body2.asset
-- Assets/resources/plantskins/nullnut/nothing.anim
-- Assets/resources/plants/ultimatecornnut/WallnutParticlesLarge_0.asset
-- Assets/resources/plants/ultimatecornnut/E1F23FD3499D7718F6DEC4FD173DFBD4.png
-- Assets/resources/plants/ultimatecornnut/UltimatePortalNut_lower4.asset
-- Assets/resources/plants/ultimatecornnut/UltimateCornNutPreview.prefab
-- Assets/Texture2D/sactx-1-2048x2048-DXT5_BC3-PlantAtlas-d61e968f.png
-- Assets/resources/plants/ultimatecornnut/idle.anim
-- Assets/resources/plants/ultimatecornnut/WallnutParticlesLarge.png
-- Assets/resources/plants/ultimatecornnut/UltimateCornNutPrefab.prefab
-- Assets/resources/plants/ultimatecornnut/WallnutParticlesLarge_1.asset
-- Assets/resources/plants/ultimatecornnut/UltimatePortalNut_left.asset
-- Assets/resources/plants/ultimatecornnut/WallnutParticlesLarge_2.asset
-- Assets/resources/plants/ultimatecornnut/CE575E995F8979F9EC66611630F357C6_1.asset
-- Assets/Texture2D/sactx-2-2048x2048-DXT5_BC3-PlantAtlas-d61e968f.png
-- Assets/resources/plants/ultimatecornnut/UltimatePortalNut_body3.asset
-- Assets/resources/plants/ultimatecornnut/UltimatePortalNut_ball.asset
-- Assets/resources/plants/ultimatecornnut/E1F23FD3499D7718F6DEC4FD173DFBD4.asset
-- Assets/resources/plants/ultimatecornnut/UltimatePortalNut_lower5.asset
-- Assets/resources/plants/ultimatecornnut/UltimatePortalNut_string.asset
-- Assets/resources/plants/ultimatecornnut/nothing.anim
-- Assets/resources/plants/ultimatecornnut/UltimatePortalNut_back.asset
-- Assets/resources/mod/primitiveshooter/shooter/sactx-2-2048x2048-DXT5_BC3-PlantAtlas-d61e968f.png
-- Assets/resources/mod/supersnipergatling/sactx-1-2048x2048-DXT5_BC3-PlantAtlas-d61e968f.png
-- Assets/resources/plants/ultimatecornnut/UltimatePortalNut_string2.asset
-- Assets/resources/plants/ultimatecornnut/UltimatePortalNut.asset
-- Assets/resources/plants/ultimatecornnut/CE575E995F8979F9EC66611630F357C6_2.asset
-- Assets/resources/plants/ultimatecornnut/UltimatePortalNut_lower2.asset
-- Assets/resources/plants/ultimatecornnut/UltimatePortalNut_lower.asset
-- Assets/resources/plants/ultimatecornnut/WallnutParticlesLarge_3.asset
-- Assets/resources/plants/ultimatecornnut/UltimatePortalNut.png
-- Assets/resources/plants/ultimatecornnut/UltimateCornNut.controller
-Dependencies:
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimatedoomsniperpea
-- E:/Work/PVZRH/CustomizeLib/ConversionAssetBundle/output/android/ultimateportalsnowgatling
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimatePortalNut_lower3.asset
+- Assets/Bundles/ultimatecornnut/Texture2D/sactx-0-2048x2048-DXT5_BC3-PlantAtlas-d61e968f.png
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimatePortalNut_body3.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/WallnutParticlesLarge_1.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimatePortalNut_lower5.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimatePortalNut_lower4.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimatePortalNut_ball.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/E1F23FD3499D7718F6DEC4FD173DFBD4.png
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/WallnutParticlesLarge_2.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimatePortalNut_left.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/plantshadow.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/E1F23FD3499D7718F6DEC4FD173DFBD4.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimatePortalNut_string2.asset
+- Assets/Bundles/ultimatecornnut/Texture2D/sactx-1-2048x2048-DXT5_BC3-PlantAtlas-d61e968f.png
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/idle.anim
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/CE575E995F8979F9EC66611630F357C6_1.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/WallnutParticlesLarge.png
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/WallnutParticlesLarge_0.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimatePortalNut_body.asset
+- Assets/Bundles/ultimatecornnut/Texture2D/sactx-2-2048x2048-DXT5_BC3-PlantAtlas-d61e968f.png
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimateCornNutPreview.prefab
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimatePortalNut_back.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimatePortalNut_lower.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimatePortalNut_string.asset
+- Assets/Bundles/ultimatecornnut/Material/Sprite-Lit-Default.mat
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/nothing.anim
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/WallnutParticlesLarge_3.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimateCornNutPrefab.prefab
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/plantshadow.png
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/CE575E995F8979F9EC66611630F357C6_2.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimatePortalNut.png
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/CE575E995F8979F9EC66611630F357C6.png
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimatePortalNut_lower2.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimatePortalNut.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/CE575E995F8979F9EC66611630F357C6_0.asset
+- Assets/Bundles/ultimatecornnut/Shader/Universal Render Pipeline_2D_Sprite-Lit-Default.shader
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimatePortalNut_body2.asset
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/UltimateCornNut.controller
+- Assets/Bundles/ultimatecornnut/resources/plants/ultimatecornnut/WallnutParticlesLarge_4.asset
+Dependencies: []
