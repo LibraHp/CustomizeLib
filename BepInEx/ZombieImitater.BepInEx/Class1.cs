@@ -72,7 +72,7 @@ namespace ZombieImitater.BepInEx
             if (config.levelZombieInRandom) total += 2;
             if (config.strongUltiZombieInRandom) total += 2;
             if (config.leaderInRandom) total += 6;
-            if (GameAPP.theGameStatus == GameStatus.InGame && plant != null && UnityEngine.Random.Range(1, 101) <= total && (plant.board.boardTag.isSuperRandom || plant.board.boardTag.isIZ))
+            if (GameAPP.theGameStatus == GameStatus.InGame && plant != null && UnityEngine.Random.Range(1, 101) <= total && plant.board != null && (plant.board.boardTag.isSuperRandom || plant.board.boardTag.isIZ))
             {
                 plant.StarUp();
                 plant.starUp = true;

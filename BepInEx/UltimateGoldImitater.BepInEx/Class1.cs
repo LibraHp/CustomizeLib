@@ -15,6 +15,13 @@ namespace UltimateGoldImitater.BepInEx
     [BepInPlugin("salmon.ultimategoldimitater", "UltimateGoldImitater", "1.0")]
     public class Core : CorePlugin
     {
+        public static List<ZombieType> OtherBoss = new()
+        {
+            ZombieType.HorseBoss,
+            ZombieType.FootballBoss,
+            ZombieType.JacksonDriverBoss
+        };
+
         public override void OnStart()
         {
             var ab = CustomCore.GetAssetBundle(Tools.GetAssembly(), "ultimategoldimitater" + (Application.platform == RuntimePlatform.Android ? ".android" : ""));
@@ -132,6 +139,7 @@ namespace UltimateGoldImitater.BepInEx
         { Probability.Boss, 3 },
         { Probability.Event, 1 }
     };
+        
         public static List<PlantType> NormalPlants = new();
         public static List<PlantType> UltiPlants = new();
         public static List<ZombieType> NormalZombies = new();
@@ -325,18 +333,16 @@ namespace UltimateGoldImitater.BepInEx
                         z.AddComponent<ClearCold>().zombie = z;
                     }
                     break;
-                case ZombieType.HorseBoss:
-                case ZombieType.FootballBoss:
-                case ZombieType.JacksonDriverBoss:
-                    {
-                        var v = UnityEngine.Random.Range(10f, 50f);
-                        if (plant.starUp)
-                            v = UnityEngine.Random.Range(25f, 100f);
-                        v = (float)Math.Round(v, 1, MidpointRounding.AwayFromZero);
-                        z.theHealth = (int)(v * z.theHealth);
-                        z.theMaxHealth = (int)(v * z.theMaxHealth);
-                    }
-                    break;
+            }
+
+            if (Core.OtherBoss.Contains(z.theZombieType))
+            {
+                var v = UnityEngine.Random.Range(10f, 50f);
+                if (plant.starUp)
+                    v = UnityEngine.Random.Range(25f, 100f);
+                v = (float)Math.Round(v, 1, MidpointRounding.AwayFromZero);
+                z.theHealth = (int)(v * z.theHealth);
+                z.theMaxHealth = (int)(v * z.theMaxHealth);
             }
 
             if (z != null)
@@ -357,8 +363,7 @@ namespace UltimateGoldImitater.BepInEx
                 zombie.theOriginSpeed = zombie.theOriginSpeed * speedMultiplier;
             }
 
-            if (zombie.theZombieType != ZombieType.ZombieBoss && zombie.theZombieType != ZombieType.ZombieBoss2 && 
-                zombie.theZombieType != ZombieType.FootballBoss)
+            if (Core.OtherBoss.Contains(zombie.theZombieType))
             {
                 float scaleMultiplier = UnityEngine.Random.Range(scaleMin, scaleMax);
 

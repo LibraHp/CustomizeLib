@@ -5,6 +5,7 @@ using CustomizeLib.BepInEx.Extra.Attributes;
 using CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent;
 using Cysharp.Threading.Tasks;
 using HarmonyLib;
+using Il2CppInterop.Runtime.Attributes;
 using Il2CppInterop.Runtime.Injection;
 using System.Reflection;
 using UnityEngine;
@@ -146,6 +147,7 @@ namespace UltimateFireThreeGatling.BepInEx
 
         public async Task StartEvent()
         {
+            if (plant == null) return;
             plant.anim.SetTrigger("shoot2");
             foreach (var _ in Enumerable.Range(0, 6))
             {
@@ -153,18 +155,6 @@ namespace UltimateFireThreeGatling.BepInEx
                     plant.board.boardAction.CreateFireLine(i, plant.attackDamage * 10, fromType: PlantID);
                 await UniTask.Delay(167, cancellationToken: plant.board.GetCancellationTokenOnDestroy());
             }
-        }
-
-        // [TriggerOnce]
-        async Task IAsyncPlantEvent.OnUpdate(TriggerType trigger)
-        {
-            Console.WriteLine($"on update, {trigger}");
-        }
-
-        [TriggerOnce]
-        async Task IAsyncPlantEvent.OnFixedUpdate(TriggerType trigger)
-        {
-            Console.WriteLine($"on fixedupdate");
         }
 
         public void SpShoot()

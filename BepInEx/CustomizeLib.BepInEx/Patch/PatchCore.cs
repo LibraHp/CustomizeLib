@@ -1056,6 +1056,7 @@ namespace CustomizeLib.BepInEx.Patch
                 }
                 GameAPP.resourcesManager.plantPreviews[plant.Key] = plant.Value.Preview;//ע��ֲ��Ԥ��
                 GameAPP.resourcesManager.plantPreviews[plant.Key].tag = "Preview";//���޴�tag
+                PlantDataManager.unlocked.Add(plant.Key, false);
             }
             foreach (var f in CustomCore.CustomFusions)
             {
