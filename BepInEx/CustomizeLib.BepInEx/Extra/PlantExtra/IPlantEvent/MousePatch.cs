@@ -22,7 +22,7 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
             var block = false;
             var other = false;
             var pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            foreach (var plant in __instance.GetPlantsOnMouse(Physics2D.RaycastAll(pos, Vector2.zero)))
+            foreach (var plant in __instance.GetPlantsOnMouse())
             {
                 if (plant == null) continue;
                 var (res, success) = PlantEvent.OnClicked(plant, __instance, other, TriggerType.Pre);
@@ -38,7 +38,7 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
         {
             var other = false;
             var pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            foreach (var plant in __instance.GetPlantsOnMouse(Physics2D.RaycastAll(pos, Vector2.zero)))
+            foreach (var plant in __instance.GetPlantsOnMouse())
             {
                 if (plant == null) continue;
                 var (_, success) = PlantEvent.OnClicked(plant, __instance, other, TriggerType.Post);

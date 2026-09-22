@@ -3,6 +3,8 @@ using CustomizeLib.BepInEx.ExtensionData.Unity;
 using CustomizeLib.BepInEx.Extra.Attributes;
 using Cysharp.Threading.Tasks;
 using HarmonyLib;
+using Il2CppInterop.Runtime;
+using Il2CppInterop.Runtime.Injection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +13,8 @@ using System.Text;
 using System.Threading.Tasks;
 using TerraFX.Interop.Windows;
 using UnityEngine;
+using UnityEngine.LowLevel;
+using UnityEngine.PlayerLoop;
 
 namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
 {
@@ -679,14 +683,6 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
         private static class Strings
         {
             internal const string CachedCompsName = "CustomizeLib_PlantCachedComps";
-        }
-
-        public static class Resolver
-        {
-            public static async Task Run(Action action)
-            {
-                // action.Invoke();
-            }
         }
     }
 

@@ -9,6 +9,15 @@ public class Test
         delegate*<int, int, int> ptr = &Add;
 
         Console.WriteLine($"{(IntPtr)ptr:X}, {ptr(1, -5)}");
+
+
+        for(int i = 0; i < 10; i++)
+        {
+            var stopWatch = Stopwatch.StartNew();
+            Console.WriteLine($"pre {stopWatch.ElapsedTicks}");
+            Console.WriteLine($"post {stopWatch.ElapsedTicks}");
+            stopWatch.Stop();
+        }
     }
 
     public static int Add(int a, int b) => a + b;

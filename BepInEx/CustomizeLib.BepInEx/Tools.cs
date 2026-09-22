@@ -37,38 +37,12 @@ namespace CustomizeLib.BepInEx
             Console.OutputEncoding = Encoding.UTF8;
             if (!skipRegister)
             {
-                var types = GetAllMonoBehaviourTypes(assembly);
+                var types = SystemTools.GetAllDerivedTypes<Il2CppSystem.Object>(assembly, false);
                 foreach (var type in types)
                     if (!ClassInjector.IsTypeRegisteredInIl2Cpp(type))
                         ClassInjector.RegisterTypeInIl2Cpp(type);
             }
             Harmony.CreateAndPatchAll(assembly);
-        }
-
-        public static Type[] GetAllMonoBehaviourTypes(Assembly assembly)
-        {
-            try
-            {
-                // 获取所有类型
-                Type[] allTypes = assembly.GetTypes();
-
-                // 筛选继承自MonoBehaviour的类型
-                return allTypes
-                    .Where(type => typeof(MonoBehaviour).IsAssignableFrom(type) &&
-                                  !type.IsAbstract &&
-                                  !type.IsInterface)
-                    .ToArray();
-            }
-            catch (ReflectionTypeLoadException ex)
-            {
-                // 处理类型加载异常
-                return ex.Types
-                    .Where(type => type != null &&
-                                  typeof(MonoBehaviour).IsAssignableFrom(type) &&
-                                  !type.IsAbstract &&
-                                  !type.IsInterface)
-                    .ToArray();
-            }
         }
     }
     public struct ID

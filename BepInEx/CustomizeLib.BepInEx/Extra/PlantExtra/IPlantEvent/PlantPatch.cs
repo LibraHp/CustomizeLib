@@ -120,101 +120,101 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
             }
         }
 
-        [HarmonyPatch]
-        [HarmonyPriority(Priority.First)] // 数值越大执行顺序越靠后
-        public static class Plant_UpdatePatch
-        {
-            [HarmonyTargetMethods]
-            public static IEnumerable<MethodBase> GetTargetMethods()
-            {
-                return SystemTools.GetAllMethods(SystemTools.GetAllDerivedTypes<Plant>(), nameof(Plant.Update),
-                    BindingFlags.Default.AddAllAccess().AddInstance().AddDeclaredOnly());
-            }
+        //[HarmonyPatch]
+        //[HarmonyPriority(Priority.First)] // 数值越大执行顺序越靠后
+        //public static class Plant_UpdatePatch
+        //{
+        //    [HarmonyTargetMethods]
+        //    public static IEnumerable<MethodBase> GetTargetMethods()
+        //    {
+        //        return SystemTools.GetAllMethods(SystemTools.GetAllDerivedTypes<Plant>(), nameof(Plant.Update),
+        //            BindingFlags.Default.AddAllAccess().AddInstance().AddDeclaredOnly());
+        //    }
 
-            [HarmonyPrefix]
-            public static void PreUpdate(Plant __instance)
-            {
-                _ = LocalMethod(__instance, TriggerType.Pre, UPDATE);
-            }
+        //    [HarmonyPrefix]
+        //    public static void PreUpdate(Plant __instance)
+        //    {
+        //        _ = LocalMethod(__instance, TriggerType.Pre, UPDATE);
+        //    }
 
-            [HarmonyPostfix]
-            public static void PostUpdate(Plant __instance)
-            {
-                _ = LocalMethod(__instance, TriggerType.Post, UPDATE);
-            }
-        }
+        //    [HarmonyPostfix]
+        //    public static void PostUpdate(Plant __instance)
+        //    {
+        //        _ = LocalMethod(__instance, TriggerType.Post, UPDATE);
+        //    }
+        //}
 
-        [HarmonyPatch]
-        [HarmonyPriority(Priority.First)] // 数值越大执行顺序越靠后
-        public static class Plant_FixedUpdatePatch
-        {
-            [HarmonyTargetMethods]
-            public static IEnumerable<MethodBase> GetTargetMethods()
-            {
-                return SystemTools.GetAllMethods(SystemTools.GetAllDerivedTypes<Plant>(), nameof(Plant.FixedUpdate),
-                    BindingFlags.Default.AddAllAccess().AddInstance().AddDeclaredOnly());
-            }
+        //[HarmonyPatch]
+        //[HarmonyPriority(Priority.First)] // 数值越大执行顺序越靠后
+        //public static class Plant_FixedUpdatePatch
+        //{
+        //    [HarmonyTargetMethods]
+        //    public static IEnumerable<MethodBase> GetTargetMethods()
+        //    {
+        //        return SystemTools.GetAllMethods(SystemTools.GetAllDerivedTypes<Plant>(), nameof(Plant.FixedUpdate),
+        //            BindingFlags.Default.AddAllAccess().AddInstance().AddDeclaredOnly());
+        //    }
 
-            [HarmonyPrefix]
-            public static void PreFixedUpdate(Plant __instance)
-            {
-                _ = LocalMethod(__instance, TriggerType.Pre, FIXEDUPDATE);
-            }
+        //    [HarmonyPrefix]
+        //    public static void PreFixedUpdate(Plant __instance)
+        //    {
+        //        _ = LocalMethod(__instance, TriggerType.Pre, FIXEDUPDATE);
+        //    }
 
-            [HarmonyPostfix]
-            public static void PostFixedUpdate(Plant __instance)
-            {
-                _ = LocalMethod(__instance, TriggerType.Post, FIXEDUPDATE);
-            }
-        }
+        //    [HarmonyPostfix]
+        //    public static void PostFixedUpdate(Plant __instance)
+        //    {
+        //        _ = LocalMethod(__instance, TriggerType.Post, FIXEDUPDATE);
+        //    }
+        //}
     }
     #endregion
 
     #region NativeHook
-    //[ApplyNativeHook]
-    //public class PlantUpdateHook
-    //{
-    //    [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
-    //    private delegate void PlantUpdate(IntPtr @this, IntPtr method);
+    [ApplyNativeHook]
+    public class PlantUpdateHook
+    {
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
+        private delegate void PlantUpdate(IntPtr @this, IntPtr method);
 
-    //    private static PlantUpdate Original = null!;
+        private static PlantUpdate Original = null!;
 
-    //    public static void ApplyHook()
-    //    {
-    //        LibNativeHook.CreateAndApply(LibNativeHook.GetAndInitMethodAddr(typeof(Plant), "Update"), OnPlantUpdate, out Original);
-    //    }
+        public static void ApplyHook()
+        {
+            LibNativeHook.CreateAndApply(LibNativeHook.GetAndInitMethodAddr(typeof(Plant), "Update"), OnPlantUpdate, out Original);
+        }
 
-    //    public static void OnPlantUpdate(IntPtr @this, IntPtr method)
-    //    {
-    //        var plant = new Plant(@this);
-    //        bool notNull = plant != null;
-    //        if (notNull) PlantEvent.OnUpdate(plant!, TriggerType.Pre);
-    //        Original.Invoke(@this, method);
-    //        if (notNull) PlantEvent.OnUpdate(plant!, TriggerType.Post);
-    //    }
-    //}
+        public static void OnPlantUpdate(IntPtr @this, IntPtr method)
+        {
+            var plant = new Plant(@this);
+            bool notNull = plant != null;
+            if (notNull) PlantEvent.OnUpdate(plant!, TriggerType.Pre);
+            Original.Invoke(@this, method);
+            if (notNull) PlantEvent.OnUpdate(plant!, TriggerType.Post);
+        }
+    }
 
-    //[ApplyNativeHook]
-    //public class PlantFixedUpdateHook
-    //{
-    //    [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
-    //    private delegate void PlantFixedUpdate(IntPtr @this, IntPtr method);
+    [ApplyNativeHook]
+    public class PlantFixedUpdateHook
+    {
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
+        private delegate void PlantFixedUpdate(IntPtr @this, IntPtr method);
 
-    //    private static PlantFixedUpdate Original = null!;
+        private static PlantFixedUpdate Original = null!;
 
-    //    public static void ApplyHook()
-    //    {
-    //        LibNativeHook.CreateAndApply(LibNativeHook.GetAndInitMethodAddr(typeof(Plant), nameof(Plant.FixedUpdate)), OnPlantFixedUpdate, out Original);
-    //    }
+        public static void ApplyHook()
+        {
+            LibNativeHook.CreateAndApply(LibNativeHook.GetAndInitMethodAddr(typeof(Plant), nameof(Plant.FixedUpdate)), OnPlantFixedUpdate, out Original);
+        }
 
-    //    public static void OnPlantFixedUpdate(IntPtr @this, IntPtr method)
-    //    {
-    //        var plant = new Plant(@this);
-    //        bool notNull = plant != null;
-    //        if (notNull) PlantEvent.OnFixedUpdate(plant!, plant!, TriggerType.Pre);
-    //        Original.Invoke(@this, method);
-    //        if (notNull) PlantEvent.OnFixedUpdate(plant!, plant!, TriggerType.Post);
-    //    }
-    //}
+        public static void OnPlantFixedUpdate(IntPtr @this, IntPtr method)
+        {
+            var plant = new Plant(@this);
+            bool notNull = plant != null;
+            if (notNull) PlantEvent.OnFixedUpdate(plant!, plant!, TriggerType.Pre);
+            Original.Invoke(@this, method);
+            if (notNull) PlantEvent.OnFixedUpdate(plant!, plant!, TriggerType.Post);
+        }
+    }
     #endregion
 }
