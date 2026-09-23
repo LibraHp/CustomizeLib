@@ -752,9 +752,11 @@ namespace CustomizeLib.BepInEx.Patch
             }
         }
 
-        [HarmonyPatch(nameof(InitBoard.RightMoveCamera))]
+        // Do not patch RightMoveCamera: its IL2CPP UniTask return value cannot be
+        // safely marshalled through Harmony's managed patch trampoline on Android.
+        [HarmonyPatch(nameof(InitBoard.Awake))]
         [HarmonyPostfix]
-        public static void PostRightMoveCamera()
+        public static void PostAwake()
         {
             if (GameAPP.theBoardType is not (LevelType)66) return;
             var levelData = CustomCore.CustomLevels[GameAPP.theBoardLevel];
