@@ -26,14 +26,14 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
             [HarmonyPrefix]
             public static void PreDie(Plant __instance, Plant.DieReason __0)
             {
-                if (__instance != null && PlantEvent.HasEventComp(__instance))
+                if (PlantEvent.IsRegistered(__instance))
                     PlantEvent.DieEvent(__instance, __0, TriggerType.Pre);
             }
 
             [HarmonyPostfix]
             public static void PostDie(Plant __instance, Plant.DieReason __0)
             {
-                if (__instance != null && PlantEvent.HasEventComp(__instance))
+                if (PlantEvent.IsRegistered(__instance))
                     PlantEvent.DieEvent(__instance, __0, TriggerType.Post);
             }
         }
@@ -52,7 +52,7 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
             [HarmonyPrefix]
             public static void PrePlantUpdate(Plant __instance, ref bool __state)
             {
-                if (__instance != null && PlantEvent.HasEventComp(__instance))
+                if (PlantEvent.IsRegistered(__instance))
                 {
                     // OnUpdate
                     // _ = PlantEvent.Resolvers.PlantResolver.PreUpdate.Update(__instance);
@@ -73,7 +73,7 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
             [HarmonyPostfix]
             public static void PostPlantUpdate(Plant __instance, bool __state)
             {
-                if (__instance != null && PlantEvent.HasEventComp(__instance))
+                if (PlantEvent.IsRegistered(__instance))
                 {
                     // OnUpdate
                     // _ = PlantEvent.Resolvers.PlantResolver.PostUpdate.Update(__instance);

@@ -297,6 +297,43 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
 
     public static class PlantEvent
     {
+        private const int MaxDispatchDepth = 32;
+        [ThreadStatic] private static int DispatchDepth;
+        [ThreadStatic] private static bool RecursionLogged;
+
+        private static DispatchGuard BeginDispatch()
+        {
+            if (DispatchDepth >= MaxDispatchDepth)
+            {
+                if (!RecursionLogged)
+                {
+                    RecursionLogged = true;
+                    CustomCore.CLogger.LogError($"PlantEvent dispatch depth exceeded {MaxDispatchDepth}; nested event dispatch was skipped.");
+                }
+
+                return new DispatchGuard(false);
+            }
+
+            DispatchDepth++;
+            return new DispatchGuard(true);
+        }
+
+        private readonly struct DispatchGuard(bool ok) : IDisposable
+        {
+            public bool Ok { get; } = ok;
+
+            public void Dispose()
+            {
+                if (!Ok) return;
+                DispatchDepth--;
+                if (DispatchDepth <= 0)
+                {
+                    DispatchDepth = 0;
+                    RecursionLogged = false;
+                }
+            }
+        }
+
         // Plant.Update/FixedUpdate are intentionally not native-hooked. A single
         // managed driver dispatches events for plants that have registered event
         // components, avoiding one callback trampoline per IL2CPP plant method.
@@ -363,6 +400,9 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
 
         public static void DieEvent(Component self, Plant.DieReason reason, TriggerType trigger)
         {
+            using var dispatch = BeginDispatch();
+            if (!dispatch.Ok) return;
+
             foreach (var comp in GetCachedComps(self))
             {
                 if (comp == null) continue;
@@ -399,6 +439,9 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
 
         public static (bool block, bool success) OnClicked(Component self, Mouse mouse, bool processOther, TriggerType trigger)
         {
+            using var dispatch = BeginDispatch();
+            if (!dispatch.Ok) return (false, false);
+
             bool block = false;
             bool success = false;
             bool ret = false;
@@ -468,6 +511,9 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
 
         public static void MouseEvent(Component self, Mouse mouse, MouseState state, MouseClick click, TriggerType trigger)
         {
+            using var dispatch = BeginDispatch();
+            if (!dispatch.Ok) return;
+
             foreach (var comp in GetCachedComps(self))
             {
                 if (comp == null) continue;
@@ -502,6 +548,9 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
 
         public static bool SetTargetByMouse(Component self, Mouse mouse, TriggerType trigger)
         {
+            using var dispatch = BeginDispatch();
+            if (!dispatch.Ok) return false;
+
             bool block = false;
 
             foreach (var comp in GetCachedComps(self))
@@ -551,6 +600,9 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
 
         public static void OnUpdate(Component self, TriggerType trigger)
         {
+            using var dispatch = BeginDispatch();
+            if (!dispatch.Ok) return;
+
             foreach (var comp in GetCachedComps(self))
             {
                 if (comp is IAsyncPlantEvent asyncPlantEvent)
@@ -583,6 +635,9 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
 
         public static void OnFixedUpdate(Component self, Plant plant, TriggerType trigger)
         {
+            using var dispatch = BeginDispatch();
+            if (!dispatch.Ok) return;
+
             foreach (var comp in GetCachedComps(self))
             {
                 if (comp is IAsyncPlantEvent asyncPlantEvent)
@@ -615,6 +670,9 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
 
         public static void AttributeEvent(Component self, TriggerType trigger)
         {
+            using var dispatch = BeginDispatch();
+            if (!dispatch.Ok) return;
+
             foreach (var comp in GetCachedComps(self))
             {
                 if (comp is IAsyncPlantEvent asyncPlantEvent)
@@ -641,6 +699,9 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
 
         public static void BeforeSerialized(Component self, SavePlantData data, TriggerType trigger)
         {
+            using var dispatch = BeginDispatch();
+            if (!dispatch.Ok) return;
+
             foreach (var comp in GetCachedComps(self))
             {
                 if (comp is IAsyncPlantEvent asyncPlantEvent)
@@ -667,6 +728,9 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
 
         public static void AfterDeserialized(Component self, SavePlantData data, TriggerType trigger)
         {
+            using var dispatch = BeginDispatch();
+            if (!dispatch.Ok) return;
+
             foreach (var comp in GetCachedComps(self))
             {
                 if (comp is IAsyncPlantEvent asyncPlantEvent)
@@ -729,8 +793,8 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
                 RegisterPlant(plant);
         }
 
-        public static Component?[] GetCachedComps(Component comp) =>
-            comp.GetOrInitData<Component?[]>(Strings.CachedCompsName, []);
+        public static Component?[] GetCachedComps(Component? comp) =>
+            comp?.GetExistingData(Strings.CachedCompsName) as Component?[] ?? [];
 
         public static int GetCachedCompCount(Component comp) =>
             GetCachedComps(comp).Length;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Il2CppInterop.Runtime.Attributes;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -13,8 +14,7 @@ namespace CustomizeLib.BepInEx.ExtensionData.Unity
     {
         public static ExtDataRef<T> GetOrInitData<T>(this UnityEngine.Object obj, string name, T defaultValue = default(T))
         {
-            var data = obj.GetData<T>(name);
-            if (data.val == null) obj.SetData(name, defaultValue);
+            if (!obj.TryGetStoredData(name, out _)) obj.SetData(name, defaultValue);
             return obj.GetData<T>(name);
         }
 
@@ -27,8 +27,7 @@ namespace CustomizeLib.BepInEx.ExtensionData.Unity
 
         public static ExtDataRef<T> GetOrInitData<T>(this GameObject obj, string name, T defaultValue = default(T))
         {
-            var data = obj.GetData<T>(name);
-            if (data.val == null) obj.SetData(name, defaultValue);
+            if (!obj.TryGetStoredData(name, out _)) obj.SetData(name, defaultValue);
             return obj.GetData<T>(name);
         }
 
@@ -40,8 +39,7 @@ namespace CustomizeLib.BepInEx.ExtensionData.Unity
 
         public static ExtDataRef<T> GetOrInitData<T>(this Component obj, string name, T defaultValue = default(T))
         {
-            var data = obj.GetData<T>(name);
-            if (data.val == null) obj.SetData(name, defaultValue);
+            if (!obj.TryGetStoredData(name, out _)) obj.SetData(name, defaultValue);
             return obj.GetData<T>(name);
         }
 
@@ -49,6 +47,50 @@ namespace CustomizeLib.BepInEx.ExtensionData.Unity
         {
             var dataComp = obj.gameObject.GetOrAddComponent<DataComponent>();
             return new ExtDataRef<T>(obj, name);
+        }
+
+        public static object? GetExistingData(this UnityEngine.Object obj, string name)
+        {
+            if (obj is GameObject go) return go.GetExistingData(name);
+            if (obj is Component comp) return comp.GetExistingData(name);
+            return null;
+        }
+
+        public static object? GetExistingData(this GameObject obj, string name)
+        {
+            obj.TryGetStoredData(name, out var value);
+            return value;
+        }
+
+        public static object? GetExistingData(this Component obj, string name) =>
+            obj == null ? null : obj.gameObject.GetExistingData(name);
+
+        public static bool TryGetStoredData(this UnityEngine.Object obj, string name, out object? value)
+        {
+            if (obj is GameObject go) return go.TryGetStoredData(name, out value);
+            if (obj is Component comp) return comp.TryGetStoredData(name, out value);
+            value = null;
+            return false;
+        }
+
+        public static bool TryGetStoredData(this GameObject obj, string name, out object? value)
+        {
+            value = null;
+            if (obj == null) return false;
+
+            var dataComp = obj.GetComponent<DataComponent>();
+            return dataComp != null && dataComp.TryGetData(name, out value);
+        }
+
+        public static bool TryGetStoredData(this Component obj, string name, out object? value)
+        {
+            if (obj == null)
+            {
+                value = null;
+                return false;
+            }
+
+            return obj.gameObject.TryGetStoredData(name, out value);
         }
 
         public static void SetData(this UnityEngine.Object obj, string name, object value)
@@ -74,12 +116,16 @@ namespace CustomizeLib.BepInEx.ExtensionData.Unity
     {
         public Dictionary<string, object> datas = new();
 
+        [HideFromIl2Cpp]
         public object? GetData(string name)
         {
-            if (!datas.ContainsKey(name)) datas.Add(name, null);
-            return datas[name];
+            return datas.TryGetValue(name, out var value) ? value : null;
         }
 
+        [HideFromIl2Cpp]
+        public bool TryGetData(string name, out object? value) => datas.TryGetValue(name, out value);
+
+        [HideFromIl2Cpp]
         public void SetData(string name, object value)
         {
             datas[name] = value;

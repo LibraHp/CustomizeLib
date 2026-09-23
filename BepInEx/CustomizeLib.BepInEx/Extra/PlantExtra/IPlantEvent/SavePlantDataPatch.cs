@@ -1,18 +1,11 @@
-﻿using CustomizeLib.BepInEx.Hook;
-using CustomizeLib.BepInEx.Utility;
-using HarmonyLib;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
+﻿using HarmonyLib;
 
 namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
 {
+    // Kept in line with the reference implementation. The native constructor
+    // hook remains disabled because CoreOnLoad does not install native hooks.
     [HarmonyPatch(typeof(SavePlantData))]
-    [HarmonyPriority(Priority.First)] // 数值越大执行顺序越靠后
+    [HarmonyPriority(Priority.First)]
     public static class SavePlantDataPatch
     {
         [HarmonyPatch(nameof(SavePlantData.LoadData))]
@@ -29,5 +22,4 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
             PlantEvent.AfterDeserialized(plant, __instance, TriggerType.Post);
         }
     }
-
 }

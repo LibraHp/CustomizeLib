@@ -1,4 +1,4 @@
-// #define DEBUG_FEATURE__ENABLE_MULTI_LEVEL_BUFF // ���ö༶����
+﻿// #define DEBUG_FEATURE__ENABLE_MULTI_LEVEL_BUFF // 启用多级词条
 
 using AlmanacData;
 using Core;
@@ -38,7 +38,7 @@ using static UnityEngine.Object;
 namespace CustomizeLib.BepInEx.Patch
 {
     /// <summary>
-    /// ע���ں������䷽
+    /// 注册融合洋芋配方
     /// </summary>
     [HarmonyPatch(typeof(MixBomb), nameof(MixBomb.AttributeEvent))]
     public static class MixBombPatch
@@ -93,7 +93,7 @@ namespace CustomizeLib.BepInEx.Patch
     }
 
     /// <summary>
-    /// ע�����ʹ���¼�
+    /// 注册肥料使用事件
     /// </summary>
     [HarmonyPatch(typeof(Fertilize))]
     public static class FertilizePatch
@@ -107,7 +107,7 @@ namespace CustomizeLib.BepInEx.Patch
             int column = __instance.theTargetPlant.thePlantColumn;
             int row = __instance.theTargetPlant.thePlantRow;
 
-            List<Plant> plants = Lawnf.Get1x1Plants(column, row).ToArray().ToList<Plant>(); // ��ȡֲ�il2cpp�Ѱ���
+            List<Plant> plants = Lawnf.Get1x1Plants(column, row).ToArray().ToList<Plant>(); // 获取植物，il2cpp窝爱你
             if (plants == null) return;
 
             for (int i = 0; i < plants.Count; i++)
@@ -218,7 +218,7 @@ namespace CustomizeLib.BepInEx.Patch
             unityEvent.AddListener(action);
             newSelect.GetComponent<UIButton>().clickEvent = unityEvent;
             newSelect.name = "LookCustom";
-            newSelect.transform.FindChild("TextShadow").gameObject.GetComponent<TextMeshProUGUI>().text = "����ֲ��";
+            newSelect.transform.FindChild("TextShadow").gameObject.GetComponent<TextMeshProUGUI>().text = "二创植物";
             newSelect.transform.localPosition = new Vector3(0f, -44f * newSelect.transform.childCount + 72f, 0f);
 
             var rect = __instance.transform.FindChild("Scroll View/Viewport/Content").GetComponent<RectTransform>();
@@ -301,7 +301,7 @@ namespace CustomizeLib.BepInEx.Patch
         [HarmonyPrefix]
         public static bool Prefix(string text, float time)
         {
-            if (text == "ͨ����սģʽ�����䷽" && time == 7f && disable)
+            if (text == "通关挑战模式解锁配方" && time == 7f && disable)
             {
                 disable = false;
                 return false;
@@ -311,7 +311,7 @@ namespace CustomizeLib.BepInEx.Patch
     }
 
     /// <summary>
-    /// Ϊ����ֲ�︽��ֲ������
+    /// 为二创植物附加植物特性
     /// </summary>
     [HarmonyPatch(typeof(CreatePlant))]
     public static class CreatePlantPatch
@@ -331,7 +331,7 @@ namespace CustomizeLib.BepInEx.Patch
         [HarmonyPostfix]
         public static void PostLim(CreatePlant __instance, ref PlantType theSeedType, ref bool __result)
         {
-            // �Զ�������
+            // 自定义条件
             {
                 if (CustomCore.CustomBanMix.ContainsKey(theSeedType) && CustomCore.CustomBanMix[theSeedType].Item1 != null)
                 {
@@ -353,7 +353,7 @@ namespace CustomizeLib.BepInEx.Patch
         [HarmonyPostfix]
         public static void Postfix_LimTravel(CreatePlant __instance, ref PlantType theSeedType, ref bool __result)
         {
-            // �ж�
+            // 判定
             {
                 bool isCanSet = false;
                 if (TravelMgr.Instance != null && Board.Instance.boardTag.isTravel)
@@ -364,11 +364,11 @@ namespace CustomizeLib.BepInEx.Patch
                 if (CustomCore.CustomUltimatePlants.Contains(theSeedType) && !isCanSet)
                 {
                     __result = true;
-                    InGameText.Instance.ShowText("���䷽����������ϵ�л���Ԩ����", 3f, false);
+                    InGameText.Instance.ShowText("该配方仅旅行生存系列或深渊可用", 3f, false);
                 }
             }
             
-            // ǿ��
+            // 强究
             {
                 if (CustomCore.CustomStrongUltimatePlants.ContainsKey(theSeedType))
                 {
@@ -379,7 +379,7 @@ namespace CustomizeLib.BepInEx.Patch
                         if (!__instance.board.boardTag.enableAllTravelPlant && !__instance.board.boardTag.enableTravelPlant && !__instance.board.boardTag.isSuperRandom && !__instance.board.boardTag.isUltimateSuperRandom)
                         {
                             __result = true;
-                            InGameText.Instance.ShowText("���䷽������ģʽ����Ԩ����", 4f);
+                            InGameText.Instance.ShowText("该配方仅旅行模式或深渊可用", 4f);
                         }
                         else
                         {
@@ -392,7 +392,7 @@ namespace CustomizeLib.BepInEx.Patch
                                 else
                                 {
                                     __result = true;
-                                    InGameText.Instance.ShowText("���䷽��Ҫ��ȡ", 4f);
+                                    InGameText.Instance.ShowText("该配方需要抽取", 4f);
                                 }
                             }
                         }
@@ -489,7 +489,7 @@ namespace CustomizeLib.BepInEx.Patch
     }
 
     /// <summary>
-    /// �ӵ��ƶ�·��
+    /// 子弹移动路径
     /// </summary>
     [HarmonyPatch(typeof(Bullet))]
     public static class BulletPatch
@@ -678,7 +678,7 @@ namespace CustomizeLib.BepInEx.Patch
     }
 
     /// <summary>
-    /// �������Button�����ض���ֲ�����
+    /// 点击其他Button，隐藏二创植物界面
     /// </summary>
     [HarmonyPatch(typeof(UIButton))]
     public static class HideCustomPlantCards
@@ -803,7 +803,7 @@ namespace CustomizeLib.BepInEx.Patch
     }
 
     /// <summary>
-    /// ��Ǯ������
+    /// 花钱开大招
     /// </summary>
     [HarmonyPatch(typeof(Money))]
     public static class MoneyPatch
@@ -814,17 +814,17 @@ namespace CustomizeLib.BepInEx.Patch
         {
             if (CustomCore.SuperSkills.ContainsKey(plant.thePlantType))
             {
-                var cost = CustomCore.SuperSkills[plant.thePlantType].Item1(plant);//ʵʱ������л���
+                var cost = CustomCore.SuperSkills[plant.thePlantType].Item1(plant);//实时计算大招花费
 
-                if (Board.Instance.theMoney < cost)//���Ǯ����
+                if (Board.Instance.theMoney < cost)//如果钱不够
                 {
-                    InGameText.Instance.ShowText($"������Ҫ{cost}���", 5);//��ʾ
-                    return false;//ֱ�ӷ���
+                    InGameText.Instance.ShowText($"大招需要{cost}金币", 5);//提示
+                    return false;//直接返回
                 }
 
                 if (plant.SuperSkill())
                 {
-                    CustomCore.SuperSkills[plant.thePlantType].Item2(plant);//ִ�д��д���
+                    CustomCore.SuperSkills[plant.thePlantType].Item2(plant);//执行大招代码
                     plant.AnimSuperShoot();
                     __instance.UsedEvent(plant.thePlantColumn, plant.thePlantRow, cost);
                     __instance.OtherSuperSkill(plant);
@@ -864,7 +864,7 @@ namespace CustomizeLib.BepInEx.Patch
             Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 rayPosition = new Vector2(worldPosition.x, worldPosition.y);
 
-            // �����λ�÷������߼����ײ
+            // 从鼠标位置发射射线检测碰撞
             foreach (var hit in Physics2D.RaycastAll(rayPosition, Vector2.zero))
             {
                 if (hit.collider == null || hit.collider.gameObject == null || hit.collider.gameObject.IsDestroyed())
@@ -891,7 +891,7 @@ namespace CustomizeLib.BepInEx.Patch
                     bool block = false, clearOrigin = false;
                     foreach (var (action, can, onPlant) in CustomCore.CustomClickCardOnPlantEvents[(item.thePlantType, __instance.thePlantTypeOnMouse)])
                     {
-                        if (executedActions.Contains(action)) // �жϣ���Ȼ���ִ��һ��
+                        if (executedActions.Contains(action)) // 判断，不然会多执行一次
                             continue;
                         if (can != null && !can(item))
                             continue;
@@ -928,7 +928,7 @@ namespace CustomizeLib.BepInEx.Patch
                         {
                             Board.Instance.UseSun(card.theSeedCost);
 
-                            // �߼����м��
+                            // 高级旅行检查
                             if (Lawnf.TravelAdvanced((AdvBuff)5004))
                             {
                                 Board.Instance.UseSun(Board.Instance.theSun / 2);
@@ -943,7 +943,7 @@ namespace CustomizeLib.BepInEx.Patch
                         {
                             Board.Instance.UseSun(__instance.theCardOnMouse.theSeedCost);
 
-                            // �߼����м��
+                            // 高级旅行检查
                             if (Lawnf.TravelAdvanced((AdvBuff)5004))
                             {
                                 Board.Instance.UseSun(Board.Instance.theSun / 2);
@@ -961,7 +961,7 @@ namespace CustomizeLib.BepInEx.Patch
                         glove.fullCD = gloveCD;
                         glove.CD = 0f;
 
-                        // ����ֲ��������ȴʱ�����
+                        // 特殊植物类型冷却时间调整
                         if (TypeMgr.IsPuff(__instance.thePlantTypeOnMouse) || TypeMgr.IsPot(__instance.thePlantTypeOnMouse) ||
                             TypeMgr.IsLily(__instance.thePlantTypeOnMouse) || TypeMgr.FlyingPlants(__instance.thePlantTypeOnMouse))
                         {
@@ -1015,7 +1015,7 @@ namespace CustomizeLib.BepInEx.Patch
             }
             __instance.StartCoroutine(CoreTools.Init());
 
-            // ������Ϸ����¼�
+            // 触发游戏启动事件
             EventListenr.Trigger(ListenerType.OnGameLaunch);
         }
 
@@ -1025,8 +1025,8 @@ namespace CustomizeLib.BepInEx.Patch
         {
             try
             {
-                #region �Զ�����
-                // ����particlePrefab
+                #region 自动扩容
+                // 扩容particlePrefab
                 if (CustomCore.CustomParticles.Count > 0 && (int)CustomCore.CustomParticles.Keys.DefaultIfEmpty().Max() + 1 >= GameAPP.particlePrefab.Length)
                 {
                     long size_particlePrefab = (int)CustomCore.CustomParticles.Keys.DefaultIfEmpty().Max();
@@ -1034,7 +1034,7 @@ namespace CustomizeLib.BepInEx.Patch
                     GameAPP.particlePrefab = particlePrefab;
                 }
 
-                // ����spritePrefab
+                // 扩容spritePrefab
                 if (CustomCore.CustomSprites.Count > 0 && CustomCore.CustomSprites.Keys.DefaultIfEmpty().Max() + 1 >= GameAPP.spritePrefab.Length)
                 {
                     long size_spritePrefab = CustomCore.CustomSprites.Keys.Max();
@@ -1044,18 +1044,18 @@ namespace CustomizeLib.BepInEx.Patch
                 #endregion
             }
             catch (InvalidOperationException) { }
-            foreach (var plant in CustomCore.CustomPlants)//����ֲ��
+            foreach (var plant in CustomCore.CustomPlants)//二创植物
             {
-                GameAPP.resourcesManager.plantPrefabs[plant.Key] = plant.Value.Prefab;//ע��Ԥ����
-                GameAPP.resourcesManager.plantPrefabs[plant.Key].tag = "Plant";//�����tag
+                GameAPP.resourcesManager.plantPrefabs[plant.Key] = plant.Value.Prefab;//注册预制体
+                GameAPP.resourcesManager.plantPrefabs[plant.Key].tag = "Plant";//必须打tag
                 if (!GameAPP.resourcesManager.allPlants.Contains(plant.Key))
-                    GameAPP.resourcesManager.allPlants.Add(plant.Key);//ע��ֲ������
+                    GameAPP.resourcesManager.allPlants.Add(plant.Key);//注册植物类型
                 if (plant.Value.PlantData is not null)
                 {
-                    PlantDataManager.PlantData_Default.Add(plant.Key, plant.Value.PlantData);//ע��ֲ������
+                    PlantDataManager.PlantData_Default.Add(plant.Key, plant.Value.PlantData);//注册植物数据
                 }
-                GameAPP.resourcesManager.plantPreviews[plant.Key] = plant.Value.Preview;//ע��ֲ��Ԥ��
-                GameAPP.resourcesManager.plantPreviews[plant.Key].tag = "Preview";//���޴�tag
+                GameAPP.resourcesManager.plantPreviews[plant.Key] = plant.Value.Preview;//注册植物预览
+                GameAPP.resourcesManager.plantPreviews[plant.Key].tag = "Preview";//必修打tag
                 PlantDataManager.unlocked.Add(plant.Key, false);
             }
             foreach (var f in CustomCore.CustomFusions)
@@ -1063,27 +1063,27 @@ namespace CustomizeLib.BepInEx.Patch
                 MixData.AddOrderedRecipe((PlantType)f.Item2, (PlantType)f.Item3, (PlantType)f.Item1);
             }
 
-            foreach (var z in CustomCore.CustomZombies)//ע�������ʬ
+            foreach (var z in CustomCore.CustomZombies)//注册二创僵尸
             {
                 if (!GameAPP.resourcesManager.allZombieTypes.Contains(z.Key))
-                    GameAPP.resourcesManager.allZombieTypes.Add(z.Key);//ע�Ὡʬ����
-                GameAPP.resourcesManager.zombiePrefabs[z.Key] = z.Value.Item1;//ע�ὩʬԤ����
-                GameAPP.resourcesManager.zombiePrefabs[z.Key].layer = LayerMask.NameToLayer("Zombie"); // �Ĳ㼶
-                GameAPP.resourcesManager.zombiePrefabs[z.Key].tag = "Zombie";//���޴�tag
+                    GameAPP.resourcesManager.allZombieTypes.Add(z.Key);//注册僵尸类型
+                GameAPP.resourcesManager.zombiePrefabs[z.Key] = z.Value.Item1;//注册僵尸预制体
+                GameAPP.resourcesManager.zombiePrefabs[z.Key].layer = LayerMask.NameToLayer("Zombie"); // 改层级
+                GameAPP.resourcesManager.zombiePrefabs[z.Key].tag = "Zombie";//必修打tag
                 InitZombieList.allowAllzombies.Add(z.Key);
                 if (z.Value.Item2 != null)
                     GameAPP.resourcesManager.zombieSprites[z.Key] = z.Value.Item2;
             }
 
-            // ��ע������ӵ�����ע��Ƥ�����Ȼע������ӵ�Ƥ����bug
-            foreach (var bullet in CustomCore.CustomBullets)//ע������ӵ�
+            // 先注册二创子弹，再注册皮肤，不然注册二创子弹皮肤会出bug
+            foreach (var bullet in CustomCore.CustomBullets)//注册二创子弹
             {
-                GameAPP.resourcesManager.bulletPrefabs[bullet.Key] = bullet.Value;//ע���ӵ�Ԥ����
+                GameAPP.resourcesManager.bulletPrefabs[bullet.Key] = bullet.Value;//注册子弹预制体
                 if (!GameAPP.resourcesManager.allBullets.Contains(bullet.Key))
-                    GameAPP.resourcesManager.allBullets.Add(bullet.Key);//ע���ӵ�����
+                    GameAPP.resourcesManager.allBullets.Add(bullet.Key);//注册子弹类型
             }
 
-            foreach (var (id, list) in CustomCore.CustomSkinBullet) //ע�����Ƥ���ӵ�
+            foreach (var (id, list) in CustomCore.CustomSkinBullet) //注册二创皮肤子弹
             {
                 foreach (var (newBulletID, bullet) in list)
                 {
@@ -1098,38 +1098,38 @@ namespace CustomizeLib.BepInEx.Patch
                 }
             }
 
-            foreach (var par in CustomCore.CustomParticles)//ע������Ч��
+            foreach (var par in CustomCore.CustomParticles)//注册粒子效果
             {
                 GameAPP.particlePrefab[(int)par.Key] = par.Value;
-                GameAPP.resourcesManager.particlePrefabs[par.Key] = par.Value;//ע������Ч��Ԥ����
+                GameAPP.resourcesManager.particlePrefabs[par.Key] = par.Value;//注册粒子效果预制体
                 if (!GameAPP.resourcesManager.allParticles.Contains(par.Key))
-                    GameAPP.resourcesManager.allParticles.Add(par.Key);//ע������Ч������
+                    GameAPP.resourcesManager.allParticles.Add(par.Key);//注册粒子效果类型
             }
 
-            foreach (var spr in CustomCore.CustomSprites)//ע���Զ��徫����ͼ
+            foreach (var spr in CustomCore.CustomSprites)//注册自定义精灵贴图
             {
                 GameAPP.spritePrefab[spr.Key] = spr.Value;
             }
 
-            // �Ѽ���index����prefabs��Count�õ��µ�ʵ��Index
+            // 把键的index加上prefabs的Count得到新的实际Index
             CustomCore.CustomBulletsSkinID = CustomCore.CustomBulletsSkinID.ToDictionary(kvp =>
                 (kvp.Key.pt, kvp.Key.oriBulletType, 
-                kvp.Key.index + (GameAPP.resourcesManager._plantPrefabs.TryGetValue(kvp.Key.pt, out var list) ? list.Count : 0)), // ����У����б�ĳ��ȣ�������0
+                kvp.Key.index + (GameAPP.resourcesManager._plantPrefabs.TryGetValue(kvp.Key.pt, out var list) ? list.Count : 0)), // 如果有，用列表的长度，否则用0
                 kvp => kvp.Value);
 
-            GameAPP.Instance.StartCoroutine(PatchMgr.RegisterSkin()); // ������ע�����֮�����Ƥ��Э��
+            GameAPP.Instance.StartCoroutine(PatchMgr.RegisterSkin()); // 在所有注册完成之后启动皮肤协程
         }
 
         [HarmonyPatch(nameof(GameAPP.LoadResources))]
         [HarmonyPostfix]
         public static void PostLoadResources()
         {
-            foreach (var audio in CustomCore.CustomSounds) // ע���Զ�����Ч
+            foreach (var audio in CustomCore.CustomSounds) // 注册自定义音效
             {
                 GameAPP.soundManager.sounds.Add((SoundType)audio.Key, audio.Value);
             }
 
-            foreach (var music in CustomCore.CustomMusics) // ע���Զ�������
+            foreach (var music in CustomCore.CustomMusics) // 注册自定义音乐
             {
                 GameAPP.soundManager.musics.Add(music.Key, music.Value);
                 SoundManager.MusicNames.Add(music.Key, music.Key.ToString());
@@ -1151,7 +1151,7 @@ namespace CustomizeLib.BepInEx.Patch
                 behaviour.transform.SetParent(null);
                 DontDestroyOnLoad(behaviour);
 
-                // ע��쿨
+                // 注册红卡
                 {
                     var propertyInfo = typeof(TypeMgr).GetProperty("RedPlant", BindingFlags.Static | BindingFlags.Public);
                     var value = propertyInfo.GetValue(null);
@@ -1161,7 +1161,7 @@ namespace CustomizeLib.BepInEx.Patch
                             redPlant.Add(k);
                     propertyInfo.SetValue(null, redPlant);
                 }
-                // ע�����ѹֲ��
+                // 注册防碾压植物
                 {
                     var propertyInfo = typeof(TypeMgr).GetProperty("UncrashablePlants", BindingFlags.Static | BindingFlags.Public);
                     if (propertyInfo is null)
@@ -1238,7 +1238,7 @@ namespace CustomizeLib.BepInEx.Patch
     }
 
     /// <summary>
-    /// ��ʾ�Զ��忨
+    /// 显示自定义卡
     /// </summary>
     [HarmonyPatch(typeof(SeedLibrary))]
     public static class SeedLibraryPatch
@@ -1248,13 +1248,13 @@ namespace CustomizeLib.BepInEx.Patch
         public static void PostAwake(SeedLibrary __instance)
         {
             SelectCustomPlants.InitButton();
-            // ע���Զ��忨��
+            // 注册自定义卡牌
             PatchMgr.ShowCustomCards(__instance);
         }
     }
 
     /// <summary>
-    /// ��ʾ�Զ��忨
+    /// 显示自定义卡
     /// </summary>
     [HarmonyPatch(typeof(PlantCardPackageBuilder))]
     public static class PlantCardPackageBuilderPatch
@@ -1264,7 +1264,7 @@ namespace CustomizeLib.BepInEx.Patch
         public static void PostStart(PlantCardPackageBuilder __instance)
         {
             SelectCustomPlants.InitButton();
-            // ע���Զ��忨��
+            // 注册自定义卡牌
             PatchMgr.ShowCustomCards(__instance);
         }
     }
@@ -1422,7 +1422,7 @@ namespace CustomizeLib.BepInEx.Patch
     }
 
     /// <summary>
-    /// ���������ı�Ⱦɫ
+    /// 二创词条文本染色
     /// </summary>
     [HarmonyPatch(typeof(TravelBuffOptionButton))]
     public static class TravelBuffOptionButtonPatch
@@ -1435,7 +1435,7 @@ namespace CustomizeLib.BepInEx.Patch
         }
 
         /// <summary>
-        /// ǿ��������ʾֲ���޸�
+        /// 强究词条显示植物修复
         /// </summary>
         [HarmonyPatch(nameof(TravelBuffOptionButton.SetPlant), new Type[] { })]
         [HarmonyPostfix]
@@ -1547,27 +1547,27 @@ namespace CustomizeLib.BepInEx.Patch
                 __instance.SetZombie(CustomCore.CustomDebuffs[buffIndex].Item2);
             }
 
-            // �༶�����ı���ʾ
+            // 多级词条文本显示
             var result = MultiLevelBuff.IsMultiLevelBuff(buffType, buffIndex);
             try
             {
-                // ����Ƕ༶����
+                // 如果是多级词条
                 if (result.Item1)
                 {
                     var array = MultiLevelBuff.GetBuffArray();
-                    if (array is null) return; // �����������Ϊ��ֱ�ӷ���
+                    if (array is null) return; // 如果数据数组为空直接返回
                     int index = result.Item2;
                     int maxLevel = MultiLevelBuff.GetBuffMaxLevel(buffType, buffIndex);
-                    if (TravelLookMenu.Instance.showAll) // �����iz��ȫѡģʽ
+                    if (TravelLookMenu.Instance.showAll) // 如果是iz的全选模式
                     {
                         __instance.SetText(array[index] != 0, array[index]);
                         if (array[index] <= maxLevel &&
                             array[index] != 0)
                         {
                             if (maxLevel > 1)
-                                __instance.SetText($"�ѿ����{array[index]}����");
+                                __instance.SetText($"已开启（{array[index]}级）");
                             else
-                                __instance.SetText($"�ѿ���");
+                                __instance.SetText($"已开启");
                         }
                         return;
                     }
@@ -1575,11 +1575,11 @@ namespace CustomizeLib.BepInEx.Patch
                     {
                         if (array[index] < maxLevel && maxLevel != 1)
                         {
-                            __instance.SetText($"{array[index]}��");
+                            __instance.SetText($"{array[index]}级");
                         }
                         else if (array[index] >= maxLevel && maxLevel != 1)
                         {
-                            __instance.SetText("������");
+                            __instance.SetText("已满级");
                         }
                         TravelMgr.Instance.SetData(LevelBuffData.LEVEL_BUFF_ARR, array);
                     }
@@ -1592,7 +1592,7 @@ namespace CustomizeLib.BepInEx.Patch
         }
 
         /// <summary>
-        /// �߼�������������
+        /// 高级词条升级处理
         /// </summary>
         [HarmonyPatch(nameof(TravelLookBuff.OnMouseUpAsButton))]
         [HarmonyPrefix]
@@ -1600,7 +1600,7 @@ namespace CustomizeLib.BepInEx.Patch
         {
             var (buffType, buffIndex) = __instance.TryGetTypeAndID();
             var result = MultiLevelBuff.IsMultiLevelBuff(buffType, buffIndex);
-            bool reset = false; // ������������
+            bool reset = false; // 重置升级词条
             if (result.Item1)
             {
                 try
@@ -1609,34 +1609,34 @@ namespace CustomizeLib.BepInEx.Patch
                     if (array is null) return true;
                     int index = result.Item2;
                     int maxLevel = MultiLevelBuff.GetBuffMaxLevel(buffType, buffIndex);
-                    if (TravelLookMenu.Instance.showAll) // �����iz��ȫѡ
+                    if (TravelLookMenu.Instance.showAll) // 如果是iz的全选
                     {
                         MultiLevelBuff.AddBuffLevel(buffType, buffIndex);
-                        __instance.SetText(array[index] != 0, array[index]); // �����ı�
+                        __instance.SetText(array[index] != 0, array[index]); // 设置文本
                         if (array[index] <= maxLevel && array[index] != 0)
                         {
                             if (maxLevel > 1)
-                                __instance.SetText($"�ѿ����{array[index]}����");
+                                __instance.SetText($"已开启（{array[index]}级）");
                             else
-                                __instance.SetText($"�ѿ���");
+                                __instance.SetText($"已开启");
                         }
                         TravelMgr.Instance.SetData(LevelBuffData.LEVEL_BUFF_ARR, array);
                         return false;
                     }
                     else
                     {
-                        if (array[index] < maxLevel && CoreTools.TravelAdvanced("����") && maxLevel != 1)
+                        if (array[index] < maxLevel && CoreTools.TravelAdvanced("升级") && maxLevel != 1)
                         {
-                            array[index] = array[index] + 1; // ����
+                            array[index] = array[index] + 1; // 升级
                             reset = true;
                             if (array[index] >= maxLevel)
-                                __instance.SetText("������");
+                                __instance.SetText("已满级");
                             else
-                                __instance.SetText($"{array[index]}��");
+                                __instance.SetText($"{array[index]}级");
                         }
                         if (array[index] >= maxLevel)
                         {
-                            __instance.SetText("������");
+                            __instance.SetText("已满级");
                         }
                         TravelMgr.Instance.SetData("CustomBuffsLevel", array);
                     }
@@ -1648,7 +1648,7 @@ namespace CustomizeLib.BepInEx.Patch
             }
             if (reset)
             {
-                __instance.manager.data.advBuffs.Remove(CoreTools.GetAdvBuffByString("����")); // �Ƴ�����
+                __instance.manager.data.advBuffs.Remove(CoreTools.GetAdvBuffByString("升级")); // 移除升级
                 return false;
             }
             return true;
@@ -1666,7 +1666,7 @@ namespace CustomizeLib.BepInEx.Patch
             var buff = __instance.cardInfos[__instance.current].buff;
             var (buffType, buffIndex) = TravelExtensions.GetTypeAndID(buff);
             var result = MultiLevelBuff.IsMultiLevelBuff(buffType, buffIndex);
-            bool reset = false; // ������������
+            bool reset = false; // 重置升级词条
             if (result.Item1)
             {
                 try
@@ -1676,30 +1676,30 @@ namespace CustomizeLib.BepInEx.Patch
                     if (array is null) return true;
                     int index = result.Item2;
                     int maxLevel = MultiLevelBuff.GetBuffMaxLevel(buffType, buffIndex);
-                    if (__instance.editMode) // �����iz��ȫѡ
+                    if (__instance.editMode) // 如果是iz的全选
                     {
                         MultiLevelBuff.AddBuffLevel(buffType, buffIndex);
-                        MultiLevelBuff.SetToolText(button, buffType, buffIndex, array[index] != 0); // �����ı�
+                        MultiLevelBuff.SetToolText(button, buffType, buffIndex, array[index] != 0); // 设置文本
                         TravelMgr.Instance.SetData(LevelBuffData.LEVEL_BUFF_ARR, array);
-                        // ���¿�ƬUI��͸����
+                        // 更新卡片UI的透明度
                         var hasBuff = Lawnf.HasTravelBuff(buff) ? 0f : 1f;
                         __instance.current.GetComponent<Image>().color = new Color(hasBuff, 1f, hasBuff, 1f);
                         return false;
                     }
                     else
                     {
-                        if (array[index] < maxLevel && CoreTools.TravelAdvanced("����") && maxLevel != 1)
+                        if (array[index] < maxLevel && CoreTools.TravelAdvanced("升级") && maxLevel != 1)
                         {
-                            array[index] = array[index] + 1; // ����
+                            array[index] = array[index] + 1; // 升级
                             reset = true;
                             if (array[index] >= maxLevel)
-                                buttonText.text = "������";
+                                buttonText.text = "已满级";
                             else
-                                buttonText.text = $"{array[index]}��";
+                                buttonText.text = $"{array[index]}级";
                         }
-                        if (array[index] >= maxLevel) buttonText.text = "������";
+                        if (array[index] >= maxLevel) buttonText.text = "已满级";
                         TravelMgr.Instance.SetData("CustomBuffsLevel", array);
-                        // ���¿�ƬUI��͸����
+                        // 更新卡片UI的透明度
                         var hasBuff = Lawnf.HasTravelBuff(buff) ? 0f : 1f;
                         __instance.current.GetComponent<Image>().color = new Color(hasBuff, 1f, hasBuff, 1f);
                     }
@@ -1711,7 +1711,7 @@ namespace CustomizeLib.BepInEx.Patch
             }
             if (reset)
             {
-                TravelMgr.Instance.data.advBuffs.Remove(CoreTools.GetAdvBuffByString("����")); // �Ƴ�����
+                TravelMgr.Instance.data.advBuffs.Remove(CoreTools.GetAdvBuffByString("升级")); // 移除升级
                 return false;
             }
             return true;
@@ -1731,7 +1731,7 @@ namespace CustomizeLib.BepInEx.Patch
             var result = MultiLevelBuff.IsMultiLevelBuff(buffType, buffIndex);
             if (result.Item1)
             {
-                MultiLevelBuff.SetToolText(button, buffType, buffIndex, array[result.Item2] != 0); // �����ı�
+                MultiLevelBuff.SetToolText(button, buffType, buffIndex, array[result.Item2] != 0); // 设置文本
             }
         }
 
@@ -1751,9 +1751,9 @@ namespace CustomizeLib.BepInEx.Patch
                 var curse = __instance.transform.FindChild("Scroll View/Viewport/Content/curseBuffs").gameObject;
                 var customBuffs = Instantiate(curse, __instance.transform.FindChild("Scroll View/Viewport/Content"));
                 customBuffs.name = "customBuffs";
-                customBuffs.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "��������";
+                customBuffs.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "二创词条";
                 var list = new Il2CppSystem.Collections.Generic.List<AlmanacCardUI>();
-                int cnt = 0; // ��ǰ�ǵڼ���ѭ��
+                int cnt = 0; // 当前是第几次循环
                 foreach (var ((buffType, id), (desc, icon, zt)) in CustomCore.CustomBuffs)
                 {
                     var obj = new Il2CppSystem.Object();
@@ -1908,7 +1908,7 @@ namespace CustomizeLib.BepInEx.Patch
             {
                 __instance.SetData("CustomBuffsLevel", new int[CustomCore.CustomBuffsLevel.Count]);
             }
-            TravelMgr.Instance.SetData("LoadByEndless", false); // ���ñ�־λ�������������ģʽ������
+            TravelMgr.Instance.SetData("LoadByEndless", false); // 重置标志位，避免进入其他模式后不重置
         }
 
         [HarmonyPatch(nameof(TravelMgr.GetAdvancedBuffPool))]
@@ -1988,7 +1988,7 @@ namespace CustomizeLib.BepInEx.Patch
             else
             {
                 foreach (var pt in CustomCore.CustomUltimatePlants)
-                    if (!CustomCore.CustomStrongUltimatePlants.ContainsKey(pt)) // �ų�ǿ��
+                    if (!CustomCore.CustomStrongUltimatePlants.ContainsKey(pt)) // 排除强究
                         __result.Add(pt);
             }
         }
@@ -2052,12 +2052,12 @@ namespace CustomizeLib.BepInEx.Patch
                 {
                     if (window.cost > 15000)
                     {
-                        window.UpdateButtonText("���ڰ���", UnityEngine.Color.red);
+                        window.UpdateButtonText("过于昂贵", UnityEngine.Color.red);
                         window.canBuy = false;
                         return;
                     }
                 }
-                window.UpdateButtonText($"{window.cost}��", UnityEngine.Color.yellow);
+                window.UpdateButtonText($"{window.cost}分", UnityEngine.Color.yellow);
                 window.canBuy = true;
             }
         }
@@ -2824,7 +2824,7 @@ namespace CustomizeLib.BepInEx.Patch
                     custom.name = "CustomLevels";
                     custom.transform.localPosition = CalculatePosition((firstBtns.childCount - 1) % 6, (firstBtns.childCount - 1) / 6);
                     var window = custom.transform.FindChild("Window");
-                    window.FindChild("Name").GetComponent<TextMeshProUGUI>().text = "�����ؿ�";
+                    window.FindChild("Name").GetComponent<TextMeshProUGUI>().text = "二创关卡";
                     var adv = levels.FindChild("PageAdvantureLevel");
                     var customLevels = UnityEngine.Object.Instantiate(adv.gameObject, levels);
                     customLevels.active = false;
@@ -2877,30 +2877,30 @@ namespace CustomizeLib.BepInEx.Patch
             if ((int)levelType is not 66) return true;
             var levelData = CustomCore.CustomLevels[levelNumber];
 
-            // ����UI��Դ
+            // 清理UI资源
             SynergyManager.Instance.ClearAllSynergies();
             EventManager.ClearAllEvents();
             GameAPP.UIManager.PopAll();
 
-            // �������
+            // 重置相机
             CamaraFollowMouse.Instance.ResetCamera();
 
-            // ������Ϸ�ٶ�
+            // 设置游戏速度
             Time.timeScale = GameAPP.config.gameSpeed;
 
-            // ���õ�ǰ�ؿ���Ϣ
+            // 设置当前关卡信息
             GameAPP.theBoardType = levelType;
             GameAPP.theBoardLevel = levelNumber;
 
             RogueManager.Instance.Clear();
-            // �������е�Travel������
+            // 清理现有的Travel管理器
             if (TravelMgr.Instance != null)
             {
                 UnityEngine.Object.Destroy(TravelMgr.Instance);
                 TravelMgr._instance = null;
             }
 
-            // ������Ϸ��
+            // 创建游戏板
             GameObject boardGO = new("Board");
             GameAPP.board = boardGO;
             Board board = boardGO.AddComponent<Board>();
@@ -2916,16 +2916,16 @@ namespace CustomizeLib.BepInEx.Patch
             levelData.PostBoard(board);
             if (levelData.LevelData != null)
                 LevelManager.registry.RegisterPredefinedLevel(levelData.LevelData);
-            // ���ز�ʵ������ͼ
+            // 加载并实例化地图
             var map = MapData_cs.GetMap(levelData.SceneType, board);
 
             InitZombieList.InitZombie(levelType, levelNumber);
 
-            // �������ֲ���ʼ��Ϸ
+            // 播放音乐并开始游戏
             GameAPP.Instance.PlayMusic(MusicType.SelectCard);
             GameAPP.theGameStatus = GameStatus.InInterlude;
 
-            // ��ʼ����Ϸ��
+            // 初始化游戏板
             levelData.PreInitBoard();
 
             levelData.PostInitBoard(board.gameObject.AddComponent<InitBoard>());
@@ -3092,11 +3092,11 @@ namespace CustomizeLib.BepInEx.Patch
                 customButton.transform.localPosition = new Vector2(10, 0);
                 customButton.name = "LoolAll_Other";
                 customButton.transform.localPosition = new Vector2(440, -499);
-                // �޸İ�ť�ı�
+                // 修改按钮文本
                 foreach (var text in customButton.GetComponentsInChildren<TextMeshProUGUI>())
                 {
                     if (text != null)
-                        text.text = "������ʬ";
+                        text.text = "二创僵尸";
                 }
 
                 var uiButton = customButton.GetComponent<UIButton>();

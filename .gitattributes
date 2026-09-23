@@ -2,6 +2,15 @@
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
 * text=auto
+.gitattributes text eol=crlf
+.editorconfig  text eol=crlf
+
+# Keep C# and MSBuild sources consistent across Windows editors and tooling.
+*.cs      text eol=crlf
+*.csproj  text eol=crlf
+*.sln     text eol=crlf
+*.props   text eol=crlf
+*.targets text eol=crlf
 
 ###############################################################################
 # Set default behavior for command prompt diff.

@@ -10,7 +10,6 @@
 	  <None Remove="凑企鹅" />
 
 	  <None Remove="凑企鹅.android" />
-	  <None Remove="�����" />
 	</ItemGroup>
 	<ItemGroup>
 	  <EmbeddedResource Include="凑企鹅" />
