@@ -12,7 +12,9 @@ namespace CustomizeLib.BepInEx.LoadEvent
     {
         public static void OnLoad()
         {
-            EventListenr.AddListener(ListenerType.OnGameLaunch, ApplyNativeHookTools.RunAll);
+            // Native IL2CPP hooks are disabled on the Android CoreCLR launcher.
+            // SavePlantData has no stable managed constructor entry point, and
+            // detouring it can abort the JIT during GameAPP.Start.
         }
     }
 }

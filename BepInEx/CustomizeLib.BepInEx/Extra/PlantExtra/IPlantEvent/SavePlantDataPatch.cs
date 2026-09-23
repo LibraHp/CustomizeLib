@@ -30,26 +30,4 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
         }
     }
 
-    [ApplyNativeHook]
-    public class SavePlantDataConstructorHook
-    {
-        [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
-        private delegate void SavePlantDataConstructor(IntPtr @this, IntPtr plant, IntPtr method);
-
-        private static SavePlantDataConstructor Original = null!;
-
-        public static void ApplyHook()
-        {
-            LibNativeHook.CreateAndApply(LibNativeHook.GetAndInitMethodAddr(typeof(SavePlantData), typeof(SavePlantData).GetConstructor([typeof(Plant)])!), OnSavePlantDataConstructor, out Original);
-        }
-
-        public static void OnSavePlantDataConstructor(IntPtr @this, IntPtr p, IntPtr method)
-        {
-            var plant = new Plant(p);
-            var data = new SavePlantData(@this);
-            PlantEvent.BeforeSerialized(plant!, data, TriggerType.Pre);
-            Original.Invoke(@this, p, method);
-            PlantEvent.BeforeSerialized(plant!, data, TriggerType.Post);
-        }
-    }
 }

@@ -4,10 +4,7 @@ using Il2CppInterop.Runtime;
 using Il2CppInterop.Runtime.Runtime;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CustomizeLib.BepInEx.Hook
 {
@@ -37,7 +34,7 @@ namespace CustomizeLib.BepInEx.Hook
             string returnTypeName, params string[] argsTypes)
         {
             var clz = IL2CPP.GetIl2CppClass(asmName, namespaze, className);
-            IL2CPP.il2cpp_init(clz);
+            IL2CPP.il2cpp_runtime_class_init(clz);
             return IL2CPP.GetIl2CppMethod(clz, isGeneric, methodName, returnTypeName, argsTypes);
         }
 
@@ -128,20 +125,15 @@ namespace CustomizeLib.BepInEx.Hook
 
     internal static class ApplyNativeHookTools
     {
-        public static void RunAll()
+        // Kept for callers compiled against the previous internal entry point. Hook
+        // registration is intentionally owned by CoreOnLoad and passed explicitly.
+        public static void RunAll() => RunAll(Array.Empty<Action>());
+
+        public static void RunAll(IEnumerable<Action> hookInstallers)
         {
-            foreach (var type in SystemTools.GetAllTypes())
+            foreach (var installHook in hookInstallers)
             {
-                foreach (var attr in type.GetCustomAttributes<ApplyNativeHookAttribute>())
-                {
-                    var method = type.GetMethod(attr.TargetMethod, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static);
-                    if (method == null)
-                    {
-                        CustomCore.CLogger.LogError($"Not found method {attr.TargetMethod} on type {type}");
-                        continue;
-                    }
-                    method.Invoke(null, []);
-                }
+                installHook();
             }
         }
     }

@@ -4,10 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
+// native update hooks are intentionally not used; PlantEventDriver dispatches updates.
 using UnityEngine;
 
 namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
@@ -15,31 +12,6 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
     #region HarmonyPatch
     public static class PlantPatches
     {
-        private const string UPDATE = "Plant_Update";
-        private const string FIXEDUPDATE = "Plant_FixedUpdate";
-
-        // 神秘il2cpp，只能有一个调用的async方法，多了就崩
-        // 万能方法
-        [MethodImpl(MethodImplOptions.NoInlining)]
-        private static async Task LocalMethod(Plant plant, TriggerType trigger, string callData)
-        {
-            switch (callData)
-            {
-                case UPDATE:
-                    {
-                        if (plant != null && PlantEvent.HasEventComp(plant))
-                            PlantEvent.OnUpdate(plant, trigger);
-                    }
-                    break;
-                case FIXEDUPDATE:
-                    {
-                        if (plant != null && PlantEvent.HasEventComp(plant))
-                            PlantEvent.OnFixedUpdate(plant, plant, trigger);
-                    }
-                    break;
-            }
-        }
-
         [HarmonyPatch]
         [HarmonyPriority(Priority.First)] // 数值越大执行顺序越靠后
         public static class PlantDiePatch
@@ -166,54 +138,6 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
         //        _ = LocalMethod(__instance, TriggerType.Post, FIXEDUPDATE);
         //    }
         //}
-    }
-    #endregion
-
-    #region NativeHook
-    [ApplyNativeHook]
-    public class PlantUpdateHook
-    {
-        [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
-        private delegate void PlantUpdate(IntPtr @this, IntPtr method);
-
-        private static PlantUpdate Original = null!;
-
-        public static void ApplyHook()
-        {
-            LibNativeHook.CreateAndApply(LibNativeHook.GetAndInitMethodAddr(typeof(Plant), "Update"), OnPlantUpdate, out Original);
-        }
-
-        public static void OnPlantUpdate(IntPtr @this, IntPtr method)
-        {
-            var plant = new Plant(@this);
-            bool notNull = plant != null;
-            if (notNull) PlantEvent.OnUpdate(plant!, TriggerType.Pre);
-            Original.Invoke(@this, method);
-            if (notNull) PlantEvent.OnUpdate(plant!, TriggerType.Post);
-        }
-    }
-
-    [ApplyNativeHook]
-    public class PlantFixedUpdateHook
-    {
-        [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
-        private delegate void PlantFixedUpdate(IntPtr @this, IntPtr method);
-
-        private static PlantFixedUpdate Original = null!;
-
-        public static void ApplyHook()
-        {
-            LibNativeHook.CreateAndApply(LibNativeHook.GetAndInitMethodAddr(typeof(Plant), nameof(Plant.FixedUpdate)), OnPlantFixedUpdate, out Original);
-        }
-
-        public static void OnPlantFixedUpdate(IntPtr @this, IntPtr method)
-        {
-            var plant = new Plant(@this);
-            bool notNull = plant != null;
-            if (notNull) PlantEvent.OnFixedUpdate(plant!, plant!, TriggerType.Pre);
-            Original.Invoke(@this, method);
-            if (notNull) PlantEvent.OnFixedUpdate(plant!, plant!, TriggerType.Post);
-        }
     }
     #endregion
 }

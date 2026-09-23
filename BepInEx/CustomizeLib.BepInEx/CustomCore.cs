@@ -1532,6 +1532,7 @@ namespace CustomizeLib.BepInEx
             ClassInjector.RegisterTypeInIl2Cpp<CustomHealthText>();
             ClassInjector.RegisterTypeInIl2Cpp<SaveMaterial>();
             ClassInjector.RegisterTypeInIl2Cpp<MouseBehaviour>();
+            ClassInjector.RegisterTypeInIl2Cpp<PlantEventDriver>();
             SkinBehaviourMgr.Init();
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             InitCoreData();

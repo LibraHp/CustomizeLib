@@ -297,6 +297,70 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
 
     public static class PlantEvent
     {
+        // Plant.Update/FixedUpdate are intentionally not native-hooked. A single
+        // managed driver dispatches events for plants that have registered event
+        // components, avoiding one callback trampoline per IL2CPP plant method.
+        private static readonly List<Plant> Registered = [];
+        private static readonly HashSet<IntPtr> RegisteredPtrs = [];
+        private static PlantEventDriver? Driver;
+
+        private static void EnsureDriver()
+        {
+            if (Driver != null) return;
+
+            var gameObject = new GameObject("CustomizeLib_PlantEventDriver");
+            UnityEngine.Object.DontDestroyOnLoad(gameObject);
+            Driver = gameObject.AddComponent<PlantEventDriver>();
+        }
+
+        private static void RegisterPlant(Plant plant)
+        {
+            if (plant == null || plant.Pointer == IntPtr.Zero || !RegisteredPtrs.Add(plant.Pointer))
+                return;
+
+            Registered.Add(plant);
+            EnsureDriver();
+        }
+
+        public static bool IsRegistered(Component? host) =>
+            host != null && host.Pointer != IntPtr.Zero && RegisteredPtrs.Contains(host.Pointer);
+
+        internal static void DriveUpdate(TriggerType trigger)
+        {
+            for (var i = Registered.Count - 1; i >= 0; i--)
+            {
+                var plant = Registered[i];
+                var pointer = plant?.Pointer ?? IntPtr.Zero;
+                if (plant == null || pointer == IntPtr.Zero || plant.gameObject == null)
+                {
+                    RegisteredPtrs.Remove(pointer);
+                    Registered.RemoveAt(i);
+                    continue;
+                }
+
+                if (plant.gameObject.activeInHierarchy)
+                    OnUpdate(plant, trigger);
+            }
+        }
+
+        internal static void DriveFixedUpdate(TriggerType trigger)
+        {
+            for (var i = Registered.Count - 1; i >= 0; i--)
+            {
+                var plant = Registered[i];
+                var pointer = plant?.Pointer ?? IntPtr.Zero;
+                if (plant == null || pointer == IntPtr.Zero || plant.gameObject == null)
+                {
+                    RegisteredPtrs.Remove(pointer);
+                    Registered.RemoveAt(i);
+                    continue;
+                }
+
+                if (plant.gameObject.activeInHierarchy)
+                    OnFixedUpdate(plant, plant, trigger);
+            }
+        }
+
         public static void DieEvent(Component self, Plant.DieReason reason, TriggerType trigger)
         {
             foreach (var comp in GetCachedComps(self))
@@ -652,8 +716,18 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
                 $"{ex.StackTrace}");
         }
 
-        public static void MakeRefresh(Component comp) => 
+        public static void MakeRefresh(Component comp)
+        {
+            if (comp == null) return;
+
             comp.SetData(Strings.CachedCompsName, GetEventComponents(comp.GetComponents<Component>()));
+
+            // Event components may live on a child object of the Plant prefab.
+            // Register the owning plant once so the global driver can dispatch it.
+            var plant = comp.GetComponent<Plant>() ?? comp.GetComponentInParent<Plant>();
+            if (plant != null)
+                RegisterPlant(plant);
+        }
 
         public static Component?[] GetCachedComps(Component comp) =>
             comp.GetOrInitData<Component?[]>(Strings.CachedCompsName, []);
