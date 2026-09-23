@@ -3,6 +3,7 @@ using HarmonyLib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
@@ -19,13 +20,22 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
         [HarmonyPrefix]
         public static bool PreLeftClickWithNothing(Mouse __instance)
         {
+            if (__instance.board != null && __instance.board.boardTag.isIZ)
+                return true;
+
+            return PreLeftClickWithNothingCore(__instance);
+        }
+
+        [MethodImpl(MethodImplOptions.NoInlining)]
+        private static bool PreLeftClickWithNothingCore(Mouse instance)
+        {
             var block = false;
             var other = false;
             var pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            foreach (var plant in __instance.GetPlantsOnMouse())
+            foreach (var plant in instance.GetPlantsOnMouse())
             {
                 if (plant == null) continue;
-                var (res, success) = PlantEvent.OnClicked(plant, __instance, other, TriggerType.Pre);
+                var (res, success) = PlantEvent.OnClicked(plant, instance, other, TriggerType.Pre);
                 block |= res;
                 other |= success;
             }
@@ -36,12 +46,21 @@ namespace CustomizeLib.BepInEx.Extra.PlantExtra.IPlantEvent
         [HarmonyPostfix]
         public static void PostLeftClickWithNothing(Mouse __instance)
         {
+            if (__instance.board != null && __instance.board.boardTag.isIZ)
+                return;
+
+            PostLeftClickWithNothingCore(__instance);
+        }
+
+        [MethodImpl(MethodImplOptions.NoInlining)]
+        private static void PostLeftClickWithNothingCore(Mouse instance)
+        {
             var other = false;
             var pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            foreach (var plant in __instance.GetPlantsOnMouse())
+            foreach (var plant in instance.GetPlantsOnMouse())
             {
                 if (plant == null) continue;
-                var (_, success) = PlantEvent.OnClicked(plant, __instance, other, TriggerType.Post);
+                var (_, success) = PlantEvent.OnClicked(plant, instance, other, TriggerType.Post);
                 other |= success;
             }
         }

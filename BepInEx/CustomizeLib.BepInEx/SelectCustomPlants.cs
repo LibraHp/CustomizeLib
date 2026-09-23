@@ -223,7 +223,9 @@ namespace CustomizeLib.BepInEx
             {
                 //击中二创植物Button
                 if (hit.collider != null && hit.collider.gameObject == CustomButton)
+                {
                     OpenPlantsCard();
+                }
             }
 
             //设置鼠标特效

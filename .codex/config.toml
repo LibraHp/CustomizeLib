@@ -1,0 +1,5 @@
+[mcp_servers.ida-mcp]
+url = "http://192.168.31.248:13337/mcp"
+
+[mcp_servers.ida-mcp.tools.survey_binary]
+approval_mode = "approve"

@@ -17,6 +17,7 @@ using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
@@ -843,13 +844,22 @@ namespace CustomizeLib.BepInEx.Patch
     {
         [HarmonyPostfix]
         [HarmonyPatch(nameof(Mouse.GetPlantsOnMouse))]
-        public static void PostGetPlantsOnMouse(ref Il2CppSystem.Collections.Generic.List<Plant> __result)
+        public static void PostGetPlantsOnMouse(Mouse __instance, ref Il2CppSystem.Collections.Generic.List<Plant> __result)
         {
-            for (int i = __result.Count - 1; i >= 0; i--)
+            if (__instance.board != null && __instance.board.boardTag.isIZ)
+                return;
+
+            PostGetPlantsOnMouseCore(ref __result);
+        }
+
+        [MethodImpl(MethodImplOptions.NoInlining)]
+        private static void PostGetPlantsOnMouseCore(ref Il2CppSystem.Collections.Generic.List<Plant> result)
+        {
+            for (int i = result.Count - 1; i >= 0; i--)
             {
-                if (__result.ToArray()[i] != null && TypeMgr.BigNut(__result.ToArray()[i].thePlantType))
+                if (result.ToArray()[i] != null && TypeMgr.BigNut(result.ToArray()[i].thePlantType))
                 {
-                    __result.RemoveAt(i);
+                    result.RemoveAt(i);
                 }
             }
         }
@@ -981,7 +991,16 @@ namespace CustomizeLib.BepInEx.Patch
 
         [HarmonyPostfix]
         [HarmonyPatch(nameof(Mouse.LeftClickWithNothing))]
-        public static void PostLeftClickWithNothing()
+        public static void PostLeftClickWithNothing(Mouse __instance)
+        {
+            if (__instance.board != null && __instance.board.boardTag.isIZ)
+                return;
+
+            PostLeftClickWithNothingCore();
+        }
+
+        [MethodImpl(MethodImplOptions.NoInlining)]
+        private static void PostLeftClickWithNothingCore()
         {
             foreach (GameObject gameObject in (List<GameObject>)[..from RaycastHit2D raycastHit2D in
                                            (RaycastHit2D[])Physics2D.RaycastAll(Camera.main.ScreenToWorldPoint(Input.mousePosition),
